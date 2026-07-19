@@ -57,37 +57,53 @@ ZS DDOG ON FANG CSGP WBD GFS BIIB DXCM KHC AZN LULU CDW ARM MELI PDD""".split()
 # ----------------------------------------------------------------------------
 # Universe + data
 # ----------------------------------------------------------------------------
+def _fetch(url: str) -> str:
+    import urllib.request
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    return urllib.request.urlopen(req, timeout=60).read().decode("utf-8", "replace")
+
+
 def get_ndx() -> list[str]:
     try:  # live Nasdaq-100 constituents
-        tables = pd.read_html("https://en.wikipedia.org/wiki/Nasdaq-100")
+        import io
+        tables = pd.read_html(io.StringIO(_fetch("https://en.wikipedia.org/wiki/Nasdaq-100")))
         for t in tables:
             for col in ("Ticker", "Symbol"):
                 if col in t.columns and len(t) > 80:
                     return sorted(t[col].astype(str).str.replace(".", "-", regex=False))
+        raise ValueError("no constituent table found")
     except Exception as e:
         print(f"  Wikipedia constituent fetch failed ({e}); using built-in list.")
     return NDX_FALLBACK
 
 
 def get_r2000() -> list[str]:
-    """Russell 2000 constituents via iShares IWM daily holdings CSV (free)."""
+    """Russell 2000 constituents via iShares IWM daily holdings CSV (free).
+    Returns [] on failure so the scan continues with the other universes."""
     url = ("https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/"
            "1467271812596.ajax?fileType=csv&fileName=IWM_holdings&dataType=fund")
     try:
         import io
-        import urllib.request
-        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-        raw = urllib.request.urlopen(req, timeout=60).read().decode("utf-8", "replace")
-        start = raw.find("Ticker,")               # skip metadata preamble
-        df = pd.read_csv(io.StringIO(raw[start:]), on_bad_lines="skip")
-        df = df[df["Asset Class"].astype(str).str.contains("Equity", na=False)]
+        raw = _fetch(url)
+        lines = raw.splitlines()
+        hdr = next((i for i, ln in enumerate(lines)
+                    if ln.replace('"', "").startswith("Ticker,")), None)
+        if hdr is None:
+            raise ValueError("no 'Ticker' header found in holdings file")
+        df = pd.read_csv(io.StringIO("\n".join(lines[hdr:])), on_bad_lines="skip")
+        df.columns = df.columns.str.strip()
+        if "Asset Class" in df.columns:   # keep equities, drop cash/futures lines
+            df = df[df["Asset Class"].astype(str).str.contains("Equity", na=False)]
         ticks = df["Ticker"].astype(str).str.strip().str.replace(".", "-", regex=False)
-        ticks = [t for t in ticks if t.replace("-", "").isalpha() and 1 <= len(t) <= 5]
+        ticks = sorted({t for t in ticks if t.replace("-", "").isalpha() and 1 <= len(t) <= 5})
+        if len(ticks) < 500:
+            raise ValueError(f"only {len(ticks)} tickers parsed — source layout changed?")
         print(f"  Russell 2000 via IWM holdings: {len(ticks)} tickers")
-        return sorted(set(ticks))
+        return ticks
     except Exception as e:
-        sys.exit(f"Could not fetch Russell 2000 holdings ({e}). "
-                 "Pass your own list with --tickers instead.")
+        print(f"  WARNING: Russell 2000 fetch failed ({e}) — continuing without it. "
+              "You can supply names via --tickers.")
+        return []
 
 
 def get_universe(args) -> list[str]:

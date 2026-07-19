@@ -1,13 +1,42 @@
 Loading data...
-Traceback (most recent call last):
-  File "/home/runner/work/swings-canner/swings-canner/scanner.py", line 368, in <module>
-    main()
-  File "/home/runner/work/swings-canner/swings-canner/scanner.py", line 353, in main
-    data, vix = get_data(args.offline)
-                ^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/swings-canner/swings-canner/scanner.py", line 118, in get_data
-    df = load_yfinance(yf_t, cfg["history_years"]) or load_stooq(stooq_t, cfg["history_years"])
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/pandas/core/generic.py", line 1513, in __bool__
-    raise ValueError(
-ValueError: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+
+========================================================================
+NDX  |  2026-07-17  |  close 28,592.7  |  trend UP  |  3m mom +8.6%
+========================================================================
+BIAS: LONG  (score +0.43)
+  fired: RSI(2) mean-reversion -> LONG
+  fired: 7-day extreme pullback -> LONG
+Risk: ATR(14) = 623.3 (2.18%) | stop ~1,247 pts | KO barrier >= 1,870 pts away
+Regime: VIX 18.8 (71th pctile 1y) | size multiplier x1.0
+Sizing hint: risk 1% of account / stop distance = position size, then x1.0
+
+Signal history on this index (direction-adjusted fwd returns, % — 'edge' is vs. buy-and-hold drift):
+                signal   N  win%_3d  avg_3d  edge_3d  win%_5d  avg_5d  edge_5d  win%_10d  avg_10d  edge_10d
+ RSI(2) mean-reversion 299     56.4    0.28     0.05     58.4    0.36    -0.01      56.4     0.29     -0.44
+    IBS mean-reversion 573     55.8    0.32     0.10     58.6    0.57     0.20      59.9     0.69     -0.05
+7-day extreme pullback 550     57.1    0.32     0.10     61.1    0.52     0.15      58.6     0.59     -0.15
+ Donchian 20d breakout 756     57.1    0.09    -0.13     57.0    0.13    -0.24      63.6     0.37     -0.37
+ Sweep & reclaim (10d) 192     57.3    0.32     0.10     57.8    0.33    -0.04      60.7     0.56     -0.18
+            FVG retest 891     57.2    0.16    -0.06     58.5    0.22    -0.15      57.8     0.36     -0.38
+
+========================================================================
+RUT  |  2026-07-17  |  close 2,962.2  |  trend UP  |  3m mom +8.9%
+========================================================================
+BIAS: FLAT  (score +0.00)
+  no signals fired today
+Risk: ATR(14) = 43.3 (1.46%) | stop ~87 pts | KO barrier >= 130 pts away
+Regime: VIX 18.8 (71th pctile 1y) | size multiplier x1.0
+Sizing hint: risk 1% of account / stop distance = position size, then x1.0
+
+Signal history on this index (direction-adjusted fwd returns, % — 'edge' is vs. buy-and-hold drift):
+                signal   N  win%_3d  avg_3d  edge_3d  win%_5d  avg_5d  edge_5d  win%_10d  avg_10d  edge_10d
+ RSI(2) mean-reversion 305     57.0    0.37     0.24     59.3    0.62     0.41      50.7     0.52      0.08
+    IBS mean-reversion 693     53.2    0.23     0.10     54.8    0.41     0.19      51.4     0.30     -0.13
+7-day extreme pullback 596     51.5    0.12    -0.01     54.3    0.35     0.13      49.4     0.26     -0.18
+ Donchian 20d breakout 537     52.0   -0.03    -0.16     51.6   -0.14    -0.35      49.7    -0.25     -0.68
+ Sweep & reclaim (10d) 199     49.7   -0.04    -0.17     51.8    0.18    -0.04      50.0     0.15     -0.29
+            FVG retest 874     48.5   -0.07    -0.20     47.8   -0.15    -0.36      48.3    -0.12     -0.55
+
+HTML report written to docs/index.html
+  Wikipedia constituent fetch failed (HTTP Error 403: Forbidden); using built-in list.
+Could not fetch Russell 2000 holdings ('Asset Class'). Pass your own list with --tickers instead.

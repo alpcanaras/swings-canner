@@ -45,6 +45,7 @@ CONFIG = {
     "horizons": [3, 5, 10],        # forward-return horizons (trading days)
     "key_horizon": 5,              # horizon used for weighting the composite
     "bias_threshold": 0.25,        # |score| above this => LONG/SHORT, else FLAT
+    "cost_hurdle_pct": 0.05,       # round-trip cost assumption (%) a signal must beat
     # signal parameters
     "rsi_len": 2,
     "rsi_low": 10, "rsi_high": 90,
@@ -246,8 +247,10 @@ def signal_stats(df: pd.DataFrame, signals: dict[str, pd.Series]) -> pd.DataFram
             row[f"win%_{h}d"] = round(100 * (adj > 0).mean(), 1) if len(adj) else np.nan
             row[f"avg_{h}d"] = round(100 * adj.mean(), 2) if len(adj) else np.nan
             row[f"edge_{h}d"] = round(100 * (adj.mean() - abs(base)), 2) if len(adj) else np.nan
-        # weight for the composite: positive key-horizon edge only
-        row["weight"] = max(row.get(f"edge_{kh}d") or 0, 0)
+        # weight for the composite: average direction-adjusted return at the key
+        # horizon minus a cost hurdle, floored at 0. ("edge" vs. buy-and-hold
+        # drift stays in the table for reference — it's a stricter benchmark.)
+        row["weight"] = max((row.get(f"avg_{kh}d") or 0) - CONFIG["cost_hurdle_pct"], 0)
         rows.append(row)
     return pd.DataFrame(rows)
 

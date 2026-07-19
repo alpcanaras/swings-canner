@@ -68,10 +68,12 @@ def get_ndx() -> list[str]:
         import io
         tables = pd.read_html(io.StringIO(_fetch("https://en.wikipedia.org/wiki/Nasdaq-100")))
         for t in tables:
-            for col in ("Ticker", "Symbol"):
+            t.columns = [str(c[0] if isinstance(c, tuple) else c).strip() for c in t.columns]
+            for col in ("Ticker", "Symbol", "Ticker symbol"):
                 if col in t.columns and len(t) > 80:
                     return sorted(t[col].astype(str).str.replace(".", "-", regex=False))
-        raise ValueError("no constituent table found")
+        raise ValueError("no constituent table; shapes: "
+                         + str([(len(t), list(t.columns)[:4]) for t in tables[:6]]))
     except Exception as e:
         print(f"  Wikipedia constituent fetch failed ({e}); using built-in list.")
     return NDX_FALLBACK
@@ -89,7 +91,7 @@ def get_r2000() -> list[str]:
         hdr = next((i for i, ln in enumerate(lines)
                     if ln.replace('"', "").startswith("Ticker,")), None)
         if hdr is None:
-            raise ValueError("no 'Ticker' header found in holdings file")
+            raise ValueError(f"no 'Ticker' header; file starts with: {raw[:150]!r}")
         df = pd.read_csv(io.StringIO("\n".join(lines[hdr:])), on_bad_lines="skip")
         df.columns = df.columns.str.strip()
         if "Asset Class" in df.columns:   # keep equities, drop cash/futures lines
@@ -205,7 +207,8 @@ def pooled_stats(processed: dict[str, tuple[pd.DataFrame, dict]]) -> pd.DataFram
             row[f"win%_{h}d"] = round(100 * (adj > 0).mean(), 1)
             row[f"avg_{h}d"] = round(100 * adj.mean(), 2)
             row[f"edge_{h}d"] = round(100 * (adj.mean() - abs(baseline[h])), 2)
-        row["weight"] = max(row[f"edge_{kh}d"], 0)
+        # weight: cost-adjusted expectancy (see scanner.py note)
+        row["weight"] = max(row[f"avg_{kh}d"] - CONFIG["cost_hurdle_pct"], 0)
         rows.append(row)
     return pd.DataFrame(rows)
 

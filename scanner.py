@@ -69,7 +69,8 @@ CONFIG = {
 def load_yfinance(ticker: str, years: int) -> pd.DataFrame | None:
     try:
         import yfinance as yf
-        df = yf.download(ticker, period=f"{years}y", interval="1d",
+        start = (pd.Timestamp.now() - pd.DateOffset(years=years)).strftime("%Y-%m-%d")
+        df = yf.download(ticker, start=start, interval="1d",
                          auto_adjust=True, progress=False)
         if df is None or len(df) < 300:
             return None

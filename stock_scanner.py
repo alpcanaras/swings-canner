@@ -111,11 +111,12 @@ def download_universe(tickers: list[str], years: int) -> dict[str, pd.DataFrame]
     if len(tickers) > 500:
         print("  large universe — this can take 10-20 minutes on first run")
     data = {}
+    start = (pd.Timestamp.now() - pd.DateOffset(years=years)).strftime("%Y-%m-%d")
     chunk_size = 200
     for i in range(0, len(tickers), chunk_size):
         chunk = tickers[i:i + chunk_size]
         try:
-            raw = yf.download(chunk, period=f"{years}y", interval="1d", auto_adjust=True,
+            raw = yf.download(chunk, start=start, interval="1d", auto_adjust=True,
                               group_by="ticker", progress=False, threads=True)
         except Exception as e:
             print(f"  chunk {i//chunk_size + 1} failed: {e}")

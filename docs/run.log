@@ -82,12 +82,12 @@ ticker  side  score  close                                                      
 
 Pooled signal history across universe (direction-adjusted fwd returns, %):
                 signal      N  win%_3d  avg_3d  edge_3d  win%_5d  avg_5d  edge_5d  win%_10d  avg_10d  edge_10d
- RSI(2) mean-reversion 135987     51.6    0.17    -0.05     51.4    0.24    -0.13      50.8     0.09     -0.64
-    IBS mean-reversion 223442     51.4    0.15    -0.07     51.3    0.20    -0.17      50.8     0.18     -0.55
-7-day extreme pullback 249365     50.7    0.08    -0.14     50.6    0.14    -0.23      50.1     0.01     -0.72
- Donchian 20d breakout 198516     48.7   -0.11    -0.34     48.7   -0.16    -0.54      48.6    -0.24     -0.97
- Sweep & reclaim (10d)  88283     50.0   -0.01    -0.23     49.9    0.01    -0.36      50.1    -0.01     -0.74
-            FVG retest 347220     49.7   -0.05    -0.28     49.6   -0.07    -0.44      49.5    -0.10     -0.83
+ RSI(2) mean-reversion 135986     51.6    0.17    -0.05     51.4    0.24    -0.13      50.8     0.09     -0.64
+    IBS mean-reversion 223438     51.4    0.15    -0.07     51.3    0.20    -0.17      50.7     0.18     -0.55
+7-day extreme pullback 249356     50.7    0.08    -0.14     50.6    0.14    -0.23      50.1     0.01     -0.72
+ Donchian 20d breakout 198508     48.7   -0.11    -0.34     48.7   -0.16    -0.54      48.6    -0.24     -0.97
+ Sweep & reclaim (10d)  88293     50.0   -0.01    -0.24     49.9    0.01    -0.36      50.1    -0.01     -0.74
+            FVG retest 347130     49.7   -0.05    -0.28     49.5   -0.07    -0.44      49.4    -0.10     -0.83
 
 Reminder: check index bias (scanner.py) — avoid stock longs when the index bias is SHORT, and vice versa. Flagged earnings = consider skipping.
 HTML report written to docs/stocks.html

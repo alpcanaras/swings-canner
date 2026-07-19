@@ -1,0 +1,123 @@
+//@version=6
+// Swing Signal Scanner — same signals as scanner.py, for TradingView alerts.
+// Apply to NDX (or QQQ/NQ) and RUT (or IWM/RTY) on the DAILY chart.
+// Signals confirm on bar close — set alerts to "Once per bar close" to avoid repainting.
+indicator("Swing Signal Scanner (days-to-weeks)", overlay = true)
+
+// ---- Inputs (mirror CONFIG in scanner.py) ----------------------------------
+rsiLen    = input.int(2,     "RSI length")
+rsiLow    = input.float(10,  "RSI oversold")
+rsiHigh   = input.float(90,  "RSI overbought")
+ibsLow    = input.float(0.15,"IBS low")
+ibsHigh   = input.float(0.85,"IBS high")
+nExt      = input.int(7,     "N-day extreme lookback")
+donLen    = input.int(20,    "Donchian length")
+sweepLen  = input.int(10,    "Liquidity sweep lookback")
+fvgExp    = input.int(10,    "FVG validity (bars)")
+smaFastL  = input.int(50,    "Fast SMA")
+smaSlowL  = input.int(200,   "Slow SMA (trend filter)")
+atrLen    = input.int(14,    "ATR length")
+stopMult  = input.float(2.0, "Stop distance (x ATR)")
+koMult    = input.float(3.0, "Min knock-out distance (x ATR)")
+voteNeed  = input.int(2,     "Signals needed for LONG/SHORT bias", minval = 1, maxval = 6)
+
+// ---- Indicators -------------------------------------------------------------
+smaF    = ta.sma(close, smaFastL)
+smaS    = ta.sma(close, smaSlowL)
+upTrend = close > smaS
+dnTrend = close < smaS
+momUp   = smaF > smaS
+
+r     = ta.rsi(close, rsiLen)
+ibs   = high == low ? 0.5 : (close - low) / (high - low)
+nLow  = close == ta.lowest(close, nExt)
+nHigh = close == ta.highest(close, nExt)
+donHi = ta.highest(close, donLen)[1]
+donLo = ta.lowest(close, donLen)[1]
+a     = ta.atr(atrLen)
+
+// ---- Signals: +1 long, -1 short, 0 none --------------------------------------
+sigRSI = r < rsiLow and upTrend ? 1 : r > rsiHigh and dnTrend ? -1 : 0
+sigIBS = ibs < ibsLow and upTrend ? 1 : ibs > ibsHigh and dnTrend ? -1 : 0
+sigEXT = nLow and upTrend ? 1 : nHigh and dnTrend ? -1 : 0
+sigDON = close > donHi and momUp ? 1 : close < donLo and not momUp ? -1 : 0
+
+// Liquidity sweep & reclaim: take out prior n-day low intraday, close back above it
+priorLo = ta.lowest(low, sweepLen)[1]
+priorHi = ta.highest(high, sweepLen)[1]
+sigSWP = low < priorLo and close > priorLo and upTrend ? 1 :
+         high > priorHi and close < priorHi and dnTrend ? -1 : 0
+
+// FVG retest: bullish FVG = low > high[2]; zone valid fvgExp bars.
+// Long when price dips into the zone but closes inside/above it. Mirror for bearish.
+var float bTop = na
+var float bBot = na
+var int   bAge = 0
+var float rTop = na
+var float rBot = na
+var int   rAge = 0
+sigFVG = not na(bTop) and low <= bTop and close >= bBot and upTrend ? 1 :
+         not na(rBot) and high >= rBot and close <= rTop and dnTrend ? -1 : 0
+bAge := bAge + 1
+rAge := rAge + 1
+if low > high[2]
+    bTop := low
+    bBot := high[2]
+    bAge := 0
+if high < low[2]
+    rBot := high
+    rTop := low[2]
+    rAge := 0
+if bAge > fvgExp
+    bTop := na
+    bBot := na
+if rAge > fvgExp
+    rTop := na
+    rBot := na
+
+score = sigRSI + sigIBS + sigEXT + sigDON + sigSWP + sigFVG
+biasLong  = score >= voteNeed
+biasShort = score <= -voteNeed
+biasTxt   = biasLong ? "LONG" : biasShort ? "SHORT" : "FLAT"
+
+// ---- Plots -------------------------------------------------------------------
+plot(smaF, "SMA fast", color = color.new(color.orange, 30))
+plot(smaS, "SMA slow", color = color.new(color.blue, 30), linewidth = 2)
+plotshape(biasLong,  "Long bias",  shape.triangleup,   location.belowbar, color.green, size = size.small)
+plotshape(biasShort, "Short bias", shape.triangledown, location.abovebar, color.red,   size = size.small)
+
+// ---- Status table -------------------------------------------------------------
+var table t = table.new(position.top_right, 2, 10, border_width = 1)
+f(x) => x == 1 ? "LONG" : x == -1 ? "SHORT" : "—"
+if barstate.islast
+    biasCol = biasLong ? color.new(color.green, 70) : biasShort ? color.new(color.red, 70) : color.new(color.gray, 80)
+    table.cell(t, 0, 0, "BIAS",              bgcolor = biasCol)
+    table.cell(t, 1, 0, biasTxt + " (" + str.tostring(score) + ")", bgcolor = biasCol)
+    table.cell(t, 0, 1, "RSI(" + str.tostring(rsiLen) + ") MR")
+    table.cell(t, 1, 1, f(sigRSI))
+    table.cell(t, 0, 2, "IBS MR")
+    table.cell(t, 1, 2, f(sigIBS))
+    table.cell(t, 0, 3, str.tostring(nExt) + "d extreme")
+    table.cell(t, 1, 3, f(sigEXT))
+    table.cell(t, 0, 4, "Donchian " + str.tostring(donLen) + "d")
+    table.cell(t, 1, 4, f(sigDON))
+    table.cell(t, 0, 5, "Sweep & reclaim")
+    table.cell(t, 1, 5, f(sigSWP))
+    table.cell(t, 0, 6, "FVG retest")
+    table.cell(t, 1, 6, f(sigFVG))
+    table.cell(t, 0, 7, "Trend")
+    table.cell(t, 1, 7, upTrend ? "UP" : "DOWN")
+    table.cell(t, 0, 8, "Stop dist")
+    table.cell(t, 1, 8, str.tostring(stopMult * a, format.mintick))
+    table.cell(t, 0, 9, "Min KO dist")
+    table.cell(t, 1, 9, str.tostring(koMult * a, format.mintick))
+
+// ---- Alerts (set to "Once per bar close") -------------------------------------
+alertcondition(biasLong,  "Bias: LONG",  "Swing scanner: LONG bias on {{ticker}} (daily close)")
+alertcondition(biasShort, "Bias: SHORT", "Swing scanner: SHORT bias on {{ticker}} (daily close)")
+alertcondition(sigRSI != 0, "RSI signal",      "RSI(2) mean-reversion fired on {{ticker}}")
+alertcondition(sigIBS != 0, "IBS signal",      "IBS mean-reversion fired on {{ticker}}")
+alertcondition(sigEXT != 0, "Extreme signal",  "N-day extreme pullback fired on {{ticker}}")
+alertcondition(sigDON != 0, "Donchian signal", "Donchian breakout fired on {{ticker}}")
+alertcondition(sigSWP != 0, "Sweep signal",    "Liquidity sweep & reclaim fired on {{ticker}}")
+alertcondition(sigFVG != 0, "FVG signal",      "FVG retest fired on {{ticker}}")

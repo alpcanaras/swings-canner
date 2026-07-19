@@ -4,6 +4,8 @@ on:
   schedule:
     - cron: "15 22 * * 1-5"    # 22:15 UTC Mon-Fri — after US close year-round
   workflow_dispatch:            # manual trigger from the Actions tab (works on mobile)
+  push:
+    branches: [main]            # also run on push (bot commits to docs/ don't re-trigger)
 
 permissions:
   contents: write

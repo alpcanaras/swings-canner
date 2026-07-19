@@ -63,17 +63,33 @@ def _fetch(url: str) -> str:
     return urllib.request.urlopen(req, timeout=60).read().decode("utf-8", "replace")
 
 
+def _wiki_tables(title: str) -> list[pd.DataFrame]:
+    """Wikipedia REST API serves full parsed HTML and is bot-friendly."""
+    import io
+    html = _fetch(f"https://en.wikipedia.org/api/rest_v1/page/html/{title}")
+    return pd.read_html(io.StringIO(html))
+
+
+def _extract_tickers(tables: list[pd.DataFrame], min_rows: int) -> list[str]:
+    for t in tables:
+        cols = [str(c[0] if isinstance(c, tuple) else c).strip().lower() for c in t.columns]
+        for i, c in enumerate(cols):
+            if ("ticker" in c or "symbol" in c) and len(t) >= min_rows:
+                vals = t.iloc[:, i].astype(str).str.strip().str.replace(".", "-", regex=False)
+                ticks = sorted({v for v in vals
+                                if v.replace("-", "").isalnum() and 1 <= len(v) <= 6})
+                if len(ticks) >= min_rows:
+                    return ticks
+    return []
+
+
 def get_ndx() -> list[str]:
     try:  # live Nasdaq-100 constituents
-        import io
-        tables = pd.read_html(io.StringIO(_fetch("https://en.wikipedia.org/wiki/Nasdaq-100")))
-        for t in tables:
-            t.columns = [str(c[0] if isinstance(c, tuple) else c).strip() for c in t.columns]
-            for col in ("Ticker", "Symbol", "Ticker symbol"):
-                if col in t.columns and len(t) > 80:
-                    return sorted(t[col].astype(str).str.replace(".", "-", regex=False))
-        raise ValueError("no constituent table; shapes: "
-                         + str([(len(t), list(t.columns)[:4]) for t in tables[:6]]))
+        ticks = _extract_tickers(_wiki_tables("Nasdaq-100"), 90)
+        if ticks:
+            print(f"  Nasdaq-100 via Wikipedia: {len(ticks)} tickers")
+            return ticks
+        raise ValueError("no constituent table found")
     except Exception as e:
         print(f"  Wikipedia constituent fetch failed ({e}); using built-in list.")
     return NDX_FALLBACK
@@ -103,7 +119,16 @@ def get_r2000() -> list[str]:
         print(f"  Russell 2000 via IWM holdings: {len(ticks)} tickers")
         return ticks
     except Exception as e:
-        print(f"  WARNING: Russell 2000 fetch failed ({e}) — continuing without it. "
+        print(f"  Russell 2000 source unavailable ({str(e)[:80]}) — "
+              "falling back to S&P SmallCap 600 as the small-cap universe.")
+    try:
+        ticks = _extract_tickers(_wiki_tables("List_of_S%26P_600_companies"), 500)
+        if ticks:
+            print(f"  S&P 600 via Wikipedia: {len(ticks)} tickers")
+            return ticks
+        raise ValueError("no constituent table found")
+    except Exception as e:
+        print(f"  WARNING: small-cap universe fetch failed ({e}) — continuing without it. "
               "You can supply names via --tickers.")
         return []
 

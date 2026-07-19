@@ -22,8 +22,10 @@ Run after US close (22:00 CET). Take stock **longs only when the index bias isn'
 
 ```
 python stock_scanner.py                   # Nasdaq-100 (live constituents from Wikipedia)
-python stock_scanner.py --universe r2k    # Russell 2000 (via iShares IWM holdings CSV)
-python stock_scanner.py --universe all    # both (~2100 names; first run takes 10-20 min)
+python stock_scanner.py --universe r2k    # Russell 2000 via iShares IWM holdings;
+                                          # falls back to S&P SmallCap 600 when that
+                                          # source is bot-walled (always is on GitHub runners)
+python stock_scanner.py --universe all    # large + small caps; first run takes a while
 python stock_scanner.py --tickers my.txt  # any custom list
 ```
 

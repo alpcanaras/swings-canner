@@ -26,10 +26,14 @@ jobs:
       - name: Run scanners
         run: |
           mkdir -p docs
-          python scanner.py --html docs/index.html
-          python stock_scanner.py --universe all --html docs/stocks.html
+          set -o pipefail
+          {
+            python scanner.py --html docs/index.html &&
+            python stock_scanner.py --universe all --html docs/stocks.html
+          } 2>&1 | tee docs/run.log
 
       - name: Publish to GitHub Pages branch folder
+        if: always()          # commit the log even when the scan fails
         run: |
           git config user.name "scan-bot"
           git config user.email "scan-bot@users.noreply.github.com"

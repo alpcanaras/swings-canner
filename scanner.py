@@ -115,7 +115,9 @@ def get_data(offline_dir: str | None) -> tuple[dict[str, pd.DataFrame], pd.Serie
         if offline_dir:
             df = load_csv(os.path.join(offline_dir, f"{name}.csv"))
         else:
-            df = load_yfinance(yf_t, cfg["history_years"]) or load_stooq(stooq_t, cfg["history_years"])
+            df = load_yfinance(yf_t, cfg["history_years"])
+            if df is None:
+                df = load_stooq(stooq_t, cfg["history_years"])
         if df is None:
             sys.exit(f"ERROR: no data for {name}. Try --offline with CSVs (Date,Open,High,Low,Close).")
         data[name] = df

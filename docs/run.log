@@ -38,26 +38,45 @@ Signal history on this index (direction-adjusted fwd returns, % — 'edge' is vs
             FVG retest 874     48.5   -0.07    -0.20     47.8   -0.15    -0.36      48.3    -0.12     -0.55
 
 HTML report written to docs/index.html
-  Wikipedia constituent fetch failed (no constituent table found); using built-in list.
-  WARNING: Russell 2000 fetch failed (no 'Ticker' header found in holdings file) — continuing without it. You can supply names via --tickers.
+  Wikipedia constituent fetch failed (no constituent table; shapes: [(11, ['0', '1']), (2, ['Category', 'All-Time Highs[8]', 'All-Time Highs[8].1']), (41, ['Year', 'Closing level', 'Change in Index in Points', 'Change in Index in\xa0%']), (30, ['Milestone (closing)[8]', 'Date of Record (closing)[8]', 'Trading Days[8]']), (3, ['Milestone (closing)[8]', 'Date of Record (closing)[8]', 'Trading Days[8]']), (1, ['vteList of NASDAQ-100 companies', 'vteList of NASDAQ-100 companies.1'])]); using built-in list.
+  WARNING: Russell 2000 fetch failed (no 'Ticker' header; file starts with: '<!DOCTYPE html>\n<html xmlns="http://www.w3.org/1999/xhtml" prefix="og: http://ogp.me/ns#" lang="en-US" xml:lang="en-US">\n<head>\n<link rel="preload" hr') — continuing without it. You can supply names via --tickers.
 Downloading 89 tickers (10y daily)...
   usable: 89 tickers
-
-NOTE: no signal shows positive pooled edge on this universe — candidates are suppressed by design. Believe the data.
+Checking earnings dates for candidates...
 
 ========================================================================
 STOCK CANDIDATES — 2026-07-17  (universe: 89 names)
 ========================================================================
-No candidates today.
+ticker  side  score  close                                                                          signals  RS_3m_%  ATR%   stop  min_KO_dist earnings
+   XEL  LONG   0.67  78.77    IBS mean-reversion (L), 7-day extreme pullback (L), Sweep & reclaim (10d) (L)     -7.4  2.13  75.41         5.03   in 11d
+   ADI  LONG   0.65 375.36 RSI(2) mean-reversion (L), 7-day extreme pullback (L), Sweep & reclaim (10d) (L)      1.0  4.43 342.14        49.84        ?
+  AMAT  LONG   0.65 529.66 RSI(2) mean-reversion (L), 7-day extreme pullback (L), Sweep & reclaim (10d) (L)     30.7  8.51 439.54       135.18   in 25d
+   AMD  LONG   0.65 495.76 RSI(2) mean-reversion (L), 7-day extreme pullback (L), Sweep & reclaim (10d) (L)     72.8  7.61 420.35       113.12   in 16d
+  KLAC  LONG   0.65 212.75 RSI(2) mean-reversion (L), 7-day extreme pullback (L), Sweep & reclaim (10d) (L)     17.5  8.50 176.60        54.22    in 9d
+  NXPI  LONG   0.65 266.53 RSI(2) mean-reversion (L), 7-day extreme pullback (L), Sweep & reclaim (10d) (L)     19.8  5.29 238.32        42.31    in 9d
+   GFS  LONG   0.65  57.48 RSI(2) mean-reversion (L), 7-day extreme pullback (L), Sweep & reclaim (10d) (L)      8.9  8.41  47.81        14.51   in 17d
+   BKR  LONG   0.55  55.95            RSI(2) mean-reversion (L), 7-day extreme pullback (L), FVG retest (L)    -12.7  3.08  52.50         5.17  in 7d !
+   AEP  LONG   0.53 132.14                               IBS mean-reversion (L), 7-day extreme pullback (L)     -6.4  2.02 126.81         7.99   in 11d
+  CDNS  LONG   0.51 330.11                            RSI(2) mean-reversion (L), 7-day extreme pullback (L)      2.2  4.91 297.66        48.67    in 8d
+  ADSK SHORT   0.37 218.35                            7-day extreme pullback (S), Sweep & reclaim (10d) (S)    -15.5  3.77 234.82        24.70   in 39d
+  CTSH SHORT   0.37  44.77                            7-day extreme pullback (S), Sweep & reclaim (10d) (S)    -30.9  4.75  49.03         6.38   in 10d
+  NFLX SHORT   0.31  68.95                                IBS mean-reversion (S), Donchian 20d breakout (S)    -41.4  4.10  74.61         8.49        ?
+  ADBE SHORT   0.22 237.25                                                       7-day extreme pullback (S)     -9.7  3.98 256.12        28.30   in 53d
+  CSGP SHORT   0.14  29.78                                                        Sweep & reclaim (10d) (S)    -31.0  5.10  32.82         4.56    in 9d
+ CMCSA SHORT   0.14  23.79                                                        Sweep & reclaim (10d) (S)    -23.2  3.36  25.39         2.40  in 4d !
+  INTU SHORT   0.14 291.09                                                        Sweep & reclaim (10d) (S)    -29.8  4.96 319.95        43.30   in 32d
+  REGN SHORT   0.14 676.69                                                        Sweep & reclaim (10d) (S)    -14.5  2.47 710.11        50.13   in 11d
+  TMUS SHORT   0.14 192.43                                                        Sweep & reclaim (10d) (S)     -7.2  2.96 203.83        17.10  in 4d !
+  WDAY SHORT   0.14 144.78                                                        Sweep & reclaim (10d) (S)     10.6  5.25 159.98        22.80   in 32d
 
 Pooled signal history across universe (direction-adjusted fwd returns, %):
                 signal     N  win%_3d  avg_3d  edge_3d  win%_5d  avg_5d  edge_5d  win%_10d  avg_10d  edge_10d
  RSI(2) mean-reversion 17076     52.1    0.19    -0.08     52.7    0.33    -0.12      51.9     0.34     -0.55
     IBS mean-reversion 29456     52.7    0.24    -0.03     53.0    0.35    -0.10      52.9     0.41     -0.48
-7-day extreme pullback 31818     52.1    0.14    -0.13     52.8    0.27    -0.18      52.1     0.32     -0.57
- Donchian 20d breakout 29738     50.9   -0.01    -0.28     51.1   -0.02    -0.47      51.8     0.08     -0.81
- Sweep & reclaim (10d) 11116     51.0    0.11    -0.17     51.4    0.19    -0.26      52.5     0.31     -0.58
-            FVG retest 47684     51.8    0.05    -0.22     51.8    0.09    -0.36      52.1     0.17     -0.72
+7-day extreme pullback 31819     52.1    0.14    -0.13     52.8    0.27    -0.18      52.1     0.32     -0.57
+ Donchian 20d breakout 29739     50.9   -0.01    -0.28     51.1   -0.02    -0.47      51.8     0.08     -0.81
+ Sweep & reclaim (10d) 11137     51.0    0.11    -0.16     51.4    0.19    -0.26      52.5     0.32     -0.57
+            FVG retest 47702     51.8    0.05    -0.22     51.8    0.09    -0.36      52.0     0.17     -0.72
 
 Reminder: check index bias (scanner.py) — avoid stock longs when the index bias is SHORT, and vice versa. Flagged earnings = consider skipping.
 HTML report written to docs/stocks.html

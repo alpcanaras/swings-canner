@@ -38,5 +38,26 @@ Signal history on this index (direction-adjusted fwd returns, % — 'edge' is vs
             FVG retest 874     48.5   -0.07    -0.20     47.8   -0.15    -0.36      48.3    -0.12     -0.55
 
 HTML report written to docs/index.html
-  Wikipedia constituent fetch failed (HTTP Error 403: Forbidden); using built-in list.
-Could not fetch Russell 2000 holdings ('Asset Class'). Pass your own list with --tickers instead.
+  Wikipedia constituent fetch failed (no constituent table found); using built-in list.
+  WARNING: Russell 2000 fetch failed (no 'Ticker' header found in holdings file) — continuing without it. You can supply names via --tickers.
+Downloading 89 tickers (10y daily)...
+  usable: 89 tickers
+
+NOTE: no signal shows positive pooled edge on this universe — candidates are suppressed by design. Believe the data.
+
+========================================================================
+STOCK CANDIDATES — 2026-07-17  (universe: 89 names)
+========================================================================
+No candidates today.
+
+Pooled signal history across universe (direction-adjusted fwd returns, %):
+                signal     N  win%_3d  avg_3d  edge_3d  win%_5d  avg_5d  edge_5d  win%_10d  avg_10d  edge_10d
+ RSI(2) mean-reversion 17076     52.1    0.19    -0.08     52.7    0.33    -0.12      51.9     0.34     -0.55
+    IBS mean-reversion 29456     52.7    0.24    -0.03     53.0    0.35    -0.10      52.9     0.41     -0.48
+7-day extreme pullback 31818     52.1    0.14    -0.13     52.8    0.27    -0.18      52.1     0.32     -0.57
+ Donchian 20d breakout 29738     50.9   -0.01    -0.28     51.1   -0.02    -0.47      51.8     0.08     -0.81
+ Sweep & reclaim (10d) 11116     51.0    0.11    -0.17     51.4    0.19    -0.26      52.5     0.31     -0.58
+            FVG retest 47684     51.8    0.05    -0.22     51.8    0.09    -0.36      52.1     0.17     -0.72
+
+Reminder: check index bias (scanner.py) — avoid stock longs when the index bias is SHORT, and vice versa. Flagged earnings = consider skipping.
+HTML report written to docs/stocks.html

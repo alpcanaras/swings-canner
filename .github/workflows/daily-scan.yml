@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: write
+  issues: write        # daily digest is posted as an issue, which GitHub emails
 
 jobs:
   scan:
@@ -40,3 +41,20 @@ jobs:
           git add docs
           git commit -m "scan $(date -u +%Y-%m-%d)" || echo "no changes"
           git push
+
+      - name: Build digest
+        id: digest
+        run: python make_digest.py
+
+      - name: Email the digest (via a GitHub issue)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create \
+            --title "${{ steps.digest.outputs.title }}" \
+            --body-file digest.md \
+            --repo "$GITHUB_REPOSITORY"
+          # keep the issue list tidy: close everything older than the newest 5
+          gh issue list --repo "$GITHUB_REPOSITORY" --state open --limit 100 \
+            --json number --jq '.[].number' | tail -n +6 | \
+            xargs -r -I{} gh issue close {} --repo "$GITHUB_REPOSITORY"

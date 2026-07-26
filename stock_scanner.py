@@ -345,9 +345,9 @@ def plain_candidate(row) -> str:
               if rs < -5 else "It's moving roughly in line with its peers")
     fit = ""
     if side == "LONG" and rs < -15:
-        fit = " — note that buying a badly lagging name is the weaker version of this setup."
+        fit = " — note that buying a badly lagging name is the weaker version of this setup"
     if side == "SHORT" and rs > 15:
-        fit = " — note that shorting a strong performer is the weaker version of this setup."
+        fit = " — note that shorting a strong performer is the weaker version of this setup"
     earn = str(row.get("earnings", "?"))
     earn_txt = (" <b>Earnings are days away — probably skip this one</b>, a stop can't "
                 "protect you through an earnings gap." if earn.endswith("!") else

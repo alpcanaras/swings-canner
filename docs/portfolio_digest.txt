@@ -1,0 +1,5 @@
+## Paper portfolio
+
+- EZPW — OPEN long at 29.54. Size: €41 (1.381 shares), risking €5.00 to a stop 12.3% away. Costs eat it: expected profit €0.08 against €2.04 in fees. At these fees a position needs to be about €2,062 just to break even, and ~€6,186 to be worth the risk.
+- COCO — OPEN long at 65.97. Size: €39 (0.5882 shares), risking €5.00 to a stop 12.9% away. Costs eat it: expected profit €0.08 against €2.04 in fees. At these fees a position needs to be about €2,062 just to break even, and ~€6,186 to be worth the risk.
+- ASTH — OPEN long at 40.31. Size: €45 (1.119 shares), risking €5.00 to a stop 11.1% away. Costs eat it: expected profit €0.09 against €2.05 in fees. At these fees a position needs to be about €2,062 just to break even, and ~€6,186 to be worth the risk.

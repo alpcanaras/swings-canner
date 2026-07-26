@@ -1,0 +1,42 @@
+{
+ "open": [
+  {
+   "ticker": "EZPW",
+   "side": "LONG",
+   "entry": 29.54,
+   "stop": 25.92,
+   "shares": 1.3812154696132604,
+   "notional": 40.80110497237571,
+   "cost": 2.0408011049723758,
+   "date": "2026-07-24",
+   "days": 0,
+   "viable": false
+  },
+  {
+   "ticker": "COCO",
+   "side": "LONG",
+   "entry": 65.97,
+   "stop": 57.47,
+   "shares": 0.5882352941176471,
+   "notional": 38.805882352941175,
+   "cost": 2.0388058823529414,
+   "date": "2026-07-24",
+   "days": 0,
+   "viable": false
+  },
+  {
+   "ticker": "ASTH",
+   "side": "LONG",
+   "entry": 40.31,
+   "stop": 35.84,
+   "shares": 1.1185682326621926,
+   "notional": 45.08948545861299,
+   "cost": 2.045089485458613,
+   "date": "2026-07-24",
+   "days": 0,
+   "viable": false
+  }
+ ],
+ "closed": [],
+ "started": "2026-07-26"
+}

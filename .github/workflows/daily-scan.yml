@@ -30,7 +30,9 @@ jobs:
           set -o pipefail
           {
             python scanner.py --html docs/index.html &&
-            python stock_scanner.py --universe all --html docs/stocks.html
+            python stock_scanner.py --universe all --html docs/stocks.html \
+              --portfolio-html docs/portfolio.html \
+              --portfolio-txt docs/portfolio_digest.txt
           } 2>&1 | tee docs/run.log
 
       - name: Publish to GitHub Pages branch folder
@@ -38,7 +40,7 @@ jobs:
         run: |
           git config user.name "scan-bot"
           git config user.email "scan-bot@users.noreply.github.com"
-          git add docs
+          git add docs state
           git commit -m "scan $(date -u +%Y-%m-%d)" || echo "no changes"
           git push
 

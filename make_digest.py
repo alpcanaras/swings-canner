@@ -38,6 +38,12 @@ def main():
     stk = text_blocks("docs/stocks.html", "same thing as a table")
 
     lines = [f"## Market ({date.today():%a %d %b %Y})", ""]
+    try:                       # paper portfolio section goes first when present
+        pf = open("docs/portfolio_digest.txt").read().strip()
+        if pf:
+            lines = [pf, "", f"## Market ({date.today():%a %d %b %Y})", ""]
+    except FileNotFoundError:
+        pass
     lines += [f"- {b}" for b in idx] or ["- (index report unavailable)"]
     lines += ["", "## Stock candidates", ""]
     lines += [f"- {b}" for b in stk] or ["- Nothing today."]
@@ -46,7 +52,8 @@ def main():
         "---",
         "Full pages: "
         "[market](https://alpcanaras.github.io/swings-canner/) · "
-        "[stocks](https://alpcanaras.github.io/swings-canner/stocks.html)",
+        "[stocks](https://alpcanaras.github.io/swings-canner/stocks.html) · "
+        "[paper portfolio](https://alpcanaras.github.io/swings-canner/portfolio.html)",
         "",
         "_Statistical tilts, not instructions. Skip anything flagged for earnings. "
         "Not financial advice._",

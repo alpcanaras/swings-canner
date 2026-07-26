@@ -246,7 +246,10 @@ def main():
     ap.add_argument("--tickers", help="text file with tickers (space/newline separated)")
     ap.add_argument("--offline", metavar="DIR", help="read <TICKER>.csv files from DIR")
     ap.add_argument("--no-earnings", action="store_true")
+    ap.add_argument("--no-portfolio", action="store_true", help="skip paper tracking")
     ap.add_argument("--html", default="stock_candidates.html")
+    ap.add_argument("--portfolio-html", default="portfolio.html")
+    ap.add_argument("--portfolio-txt", default="portfolio_digest.txt")
     args = ap.parse_args()
 
     if args.offline:
@@ -262,6 +265,7 @@ def main():
 
     stats = pooled_stats(processed)
     wmap = dict(zip(stats["signal"], stats["weight"]))
+    amap = dict(zip(stats["signal"], stats[f"avg_{CONFIG['key_horizon']}d"]))
     total_w = sum(wmap.values()) or 1.0
     if total_w == 1.0 and not any(wmap.values()):
         print("\nNOTE: no signal shows positive pooled edge on this universe — "
@@ -293,6 +297,9 @@ def main():
             "stop": round(close - np.sign(score) * CONFIG["stop_atr_mult"] * a, 2),
             "min_KO_dist": round(CONFIG["ko_atr_mult"] * a, 2),
             "_fired": fired,
+            # historical average move of the signals that fired, for cost maths
+            "expected_pct": round(float(np.mean(
+                [abs(amap.get(n, 0.0)) for n in fired])), 3) or 0.1,
         })
 
     cand = pd.DataFrame(candidates)
@@ -321,6 +328,19 @@ def main():
 
     write_html(args.html, date, len(processed), top, display, stats)
     print(f"HTML report written to {args.html}")
+
+    # paper portfolio: size, cost-check and track the candidates automatically
+    if not args.no_portfolio:
+        import portfolio
+        prices = {t: float(df["Close"].iloc[-1]) for t, (df, _) in processed.items()}
+        perf = portfolio.run(top if len(top) else None, prices, date,
+                             path_html=args.portfolio_html,
+                             path_txt=args.portfolio_txt)
+        if perf.get("n"):
+            print(f"\nPaper portfolio: {perf['n']} closed trades, "
+                  f"€{perf['gross']:+.2f} gross / €{perf['net']:+.2f} net "
+                  f"after €{perf['fees']:.2f} fees.")
+        print(f"Portfolio page written to {args.portfolio_html}")
 
 
 def plain_candidate(row) -> str:
@@ -352,10 +372,17 @@ def plain_candidate(row) -> str:
     earn_txt = (" <b>Earnings are days away — probably skip this one</b>, a stop can't "
                 "protect you through an earnings gap." if earn.endswith("!") else
                 f" Earnings {earn}." if earn.startswith("in") else "")
+    try:
+        from portfolio import size_and_verdict, sizing_sentence
+        v = size_and_verdict(float(row["close"]), float(row["stop"]),
+                             float(row.get("expected_pct", 0.3)))
+        size_txt = " " + sizing_sentence(v) if v.get("notional") else ""
+    except Exception:
+        size_txt = ""
     return (f"<b>{row['ticker']} — {verb}.</b> It {why}. "
             f"{strength} ({agree} of 6 signals). {rs_txt}{fit}. "
             f"Close the trade if it reaches <b>{row['stop']:,.2f}</b>. "
-            f"Daily swing is about {row['ATR%']:.1f}%.{earn_txt}")
+            f"Daily swing is about {row['ATR%']:.1f}%.{earn_txt}{size_txt}")
 
 
 def write_html(path, date, n_universe, top, display, stats):

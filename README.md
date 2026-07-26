@@ -31,6 +31,31 @@ python stock_scanner.py --tickers my.txt  # any custom list
 
 Small caps note: the $20M dollar-volume floor drops the illiquid tail of the Russell — intentional. Spreads on illiquid small caps eat swing-trade edges alive.
 
+## Position sizing and the cost problem (read this once)
+
+`portfolio.py` sizes every candidate for a real account and runs an automatic **paper portfolio** — it opens positions from the daily list, exits on the stop or after 5 trading days, and reports P&L both gross and net of fees. Settings are the block at the top of the file.
+
+Sizing is **allocation-based** by default: a fixed % of capital per position, trimmed automatically if a trade would risk more than `max_risk_pct` of the account. That suits flat-fee brokers, where small positions are punished.
+
+**The uncomfortable arithmetic**, at €1,000 with €1 per order and a typical 0.3% edge per trade:
+
+| positions | % each | € per position | expected profit | costs | net |
+|---|---|---|---|---|---|
+| 1 | 100% | €1,000 | €3.00 | €3.00 | €0.00 |
+| 2 | 50% | €500 | €1.50 | €2.50 | −€1.00 |
+| 3 | 33% | €330 | €0.99 | €2.33 | −€1.34 |
+| 5 | 20% | €200 | €0.60 | €2.20 | −€1.60 |
+
+Diversifying makes it *worse*, because each flat fee is charged per position regardless of size. At this account size the choice is between concentration (break-even, and your whole account riding on one small-cap) and diversification (guaranteed to lose to fees).
+
+What actually changes the picture, in order of effect:
+
+1. **Commission-free trading.** With spread only (~0.1% round trip vs a 0.3% edge), positions of any size clear the bar. This is the single biggest lever.
+2. **A larger account.** At €1/order, roughly €2,000+ per position makes fees a minor drag.
+3. **Fewer, bigger trades.** Taking only the strongest setups rather than everything.
+
+Until one of those is true, this stays a paper exercise — which is exactly what the tracker is for. It costs nothing and produces real evidence.
+
 ## Access from your phone (free, no server needed)
 
 This sandbox can't reach market-data APIs, so the scanner can't run scheduled here — GitHub Actions is the right home. One-time setup, ~10 min:

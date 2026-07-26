@@ -22,14 +22,23 @@ from datetime import date, datetime
 from scanner import CONFIG
 
 PORTFOLIO = {
-    "account_eur": 500.0,        # your starting balance
-    "risk_pct": 1.0,             # % of account risked per trade (the stop distance)
+    "account_eur": 1000.0,       # your starting balance
+    # --- how big is one position? -------------------------------------------
+    # "allocation": put a fixed % of capital into each position (simple, and what
+    #               you want when flat fees punish small positions).
+    # "risk":       size so the distance to the stop equals `risk_pct` of capital
+    #               (classic, but produces tiny positions on small accounts).
+    "sizing_mode": "allocation",
+    "alloc_pct": 50.0,           # allocation mode: % of capital per position
+    "risk_pct": 1.0,             # risk mode: % of capital risked per trade
+    "max_risk_pct": 3.0,         # guardrail: never let one trade risk more than this
+    "max_positions": 2,          # never hold more than this many at once
+    # --- costs ---------------------------------------------------------------
     "cost_per_order_eur": 1.0,   # Trade Republic style flat fee, per side
     "spread_pct": 0.05,          # half-spread paid on each side, %
-    "max_positions": 3,          # never hold more than this many at once
-    "max_position_pct": 40.0,    # cap one position at % of account
-    "hold_days": CONFIG["key_horizon"],   # time exit: close after N trading days
     "min_edge_cost_ratio": 3.0,  # expected profit must be >= 3x costs to "take"
+    # --- exits ---------------------------------------------------------------
+    "hold_days": CONFIG["key_horizon"],   # time exit: close after N trading days
     "paper": True,               # paper mode: track trades regardless of verdict,
                                  # so you can see gross vs. net over time
 }
@@ -51,11 +60,20 @@ def size_and_verdict(close: float, stop: float, expected_pct: float) -> dict:
         return {"viable": False, "reason": "bad prices"}
 
     stop_pct = 100 * stop_dist / close
-    risk_eur = p["account_eur"] * p["risk_pct"] / 100
-    notional = risk_eur / (stop_pct / 100)                    # risk-based size
-    cap = p["account_eur"] * p["max_position_pct"] / 100
-    capped = notional > cap
-    notional = min(notional, cap)
+
+    if p["sizing_mode"] == "allocation":
+        notional = p["account_eur"] * p["alloc_pct"] / 100
+    else:                                                     # risk-based sizing
+        notional = (p["account_eur"] * p["risk_pct"] / 100) / (stop_pct / 100)
+
+    # guardrail: cap the position so one trade can't risk more than max_risk_pct
+    max_risk_eur = p["account_eur"] * p["max_risk_pct"] / 100
+    risk_at_size = notional * stop_pct / 100
+    capped = risk_at_size > max_risk_eur
+    if capped:
+        notional = max_risk_eur / (stop_pct / 100)
+
+    risk_eur = notional * stop_pct / 100
     shares = notional / close
 
     cost = 2 * p["cost_per_order_eur"] + 2 * notional * p["spread_pct"] / 100
@@ -71,6 +89,8 @@ def size_and_verdict(close: float, stop: float, expected_pct: float) -> dict:
 
     return {
         "viable": ratio >= p["min_edge_cost_ratio"],
+        "alloc_pct": 100 * notional / p["account_eur"],
+        "risk_pct_actual": 100 * risk_eur / p["account_eur"],
         "stop_pct": stop_pct, "risk_eur": risk_eur, "notional": notional,
         "shares": shares, "capped": capped, "cost": cost, "gross": gross,
         "net": net, "ratio": ratio, "breakeven_notional": breakeven,
@@ -82,11 +102,13 @@ def sizing_sentence(v: dict) -> str:
     """The sizing result, in words."""
     if not v.get("viable") and not v.get("notional"):
         return "Position could not be sized."
-    s = (f"Size: <b>€{v['notional']:,.0f}</b> ({v['shares']:.4g} shares), "
-         f"risking €{v['risk_eur']:.2f} to a stop {v['stop_pct']:.1f}% away.")
+    s = (f"Size: <b>€{v['notional']:,.0f}</b> = {v['alloc_pct']:.0f}% of capital "
+         f"({v['shares']:.4g} shares). If the stop hits you lose "
+         f"€{v['risk_eur']:.2f} ({v['risk_pct_actual']:.1f}% of the account), "
+         f"the stop being {v['stop_pct']:.1f}% away.")
     if v["capped"]:
-        s += " (Capped by the max-position limit — the stop is tight enough that "
-        "risk-based sizing wanted more.)"
+        s += (" (Trimmed below the normal allocation — this one is volatile enough "
+              "that a full-size position would breach the risk guardrail.)")
     if v["viable"]:
         s += (f" Expected profit €{v['gross']:.2f} vs €{v['cost']:.2f} costs "
               f"({v['ratio']:.1f}× — worth doing).")
@@ -206,7 +228,11 @@ def render(state: dict, events: list[str], path_html: str, path_txt: str):
            ".note{background:#f7f7f9;border-radius:8px;padding:12px 16px;font-size:14px;color:#444}")
     parts = [f"<style>{css}</style><h1>Paper portfolio</h1>",
              f"<p class=meta>Updated {datetime.now():%Y-%m-%d %H:%M} · "
-             f"€{p['account_eur']:,.0f} simulated account · {p['risk_pct']}% risk per trade · "
+             f"€{p['account_eur']:,.0f} simulated account · "
+             + (f"{p['alloc_pct']:.0f}% of capital per position"
+                if p["sizing_mode"] == "allocation"
+                else f"{p['risk_pct']}% risk per trade")
+             + f", max {p['max_positions']} at once · "
              f"€{p['cost_per_order_eur']:.2f}/order + {p['spread_pct']}% spread · "
              "no real money · not financial advice.</p>"]
 
@@ -227,9 +253,10 @@ def render(state: dict, events: list[str], path_html: str, path_txt: str):
 
     parts.append(
         "<div class=note><b>What this is.</b> A simulation that takes the daily "
-        "candidates automatically, sizes each one to risk "
-        f"{p['risk_pct']}% of a €{p['account_eur']:,.0f} account, and closes it on the stop "
-        f"or after {p['hold_days']} trading days — whichever comes first. "
+        f"candidates automatically, puts {p['alloc_pct']:.0f}% of a "
+        f"€{p['account_eur']:,.0f} account into each (max {p['max_positions']} at a time, "
+        f"trimmed if a trade would risk more than {p['max_risk_pct']}%), and closes it on "
+        f"the stop or after {p['hold_days']} trading days — whichever comes first. "
         "No money is involved and nothing here is a recommendation.<br><br>"
         "<b>Watch the gap between gross and net.</b> Gross is whether the signals "
         "work. Net is what would actually reach you after fees. If net stays negative "

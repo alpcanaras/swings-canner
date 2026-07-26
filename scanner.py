@@ -301,6 +301,95 @@ def todays_view(df: pd.DataFrame, signals: dict[str, pd.Series],
 
 
 # ----------------------------------------------------------------------------
+# Plain-language translation
+# ----------------------------------------------------------------------------
+def plain_signal(name: str, direction: int) -> str:
+    """One signal, described in words instead of jargon."""
+    n = name.lower()
+    if n.startswith("rsi"):
+        return ("dropped to a short-term oversold extreme" if direction > 0
+                else "spiked to a short-term overbought extreme")
+    if n.startswith("ibs"):
+        return ("closed near the very bottom of its daily range" if direction > 0
+                else "closed near the very top of its daily range")
+    if "extreme pullback" in n:
+        return ("fell to a multi-day low" if direction > 0
+                else "ran up to a multi-day high")
+    if n.startswith("donchian"):
+        return ("broke out above its 20-day high" if direction > 0
+                else "broke down below its 20-day low")
+    if n.startswith("sweep"):
+        return ("dipped under the recent low, then closed back above it" if direction > 0
+                else "poked above the recent high, then closed back below it")
+    if n.startswith("fvg"):
+        return ("pulled back into a recent gap zone and held it" if direction > 0
+                else "rallied into a recent gap zone and failed there")
+    return name
+
+
+def join_clauses(items: list[str]) -> str:
+    """['a','b','c'] -> 'a, b, and c'"""
+    if len(items) <= 1:
+        return "".join(items)
+    return ", ".join(items[:-1]) + (", and " if len(items) > 2 else " and ") + items[-1]
+
+
+def fired_history(fired: dict, stats: pd.DataFrame) -> tuple[float, float] | None:
+    """Average win rate and average return of the signals that fired today."""
+    kh = CONFIG["key_horizon"]
+    rows = stats[stats["signal"].isin(fired.keys())]
+    if rows.empty:
+        return None
+    return float(rows[f"win%_{kh}d"].mean()), float(rows[f"avg_{kh}d"].mean())
+
+
+def plain_index(name: str, view: dict, stats: pd.DataFrame) -> list[str]:
+    """The whole index view as a few sentences a human can act on."""
+    kh = CONFIG["key_horizon"]
+    fired, bias = view["fired"], view["bias"]
+    out = []
+
+    if bias == "FLAT":
+        out.append(f"<b>{name}: no trade.</b> Nothing lines up today — "
+                   "stand aside and check again tomorrow.")
+        if fired:
+            out.append("Some signals did fire, but they disagreed with each other or "
+                       "have no proven track record, so they cancel out.")
+        return out
+
+    side = "buying dips" if bias == "LONG" else "selling rallies"
+    out.append(f"<b>{name}: lean toward {side}</b> over roughly the next {kh} trading days.")
+
+    trend = ("above its 200-day average (long-term uptrend)" if view["trend"] == "UP"
+             else "below its 200-day average (long-term downtrend)")
+    whys = [plain_signal(n, d) for n, d in fired.items()]
+    out.append(f"<b>Why:</b> it closed at {view['close']:,.1f}, {trend}, and today it "
+               + join_clauses(whys) + ".")
+
+    hist = fired_history(fired, stats)
+    if hist:
+        win, avg = hist
+        out.append(f"<b>Track record:</b> historically this setup went the right way about "
+                   f"<b>{win:.0f}%</b> of the time, averaging <b>{avg:+.2f}%</b> "
+                   f"after {kh} days. Small tilt, not a prediction.")
+
+    stop_side = "below" if bias == "LONG" else "above"
+    stop_lvl = (view["close"] - view["stop_dist"] if bias == "LONG"
+                else view["close"] + view["stop_dist"])
+    out.append(f"<b>If you traded it:</b> the exit-if-wrong level sits {stop_side} at "
+               f"<b>{stop_lvl:,.0f}</b> ({view['stop_dist']:,.0f} points away). "
+               f"Risking 1% of a €10,000 account = €100 ÷ {view['stop_dist']:,.0f} points ≈ "
+               f"<b>€{100 / view['stop_dist']:.2f} per point</b>. "
+               f"Any knock-out you buy should have its barrier at least "
+               f"{view['ko_dist']:,.0f} points away.")
+
+    if view["size_mult"] < 1:
+        out.append("<b>Careful:</b> volatility is unusually high right now — "
+                   "half the normal position size.")
+    return out
+
+
+# ----------------------------------------------------------------------------
 # Reporting
 # ----------------------------------------------------------------------------
 def print_report(name: str, view: dict, stats: pd.DataFrame):
@@ -324,24 +413,49 @@ def print_report(name: str, view: dict, stats: pd.DataFrame):
 
 
 def html_report(results: dict, path: str):
-    css = ("body{font-family:system-ui;margin:24px;max-width:900px}"
-           "table{border-collapse:collapse;width:100%;margin:8px 0 24px}"
+    css = ("body{font-family:system-ui;margin:24px;max-width:820px;line-height:1.5;color:#111}"
+           "table{border-collapse:collapse;width:100%;margin:8px 0 20px}"
            "td,th{border:1px solid #ddd;padding:6px 10px;font-size:13px;text-align:right}"
            "th{background:#f5f5f5}td:first-child,th:first-child{text-align:left}"
-           ".long{color:#0a7a2f;font-weight:700}.short{color:#b3261e;font-weight:700}"
-           ".flat{color:#666;font-weight:700}h2{margin-bottom:2px}.meta{color:#555;font-size:14px}")
-    parts = [f"<style>{css}</style><h1>Swing Scanner — {datetime.now():%Y-%m-%d %H:%M}</h1>",
-             "<p class=meta>Days-to-weeks horizon. Not financial advice.</p>"]
+           ".long{color:#0a7a2f}.short{color:#b3261e}.flat{color:#666}"
+           ".card{border:1px solid #e2e2e2;border-radius:10px;padding:16px 20px;margin:18px 0}"
+           ".card p{margin:8px 0}h2{margin:0 0 4px}"
+           ".meta{color:#666;font-size:13px}"
+           "details{margin-top:10px}summary{cursor:pointer;color:#555;font-size:14px}"
+           ".note{background:#f7f7f9;border-radius:8px;padding:12px 16px;font-size:14px;color:#444}")
+    parts = [f"<style>{css}</style><h1>Swing Scanner</h1>",
+             f"<p class=meta>Updated {datetime.now():%Y-%m-%d %H:%M} · "
+             "horizon: a few days to two weeks · not financial advice.</p>"]
+
     for name, (view, stats) in results.items():
         cls = view["bias"].lower()
-        fired = ", ".join(f"{n} ({'L' if d>0 else 'S'})" for n, d in view["fired"].items()) or "none"
+        parts.append(f"<div class=card><h2>{name} — <span class={cls}>{view['bias']}</span></h2>"
+                     f"<p class=meta>as of {view['date']}</p>")
+        parts += [f"<p>{line}</p>" for line in plain_index(name, view, stats)]
+        fired = ", ".join(f"{n} ({'L' if d > 0 else 'S'})"
+                          for n, d in view["fired"].items()) or "none"
         parts.append(
-            f"<h2>{name} — <span class={cls}>{view['bias']}</span> (score {view['score']:+.2f})</h2>"
-            f"<p class=meta>{view['date']} | close {view['close']:,.1f} | trend {view['trend']} | "
-            f"3m mom {view['mom63']:+.1f}% | signals fired: {fired}<br>"
+            "<details><summary>Numbers behind it</summary>"
+            f"<p class=meta>score {view['score']:+.2f} | close {view['close']:,.1f} | "
+            f"trend {view['trend']} | 3-month move {view['mom63']:+.1f}% | fired: {fired}<br>"
             f"ATR {view['atr']:,.1f} ({view['atr_pct']:.2f}%) | stop ~{view['stop_dist']:,.0f} | "
-            f"KO barrier &ge; {view['ko_dist']:,.0f} away | {view['vol_gauge']} | size x{view['size_mult']}</p>"
-            + stats.to_html(index=False))
+            f"KO barrier &ge; {view['ko_dist']:,.0f} away | {view['vol_gauge']} | "
+            f"size x{view['size_mult']}</p>"
+            + stats.to_html(index=False) + "</details></div>")
+
+    parts.append(
+        "<div class=note><b>How to read this page.</b> Each box is one index. "
+        "The bold line is the only thing you need: buy dips, sell rallies, or do nothing. "
+        "Most days it says <i>no trade</i> — that is normal and correct.<br><br>"
+        "<b>Track record</b> is what happened historically after the same setup, "
+        "measured over ~15 years. A 57% win rate means it was wrong 43% of the time, "
+        "so no single signal means much; only the average over many trades does.<br><br>"
+        "<b>Exit-if-wrong level</b> is where the idea has failed and you close the trade. "
+        "Decide it before you enter, not after.<br><br>"
+        "The tables under <i>Numbers behind it</i> are for checking whether a signal still "
+        "works. A signal whose <b>weight</b> is 0.00 is being ignored on purpose — "
+        "it has no proven edge.</div>")
+
     with open(path, "w") as f:
         f.write("".join(parts))
     print(f"\nHTML report written to {path}")

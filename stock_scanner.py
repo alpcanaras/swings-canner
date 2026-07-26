@@ -35,7 +35,8 @@ from datetime import datetime
 import numpy as np
 import pandas as pd
 
-from scanner import CONFIG, add_indicators, compute_signals  # reuse signal logic
+from scanner import (CONFIG, add_indicators, compute_signals,  # reuse logic
+                     join_clauses, plain_signal)
 
 STOCK_CFG = {
     "history_years": 10,
@@ -291,6 +292,7 @@ def main():
             "ATR%": round(100 * a / close, 2),
             "stop": round(close - np.sign(score) * CONFIG["stop_atr_mult"] * a, 2),
             "min_KO_dist": round(CONFIG["ko_atr_mult"] * a, 2),
+            "_fired": fired,
         })
 
     cand = pd.DataFrame(candidates)
@@ -308,23 +310,99 @@ def main():
                 for d in (next_earnings_days(t) for t in top["ticker"])]
 
     date = max(df.index[-1] for df, _ in processed.values()).strftime("%Y-%m-%d")
+    display = top.drop(columns=["_fired"]) if len(top) else top
     print(f"\n{'='*72}\nSTOCK CANDIDATES — {date}  (universe: {len(processed)} names)\n{'='*72}")
-    print(top.to_string(index=False) if len(top) else "No candidates today.")
+    print(display.to_string(index=False) if len(top) else "No candidates today.")
     print("\nPooled signal history across universe (direction-adjusted fwd returns, %):")
     cols = ["signal", "N"] + [f"{p}_{h}d" for h in CONFIG["horizons"] for p in ("win%", "avg", "edge")]
     print(stats[cols].to_string(index=False))
     print("\nReminder: check index bias (scanner.py) — avoid stock longs when the "
           "index bias is SHORT, and vice versa. Flagged earnings = consider skipping.")
 
-    css = ("body{font-family:system-ui;margin:24px;max-width:1000px}"
-           "table{border-collapse:collapse;width:100%;margin:8px 0 24px}"
-           "td,th{border:1px solid #ddd;padding:6px 10px;font-size:13px;text-align:right}"
-           "th{background:#f5f5f5}td:first-child,th:first-child{text-align:left}")
-    with open(args.html, "w") as f:
-        f.write(f"<style>{css}</style><h1>Stock candidates — {datetime.now():%Y-%m-%d %H:%M}</h1>"
-                + (top.to_html(index=False) if len(top) else "<p>No candidates today.</p>")
-                + "<h2>Pooled signal stats</h2>" + stats.to_html(index=False))
+    write_html(args.html, date, len(processed), top, display, stats)
     print(f"HTML report written to {args.html}")
+
+
+def plain_candidate(row) -> str:
+    """One candidate described as a sentence."""
+    side = row["side"]
+    names = list(row["_fired"].keys())
+    # describe the trade by what actually fired: momentum vs. mean reversion
+    momentum_only = names and all(n.lower().startswith("donchian") for n in names)
+    if momentum_only:
+        verb = "Buy the breakout" if side == "LONG" else "Short the breakdown"
+    else:
+        verb = "Buy the dip" if side == "LONG" else "Sell the rally"
+    whys = [plain_signal(n, d) for n, d in row["_fired"].items()]
+    why = join_clauses(whys) if whys else "signals aligned"
+    agree = len(row["_fired"])
+    strength = ("Strong agreement" if agree >= 3 else
+                "Moderate agreement" if agree == 2 else "Single signal only")
+    rs = row["RS_3m_%"]
+    rs_txt = (f"It has been outperforming its peers by {rs:.0f}% over 3 months"
+              if rs > 5 else
+              f"It has been lagging its peers by {abs(rs):.0f}% over 3 months"
+              if rs < -5 else "It's moving roughly in line with its peers")
+    fit = ""
+    if side == "LONG" and rs < -15:
+        fit = " — note that buying a badly lagging name is the weaker version of this setup."
+    if side == "SHORT" and rs > 15:
+        fit = " — note that shorting a strong performer is the weaker version of this setup."
+    earn = str(row.get("earnings", "?"))
+    earn_txt = (" <b>Earnings are days away — probably skip this one</b>, a stop can't "
+                "protect you through an earnings gap." if earn.endswith("!") else
+                f" Earnings {earn}." if earn.startswith("in") else "")
+    return (f"<b>{row['ticker']} — {verb}.</b> It {why}. "
+            f"{strength} ({agree} of 6 signals). {rs_txt}{fit}. "
+            f"Close the trade if it reaches <b>{row['stop']:,.2f}</b>. "
+            f"Daily swing is about {row['ATR%']:.1f}%.{earn_txt}")
+
+
+def write_html(path, date, n_universe, top, display, stats):
+    css = ("body{font-family:system-ui;margin:24px;max-width:900px;line-height:1.5;color:#111}"
+           "table{border-collapse:collapse;width:100%;margin:8px 0 20px}"
+           "td,th{border:1px solid #ddd;padding:6px 10px;font-size:12px;text-align:right}"
+           "th{background:#f5f5f5}td:first-child,th:first-child{text-align:left}"
+           ".card{border:1px solid #e2e2e2;border-radius:10px;padding:12px 18px;margin:12px 0}"
+           ".long{border-left:5px solid #0a7a2f}.short{border-left:5px solid #b3261e}"
+           ".meta{color:#666;font-size:13px}h2{margin:26px 0 6px}"
+           "details{margin-top:14px}summary{cursor:pointer;color:#555;font-size:14px}"
+           ".note{background:#f7f7f9;border-radius:8px;padding:12px 16px;font-size:14px;color:#444}")
+    parts = [f"<style>{css}</style><h1>Stock candidates</h1>",
+             f"<p class=meta>Updated {datetime.now():%Y-%m-%d %H:%M} · data through {date} · "
+             f"scanned {n_universe} stocks · not financial advice.</p>"]
+
+    if not len(top):
+        parts.append("<p><b>Nothing today.</b> No stock met the criteria — "
+                     "that's a normal outcome, not a bug.</p>")
+    else:
+        for side, title in (("LONG", "Possible buys"), ("SHORT", "Possible shorts")):
+            rows = top[top["side"] == side]
+            if not len(rows):
+                continue
+            parts.append(f"<h2>{title}</h2>")
+            parts += [f"<div class='card {side.lower()}'>{plain_candidate(r)}</div>"
+                      for _, r in rows.iterrows()]
+        parts.append("<details><summary>The same thing as a table</summary>"
+                     + display.to_html(index=False) + "</details>")
+
+    parts.append("<details><summary>Which signals are actually working</summary>"
+                 + stats.to_html(index=False) + "</details>")
+    parts.append(
+        "<div class=note><b>How to use this page.</b> These are candidates, not "
+        "instructions — a slight statistical tilt, nothing more. Expect to be wrong "
+        "roughly 45% of the time even when everything goes right.<br><br>"
+        "<b>Check the index page first.</b> Don't buy stocks when the market bias is "
+        "SHORT, don't short them when it's LONG.<br><br>"
+        "<b>Before any trade, decide two things:</b> the price where you admit you're "
+        "wrong (given for each name), and how much you're risking to that price "
+        "— keep it around 1% of your account, always the same.<br><br>"
+        "<b>Skip anything flagged for earnings.</b> A gap through your exit level is how "
+        "small losses turn into large ones.<br><br>"
+        "Still worth doing this on paper for a few weeks before real money.</div>")
+
+    with open(path, "w") as f:
+        f.write("".join(parts))
 
 
 if __name__ == "__main__":

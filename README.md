@@ -42,7 +42,13 @@ This sandbox can't reach market-data APIs, so the scanner can't run scheduled he
    - `https://<your-username>.github.io/<repo>/stocks.html` — ranked stock candidates
 4. Bookmark those on your phone. To trigger a run manually (also works from the GitHub mobile app): repo → Actions → daily-scan → Run workflow.
 
-For push notifications on signals, TradingView alerts (`swing_scanner.pine`) remain the best channel — GitHub Pages is pull, TradingView is push. Use both.
+### Getting it emailed to you
+
+After each run the workflow posts the plain-language digest as a **GitHub issue**, and GitHub emails watchers. No SMTP setup, no passwords.
+
+To receive it: on the repo page click **Watch → All Activity**, and make sure email delivery is on at [github.com/settings/notifications](https://github.com/settings/notifications) ("Email" checked under Subscriptions → Watching). Old digests auto-close so only the latest five stay open.
+
+For instant push alerts on specific symbols, TradingView (`swing_scanner.pine`) is still the better channel — Pages and email are pull/daily, TradingView is push/immediate.
 
 ### Stock-specific safety rails
 

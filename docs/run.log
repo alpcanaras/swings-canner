@@ -1,41 +1,41 @@
 Loading data...
 
 ========================================================================
-NDX  |  2026-07-27  |  close 28,039.2  |  trend UP  |  3m mom +4.7%
+NDX  |  2026-07-28  |  close 27,763.1  |  trend UP  |  3m mom +1.7%
 ========================================================================
 BIAS: LONG  (score +0.43)
   fired: RSI(2) mean-reversion -> LONG
   fired: 7-day extreme pullback -> LONG
-Risk: ATR(14) = 597.7 (2.13%) | stop ~1,195 pts | KO barrier >= 1,793 pts away
-Regime: VIX 18.7 (70th pctile 1y) | size multiplier x1.0
+Risk: ATR(14) = 586.2 (2.11%) | stop ~1,172 pts | KO barrier >= 1,759 pts away
+Regime: VIX 18.2 (64th pctile 1y) | size multiplier x1.0
 Sizing hint: risk 1% of account / stop distance = position size, then x1.0
 
 Signal history on this index (direction-adjusted fwd returns, % — 'edge' is vs. buy-and-hold drift):
                 signal   N  win%_3d  avg_3d  edge_3d  win%_5d  avg_5d  edge_5d  win%_10d  avg_10d  edge_10d
- RSI(2) mean-reversion 297     57.1    0.29     0.07     59.0    0.38     0.01      57.1     0.35     -0.40
-    IBS mean-reversion 573     55.8    0.32     0.10     58.7    0.57     0.20      60.0     0.70     -0.05
-7-day extreme pullback 548     57.7    0.34     0.11     61.4    0.53     0.16      59.0     0.63     -0.12
- Donchian 20d breakout 758     57.4    0.10    -0.12     57.3    0.14    -0.23      63.9     0.39     -0.35
+ RSI(2) mean-reversion 298     57.3    0.30     0.08     59.0    0.38     0.02      57.3     0.36     -0.38
+    IBS mean-reversion 573     55.8    0.32     0.10     58.6    0.56     0.20      60.0     0.70     -0.05
+7-day extreme pullback 549     57.7    0.33     0.11     61.5    0.54     0.17      59.1     0.64     -0.11
+ Donchian 20d breakout 759     57.4    0.10    -0.12     57.3    0.15    -0.22      63.9     0.40     -0.35
  Sweep & reclaim (10d) 190     57.9    0.33     0.11     58.4    0.35    -0.02      61.1     0.60     -0.15
-            FVG retest 890     57.2    0.16    -0.06     58.4    0.22    -0.15      57.7     0.35     -0.40
+            FVG retest 890     57.2    0.16    -0.06     58.4    0.22    -0.15      57.6     0.34     -0.41
 
 ========================================================================
-RUT  |  2026-07-27  |  close 2,948.0  |  trend UP  |  3m mom +6.2%
+RUT  |  2026-07-28  |  close 2,953.8  |  trend UP  |  3m mom +5.9%
 ========================================================================
-BIAS: FLAT  (score +0.00)
-  no signals fired today
-Risk: ATR(14) = 41.7 (1.41%) | stop ~83 pts | KO barrier >= 125 pts away
-Regime: VIX 18.7 (70th pctile 1y) | size multiplier x1.0
+BIAS: FLAT  (score +0.10)
+  fired: Sweep & reclaim (10d) -> LONG
+Risk: ATR(14) = 40.3 (1.37%) | stop ~81 pts | KO barrier >= 121 pts away
+Regime: VIX 18.2 (64th pctile 1y) | size multiplier x1.0
 Sizing hint: risk 1% of account / stop distance = position size, then x1.0
 
 Signal history on this index (direction-adjusted fwd returns, % — 'edge' is vs. buy-and-hold drift):
                 signal   N  win%_3d  avg_3d  edge_3d  win%_5d  avg_5d  edge_5d  win%_10d  avg_10d  edge_10d
- RSI(2) mean-reversion 304     57.2    0.38     0.25     59.7    0.64     0.41      51.2     0.55      0.09
-    IBS mean-reversion 693     53.2    0.23     0.10     54.9    0.41     0.19      51.4     0.31     -0.14
-7-day extreme pullback 595     51.7    0.12    -0.01     54.5    0.36     0.13      49.8     0.28     -0.17
+ RSI(2) mean-reversion 304     57.2    0.38     0.25     59.9    0.63     0.41      51.2     0.55      0.09
+    IBS mean-reversion 694     53.2    0.23     0.10     55.0    0.41     0.19      51.4     0.31     -0.14
+7-day extreme pullback 596     51.8    0.12    -0.01     54.5    0.36     0.13      49.7     0.28     -0.17
  Donchian 20d breakout 538     52.0   -0.03    -0.16     51.7   -0.14    -0.36      49.8    -0.25     -0.70
- Sweep & reclaim (10d) 199     50.0   -0.04    -0.17     52.0    0.19    -0.03      50.5     0.17     -0.28
-            FVG retest 872     48.6   -0.07    -0.20     47.9   -0.14    -0.36      48.5    -0.11     -0.56
+ Sweep & reclaim (10d) 200     50.3   -0.04    -0.17     52.0    0.19    -0.03      50.5     0.17     -0.29
+            FVG retest 872     48.6   -0.07    -0.20     47.9   -0.14    -0.36      48.5    -0.11     -0.57
 
 HTML report written to docs/index.html
 HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: CWEN-A"}}}
@@ -56,38 +56,38 @@ Downloading 692 tickers (10y daily)...
 Checking earnings dates for candidates...
 
 ========================================================================
-STOCK CANDIDATES — 2026-07-27  (universe: 686 names)
+STOCK CANDIDATES — 2026-07-28  (universe: 686 names)
 ========================================================================
-ticker  side  score  close                                                                          signals  RS_3m_%  ATR%   stop  min_KO_dist  expected_pct earnings
-  ABCB  LONG   1.00  86.04    RSI(2) mean-reversion (L), IBS mean-reversion (L), 7-day extreme pullback (L)     -5.4  2.30  82.08         5.94         0.197        ?
-  EPRT  LONG   1.00  31.93    RSI(2) mean-reversion (L), IBS mean-reversion (L), 7-day extreme pullback (L)     -4.9  2.10  30.59         2.01         0.197   in 86d
-  ASTH  LONG   1.00  38.19    RSI(2) mean-reversion (L), IBS mean-reversion (L), 7-day extreme pullback (L)      8.7  6.05  33.57         6.93         0.197   in 10d
-   BOH  LONG   1.00  80.02    RSI(2) mean-reversion (L), IBS mean-reversion (L), 7-day extreme pullback (L)     -3.6  2.57  75.91         6.16         0.197  in 0d !
-   BBT  LONG   1.00  29.64    RSI(2) mean-reversion (L), IBS mean-reversion (L), 7-day extreme pullback (L)    -12.8  2.46  28.18         2.18         0.197  in 2d !
-   CBU  LONG   1.00  66.59    RSI(2) mean-reversion (L), IBS mean-reversion (L), 7-day extreme pullback (L)     -1.1  2.22  63.64         4.43         0.197  in 1d !
-  CRWD  LONG   1.00 180.11    RSI(2) mean-reversion (L), IBS mean-reversion (L), 7-day extreme pullback (L)     54.4  5.57 160.04        30.11         0.197   in 36d
-  CACC  LONG   1.00 552.73    RSI(2) mean-reversion (L), IBS mean-reversion (L), 7-day extreme pullback (L)     -0.6  4.26 505.60        70.69         0.197  in 3d !
-   PRG  LONG   1.00  43.29    RSI(2) mean-reversion (L), IBS mean-reversion (L), 7-day extreme pullback (L)     31.2  4.14  39.70         5.38         0.197  in 2d !
-  VCYT  LONG   1.00  55.61    RSI(2) mean-reversion (L), IBS mean-reversion (L), 7-day extreme pullback (L)     60.4  4.91  50.15         8.19         0.197  in 3d !
-  CPRT SHORT   1.00  29.79    RSI(2) mean-reversion (S), IBS mean-reversion (S), 7-day extreme pullback (S)    -19.4  3.42  31.83         3.06         0.197   in 38d
-  SHAK SHORT   1.00  61.57    RSI(2) mean-reversion (S), IBS mean-reversion (S), 7-day extreme pullback (S)    -44.2  4.61  67.25         8.52         0.197    in 9d
-  KRMN SHORT   1.00  50.57    RSI(2) mean-reversion (S), IBS mean-reversion (S), 7-day extreme pullback (S)    -41.3  6.69  57.34        10.15         0.197   in 10d
-  CTSH SHORT   0.64  47.05                            RSI(2) mean-reversion (S), 7-day extreme pullback (S)    -21.3  4.60  51.38         6.49         0.190  in 2d !
-  BLKB SHORT   0.64  34.55                            RSI(2) mean-reversion (S), 7-day extreme pullback (S)    -11.9  5.46  38.32         5.66         0.190  in 2d !
-   AWI SHORT   0.64 165.22                            RSI(2) mean-reversion (S), 7-day extreme pullback (S)    -15.0  2.68 174.08        13.29         0.190  in 1d !
-  COST SHORT   0.64 951.58                            RSI(2) mean-reversion (S), 7-day extreme pullback (S)    -13.2  2.08 991.19        59.41         0.190   in 59d
-   DXC SHORT   0.64  10.36                            RSI(2) mean-reversion (S), 7-day extreme pullback (S)    -20.3  5.37  11.47         1.67         0.190  in 3d !
-  OSIS SHORT   0.64 217.30                            RSI(2) mean-reversion (S), 7-day extreme pullback (S)    -31.4  3.54 232.69        23.08         0.190   in 24d
-  MKTX SHORT   0.64 117.97 RSI(2) mean-reversion (S), 7-day extreme pullback (S), Sweep & reclaim (10d) (S)    -34.8  3.21 125.54        11.35         0.133   in 11d
+ticker  side  score  close                                                                       signals  RS_3m_%  ATR%   stop  min_KO_dist  expected_pct earnings
+  ATEN  LONG    1.0  31.32 RSI(2) mean-reversion (L), IBS mean-reversion (L), 7-day extreme pullback (L)      5.2  4.74  28.35         4.45         0.193    in 8d
+   CXW  LONG    1.0  30.63 RSI(2) mean-reversion (L), IBS mean-reversion (L), 7-day extreme pullback (L)     43.1  3.74  28.34         3.44         0.193    in 8d
+  DNOW  LONG    1.0  13.84 RSI(2) mean-reversion (L), IBS mean-reversion (L), 7-day extreme pullback (L)      0.8  2.83  13.06         1.18         0.193    in 8d
+  SNDR  LONG    1.0  36.18 RSI(2) mean-reversion (L), IBS mean-reversion (L), 7-day extreme pullback (L)     10.6  3.43  33.70         3.73         0.193  in 2d !
+   ROG  LONG    1.0 119.18 RSI(2) mean-reversion (L), IBS mean-reversion (L), 7-day extreme pullback (L)    -18.2  5.46 106.17        19.52         0.193  in 0d !
+  MTRN  LONG    1.0 209.70 RSI(2) mean-reversion (L), IBS mean-reversion (L), 7-day extreme pullback (L)      7.4  6.82 181.11        42.89         0.193    in 8d
+   MDU  LONG    1.0  20.64 RSI(2) mean-reversion (L), IBS mean-reversion (L), 7-day extreme pullback (L)    -13.4  2.05  19.80         1.27         0.193    in 9d
+   NPO  LONG    1.0 313.65 RSI(2) mean-reversion (L), IBS mean-reversion (L), 7-day extreme pullback (L)     -1.0  4.46 285.68        41.95         0.193  in 7d !
+  NXPI  LONG    1.0 259.12 RSI(2) mean-reversion (L), IBS mean-reversion (L), 7-day extreme pullback (L)      1.6  4.93 233.58        38.31         0.193  in 0d !
+    NE  LONG    1.0  39.20 RSI(2) mean-reversion (L), IBS mean-reversion (L), 7-day extreme pullback (L)    -34.2  4.09  35.99         4.81         0.193   in 91d
+   ADT SHORT    1.0   7.34 RSI(2) mean-reversion (S), IBS mean-reversion (S), 7-day extreme pullback (S)     -5.6  2.42   7.70         0.53         0.193  in 2d !
+  ADMA SHORT    1.0   8.79 RSI(2) mean-reversion (S), IBS mean-reversion (S), 7-day extreme pullback (S)    -27.7  3.49   9.40         0.92         0.193    in 8d
+  AMTM SHORT    1.0  23.46 RSI(2) mean-reversion (S), IBS mean-reversion (S), 7-day extreme pullback (S)    -18.4  3.62  25.16         2.55         0.193   in 13d
+   CWK SHORT    1.0  13.65 RSI(2) mean-reversion (S), IBS mean-reversion (S), 7-day extreme pullback (S)    -13.3  4.12  14.77         1.69         0.193    in 8d
+   BKE SHORT    1.0  45.64 RSI(2) mean-reversion (S), IBS mean-reversion (S), 7-day extreme pullback (S)    -26.7  2.96  48.34         4.05         0.193   in 24d
+  SHAK SHORT    1.0  63.20 RSI(2) mean-reversion (S), IBS mean-reversion (S), 7-day extreme pullback (S)    -45.8  4.22  68.53         7.99         0.193    in 8d
+  REGN SHORT    1.0 695.18 RSI(2) mean-reversion (S), IBS mean-reversion (S), 7-day extreme pullback (S)    -14.6  2.60 731.36        54.26         0.193  in 2d !
+  ROAD SHORT    1.0 106.66 RSI(2) mean-reversion (S), IBS mean-reversion (S), 7-day extreme pullback (S)    -19.8  4.92 117.16        15.75         0.193   in 10d
+  MKTX SHORT    1.0 122.05 RSI(2) mean-reversion (S), IBS mean-reversion (S), 7-day extreme pullback (S)    -31.5  3.01 129.39        11.01         0.193   in 10d
+  HAYW SHORT    1.0  15.11 RSI(2) mean-reversion (S), IBS mean-reversion (S), 7-day extreme pullback (S)    -12.4  3.24  16.09         1.47         0.193  in 1d !
 
 Pooled signal history across universe (direction-adjusted fwd returns, %):
                 signal      N  win%_3d  avg_3d  edge_3d  win%_5d  avg_5d  edge_5d  win%_10d  avg_10d  edge_10d
- RSI(2) mean-reversion 135827     51.7    0.18    -0.04     51.5    0.24    -0.13      50.9     0.10     -0.63
-    IBS mean-reversion 223495     51.4    0.16    -0.07     51.3    0.21    -0.17      50.8     0.18     -0.55
-7-day extreme pullback 249135     50.8    0.09    -0.14     50.6    0.14    -0.23      50.2     0.02     -0.71
- Donchian 20d breakout 198412     48.7   -0.11    -0.33     48.7   -0.16    -0.53      48.6    -0.23     -0.96
- Sweep & reclaim (10d)  88313     50.1   -0.00    -0.23     49.9    0.02    -0.35      50.1    -0.01     -0.74
-            FVG retest 347064     49.7   -0.05    -0.27     49.6   -0.07    -0.44      49.5    -0.09     -0.82
+ RSI(2) mean-reversion 135931     51.7    0.18    -0.05     51.5    0.24    -0.13      50.9     0.09     -0.64
+    IBS mean-reversion 223606     51.4    0.15    -0.07     51.3    0.20    -0.17      50.8     0.17     -0.56
+7-day extreme pullback 249305     50.8    0.09    -0.14     50.6    0.14    -0.23      50.2     0.01     -0.72
+ Donchian 20d breakout 198475     48.7   -0.11    -0.34     48.7   -0.16    -0.53      48.6    -0.23     -0.96
+ Sweep & reclaim (10d)  88303     50.1   -0.00    -0.23     49.9    0.02    -0.35      50.1    -0.01     -0.74
+            FVG retest 347274     49.7   -0.05    -0.28     49.6   -0.07    -0.44      49.5    -0.09     -0.82
 
 Reminder: check index bias (scanner.py) — avoid stock longs when the index bias is SHORT, and vice versa. Flagged earnings = consider skipping.
 HTML report written to docs/stocks.html

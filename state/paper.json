@@ -1,6 +1,32 @@
 {
  "open": [
   {
+   "ticker": "HTO",
+   "side": "LONG",
+   "entry": 61.97,
+   "stop": 58.92,
+   "shares": 8.06842020332419,
+   "notional": 500.0,
+   "cost": 2.5,
+   "date": "2026-07-30",
+   "days": 0,
+   "viable": false
+  },
+  {
+   "ticker": "CZR",
+   "side": "LONG",
+   "entry": 29.61,
+   "stop": 28.96,
+   "shares": 16.886187098953055,
+   "notional": 500.0,
+   "cost": 2.5,
+   "date": "2026-07-30",
+   "days": 0,
+   "viable": false
+  }
+ ],
+ "closed": [
+  {
    "ticker": "EZPW",
    "side": "LONG",
    "entry": 29.54,
@@ -9,8 +35,14 @@
    "notional": 40.80110497237571,
    "cost": 2.0408011049723758,
    "date": "2026-07-24",
-   "days": 4,
-   "viable": false
+   "days": 5,
+   "viable": false,
+   "exit": 29.15999984741211,
+   "exit_date": "2026-07-30",
+   "gross": -0.5248620892097927,
+   "net": -2.5656631941821684,
+   "pct": -1.2863918503313803,
+   "reason": "5-day time exit"
   },
   {
    "ticker": "COCO",
@@ -21,8 +53,14 @@
    "notional": 38.805882352941175,
    "cost": 2.0388058823529414,
    "date": "2026-07-24",
-   "days": 4,
-   "viable": false
+   "days": 5,
+   "viable": false,
+   "exit": 66.94999694824219,
+   "exit_date": "2026-07-30",
+   "gross": 0.5764687930836404,
+   "net": -1.462337089269301,
+   "pct": 1.4855190969261616,
+   "reason": "5-day time exit"
   },
   {
    "ticker": "ASTH",
@@ -33,10 +71,15 @@
    "notional": 45.08948545861299,
    "cost": 2.045089485458613,
    "date": "2026-07-24",
-   "days": 4,
-   "viable": false
+   "days": 5,
+   "viable": false,
+   "exit": 36.68000030517578,
+   "exit_date": "2026-07-30",
+   "gross": -4.060402343203828,
+   "net": -6.105491828662441,
+   "pct": -9.005208868330987,
+   "reason": "5-day time exit"
   }
  ],
- "closed": [],
  "started": "2026-07-26"
 }

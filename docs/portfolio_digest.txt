@@ -1,8 +1,5 @@
 ## Paper portfolio
 
 - Results: 3 closed, 33% winners, EUR -4.01 gross / -10.13 net after EUR 6.12 fees.
-- EZPW — CLOSE (5-day time exit). In at 29.54, out at 29.16 — -1.3%, €-0.52 gross, €-2.57 after fees.
-- COCO — CLOSE (5-day time exit). In at 65.97, out at 66.95 — +1.5%, €+0.58 gross, €-1.46 after fees.
-- ASTH — CLOSE (5-day time exit). In at 40.31, out at 36.68 — -9.0%, €-4.06 gross, €-6.11 after fees.
-- HTO — OPEN long at 61.97. Size: €500 = 50% of capital (8.068 shares). If the stop hits you lose €24.61 (2.5% of the account), the stop being 4.9% away. Costs eat it: expected profit €1.00 against €2.50 in fees. At these fees a position needs to be about €2,000 just to break even, and ~€6,000 to be worth the risk.
-- CZR — OPEN long at 29.61. Size: €500 = 50% of capital (16.89 shares). If the stop hits you lose €10.98 (1.1% of the account), the stop being 2.2% away. Costs eat it: expected profit €1.00 against €2.50 in fees. At these fees a position needs to be about €2,000 just to break even, and ~€6,000 to be worth the risk.
+- HTO — hold. Day 1 of 5 (4 to go), -1.0% so far. Stop stays at 58.92.
+- CZR — hold. Day 1 of 5 (4 to go), +0.5% so far. Stop stays at 28.96.

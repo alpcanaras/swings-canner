@@ -9,7 +9,7 @@
    "notional": 338.5714285714287,
    "cost": 2.338571428571429,
    "date": "2026-08-06",
-   "days": 0,
+   "days": 1,
    "viable": false
   },
   {
@@ -21,7 +21,7 @@
    "notional": 500.0,
    "cost": 2.5,
    "date": "2026-08-06",
-   "days": 0,
+   "days": 1,
    "viable": false
   }
  ],

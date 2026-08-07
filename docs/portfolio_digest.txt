@@ -1,5 +1,7 @@
 ## Paper portfolio
 
-- Results: 3 closed, 33% winners, EUR -4.01 gross / -10.13 net after EUR 6.12 fees.
-- HTO — hold. Day 4 of 5 (1 to go), -0.3% so far. Stop stays at 58.92.
-- CZR — hold. Day 4 of 5 (1 to go), +1.7% so far. Stop stays at 28.96.
+- Results: 5 closed, 40% winners, EUR +1.89 gross / -9.24 net after EUR 11.12 fees.
+- HTO — CLOSE (5-day time exit). In at 61.97, out at 61.78 — -0.3%, €-1.53 gross, €-4.03 after fees.
+- CZR — CLOSE (5-day time exit). In at 29.61, out at 30.05 — +1.5%, €+7.43 gross, €+4.93 after fees.
+- CALY — OPEN long at 17.38. Size: €339 = 34% of capital (19.48 shares). If the stop hits you lose €30.00 (3.0% of the account), the stop being 8.9% away. (Trimmed below the normal allocation — this one is volatile enough that a full-size position would breach the risk guardrail.) Costs eat it: expected profit €0.70 against €2.34 in fees. At these fees a position needs to be about €1,869 just to break even, and ~€5,607 to be worth the risk.
+- APLE — OPEN long at 15.99. Size: €500 = 50% of capital (31.27 shares). If the stop hits you lose €24.39 (2.4% of the account), the stop being 4.9% away. Costs eat it: expected profit €1.03 against €2.50 in fees. At these fees a position needs to be about €1,869 just to break even, and ~€5,607 to be worth the risk.

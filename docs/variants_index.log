@@ -1,0 +1,42 @@
+Downloading 2 tickers (12y daily)...
+  usable: 2 tickers
+Replaying 2 tickers from 2016-08-08...
+
+--- baseline (current live rules)
+     1790 trades | return     -0.5% | win 66.6% | avg +0.10% | maxDD -12.7%
+
+--- trailing stop only (no RSI exit)
+      453 trades | return    +29.8% | win 44.2% | avg +0.41% | maxDD -17.2%
+
+--- trailing only, wider 3xATR trail
+      362 trades | return    +32.7% | win 46.7% | avg +0.52% | maxDD -11.5%
+
+--- long-only
+     1465 trades | return     +1.6% | win 66.4% | avg +0.11% | maxDD -8.8%
+
+--- long-only + trailing only
+      358 trades | return    +45.0% | win 46.1% | avg +0.64% | maxDD -7.0%
+
+--- long-only, trailing only, mean-reversion signals only
+      307 trades | return    +44.9% | win 46.3% | avg +0.72% | maxDD -6.6%
+
+--- two independent ideas required
+      368 trades | return     +7.6% | win 69.3% | avg +0.21% | maxDD -6.4%
+
+--- long-only, trailing only, 2 ideas, 3xATR
+      148 trades | return    +19.2% | win 43.9% | avg +0.72% | maxDD -5.3%
+
+==============================================================================
+BENCHMARK — buy & hold the same stocks: +333.9%
+    +45.0%  loses to buy&hold  |   358 trades | maxDD   -7.0% | long-only + trailing only
+    +44.9%  loses to buy&hold  |   307 trades | maxDD   -6.6% | long-only, trailing only, mean-reversion signals only
+    +32.7%  loses to buy&hold  |   362 trades | maxDD  -11.5% | trailing only, wider 3xATR trail
+    +29.8%  loses to buy&hold  |   453 trades | maxDD  -17.2% | trailing stop only (no RSI exit)
+    +19.2%  loses to buy&hold  |   148 trades | maxDD   -5.3% | long-only, trailing only, 2 ideas, 3xATR
+     +7.6%  loses to buy&hold  |   368 trades | maxDD   -6.4% | two independent ideas required
+     +1.6%  loses to buy&hold  |  1465 trades | maxDD   -8.8% | long-only
+     -0.5%  loses to buy&hold  |  1790 trades | maxDD  -12.7% | baseline (current live rules)
+==============================================================================
+VERDICT: no variant beats buy-and-hold. The idea does not work.
+
+Written to docs/variants_index.html

@@ -4,39 +4,39 @@ Downloading 89 tickers (12y daily)...
 Replaying 89 tickers from 2016-08-08...
 
 --- baseline (current live rules)
-     3293 trades | return    +11.4% | win 63.9% | avg +0.15% | maxDD -41.6%
+     3292 trades | return    +18.5% | win 64.1% | avg +0.16% | maxDD -42.1%
 
 --- trailing stop only (no RSI exit)
-     1106 trades | return    +89.1% | win 40.4% | avg +0.46% | maxDD -27.7%
+     1109 trades | return   +102.5% | win 40.4% | avg +0.51% | maxDD -29.6%
 
 --- trailing only, wider 3xATR trail
-      928 trades | return    +36.6% | win 39.9% | avg +0.35% | maxDD -49.3%
+      932 trades | return    +70.7% | win 40.2% | avg +0.48% | maxDD -39.9%
 
 --- long-only
-     3978 trades | return    +62.2% | win 65.8% | avg +0.19% | maxDD -35.1%
+     3982 trades | return    +58.2% | win 65.9% | avg +0.19% | maxDD -35.2%
 
 --- long-only + trailing only
-     1091 trades | return   +327.5% | win 42.8% | avg +0.93% | maxDD -30.1%
+     1089 trades | return   +312.7% | win 42.7% | avg +0.91% | maxDD -27.7%
 
 --- long-only, trailing only, mean-reversion signals only
      1100 trades | return   +227.4% | win 41.5% | avg +0.77% | maxDD -40.3%
 
 --- two independent ideas required
-     3648 trades | return    -47.9% | win 64.9% | avg +0.04% | maxDD -53.6%
+     3636 trades | return    -40.8% | win 64.7% | avg +0.06% | maxDD -47.8%
 
 --- long-only, trailing only, 2 ideas, 3xATR
-      898 trades | return   +206.5% | win 45.1% | avg +0.87% | maxDD -36.2%
+      898 trades | return   +187.2% | win 45.2% | avg +0.83% | maxDD -31.7%
 
 ==============================================================================
 BENCHMARK — buy & hold the same stocks: +849.1%
-   +327.5%  loses to buy&hold  |  1091 trades | maxDD  -30.1% | long-only + trailing only
+   +312.7%  loses to buy&hold  |  1089 trades | maxDD  -27.7% | long-only + trailing only
    +227.4%  loses to buy&hold  |  1100 trades | maxDD  -40.3% | long-only, trailing only, mean-reversion signals only
-   +206.5%  loses to buy&hold  |   898 trades | maxDD  -36.2% | long-only, trailing only, 2 ideas, 3xATR
-    +89.1%  loses to buy&hold  |  1106 trades | maxDD  -27.7% | trailing stop only (no RSI exit)
-    +62.2%  loses to buy&hold  |  3978 trades | maxDD  -35.1% | long-only
-    +36.6%  loses to buy&hold  |   928 trades | maxDD  -49.3% | trailing only, wider 3xATR trail
-    +11.4%  loses to buy&hold  |  3293 trades | maxDD  -41.6% | baseline (current live rules)
-    -47.9%  loses to buy&hold  |  3648 trades | maxDD  -53.6% | two independent ideas required
+   +187.2%  loses to buy&hold  |   898 trades | maxDD  -31.7% | long-only, trailing only, 2 ideas, 3xATR
+   +102.5%  loses to buy&hold  |  1109 trades | maxDD  -29.6% | trailing stop only (no RSI exit)
+    +70.7%  loses to buy&hold  |   932 trades | maxDD  -39.9% | trailing only, wider 3xATR trail
+    +58.2%  loses to buy&hold  |  3982 trades | maxDD  -35.2% | long-only
+    +18.5%  loses to buy&hold  |  3292 trades | maxDD  -42.1% | baseline (current live rules)
+    -40.8%  loses to buy&hold  |  3636 trades | maxDD  -47.8% | two independent ideas required
 ==============================================================================
 VERDICT: no variant beats buy-and-hold. The idea does not work.
 

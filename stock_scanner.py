@@ -416,6 +416,12 @@ def write_html(path, date, n_universe, top, display, stats):
            "details{margin-top:14px}summary{cursor:pointer;color:#555;font-size:14px}"
            ".note{background:#f7f7f9;border-radius:8px;padding:12px 16px;font-size:14px;color:#444}")
     parts = [f"<style>{css}</style><h1>Stock candidates</h1>",
+             "<div style='background:#fff4f4;border:1px solid #f0c0c0;border-radius:8px;"
+             "padding:12px 16px;margin:12px 0;font-size:14px'>"
+             "<b>Backtested and rejected.</b> Replayed over 10 years and 3,291 trades, "
+             "this strategy returned +22% against +849% for simply holding the same "
+             "stocks, with a 42% drawdown. A 64% win rate did not save it. "
+             "These cards are market observations, not trade ideas.</div>",
              f"<p class=meta>Updated {datetime.now():%Y-%m-%d %H:%M} · data through {date} · "
              f"scanned {n_universe} stocks · not financial advice.</p>"]
 

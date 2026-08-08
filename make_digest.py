@@ -37,7 +37,9 @@ def main():
     idx = text_blocks("docs/index.html", "Numbers behind it")
     stk = text_blocks("docs/stocks.html", "same thing as a table")
 
-    lines = [f"## Market ({date.today():%a %d %b %Y})", ""]
+    header = ("> **Backtested and rejected**: +22% vs +849% for buy-and-hold over "
+              "10 years. Observations only — not trade ideas.\n")
+    lines = [header, f"## Market ({date.today():%a %d %b %Y})", ""]
     try:                       # paper portfolio section goes first when present
         pf = open("docs/portfolio_digest.txt").read().strip()
         if pf:

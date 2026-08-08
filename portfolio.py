@@ -456,6 +456,11 @@ def render(state: dict, events: list[str], path_html: str, path_txt: str,
         parts.append("<div class=card>No closed trades yet — results appear here "
                      "once the first positions run their course.</div>")
 
+    parts.append("<div style='background:#fff4f4;border:1px solid #f0c0c0;"
+                 "border-radius:8px;padding:12px 16px;margin:12px 0;font-size:14px'>"
+                 "<b>Verdict: rejected.</b> The 10-year backtest returned +22% versus "
+                 "+849% for buy-and-hold. This paper portfolio keeps running as a "
+                 "record, not as a recommendation.</div>")
     parts.append("<h2>Does the strategy work?</h2>")
     parts.append(shadow_block(shadow or {}))
 

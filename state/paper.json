@@ -1,5 +1,126 @@
 {
- "open": [],
+ "open": [
+  {
+   "ticker": "AKR",
+   "side": "LONG",
+   "entry": 20.65,
+   "stop": 19.65,
+   "shares": 4.842615012106537,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-07",
+   "days": 0,
+   "viable": false
+  },
+  {
+   "ticker": "ATEN",
+   "side": "LONG",
+   "entry": 26.84,
+   "stop": 23.61,
+   "shares": 3.7257824143070044,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-07",
+   "days": 0,
+   "viable": false
+  },
+  {
+   "ticker": "NTST",
+   "side": "LONG",
+   "entry": 20.69,
+   "stop": 19.75,
+   "shares": 4.833252779120348,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-07",
+   "days": 0,
+   "viable": false
+  },
+  {
+   "ticker": "NTCT",
+   "side": "LONG",
+   "entry": 38.44,
+   "stop": 35.15,
+   "shares": 2.6014568158168574,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-07",
+   "days": 0,
+   "viable": false
+  },
+  {
+   "ticker": "PBI",
+   "side": "LONG",
+   "entry": 17.42,
+   "stop": 16.01,
+   "shares": 5.74052812858783,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-07",
+   "days": 0,
+   "viable": false
+  },
+  {
+   "ticker": "OPLN",
+   "side": "LONG",
+   "entry": 36.98,
+   "stop": 33.92,
+   "shares": 2.7041644131963225,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-07",
+   "days": 0,
+   "viable": false
+  },
+  {
+   "ticker": "PRG",
+   "side": "LONG",
+   "entry": 42.85,
+   "stop": 38.98,
+   "shares": 2.3337222870478413,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-07",
+   "days": 0,
+   "viable": false
+  },
+  {
+   "ticker": "PFS",
+   "side": "LONG",
+   "entry": 24.46,
+   "stop": 23.43,
+   "shares": 4.088307440719542,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-07",
+   "days": 0,
+   "viable": false
+  },
+  {
+   "ticker": "RNST",
+   "side": "LONG",
+   "entry": 42.73,
+   "stop": 40.58,
+   "shares": 2.3402761525860054,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-07",
+   "days": 0,
+   "viable": false
+  },
+  {
+   "ticker": "RHP",
+   "side": "LONG",
+   "entry": 120.84,
+   "stop": 113.89,
+   "shares": 0.8275405494869248,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-07",
+   "days": 0,
+   "viable": false
+  }
+ ],
  "closed": [],
  "started": "2026-08-08",
  "note": "reset when switching to commission-free + trailing exits"

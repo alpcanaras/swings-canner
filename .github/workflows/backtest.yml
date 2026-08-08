@@ -1,0 +1,45 @@
+name: backtest
+
+on:
+  workflow_dispatch:
+    inputs:
+      universe:
+        description: "ndx | r2k | all"
+        default: "ndx"
+      years:
+        description: "years of history"
+        default: "10"
+  push:
+    paths: [backtest.py, .github/workflows/backtest.yml]
+
+permissions:
+  contents: write
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install yfinance pandas numpy lxml
+
+      - name: Replay the strategy over history
+        run: |
+          mkdir -p docs
+          python backtest.py \
+            --universe "${{ github.event.inputs.universe || 'ndx' }}" \
+            --years "${{ github.event.inputs.years || 10 }}" \
+            --html docs/backtest.html 2>&1 | tee docs/backtest.log
+
+      - name: Publish
+        if: always()
+        run: |
+          git config user.name "scan-bot"
+          git config user.email "scan-bot@users.noreply.github.com"
+          git add docs
+          git commit -m "backtest $(date -u +%Y-%m-%d)" || echo "no changes"
+          git pull --rebase -X ours || true
+          git push

@@ -125,7 +125,7 @@ def run_backtest(prepared: dict, start: pd.Timestamp, equity0: float,
                 df = v["df"]
                 dvol = float((df["Close"] * df["Volume"]).rolling(20).mean().loc[day]) \
                     if "Volume" in df else np.inf
-                if not np.isfinite(dvol) or dvol < STOCK_CFG["min_dollar_vol"]:
+                if np.isfinite(dvol) and dvol > 0 and dvol < STOCK_CFG["min_dollar_vol"]:
                     continue
                 fired = {n: int(s.loc[day]) for n, s in v["sig"].items()
                          if s.loc[day] != 0

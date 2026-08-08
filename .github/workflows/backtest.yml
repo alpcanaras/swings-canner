@@ -37,6 +37,9 @@ jobs:
             --universe "${{ github.event.inputs.universe || 'ndx' }}" \
             --years "${{ github.event.inputs.years || 10 }}" \
             --sweep --html docs/variants.html 2>&1 | tee docs/variants.log
+          echo "^NDX ^RUT" > indices.txt
+          python backtest.py --tickers indices.txt --years 10 \
+            --sweep --html docs/variants_index.html 2>&1 | tee docs/variants_index.log
 
       - name: Publish
         if: always()

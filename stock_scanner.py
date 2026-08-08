@@ -333,6 +333,9 @@ def main():
     if not args.no_portfolio:
         import portfolio
         market = {t: {"close": float(df["Close"].iloc[-1]),
+                      "open": float(df["Open"].iloc[-1]),
+                      "high": float(df["High"].iloc[-1]),
+                      "low": float(df["Low"].iloc[-1]),
                       "atr": float(df["ATR"].iloc[-1]),
                       "rsi": float(df["RSI"].iloc[-1])}
                   for t, (df, _) in processed.items()}

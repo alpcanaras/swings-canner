@@ -193,9 +193,38 @@ def update_positions(state: dict, market: dict, today: str) -> list[str]:
             still_open.append(pos)
             continue
         px, atr, rsi = m["close"], m.get("atr"), m.get("rsi")
+        lo, hi, op = m.get("low", px), m.get("high", px), m.get("open", px)
         pos["days"] = pos.get("days", 0) + 1
         long = pos["side"] == "LONG"
         trailing = p["exit_mode"] == "trailing"
+
+        # --- was the stop touched INTRADAY? ----------------------------------
+        # A real stop order triggers the moment price trades through it, not at
+        # the close. If the day opened beyond the stop, the fill is the open
+        # (gap), otherwise it fills at the stop itself.
+        stop_now = pos["stop"]
+        if long and lo <= stop_now:
+            hit_intraday, fill = True, min(op, stop_now)
+        elif not long and hi >= stop_now:
+            hit_intraday, fill = True, max(op, stop_now)
+        else:
+            hit_intraday, fill = False, None
+
+        if hit_intraday:
+            gross = (fill - pos["entry"]) * pos["shares"] * (1 if long else -1)
+            net = gross - pos["cost"]
+            pct = 100 * gross / pos["notional"] if pos["notional"] else 0
+            gapped = (op < stop_now) if long else (op > stop_now)
+            reason = ("gapped through the stop" if gapped else
+                      "trailing stop" if pos.get("trailed") else "stop hit")
+            state["closed"].append({**pos, "exit": fill, "exit_date": today,
+                                    "gross": gross, "net": net, "pct": pct,
+                                    "reason": reason})
+            events.append(
+                f"<b>{pos['ticker']} — CLOSE ({reason}).</b> "
+                f"In at {pos['entry']:,.2f}, out at {fill:,.2f} — "
+                f"{pct:+.1f}%, €{gross:+.2f} gross, <b>€{net:+.2f} after fees</b>.")
+            continue
 
         # --- trail the stop (never against you) ------------------------------
         if trailing and atr:
@@ -206,7 +235,7 @@ def update_positions(state: dict, market: dict, today: str) -> list[str]:
                 pos["stop"] = round(new_stop, 4)
                 pos["trailed"] = True
 
-        hit_stop = px <= pos["stop"] if long else px >= pos["stop"]
+        hit_stop = False            # intraday check above already handled this
         if trailing:
             target_hit = rsi is not None and (
                 rsi >= p["target_rsi"] if long else rsi <= 100 - p["target_rsi"])

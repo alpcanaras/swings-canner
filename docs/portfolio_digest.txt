@@ -1,7 +1,8 @@
 ## Paper portfolio
 
-- AKR — OPEN long at 20.65. Size: €200 = 20% of capital (9.685 shares). If the stop hits you lose €9.69 (1.0% of the account), the stop being 4.8% away. Thin edge: expected profit €0.41 against €0.20 in spread (2.1×, below the 3× bar). Sizing up wouldn't change that — costs scale with the position.
-- ATEN — OPEN long at 26.84. Size: €200 = 20% of capital (7.452 shares). If the stop hits you lose €24.07 (2.4% of the account), the stop being 12.0% away. Thin edge: expected profit €0.41 against €0.20 in spread (2.1×, below the 3× bar). Sizing up wouldn't change that — costs scale with the position.
-- NTST — OPEN long at 20.69. Size: €200 = 20% of capital (9.667 shares). If the stop hits you lose €9.09 (0.9% of the account), the stop being 4.5% away. Thin edge: expected profit €0.41 against €0.20 in spread (2.1×, below the 3× bar). Sizing up wouldn't change that — costs scale with the position.
-- NTCT — OPEN long at 38.44. Size: €200 = 20% of capital (5.203 shares). If the stop hits you lose €17.12 (1.7% of the account), the stop being 8.6% away. Thin edge: expected profit €0.41 against €0.20 in spread (2.1×, below the 3× bar). Sizing up wouldn't change that — costs scale with the position.
-- PBI — OPEN long at 17.42. Size: €200 = 20% of capital (11.48 shares). If the stop hits you lose €16.19 (1.6% of the account), the stop being 8.1% away. Thin edge: expected profit €0.41 against €0.20 in spread (2.1×, below the 3× bar). Sizing up wouldn't change that — costs scale with the position.
+- All signals tracked: 7 closed, 57% profitable, -1.29% average (-1.39% after spread), 1.0 days held on average.
+- AKR — hold. Day 1, -0.0% so far; stop at 19.65.
+- ATEN — hold. Day 1, +0.0% so far; stop at 23.61.
+- NTST — hold. Day 1, +0.0% so far; stop at 19.75.
+- NTCT — hold. Day 1, -0.0% so far; stop trailed up to 35.15.
+- PBI — hold. Day 1, +0.0% so far; stop at 16.01.

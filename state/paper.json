@@ -9,7 +9,7 @@
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-08-07",
-   "days": 0,
+   "days": 1,
    "viable": false
   },
   {
@@ -21,7 +21,7 @@
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-08-07",
-   "days": 0,
+   "days": 1,
    "viable": false
   },
   {
@@ -33,20 +33,21 @@
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-08-07",
-   "days": 0,
+   "days": 1,
    "viable": false
   },
   {
    "ticker": "NTCT",
    "side": "LONG",
    "entry": 38.44,
-   "stop": 35.15,
+   "stop": 35.1534,
    "shares": 5.202913631633715,
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-08-07",
-   "days": 0,
-   "viable": false
+   "days": 1,
+   "viable": false,
+   "trailed": true
   },
   {
    "ticker": "PBI",
@@ -57,7 +58,7 @@
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-08-07",
-   "days": 0,
+   "days": 1,
    "viable": false
   }
  ],

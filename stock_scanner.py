@@ -338,7 +338,8 @@ def main():
                   for t, (df, _) in processed.items()}
         perf = portfolio.run(top if len(top) else None, market, date,
                              path_html=args.portfolio_html,
-                             path_txt=args.portfolio_txt)
+                             path_txt=args.portfolio_txt,
+                             all_candidates=cand if len(cand) else None)
         if perf.get("n"):
             print(f"\nPaper portfolio: {perf['n']} closed trades, "
                   f"€{perf['gross']:+.2f} gross / €{perf['net']:+.2f} net "
@@ -358,9 +359,22 @@ def plain_candidate(row) -> str:
         verb = "Buy the dip" if side == "LONG" else "Sell the rally"
     whys = [plain_signal(n, d) for n, d in row["_fired"].items()]
     why = join_clauses(whys) if whys else "signals aligned"
+    # Count independent IDEAS, not raw signals: RSI(2), IBS and the n-day low all
+    # measure the same oversold condition, so three of them is one idea, not three
+    # confirmations.
     agree = len(row["_fired"])
-    strength = ("Strong agreement" if agree >= 3 else
-                "Moderate agreement" if agree == 2 else "Single signal only")
+    try:
+        from portfolio import family_of
+        fams = sorted({family_of(n) for n in row["_fired"]})
+    except Exception:
+        fams = []
+    nf = len(fams) or 1
+    strength = ("Two independent ideas agree" if nf == 2 else
+                f"{nf} independent ideas agree" if nf >= 3 else
+                "One idea")
+    detail = (f" ({agree} signals, but they all measure {fams[0]} — "
+              "correlated, so treat it as one)" if nf == 1 and agree > 1 else
+              f" ({', '.join(fams)})" if fams else f" ({agree} of 6 signals)")
     rs = row["RS_3m_%"]
     rs_txt = (f"It has been outperforming its peers by {rs:.0f}% over 3 months"
               if rs > 5 else
@@ -383,7 +397,7 @@ def plain_candidate(row) -> str:
     except Exception:
         size_txt = ""
     return (f"<b>{row['ticker']} — {verb}.</b> It {why}. "
-            f"{strength} ({agree} of 6 signals). {rs_txt}{fit}. "
+            f"{strength}{detail}. {rs_txt}{fit}. "
             f"Close the trade if it reaches <b>{row['stop']:,.2f}</b>. "
             f"Daily swing is about {row['ATR%']:.1f}%.{earn_txt}{size_txt}")
 

@@ -29,10 +29,10 @@ PORTFOLIO = {
     # "risk":       size so the distance to the stop equals `risk_pct` of capital
     #               (classic, but produces tiny positions on small accounts).
     "sizing_mode": "allocation",
-    "alloc_pct": 10.0,           # allocation mode: % of capital per position
+    "alloc_pct": 20.0,           # allocation mode: % of capital per position
     "risk_pct": 1.0,             # risk mode: % of capital risked per trade
     "max_risk_pct": 3.0,         # guardrail: never let one trade risk more than this
-    "max_positions": 10,         # concurrent positions (commission-free => cheap)
+    "max_positions": 5,          # always aim to hold this many; refilled as they close
     # --- costs ---------------------------------------------------------------
     # Commission-free broker (Midas): no per-order fee, you pay the spread.
     # Costs are then proportional to size, so many small positions cost the same
@@ -56,6 +56,22 @@ PORTFOLIO = {
 }
 
 STATE_PATH = "state/paper.json"
+SHADOW_PATH = "state/shadow.json"
+
+# Several signals measure nearly the same thing, so counting them as independent
+# confirmations overstates conviction. Group them into families instead.
+FAMILIES = {
+    "rsi": "mean reversion", "ibs": "mean reversion", "extreme": "mean reversion",
+    "donchian": "momentum", "sweep": "failed breakout", "fvg": "gap",
+}
+
+
+def family_of(signal_name: str) -> str:
+    n = signal_name.lower()
+    for key, fam in FAMILIES.items():
+        if key in n:
+            return fam
+    return "other"
 
 
 # ----------------------------------------------------------------------------
@@ -270,6 +286,68 @@ def open_positions(state: dict, candidates, today: str) -> list[str]:
     return events
 
 
+def shadow_run(candidates, market: dict, today: str) -> dict:
+    """Track EVERY candidate to its exit, with no capital limit.
+
+    Same entry and exit rules as the real portfolio, but each position is a
+    notional €100 so results read as percentages. This exists to answer
+    'does the strategy work' quickly — the 5-slot portfolio answers
+    'what would it have done to my account'.
+    """
+    p = PORTFOLIO
+    global STATE_PATH
+    real, STATE_PATH = STATE_PATH, SHADOW_PATH        # reuse load/save/update
+    try:
+        state = load_state()
+        update_positions(state, market, today)        # events not needed here
+        held = {pos["ticker"] for pos in state["open"]}
+        if candidates is not None and len(candidates):
+            for _, c in candidates.iterrows():
+                if c["ticker"] in held:
+                    continue
+                close = float(c["close"])
+                fams = sorted({family_of(n) for n in c["_fired"]})
+                state["open"].append({
+                    "ticker": c["ticker"], "side": c["side"], "entry": close,
+                    "stop": float(c["stop"]), "shares": 100.0 / close,
+                    "notional": 100.0,
+                    "cost": 100.0 * 2 * (p["spread_pct"] + p["fx_pct"]) / 100,
+                    "date": today, "days": 0,
+                    "families": fams, "n_signals": len(c["_fired"]),
+                })
+                held.add(c["ticker"])
+        save_state(state)
+        return shadow_stats(state)
+    finally:
+        STATE_PATH = real
+
+
+def shadow_stats(state: dict) -> dict:
+    """Aggregate the shadow log overall and per signal family."""
+    closed = state.get("closed", [])
+    if not closed:
+        return {"n": 0, "open": len(state.get("open", []))}
+
+    def agg(rows):
+        n = len(rows)
+        return {
+            "n": n,
+            "win_pct": 100 * sum(1 for t in rows if t["gross"] > 0) / n,
+            "avg_gross": sum(t["pct"] for t in rows) / n,
+            "avg_net": sum(100 * t["net"] / t["notional"] for t in rows) / n,
+            "days": sum(t["days"] for t in rows) / n,
+        }
+
+    per_family = {}
+    for fam in sorted({f for t in closed for f in t.get("families", [])}):
+        rows = [t for t in closed if fam in t.get("families", [])]
+        if len(rows) >= 5:                       # ignore tiny samples
+            per_family[fam] = agg(rows)
+    out = agg(closed)
+    out.update({"open": len(state.get("open", [])), "by_family": per_family})
+    return out
+
+
 def performance(state: dict) -> dict:
     closed = state["closed"]
     if not closed:
@@ -283,7 +361,30 @@ def performance(state: dict) -> dict:
             "equity": PORTFOLIO["account_eur"] + net}
 
 
-def render(state: dict, events: list[str], path_html: str, path_txt: str):
+def shadow_block(sh: dict) -> str:
+    """The 'does the strategy work' panel, in words."""
+    if not sh or not sh.get("n"):
+        return ("<div class=card><b>Signal log:</b> tracking "
+                f"{sh.get('open', 0)} signals; results appear once the first ones "
+                "close.</div>")
+    s = (f"<div class=card><b>Every signal tracked ({sh['n']} closed, "
+         f"{sh['open']} still open):</b> {sh['win_pct']:.0f}% were profitable, "
+         f"averaging <b>{sh['avg_gross']:+.2f}%</b> per trade "
+         f"({sh['avg_net']:+.2f}% after spread), held {sh['days']:.1f} days on average.")
+    if sh.get("by_family"):
+        rows = "".join(
+            f"<tr><td>{fam}</td><td>{d['n']}</td><td>{d['win_pct']:.0f}%</td>"
+            f"<td>{d['avg_gross']:+.2f}%</td><td>{d['avg_net']:+.2f}%</td>"
+            f"<td>{d['days']:.1f}</td></tr>"
+            for fam, d in sh["by_family"].items())
+        s += ("<table><tr><th>signal family</th><th>trades</th><th>win rate</th>"
+              "<th>avg gross</th><th>avg net</th><th>avg days</th></tr>"
+              + rows + "</table>")
+    return s + "</div>"
+
+
+def render(state: dict, events: list[str], path_html: str, path_txt: str,
+           shadow: dict | None = None):
     p, perf = PORTFOLIO, performance(state)
     css = ("body{font-family:system-ui;margin:24px;max-width:860px;line-height:1.5;color:#111}"
            ".card{border:1px solid #e2e2e2;border-left:5px solid #888;border-radius:10px;"
@@ -315,7 +416,11 @@ def render(state: dict, events: list[str], path_html: str, path_txt: str):
         parts.append("<div class=card>No closed trades yet — results appear here "
                      "once the first positions run their course.</div>")
 
-    parts.append("<h2>Today</h2>")
+    parts.append("<h2>Does the strategy work?</h2>")
+    parts.append(shadow_block(shadow or {}))
+
+    parts.append(f"<h2>Today (portfolio: {len(state['open'])}/"
+                 f"{p['max_positions']} slots filled)</h2>")
     parts += [f"<div class=card>{e}</div>" for e in events] or \
              ["<div class=card>Nothing to do today.</div>"]
 
@@ -346,8 +451,13 @@ def render(state: dict, events: list[str], path_html: str, path_txt: str):
     # plain-text version for the daily email digest
     import re
     lines = ["## Paper portfolio", ""]
+    if shadow and shadow.get("n"):
+        lines.append(f"- All signals tracked: {shadow['n']} closed, "
+                     f"{shadow['win_pct']:.0f}% profitable, "
+                     f"{shadow['avg_gross']:+.2f}% average ({shadow['avg_net']:+.2f}% "
+                     f"after spread), {shadow['days']:.1f} days held on average.")
     if perf["n"]:
-        lines.append(f"- Results: {perf['n']} closed, {perf['win_pct']:.0f}% winners, "
+        lines.append(f"- Portfolio: {perf['n']} closed, {perf['win_pct']:.0f}% winners, "
                      f"EUR {perf['gross']:+.2f} gross / {perf['net']:+.2f} net "
                      f"after EUR {perf['fees']:.2f} fees.")
     lines += [f"- {re.sub('<[^>]+>', '', e)}" for e in events] or ["- Nothing today."]
@@ -356,7 +466,8 @@ def render(state: dict, events: list[str], path_html: str, path_txt: str):
 
 
 def run(candidates, market: dict, today: str,
-        path_html="docs/portfolio.html", path_txt="docs/portfolio_digest.txt") -> dict:
+        path_html="docs/portfolio.html", path_txt="docs/portfolio_digest.txt",
+        all_candidates=None) -> dict:
     """Called once per scan: advance, then fill free slots.
 
     market[ticker] = {"close": .., "atr": .., "rsi": ..}
@@ -365,5 +476,9 @@ def run(candidates, market: dict, today: str,
     events = update_positions(state, market, today)
     events += open_positions(state, candidates, today)
     save_state(state)
-    render(state, events, path_html, path_txt)
-    return performance(state)
+    shadow = shadow_run(all_candidates if all_candidates is not None else candidates,
+                        market, today)
+    render(state, events, path_html, path_txt, shadow)
+    perf = performance(state)
+    perf["shadow"] = shadow
+    return perf

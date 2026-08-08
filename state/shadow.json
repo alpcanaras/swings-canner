@@ -9,7 +9,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -24,7 +24,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -39,7 +39,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -54,7 +54,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -69,7 +69,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -85,7 +85,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -100,7 +100,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -115,7 +115,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -131,7 +131,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
@@ -148,7 +148,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -164,7 +164,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -180,7 +180,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -196,7 +196,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -212,7 +212,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -227,7 +227,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -243,7 +243,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -259,7 +259,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -274,7 +274,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -290,7 +290,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -306,7 +306,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -322,7 +322,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -338,7 +338,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -353,7 +353,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -368,7 +368,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -384,7 +384,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -400,7 +400,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -416,7 +416,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -432,7 +432,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -448,7 +448,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -463,7 +463,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -479,7 +479,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -495,7 +495,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -510,7 +510,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -525,7 +525,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -542,7 +542,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -558,7 +558,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -573,7 +573,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -588,7 +588,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -604,7 +604,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -621,7 +621,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -636,7 +636,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -652,7 +652,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -668,7 +668,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -684,7 +684,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -699,7 +699,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -715,7 +715,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -731,7 +731,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -747,7 +747,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -762,7 +762,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -778,7 +778,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -793,7 +793,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -809,7 +809,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -825,7 +825,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -840,7 +840,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -855,7 +855,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -870,7 +870,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -885,7 +885,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -900,7 +900,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -915,7 +915,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -930,7 +930,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -945,7 +945,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -961,7 +961,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -977,7 +977,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -992,7 +992,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -1008,7 +1008,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -1024,7 +1024,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -1039,7 +1039,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
@@ -1055,7 +1055,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -1071,7 +1071,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -1087,7 +1087,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -1102,7 +1102,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -1119,7 +1119,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
@@ -1135,7 +1135,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -1150,7 +1150,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -1166,7 +1166,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -1182,7 +1182,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
@@ -1199,7 +1199,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -1214,7 +1214,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -1230,7 +1230,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -1246,7 +1246,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -1262,7 +1262,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -1277,7 +1277,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
@@ -1294,7 +1294,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -1309,7 +1309,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
@@ -1326,7 +1326,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -1341,7 +1341,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -1357,7 +1357,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -1372,7 +1372,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
@@ -1389,7 +1389,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
@@ -1406,7 +1406,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
@@ -1422,7 +1422,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -1437,7 +1437,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -1452,7 +1452,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -1467,7 +1467,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -1483,7 +1483,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -1499,7 +1499,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
@@ -1515,7 +1515,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -1531,7 +1531,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
@@ -1547,7 +1547,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -1562,7 +1562,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -1578,7 +1578,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
@@ -1595,7 +1595,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -1610,7 +1610,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -1625,7 +1625,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -1641,7 +1641,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
@@ -1657,7 +1657,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -1672,7 +1672,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
@@ -1688,7 +1688,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -1703,7 +1703,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -1719,7 +1719,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -1735,7 +1735,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
@@ -1752,7 +1752,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -1768,7 +1768,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -1783,7 +1783,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -1799,7 +1799,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -1815,7 +1815,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -1830,7 +1830,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion",
     "momentum"
@@ -1846,7 +1846,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -1863,7 +1863,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -1879,7 +1879,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -1896,7 +1896,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
@@ -1913,7 +1913,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -1929,7 +1929,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -1945,7 +1945,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -1960,7 +1960,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
@@ -1977,7 +1977,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
@@ -1993,7 +1993,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -2008,7 +2008,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -2023,7 +2023,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -2039,7 +2039,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
@@ -2056,7 +2056,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -2072,7 +2072,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -2087,7 +2087,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -2102,7 +2102,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -2119,7 +2119,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -2135,7 +2135,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
@@ -2151,7 +2151,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -2168,7 +2168,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "failed breakout",
     "gap",
@@ -2185,7 +2185,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -2201,7 +2201,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -2317,6 +2317,158 @@
   }
  ],
  "closed": [
+  {
+   "ticker": "PGNY",
+   "side": "LONG",
+   "entry": 28.1,
+   "stop": 25.59,
+   "shares": 3.558718861209964,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-07",
+   "days": 1,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 2,
+   "exit": 25.457759468078613,
+   "exit_date": "2026-08-07",
+   "gross": -9.402991216802091,
+   "net": -9.50299121680209,
+   "pct": -9.402991216802091,
+   "reason": "gapped through the stop"
+  },
+  {
+   "ticker": "ANIP",
+   "side": "SHORT",
+   "entry": 78.25,
+   "stop": 83.93,
+   "shares": 1.2779552715654952,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-07",
+   "days": 1,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1,
+   "exit": 78.25,
+   "exit_date": "2026-08-07",
+   "gross": -0.0,
+   "net": -0.1,
+   "pct": -0.0,
+   "reason": "move played out (RSI target)"
+  },
+  {
+   "ticker": "FA",
+   "side": "LONG",
+   "entry": 24.01,
+   "stop": 21.6306,
+   "shares": 4.164931278633902,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-07",
+   "days": 1,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1,
+   "trailed": true,
+   "exit": 24.010000228881836,
+   "exit_date": "2026-08-07",
+   "gross": 9.532771110966511e-07,
+   "net": -0.09999904672288891,
+   "pct": 9.532771110966512e-07,
+   "reason": "move played out (RSI target)"
+  },
+  {
+   "ticker": "SAFT",
+   "side": "LONG",
+   "entry": 103.5,
+   "stop": 99.57,
+   "shares": 0.966183574879227,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-07",
+   "days": 1,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1,
+   "exit": 103.5,
+   "exit_date": "2026-08-07",
+   "gross": 0.0,
+   "net": -0.1,
+   "pct": 0.0,
+   "reason": "move played out (RSI target)"
+  },
+  {
+   "ticker": "DV",
+   "side": "LONG",
+   "entry": 13.21,
+   "stop": 12.08,
+   "shares": 7.570022710068129,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-07",
+   "days": 1,
+   "families": [
+    "mean reversion",
+    "momentum"
+   ],
+   "n_signals": 2,
+   "exit": 13.210000038146973,
+   "exit_date": "2026-08-07",
+   "gross": 2.8877344287357086e-07,
+   "net": -0.09999971122655713,
+   "pct": 2.8877344287357086e-07,
+   "reason": "move played out (RSI target)"
+  },
+  {
+   "ticker": "PZZA",
+   "side": "SHORT",
+   "entry": 24.47,
+   "stop": 27.6984,
+   "shares": 4.086636697997548,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-07",
+   "days": 1,
+   "families": [
+    "mean reversion",
+    "momentum"
+   ],
+   "n_signals": 2,
+   "trailed": true,
+   "exit": 24.469999313354492,
+   "exit_date": "2026-08-07",
+   "gross": 2.8060707260957567e-06,
+   "net": -0.0999971939292739,
+   "pct": 2.8060707260957567e-06,
+   "reason": "move played out (RSI target)"
+  },
+  {
+   "ticker": "VAC",
+   "side": "LONG",
+   "entry": 123.47,
+   "stop": 112.1601,
+   "shares": 0.8099133392726978,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-07",
+   "days": 1,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1,
+   "trailed": true,
+   "exit": 123.47000122070312,
+   "exit_date": "2026-08-07",
+   "gross": 9.886637451501324e-07,
+   "net": -0.09999901133625486,
+   "pct": 9.886637451501324e-07,
+   "reason": "move played out (RSI target)"
+  },
   {
    "ticker": "PGNY",
    "side": "LONG",

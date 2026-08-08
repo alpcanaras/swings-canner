@@ -1,8 +1,8 @@
 ## Paper portfolio
 
-- All signals tracked: 14 closed, 57% profitable, -1.34% average (-1.44% after spread), 1.0 days held on average.
-- AKR — hold. Day 2, -0.0% so far; stop at 19.65.
-- ATEN — hold. Day 2, +0.0% so far; stop at 23.61.
-- NTST — hold. Day 2, +0.0% so far; stop at 19.75.
-- NTCT — hold. Day 2, -0.0% so far; stop trailed up to 35.15.
-- PBI — hold. Day 2, +0.0% so far; stop at 16.01.
+- All signals tracked: 21 closed, 57% profitable, -1.34% average (-1.44% after spread), 1.0 days held on average.
+- AKR — hold. Day 3, -0.0% so far; stop at 19.65.
+- ATEN — hold. Day 3, +0.0% so far; stop at 23.61.
+- NTST — hold. Day 3, +0.0% so far; stop at 19.75.
+- NTCT — hold. Day 3, -0.0% so far; stop trailed up to 35.15.
+- PBI — hold. Day 3, +0.0% so far; stop at 16.01.

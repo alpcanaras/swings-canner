@@ -9,7 +9,7 @@
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-08-07",
-   "days": 2,
+   "days": 3,
    "viable": false
   },
   {
@@ -21,7 +21,7 @@
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-08-07",
-   "days": 2,
+   "days": 3,
    "viable": false
   },
   {
@@ -33,7 +33,7 @@
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-08-07",
-   "days": 2,
+   "days": 3,
    "viable": false
   },
   {
@@ -45,7 +45,7 @@
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-08-07",
-   "days": 2,
+   "days": 3,
    "viable": false,
    "trailed": true
   },
@@ -58,7 +58,7 @@
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-08-07",
-   "days": 2,
+   "days": 3,
    "viable": false
   }
  ],

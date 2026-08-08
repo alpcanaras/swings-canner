@@ -332,8 +332,11 @@ def main():
     # paper portfolio: size, cost-check and track the candidates automatically
     if not args.no_portfolio:
         import portfolio
-        prices = {t: float(df["Close"].iloc[-1]) for t, (df, _) in processed.items()}
-        perf = portfolio.run(top if len(top) else None, prices, date,
+        market = {t: {"close": float(df["Close"].iloc[-1]),
+                      "atr": float(df["ATR"].iloc[-1]),
+                      "rsi": float(df["RSI"].iloc[-1])}
+                  for t, (df, _) in processed.items()}
+        perf = portfolio.run(top if len(top) else None, market, date,
                              path_html=args.portfolio_html,
                              path_txt=args.portfolio_txt)
         if perf.get("n"):

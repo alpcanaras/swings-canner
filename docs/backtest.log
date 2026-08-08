@@ -2,13 +2,13 @@
 Downloading 89 tickers (12y daily)...
   usable: 89 tickers
 Replaying 89 tickers from 2016-08-08...
-Period: 10.0 years · 89 stocks · 3291 trades · 99% of days invested
-Strategy return: +22.2% (+2.0%/yr)
+Period: 10.0 years · 89 stocks · 3290 trades · 99% of days invested
+Strategy return: +9.5% (+0.9%/yr)
 Buy & hold the same universe: +849.1%
-Worst drawdown: -42.5%
-Win rate: 64.1% · average trade +0.16% · held 3.8 days · best +21.1% / worst -27.0%
-Exits: stop hit 399, move played out (RSI target) 2448, trailing stop 307, gapped through the stop 137
-By signal family: failed breakout: 966 trades, 62% win, -0.06% avg | gap: 1100 trades, 68% win, +0.29% avg | mean reversion: 2994 trades, 64% win, +0.17% avg | momentum: 296 trades, 65% win, +0.03% avg
+Worst drawdown: -41.6%
+Win rate: 63.9% · average trade +0.14% · held 3.8 days · best +21.1% / worst -27.0%
+Exits: stop hit 402, move played out (RSI target) 2441, trailing stop 305, gapped through the stop 142
+By signal family: failed breakout: 964 trades, 62% win, -0.08% avg | gap: 1106 trades, 67% win, +0.27% avg | mean reversion: 2991 trades, 64% win, +0.16% avg | momentum: 295 trades, 64% win, +0.00% avg
 The strategy did NOT beat simply buying and holding the same stocks.
 
 Written to docs/backtest.html

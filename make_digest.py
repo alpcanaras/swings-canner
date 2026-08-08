@@ -43,7 +43,7 @@ def main():
     try:                       # paper portfolio section goes first when present
         pf = open("docs/portfolio_digest.txt").read().strip()
         if pf:
-            lines = [pf, "", f"## Market ({date.today():%a %d %b %Y})", ""]
+            lines = [header, pf, "", f"## Market ({date.today():%a %d %b %Y})", ""]
     except FileNotFoundError:
         pass
     lines += [f"- {b}" for b in idx] or ["- (index report unavailable)"]

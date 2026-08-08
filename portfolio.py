@@ -22,7 +22,8 @@ from datetime import date, datetime
 from scanner import CONFIG
 
 PORTFOLIO = {
-    "account_eur": 1000.0,       # your starting balance
+    "currency": "$",             # display symbol for the account currency
+    "account_eur": 1000.0,       # your starting balance (name kept for compatibility)
     # --- how big is one position? -------------------------------------------
     # "allocation": put a fixed % of capital into each position (simple, and what
     #               you want when flat fees punish small positions).
@@ -50,10 +51,17 @@ PORTFOLIO = {
     "atr_stop_mult": CONFIG["stop_atr_mult"],   # trail distance, in ATRs
     "target_rsi": 70.0,          # long exit when RSI(2) recovers above this
     "max_hold_days": 20,         # backstop so nothing becomes a zombie
+    # Stops do NOT execute outside regular hours, so an overnight gap blows
+    # straight through them. When that happens the fill is the opening print
+    # plus this much extra slippage, because the first minutes after a gap are
+    # violent and a stop-market order rarely fills at the print.
+    "gap_slippage_pct": 0.4,
     "hold_days": CONFIG["key_horizon"],   # only used in "time" mode
     "paper": True,               # paper mode: track trades regardless of verdict,
                                  # so you can see gross vs. net over time
 }
+
+CUR = PORTFOLIO["currency"]
 
 STATE_PATH = "state/paper.json"
 SHADOW_PATH = "state/shadow.json"
@@ -136,28 +144,28 @@ def sizing_sentence(v: dict) -> str:
     """The sizing result, in words."""
     if not v.get("viable") and not v.get("notional"):
         return "Position could not be sized."
-    s = (f"Size: <b>€{v['notional']:,.0f}</b> = {v['alloc_pct']:.0f}% of capital "
+    s = (f"Size: <b>{CUR}{v['notional']:,.0f}</b> = {v['alloc_pct']:.0f}% of capital "
          f"({v['shares']:.4g} shares). If the stop hits you lose "
-         f"€{v['risk_eur']:.2f} ({v['risk_pct_actual']:.1f}% of the account), "
+         f"{CUR}{v['risk_eur']:.2f} ({v['risk_pct_actual']:.1f}% of the account), "
          f"the stop being {v['stop_pct']:.1f}% away.")
     if v["capped"]:
         s += (" (Trimmed below the normal allocation — this one is volatile enough "
               "that a full-size position would breach the risk guardrail.)")
     if v["viable"]:
-        s += (f" Expected profit €{v['gross']:.2f} vs €{v['cost']:.2f} costs "
+        s += (f" Expected profit {CUR}{v['gross']:.2f} vs {CUR}{v['cost']:.2f} costs "
               f"({v['ratio']:.1f}× — worth doing).")
     elif PORTFOLIO["cost_per_order_eur"] == 0:
         # commission-free: the ratio doesn't depend on size, so a bigger
         # position wouldn't help — the edge itself is just thin here.
-        s += (f" Thin edge: expected profit €{v['gross']:.2f} against "
-              f"€{v['cost']:.2f} in spread ({v['ratio']:.1f}×, below the "
+        s += (f" Thin edge: expected profit {CUR}{v['gross']:.2f} against "
+              f"{CUR}{v['cost']:.2f} in spread ({v['ratio']:.1f}×, below the "
               f"{PORTFOLIO['min_edge_cost_ratio']:.0f}× bar). Sizing up wouldn't "
               "change that — costs scale with the position.")
     else:
-        s += (f" <b>Costs eat it:</b> expected profit €{v['gross']:.2f} against "
-              f"€{v['cost']:.2f} in fees. At these fees a position needs to be "
-              f"about €{v['breakeven_notional']:,.0f} just to break even, and "
-              f"~€{v['worthwhile_notional']:,.0f} to be worth the risk.")
+        s += (f" <b>Costs eat it:</b> expected profit {CUR}{v['gross']:.2f} against "
+              f"{CUR}{v['cost']:.2f} in fees. At these fees a position needs to be "
+              f"about {CUR}{v['breakeven_notional']:,.0f} just to break even, and "
+              f"~{CUR}{v['worthwhile_notional']:,.0f} to be worth the risk.")
     return s
 
 
@@ -203,10 +211,13 @@ def update_positions(state: dict, market: dict, today: str) -> list[str]:
         # the close. If the day opened beyond the stop, the fill is the open
         # (gap), otherwise it fills at the stop itself.
         stop_now = pos["stop"]
+        slip = p["gap_slippage_pct"] / 100
         if long and lo <= stop_now:
-            hit_intraday, fill = True, min(op, stop_now)
+            hit_intraday = True
+            fill = min(op * (1 - slip), stop_now) if op < stop_now else stop_now
         elif not long and hi >= stop_now:
-            hit_intraday, fill = True, max(op, stop_now)
+            hit_intraday = True
+            fill = max(op * (1 + slip), stop_now) if op > stop_now else stop_now
         else:
             hit_intraday, fill = False, None
 
@@ -223,7 +234,7 @@ def update_positions(state: dict, market: dict, today: str) -> list[str]:
             events.append(
                 f"<b>{pos['ticker']} — CLOSE ({reason}).</b> "
                 f"In at {pos['entry']:,.2f}, out at {fill:,.2f} — "
-                f"{pct:+.1f}%, €{gross:+.2f} gross, <b>€{net:+.2f} after fees</b>.")
+                f"{pct:+.1f}%, {CUR}{gross:+.2f} gross, <b>{CUR}{net:+.2f} after fees</b>.")
             continue
 
         # --- trail the stop (never against you) ------------------------------
@@ -259,7 +270,7 @@ def update_positions(state: dict, market: dict, today: str) -> list[str]:
             events.append(
                 f"<b>{pos['ticker']} — CLOSE ({reason}).</b> "
                 f"In at {pos['entry']:,.2f}, out at {px:,.2f} — "
-                f"{pct:+.1f}%, €{gross:+.2f} gross, <b>€{net:+.2f} after fees</b>.")
+                f"{pct:+.1f}%, {CUR}{gross:+.2f} gross, <b>{CUR}{net:+.2f} after fees</b>.")
         else:
             move = 100 * (px - pos["entry"]) / pos["entry"] * (1 if long else -1)
             if p["exit_mode"] == "trailing":
@@ -319,7 +330,7 @@ def shadow_run(candidates, market: dict, today: str) -> dict:
     """Track EVERY candidate to its exit, with no capital limit.
 
     Same entry and exit rules as the real portfolio, but each position is a
-    notional €100 so results read as percentages. This exists to answer
+    notional 100 units of account currency so results read as percentages. This exists to answer
     'does the strategy work' quickly — the 5-slot portfolio answers
     'what would it have done to my account'.
     """
@@ -421,14 +432,14 @@ def render(state: dict, events: list[str], path_html: str, path_txt: str,
            ".note{background:#f7f7f9;border-radius:8px;padding:12px 16px;font-size:14px;color:#444}")
     parts = [f"<style>{css}</style><h1>Paper portfolio</h1>",
              f"<p class=meta>Updated {datetime.now():%Y-%m-%d %H:%M} · "
-             f"€{p['account_eur']:,.0f} simulated account · "
+             f"{CUR}{p['account_eur']:,.0f} simulated account · "
              + (f"{p['alloc_pct']:.0f}% of capital per position"
                 if p["sizing_mode"] == "allocation"
                 else f"{p['risk_pct']}% risk per trade")
              + f", up to {p['max_positions']} at once · "
              + ("commission-free, "
                 if p["cost_per_order_eur"] == 0 else
-                f"€{p['cost_per_order_eur']:.2f}/order, ")
+                f"{CUR}{p['cost_per_order_eur']:.2f}/order, ")
              + f"{p['spread_pct']}% spread · "
              + ("price-following exits" if p["exit_mode"] == "trailing"
                 else f"{p['hold_days']}-day exits")
@@ -438,9 +449,9 @@ def render(state: dict, events: list[str], path_html: str, path_txt: str,
         parts.append(
             f"<div class=card><b>Results so far:</b> {perf['n']} closed trades, "
             f"{perf['win_pct']:.0f}% winners. "
-            f"<b>€{perf['gross']:+.2f} gross</b>, paid €{perf['fees']:.2f} in fees, "
-            f"<b>€{perf['net']:+.2f} net</b>. "
-            f"Simulated balance: €{perf['equity']:,.2f}.</div>")
+            f"<b>{CUR}{perf['gross']:+.2f} gross</b>, paid {CUR}{perf['fees']:.2f} in fees, "
+            f"<b>{CUR}{perf['net']:+.2f} net</b>. "
+            f"Simulated balance: {CUR}{perf['equity']:,.2f}.</div>")
     else:
         parts.append("<div class=card>No closed trades yet — results appear here "
                      "once the first positions run their course.</div>")
@@ -456,7 +467,7 @@ def render(state: dict, events: list[str], path_html: str, path_txt: str,
     parts.append(
         "<div class=note><b>What this is.</b> A simulation that takes the daily "
         f"candidates automatically, puts {p['alloc_pct']:.0f}% of a "
-        f"€{p['account_eur']:,.0f} account into each (up to {p['max_positions']} at a time, "
+        f"{CUR}{p['account_eur']:,.0f} account into each (up to {p['max_positions']} at a time, "
         f"trimmed if a trade would risk more than {p['max_risk_pct']}%). "
         + (f"Exits follow the price: the stop starts {p['atr_stop_mult']}×ATR away and "
            "ratchets up as the trade works, never down. A position closes when price "
@@ -467,6 +478,13 @@ def render(state: dict, events: list[str], path_html: str, path_txt: str,
            f"Positions close on the stop or after {p['hold_days']} trading days.")
         + " "
         "No money is involved and nothing here is a recommendation.<br><br>"
+        "<b>Stops are not a guarantee.</b> They only work during regular trading "
+        "hours. News overnight or before the open gaps price straight past your "
+        "stop, and the first minutes after a gap are violent — so a stopped-out "
+        "trade can lose noticeably more than planned. This is modelled here "
+        f"(fills at the opening print plus {p['gap_slippage_pct']}% slippage), and "
+        "it is the main reason position sizes stay modest and earnings dates are "
+        "avoided.<br><br>"
         "<b>Watch the gap between gross and net.</b> Gross is whether the signals "
         "work. Net is what would actually reach you after fees. If net stays negative "
         "while gross is positive, the strategy is fine and the account is simply too "

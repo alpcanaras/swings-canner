@@ -49,6 +49,7 @@ PORTFOLIO = {
     # "time":     the old behaviour, close after `hold_days`.
     "exit_mode": "trailing",
     "atr_stop_mult": CONFIG["stop_atr_mult"],   # trail distance, in ATRs
+    "use_rsi_target": True,      # False => only the trailing stop decides the exit
     "target_rsi": 70.0,          # long exit when RSI(2) recovers above this
     "max_hold_days": 20,         # backstop so nothing becomes a zombie
     # Stops do NOT execute outside regular hours, so an overnight gap blows
@@ -248,7 +249,7 @@ def update_positions(state: dict, market: dict, today: str) -> list[str]:
 
         hit_stop = False            # intraday check above already handled this
         if trailing:
-            target_hit = rsi is not None and (
+            target_hit = p.get("use_rsi_target", True) and rsi is not None and (
                 rsi >= p["target_rsi"] if long else rsi <= 100 - p["target_rsi"])
             timed_out = pos["days"] >= p["max_hold_days"]
         else:

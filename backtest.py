@@ -49,8 +49,40 @@ def prepare(data: dict) -> dict:
     return out
 
 
-def run_backtest(prepared: dict, start: pd.Timestamp, equity0: float) -> dict:
+VARIANTS = [
+    {"name": "baseline (current live rules)", "cfg": {}},
+    {"name": "trailing stop only (no RSI exit)", "cfg": {"use_rsi_target": False}},
+    {"name": "trailing only, wider 3xATR trail",
+     "cfg": {"use_rsi_target": False, "atr_stop_mult": 3.0}},
+    {"name": "long-only", "cfg": {}, "long_only": True},
+    {"name": "long-only + trailing only",
+     "cfg": {"use_rsi_target": False}, "long_only": True},
+    {"name": "long-only, trailing only, mean-reversion signals only",
+     "cfg": {"use_rsi_target": False}, "long_only": True,
+     "families": {"mean reversion"}},
+    {"name": "two independent ideas required", "cfg": {}, "min_families": 2},
+    {"name": "long-only, trailing only, 2 ideas, 3xATR",
+     "cfg": {"use_rsi_target": False, "atr_stop_mult": 3.0},
+     "long_only": True, "min_families": 2},
+]
+
+
+def variant_net(prepared: dict, families: set | None) -> dict:
+    """Recompute the daily net signal using only the chosen signal families."""
+    if not families:
+        return {t: v["net"] for t, v in prepared.items()}
+    out = {}
+    for t, v in prepared.items():
+        keep = [s for n, s in v["sig"].items() if pf.family_of(n) in families]
+        out[t] = sum(keep) if keep else v["net"] * 0
+    return out
+
+
+def run_backtest(prepared: dict, start: pd.Timestamp, equity0: float,
+                 long_only: bool = False, min_families: int = 1,
+                 families: set | None = None) -> dict:
     p = pf.PORTFOLIO
+    nets = variant_net(prepared, families)
     dates = sorted({d for v in prepared.values() for d in v["df"].index if d >= start})
     equity = equity0
     state = {"open": [], "closed": []}
@@ -82,10 +114,13 @@ def run_backtest(prepared: dict, start: pd.Timestamp, equity0: float) -> dict:
             held = {q["ticker"] for q in state["open"]}
             cands = []
             for t, v in prepared.items():
-                if t in held or day not in v["net"].index:
+                net = nets[t]
+                if t in held or day not in net.index:
                     continue
-                score = int(v["net"].loc[day])
+                score = int(net.loc[day])
                 if score == 0 or nxt not in v["df"].index:
+                    continue
+                if long_only and score < 0:
                     continue
                 df = v["df"]
                 dvol = float((df["Close"] * df["Volume"]).rolling(20).mean().loc[day]) \
@@ -93,7 +128,10 @@ def run_backtest(prepared: dict, start: pd.Timestamp, equity0: float) -> dict:
                 if not np.isfinite(dvol) or dvol < STOCK_CFG["min_dollar_vol"]:
                     continue
                 fired = {n: int(s.loc[day]) for n, s in v["sig"].items()
-                         if s.loc[day] != 0}
+                         if s.loc[day] != 0
+                         and (not families or pf.family_of(n) in families)}
+                if len({pf.family_of(n) for n in fired}) < min_families:
+                    continue
                 cands.append((abs(score), t, np.sign(score), fired))
 
             cands.sort(key=lambda x: -x[0])
@@ -226,6 +264,76 @@ def report(s: dict, years: float, universe_n: int, path: str):
     print(f"\nWritten to {path}")
 
 
+def sweep(prepared: dict, start: pd.Timestamp, equity0: float, years: float,
+          bench: float, path: str):
+    """Run every variant over identical data and rank them honestly."""
+    base = dict(pf.PORTFOLIO)
+    rows = []
+    for v in VARIANTS:
+        pf.PORTFOLIO.clear()
+        pf.PORTFOLIO.update(base)
+        pf.PORTFOLIO.update(v.get("cfg", {}))
+        print(f"\n--- {v['name']}")
+        res = run_backtest(prepared, start, equity0,
+                           long_only=v.get("long_only", False),
+                           min_families=v.get("min_families", 1),
+                           families=v.get("families"))
+        s = stats(res, equity0, bench, years)
+        s["name"] = v["name"]
+        rows.append(s)
+        print(f"    {s['trades']:>5} trades | return {s['total_pct']:+8.1f}% | "
+              f"win {s.get('win_pct', 0):.1f}% | avg {s.get('avg_pct', 0):+.2f}% | "
+              f"maxDD {s.get('max_dd', float('nan')):.1f}%")
+    pf.PORTFOLIO.clear()
+    pf.PORTFOLIO.update(base)
+
+    rows.sort(key=lambda r: -r["total_pct"])
+    best = rows[0]
+    beat = best["total_pct"] > bench
+
+    print("\n" + "=" * 78)
+    print(f"BENCHMARK — buy & hold the same stocks: {bench:+.1f}%")
+    for r in rows:
+        flag = "BEATS" if r["total_pct"] > bench else "loses to"
+        print(f"{r['total_pct']:+9.1f}%  {flag:>8} buy&hold  | "
+              f"{r['trades']:>5} trades | maxDD {r.get('max_dd', float('nan')):6.1f}% "
+              f"| {r['name']}")
+    print("=" * 78)
+    print("VERDICT: " + ("a variant beats buy-and-hold — worth a closer look."
+                         if beat else
+                         "no variant beats buy-and-hold. The idea does not work."))
+
+    css = ("body{font-family:system-ui;margin:24px;max-width:920px;line-height:1.6}"
+           "table{border-collapse:collapse;width:100%;margin:12px 0}"
+           "td,th{border:1px solid #ddd;padding:7px 10px;font-size:13px;text-align:right}"
+           "th{background:#f5f5f5}td:first-child,th:first-child{text-align:left}"
+           ".win{background:#eaf7ee}.note{background:#f7f7f9;border-radius:8px;"
+           "padding:12px 16px;font-size:14px;color:#444}")
+    html = [f"<style>{css}</style><h1>Strategy variants — {years:.0f}-year backtest</h1>",
+            f"<p>Benchmark: buy &amp; hold the same stocks = <b>{bench:+.1f}%</b>. "
+            f"Run {datetime.now():%Y-%m-%d %H:%M}.</p>",
+            "<table><tr><th>variant</th><th>return</th><th>vs buy&amp;hold</th>"
+            "<th>trades</th><th>win%</th><th>avg trade</th><th>max DD</th></tr>"]
+    for r in rows:
+        cls = " class=win" if r["total_pct"] > bench else ""
+        html.append(
+            f"<tr{cls}><td>{r['name']}</td><td>{r['total_pct']:+.1f}%</td>"
+            f"<td>{r['total_pct'] - bench:+.1f}pp</td><td>{r['trades']}</td>"
+            f"<td>{r.get('win_pct', 0):.1f}%</td><td>{r.get('avg_pct', 0):+.2f}%</td>"
+            f"<td>{r.get('max_dd', float('nan')):.1f}%</td></tr>")
+    html.append("</table>")
+    html.append("<div class=note><b>Read this carefully.</b> Eight variants were "
+                "tested on the same data. If one looks good, remember that testing "
+                "many versions and keeping the winner is how people fool themselves — "
+                "the winner needs to survive a different period and a different "
+                "universe before it means anything.<br><br>"
+                "Survivorship bias flatters every row here, and the benchmark most "
+                "of all.</div>")
+    with open(path, "w") as f:
+        f.write("".join(html))
+    print(f"\nWritten to {path}")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--universe", default="ndx")
@@ -234,6 +342,7 @@ def main():
     ap.add_argument("--years", type=float, default=10)
     ap.add_argument("--equity", type=float, default=1000.0)
     ap.add_argument("--html", default="docs/backtest.html")
+    ap.add_argument("--sweep", action="store_true", help="test all variants")
     args = ap.parse_args()
 
     data = load_offline(args.offline) if args.offline else \
@@ -241,11 +350,14 @@ def main():
     prepared = prepare(data)
     start = pd.Timestamp.now().normalize() - pd.DateOffset(years=int(args.years))
     print(f"Replaying {len(prepared)} tickers from {start.date()}...")
-
-    res = run_backtest(prepared, start, args.equity)
     bench = benchmark(prepared, start)
-    s = stats(res, args.equity, bench, args.years)
-    report(s, args.years, len(prepared), args.html)
+
+    if args.sweep:
+        sweep(prepared, start, args.equity, args.years, bench, args.html)
+    else:
+        res = run_backtest(prepared, start, args.equity)
+        s = stats(res, args.equity, bench, args.years)
+        report(s, args.years, len(prepared), args.html)
 
 
 if __name__ == "__main__":

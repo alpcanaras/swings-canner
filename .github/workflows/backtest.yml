@@ -33,6 +33,10 @@ jobs:
             --universe "${{ github.event.inputs.universe || 'ndx' }}" \
             --years "${{ github.event.inputs.years || 10 }}" \
             --html docs/backtest.html 2>&1 | tee docs/backtest.log
+          python backtest.py \
+            --universe "${{ github.event.inputs.universe || 'ndx' }}" \
+            --years "${{ github.event.inputs.years || 10 }}" \
+            --sweep --html docs/variants.html 2>&1 | tee docs/variants.log
 
       - name: Publish
         if: always()

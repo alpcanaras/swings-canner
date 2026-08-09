@@ -1,5 +1,76 @@
 {
- "open": [],
+ "open": [
+  {
+   "ticker": "AKAM",
+   "side": "LONG",
+   "entry": 110.54,
+   "stop": 97.84,
+   "shares": 1.8092998009770218,
+   "notional": 200.0,
+   "cost": 0.2,
+   "date": "2026-08-07",
+   "days": 0,
+   "viable": false,
+   "atr_pct": 5.75,
+   "setup": "mean reversion"
+  },
+  {
+   "ticker": "ATEN",
+   "side": "LONG",
+   "entry": 26.84,
+   "stop": 23.61,
+   "shares": 7.451564828614009,
+   "notional": 200.0,
+   "cost": 0.2,
+   "date": "2026-08-07",
+   "days": 0,
+   "viable": false,
+   "atr_pct": 6.03,
+   "setup": "mean reversion"
+  },
+  {
+   "ticker": "AKR",
+   "side": "LONG",
+   "entry": 20.65,
+   "stop": 19.65,
+   "shares": 9.685230024213075,
+   "notional": 200.0,
+   "cost": 0.2,
+   "date": "2026-08-07",
+   "days": 0,
+   "viable": false,
+   "atr_pct": 2.43,
+   "setup": "mean reversion"
+  },
+  {
+   "ticker": "DAVE",
+   "side": "LONG",
+   "entry": 317.93,
+   "stop": 258.76,
+   "shares": 0.5070136893696128,
+   "notional": 161.194862261281,
+   "cost": 0.161194862261281,
+   "date": "2026-08-07",
+   "days": 0,
+   "viable": false,
+   "atr_pct": 9.31,
+   "setup": "mean reversion"
+  },
+  {
+   "ticker": "DRH",
+   "side": "LONG",
+   "entry": 12.53,
+   "stop": 11.85,
+   "shares": 15.961691939345572,
+   "notional": 200.0,
+   "cost": 0.2,
+   "date": "2026-08-07",
+   "days": 0,
+   "viable": false,
+   "atr_pct": 2.71,
+   "setup": "mean reversion"
+  }
+ ],
  "closed": [],
  "started": "2026-08-09"
 }

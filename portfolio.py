@@ -49,7 +49,8 @@ PORTFOLIO = {
     # "time":     the old behaviour, close after `hold_days`.
     "exit_mode": "trailing",
     "atr_stop_mult": CONFIG["stop_atr_mult"],   # trail distance, in ATRs
-    "use_rsi_target": True,      # False => only the trailing stop decides the exit
+    "use_rsi_target": False,     # backtest: the RSI exit cut winners and cost a lot
+    "long_only": True,           # backtest: shorts were a consistent drag
     "target_rsi": 70.0,          # long exit when RSI(2) recovers above this
     "max_hold_days": 20,         # backstop so nothing becomes a zombie
     # Stops do NOT execute outside regular hours, so an overnight gap blows
@@ -310,6 +311,8 @@ def open_positions(state: dict, candidates, today: str) -> list[str]:
             continue
         if str(c.get("earnings", "")).endswith("!"):        # earnings too close
             continue
+        if p.get("long_only") and c["side"] != "LONG":
+            continue
         v = size_and_verdict(float(c["close"]), float(c["stop"]),
                              float(c.get("expected_pct", 0.3)))
         if not v.get("notional"):
@@ -501,19 +504,25 @@ def render(state: dict, events: list[str], path_html: str, path_txt: str,
     with open(path_html, "w") as f:
         f.write("".join(parts))
 
-    # plain-text version for the daily email digest
+    # plain-text version for the daily email digest — an actionable bulletin
     import re
-    lines = ["## Paper portfolio", ""]
-    if shadow and shadow.get("n"):
-        lines.append(f"- All signals tracked: {shadow['n']} closed, "
-                     f"{shadow['win_pct']:.0f}% profitable, "
-                     f"{shadow['avg_gross']:+.2f}% average ({shadow['avg_net']:+.2f}% "
-                     f"after spread), {shadow['days']:.1f} days held on average.")
+    strip = lambda s: re.sub("<[^>]+>", "", s)
+    buys = [strip(e) for e in events if "OPEN" in e]
+    sells = [strip(e) for e in events if "CLOSE" in e]
+    holds = [strip(e) for e in events if "hold." in e]
+
+    lines = ["# Bulletin", ""]
+    lines += ["## Sell today", ""] + ([f"- {e}" for e in sells] or ["- Nothing to sell."])
+    lines += ["", "## Buy today", ""] + ([f"- {e}" for e in buys] or ["- Nothing to buy."])
+    lines += ["", "## Holding", ""] + ([f"- {e}" for e in holds] or ["- No open positions."])
     if perf["n"]:
-        lines.append(f"- Portfolio: {perf['n']} closed, {perf['win_pct']:.0f}% winners, "
-                     f"EUR {perf['gross']:+.2f} gross / {perf['net']:+.2f} net "
-                     f"after EUR {perf['fees']:.2f} fees.")
-    lines += [f"- {re.sub('<[^>]+>', '', e)}" for e in events] or ["- Nothing today."]
+        lines += ["", f"_Record so far: {perf['n']} closed trades, "
+                  f"{perf['win_pct']:.0f}% winners, {CUR}{perf['net']:+.2f} net "
+                  f"(simulated balance {CUR}{perf['equity']:,.2f})._"]
+    if shadow and shadow.get("n"):
+        lines += [f"_All signals tracked: {shadow['n']} closed, "
+                  f"{shadow['win_pct']:.0f}% profitable, {shadow['avg_gross']:+.2f}% "
+                  f"average._"]
     with open(path_txt, "w") as f:
         f.write("\n".join(lines))
 

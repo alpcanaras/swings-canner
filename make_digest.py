@@ -37,8 +37,9 @@ def main():
     idx = text_blocks("docs/index.html", "Numbers behind it")
     stk = text_blocks("docs/stocks.html", "same thing as a table")
 
-    header = ("> **Backtested and rejected**: +22% vs +849% for buy-and-hold over "
-              "10 years. Observations only — not trade ideas.\n")
+    header = ("> Strategy: long-only, trailing-stop exits — the best variant of "
+              "eight tested. In a 10-year backtest it returned +327% against +849% "
+              "for simply holding the same stocks. You are trading it knowing that.\n")
     lines = [header, f"## Market ({date.today():%a %d %b %Y})", ""]
     try:                       # paper portfolio section goes first when present
         pf = open("docs/portfolio_digest.txt").read().strip()
@@ -47,8 +48,8 @@ def main():
     except FileNotFoundError:
         pass
     lines += [f"- {b}" for b in idx] or ["- (index report unavailable)"]
-    lines += ["", "## Stock candidates", ""]
-    lines += [f"- {b}" for b in stk] or ["- Nothing today."]
+    lines += ["", "## Watchlist (not held)", ""]
+    lines += [f"- {b}" for b in stk[:6]] or ["- Nothing today."]
     lines += [
         "",
         "---",

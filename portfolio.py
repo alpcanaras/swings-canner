@@ -317,10 +317,15 @@ def open_positions(state: dict, candidates, today: str) -> list[str]:
                              float(c.get("expected_pct", 0.3)))
         if not v.get("notional"):
             continue
+        try:
+            fams = sorted({family_of(n) for n in c["_fired"]})
+        except Exception:
+            fams = []
         state["open"].append({
             "ticker": c["ticker"], "side": c["side"], "entry": float(c["close"]),
             "stop": float(c["stop"]), "shares": v["shares"], "notional": v["notional"],
             "cost": v["cost"], "date": today, "days": 0, "viable": v["viable"],
+            "atr_pct": float(c.get("ATR%", 0)), "setup": ", ".join(fams) or "signal",
         })
         events.append(
             f"<b>{c['ticker']} — OPEN {c['side'].lower()}</b> at {c['close']:,.2f}. "
@@ -428,7 +433,7 @@ def shadow_block(sh: dict) -> str:
 
 
 def render(state: dict, events: list[str], path_html: str, path_txt: str,
-           shadow: dict | None = None):
+           shadow: dict | None = None, today: str = "", last_market: dict = {}):
     p, perf = PORTFOLIO, performance(state)
     css = ("body{font-family:system-ui;margin:24px;max-width:860px;line-height:1.5;color:#111}"
            ".card{border:1px solid #e2e2e2;border-left:5px solid #888;border-radius:10px;"
@@ -504,27 +509,65 @@ def render(state: dict, events: list[str], path_html: str, path_txt: str,
     with open(path_html, "w") as f:
         f.write("".join(parts))
 
-    # plain-text version for the daily email digest — an actionable bulletin
-    import re
-    strip = lambda s: re.sub("<[^>]+>", "", s)
-    buys = [strip(e) for e in events if "OPEN" in e]
-    sells = [strip(e) for e in events if "CLOSE" in e]
-    holds = [strip(e) for e in events if "hold." in e]
+    # --- trade sheet (plain text / markdown for the email) -------------------
+    a = PORTFOLIO["atr_stop_mult"]
+    sells = [t for t in state["closed"] if t.get("exit_date") == today]
+    buys = [q for q in state["open"] if q["date"] == today]
+    holds = [q for q in state["open"] if q["date"] != today]
 
-    lines = ["# Bulletin", ""]
-    lines += ["## Sell today", ""] + ([f"- {e}" for e in sells] or ["- Nothing to sell."])
-    lines += ["", "## Buy today", ""] + ([f"- {e}" for e in buys] or ["- Nothing to buy."])
-    lines += ["", "## Holding", ""] + ([f"- {e}" for e in holds] or ["- No open positions."])
+    L = [f"# Trade sheet — {today}", ""]
+
+    L += ["## Sell", ""]
+    if sells:
+        L += ["| ticker | in | out | P&L | why |", "|---|---|---|---|---|"]
+        L += [f"| {t['ticker']} | {t['entry']:,.2f} | {t['exit']:,.2f} | "
+              f"{t['pct']:+.1f}% ({CUR}{t['net']:+.2f}) | {t['reason']} |"
+              for t in sells]
+    else:
+        L += ["Nothing to sell."]
+
+    L += ["", "## Buy", ""]
+    if buys:
+        L += [f"| ticker | setup | signal px | stop {CUR} | stop % | trail | size |",
+              "|---|---|---|---|---|---|---|"]
+        for q in buys:
+            trail = a * q.get("atr_pct", 0) / 100 * q["entry"]
+            stop_pct = 100 * abs(q["entry"] - q["stop"]) / q["entry"]
+            L += [f"| {q['ticker']} | {q['setup']} | {q['entry']:,.2f} | "
+                  f"{q['stop']:,.2f} | -{stop_pct:.1f}% | {a:g}xATR = "
+                  f"{CUR}{trail:,.2f} | {CUR}{q['notional']:,.0f} = "
+                  f"{q['shares']:.4g} sh |"]
+    else:
+        L += ["Nothing to buy — slots full or no setups."]
+
+    L += ["", "## Holding — updated stops", ""]
+    if holds:
+        L += [f"| ticker | entry | now | P&L | stop now | locked in |",
+              "|---|---|---|---|---|---|"]
+        for q in holds:
+            m = last_market.get(q["ticker"], {})
+            now = m.get("close", q["entry"])
+            sign = 1 if q["side"] == "LONG" else -1
+            pl = 100 * (now - q["entry"]) / q["entry"] * sign
+            locked = 100 * (q["stop"] - q["entry"]) / q["entry"] * sign
+            L += [f"| {q['ticker']} | {q['entry']:,.2f} | {now:,.2f} | {pl:+.1f}% | "
+                  f"{q['stop']:,.2f} | "
+                  f"{('%+.1f%%' % locked) if locked > 0 else 'not yet'} |"]
+        L += ["", f"Rule: each evening raise the stop to (close − {a:g}xATR) if that "
+              "is higher than the current stop. Never lower it. Sell next day if "
+              "the stop price trades."]
+    else:
+        L += ["No open positions carried over."]
+
     if perf["n"]:
-        lines += ["", f"_Record so far: {perf['n']} closed trades, "
-                  f"{perf['win_pct']:.0f}% winners, {CUR}{perf['net']:+.2f} net "
-                  f"(simulated balance {CUR}{perf['equity']:,.2f})._"]
+        L += ["", f"_Record: {perf['n']} closed, {perf['win_pct']:.0f}% winners, "
+              f"{CUR}{perf['net']:+.2f} net, balance {CUR}{perf['equity']:,.2f}._"]
     if shadow and shadow.get("n"):
-        lines += [f"_All signals tracked: {shadow['n']} closed, "
-                  f"{shadow['win_pct']:.0f}% profitable, {shadow['avg_gross']:+.2f}% "
-                  f"average._"]
+        L += [f"_All signals: {shadow['n']} closed, {shadow['win_pct']:.0f}% "
+              f"profitable, {shadow['avg_gross']:+.2f}% avg._"]
+
     with open(path_txt, "w") as f:
-        f.write("\n".join(lines))
+        f.write("\n".join(L))
 
 
 def run(candidates, market: dict, today: str,
@@ -540,7 +583,7 @@ def run(candidates, market: dict, today: str,
     save_state(state)
     shadow = shadow_run(all_candidates if all_candidates is not None else candidates,
                         market, today)
-    render(state, events, path_html, path_txt, shadow)
+    render(state, events, path_html, path_txt, shadow, today, market)
     perf = performance(state)
     perf["shadow"] = shadow
     return perf

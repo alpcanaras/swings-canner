@@ -38,6 +38,7 @@ CONFIG = {
     "indices": {
         # name: (yfinance ticker, stooq symbol)
         "NDX": ("^NDX", "^ndx"),
+        "SPX": ("^GSPC", "^spx"),
         "RUT": ("^RUT", "^rut"),
     },
     "vix_ticker": "^VIX",          # regime gauge; falls back to realized vol

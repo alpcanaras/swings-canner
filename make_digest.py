@@ -48,7 +48,7 @@ def main():
     except FileNotFoundError:
         pass
     lines += [f"- {b}" for b in idx] or ["- (index report unavailable)"]
-    lines += ["", "## Watchlist (not held)", ""]
+    lines += ["", "## Newcomers worth watching (not held)", ""]
     lines += [f"- {b}" for b in stk[:6]] or ["- Nothing today."]
     lines += [
         "",

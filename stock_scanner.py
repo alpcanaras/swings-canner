@@ -134,6 +134,18 @@ def get_r2000() -> list[str]:
         return []
 
 
+def get_spx() -> list[str]:
+    try:
+        ticks = _extract_tickers(_wiki_tables("List_of_S%26P_500_companies"), 400)
+        if ticks:
+            print(f"  S&P 500 via Wikipedia: {len(ticks)} tickers")
+            return ticks
+        raise ValueError("no constituent table found")
+    except Exception as e:
+        print(f"  WARNING: S&P 500 fetch failed ({e}) — continuing without it.")
+        return []
+
+
 def get_universe(args) -> list[str]:
     if args.tickers:
         with open(args.tickers) as f:
@@ -142,6 +154,8 @@ def get_universe(args) -> list[str]:
     parts: list[str] = []
     if u in ("ndx", "all"):
         parts += get_ndx()
+    if u in ("spx", "all"):
+        parts += get_spx()
     if u in ("r2k", "all"):
         parts += get_r2000()
     if not parts:
@@ -242,7 +256,7 @@ def pooled_stats(processed: dict[str, tuple[pd.DataFrame, dict]]) -> pd.DataFram
 # ----------------------------------------------------------------------------
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--universe", default="ndx", help="ndx | r2k | all (default ndx)")
+    ap.add_argument("--universe", default="ndx", help="ndx | spx | r2k | all")
     ap.add_argument("--tickers", help="text file with tickers (space/newline separated)")
     ap.add_argument("--offline", metavar="DIR", help="read <TICKER>.csv files from DIR")
     ap.add_argument("--no-earnings", action="store_true")

@@ -4,29 +4,31 @@
    "ticker": "AKAM",
    "side": "LONG",
    "entry": 110.54,
-   "stop": 97.84,
+   "stop": 104.0212,
    "shares": 1.8092998009770218,
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-08-07",
-   "days": 0,
+   "days": 1,
    "viable": false,
    "atr_pct": 5.75,
-   "setup": "mean reversion"
+   "setup": "mean reversion",
+   "trailed": true
   },
   {
    "ticker": "ATEN",
    "side": "LONG",
    "entry": 26.84,
-   "stop": 23.61,
+   "stop": 25.021,
    "shares": 7.451564828614009,
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-08-07",
-   "days": 0,
+   "days": 1,
    "viable": false,
    "atr_pct": 6.03,
-   "setup": "mean reversion"
+   "setup": "mean reversion",
+   "trailed": true
   },
   {
    "ticker": "AKR",
@@ -37,7 +39,7 @@
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-08-07",
-   "days": 0,
+   "days": 1,
    "viable": false,
    "atr_pct": 2.43,
    "setup": "mean reversion"
@@ -51,7 +53,7 @@
    "notional": 161.194862261281,
    "cost": 0.161194862261281,
    "date": "2026-08-07",
-   "days": 0,
+   "days": 1,
    "viable": false,
    "atr_pct": 9.31,
    "setup": "mean reversion"
@@ -65,7 +67,7 @@
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-08-07",
-   "days": 0,
+   "days": 1,
    "viable": false,
    "atr_pct": 2.71,
    "setup": "mean reversion"

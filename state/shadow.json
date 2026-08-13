@@ -9,7 +9,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -19,12 +19,12 @@
    "ticker": "AKAM",
    "side": "LONG",
    "entry": 110.54,
-   "stop": 109.2268,
+   "stop": 112.3154,
    "shares": 0.9046499004885109,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -40,7 +40,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -51,12 +51,12 @@
    "ticker": "AZO",
    "side": "SHORT",
    "entry": 3127.29,
-   "stop": 3218.5249,
+   "stop": 3211.3947,
    "shares": 0.03197656757128376,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -67,12 +67,12 @@
    "ticker": "AKR",
    "side": "LONG",
    "entry": 20.65,
-   "stop": 19.7276,
+   "stop": 19.8976,
    "shares": 4.842615012106537,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -88,7 +88,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -103,7 +103,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -113,12 +113,12 @@
    "ticker": "DAVE",
    "side": "LONG",
    "entry": 317.93,
-   "stop": 262.0579,
+   "stop": 281.2433,
    "shares": 0.3145346459912559,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -134,7 +134,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -149,7 +149,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -160,17 +160,18 @@
    "ticker": "HIW",
    "side": "LONG",
    "entry": 31.45,
-   "stop": 29.76,
+   "stop": 30.233,
    "shares": 3.179650238473768,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "failed breakout",
     "mean reversion"
    ],
-   "n_signals": 4
+   "n_signals": 4,
+   "trailed": true
   },
   {
    "ticker": "RSI",
@@ -181,7 +182,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -192,12 +193,12 @@
    "ticker": "RHP",
    "side": "LONG",
    "entry": 120.84,
-   "stop": 116.4164,
+   "stop": 117.4934,
    "shares": 0.8275405494869248,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -213,7 +214,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -223,32 +224,17 @@
    "ticker": "SNPS",
    "side": "SHORT",
    "entry": 415.99,
-   "stop": 439.6848,
+   "stop": 439.5123,
    "shares": 0.24039039399985576,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
    "n_signals": 3,
    "trailed": true
-  },
-  {
-   "ticker": "TSCO",
-   "side": "SHORT",
-   "entry": 34.56,
-   "stop": 36.76,
-   "shares": 2.893518518518518,
-   "notional": 100.0,
-   "cost": 0.1,
-   "date": "2026-08-07",
-   "days": 3,
-   "families": [
-    "mean reversion"
-   ],
-   "n_signals": 3
   },
   {
    "ticker": "YOU",
@@ -259,7 +245,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -270,27 +256,28 @@
    "ticker": "PRG",
    "side": "LONG",
    "entry": 42.85,
-   "stop": 38.98,
+   "stop": 39.2094,
    "shares": 2.3337222870478413,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 3
+   "n_signals": 3,
+   "trailed": true
   },
   {
    "ticker": "NTCT",
    "side": "LONG",
    "entry": 38.44,
-   "stop": 36.173,
+   "stop": 36.7463,
    "shares": 2.6014568158168574,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -306,7 +293,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -321,7 +308,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -337,7 +324,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -347,12 +334,12 @@
    "ticker": "PFS",
    "side": "LONG",
    "entry": 24.46,
-   "stop": 23.9257,
+   "stop": 24.0661,
    "shares": 4.088307440719542,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "gap",
     "mean reversion"
@@ -369,7 +356,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -379,12 +366,12 @@
    "ticker": "LULU",
    "side": "SHORT",
    "entry": 128.58,
-   "stop": 129.2668,
+   "stop": 127.9434,
    "shares": 0.7777259293824855,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -395,12 +382,12 @@
    "ticker": "KTB",
    "side": "LONG",
    "entry": 77.05,
-   "stop": 74.5766,
+   "stop": 77.1168,
    "shares": 1.2978585334198574,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -411,12 +398,12 @@
    "ticker": "RNST",
    "side": "LONG",
    "entry": 42.73,
-   "stop": 41.3602,
+   "stop": 41.8742,
    "shares": 2.3402761525860054,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -432,7 +419,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -442,12 +429,12 @@
    "ticker": "BGC",
    "side": "LONG",
    "entry": 10.35,
-   "stop": 9.9518,
+   "stop": 10.1612,
    "shares": 9.66183574879227,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -458,12 +445,12 @@
    "ticker": "BNL",
    "side": "LONG",
    "entry": 20.93,
-   "stop": 20.1334,
+   "stop": 20.3618,
    "shares": 4.777830864787386,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -479,7 +466,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -510,7 +497,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -526,7 +513,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -542,7 +529,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -557,7 +544,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -573,7 +560,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -589,7 +576,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -605,7 +592,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -616,28 +603,29 @@
    "ticker": "KDP",
    "side": "LONG",
    "entry": 30.01,
-   "stop": 28.04,
+   "stop": 29.1158,
    "shares": 3.3322225924691766,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "failed breakout",
     "mean reversion"
    ],
-   "n_signals": 3
+   "n_signals": 3,
+   "trailed": true
   },
   {
    "ticker": "IVT",
    "side": "LONG",
    "entry": 33.23,
-   "stop": 31.7205,
+   "stop": 32.1012,
    "shares": 3.009328919650918,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -654,7 +642,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -664,16 +652,17 @@
    "ticker": "PEB",
    "side": "LONG",
    "entry": 18.18,
-   "stop": 16.97,
+   "stop": 17.0142,
    "shares": 5.5005500550055,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "KRMN",
@@ -684,7 +673,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -694,12 +683,12 @@
    "ticker": "LNT",
    "side": "LONG",
    "entry": 69.37,
-   "stop": 67.2949,
+   "stop": 67.3761,
    "shares": 1.441545336600836,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -711,12 +700,12 @@
    "ticker": "PARR",
    "side": "LONG",
    "entry": 66.29,
-   "stop": 68.4694,
+   "stop": 72.7693,
    "shares": 1.508523155830442,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -727,12 +716,12 @@
    "ticker": "PBH",
    "side": "SHORT",
    "entry": 54.85,
-   "stop": 56.2929,
+   "stop": 55.3076,
    "shares": 1.8231540565177757,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -743,12 +732,12 @@
    "ticker": "SEZL",
    "side": "LONG",
    "entry": 118.02,
-   "stop": 97.9035,
+   "stop": 101.8047,
    "shares": 0.8473140145738011,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -764,7 +753,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -775,12 +764,12 @@
    "ticker": "SO",
    "side": "LONG",
    "entry": 92.69,
-   "stop": 88.7063,
+   "stop": 89.1972,
    "shares": 1.0788650339842485,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -796,7 +785,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -812,7 +801,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -828,7 +817,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -838,12 +827,12 @@
    "ticker": "PDD",
    "side": "SHORT",
    "entry": 91.76,
-   "stop": 93.6544,
+   "stop": 89.1695,
    "shares": 1.0897994768962511,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -860,7 +849,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -870,12 +859,12 @@
    "ticker": "FBP",
    "side": "LONG",
    "entry": 28.67,
-   "stop": 28.2257,
+   "stop": 28.4232,
    "shares": 3.487966515521451,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -887,33 +876,16 @@
    "ticker": "GWW",
    "side": "LONG",
    "entry": 1277.55,
-   "stop": 1239.6726,
+   "stop": 1256.0512,
    "shares": 0.07827482290321318,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
    "n_signals": 2,
-   "trailed": true
-  },
-  {
-   "ticker": "GTM",
-   "side": "SHORT",
-   "entry": 4.18,
-   "stop": 4.3623,
-   "shares": 23.923444976076556,
-   "notional": 100.0,
-   "cost": 0.1,
-   "date": "2026-08-07",
-   "days": 3,
-   "families": [
-    "failed breakout",
-    "mean reversion"
-   ],
-   "n_signals": 3,
    "trailed": true
   },
   {
@@ -925,7 +897,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -941,7 +913,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -953,27 +925,28 @@
    "ticker": "ACIW",
    "side": "LONG",
    "entry": 53.67,
-   "stop": 48.98,
+   "stop": 49.4345,
    "shares": 1.8632383081796162,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "PSMT",
    "side": "LONG",
    "entry": 177.05,
-   "stop": 164.6713,
+   "stop": 167.0439,
    "shares": 0.5648121999435187,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -985,12 +958,12 @@
    "ticker": "WYNN",
    "side": "SHORT",
    "entry": 102.54,
-   "stop": 108.6606,
+   "stop": 108.4763,
    "shares": 0.9752291788570313,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1001,12 +974,12 @@
    "ticker": "VLO",
    "side": "LONG",
    "entry": 298.31,
-   "stop": 307.2195,
+   "stop": 319.0573,
    "shares": 0.33522174918708725,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -1023,7 +996,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1034,12 +1007,12 @@
    "ticker": "WKC",
    "side": "LONG",
    "entry": 36.43,
-   "stop": 34.6416,
+   "stop": 34.9116,
    "shares": 2.744990392533626,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1050,32 +1023,17 @@
    "ticker": "WDC",
    "side": "LONG",
    "entry": 434.3,
-   "stop": 357.1281,
+   "stop": 389.9647,
    "shares": 0.23025558369790466,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
    "n_signals": 2,
    "trailed": true
-  },
-  {
-   "ticker": "ZS",
-   "side": "SHORT",
-   "entry": 168.68,
-   "stop": 183.98,
-   "shares": 0.5928385107896609,
-   "notional": 100.0,
-   "cost": 0.1,
-   "date": "2026-08-07",
-   "days": 3,
-   "families": [
-    "mean reversion"
-   ],
-   "n_signals": 2
   },
   {
    "ticker": "WMB",
@@ -1086,7 +1044,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1102,7 +1060,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1113,12 +1071,12 @@
    "ticker": "CRH",
    "side": "SHORT",
    "entry": 100.48,
-   "stop": 104.3258,
+   "stop": 103.9218,
    "shares": 0.9952229299363057,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1134,7 +1092,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1145,12 +1103,12 @@
    "ticker": "EBC",
    "side": "LONG",
    "entry": 22.84,
-   "stop": 22.4509,
+   "stop": 22.6596,
    "shares": 4.378283712784588,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1166,7 +1124,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "gap",
     "mean reversion"
@@ -1182,7 +1140,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1197,27 +1155,12 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
    "n_signals": 2,
    "trailed": true
-  },
-  {
-   "ticker": "MDT",
-   "side": "SHORT",
-   "entry": 87.16,
-   "stop": 91.54,
-   "shares": 1.1473152822395596,
-   "notional": 100.0,
-   "cost": 0.1,
-   "date": "2026-08-07",
-   "days": 3,
-   "families": [
-    "mean reversion"
-   ],
-   "n_signals": 2
   },
   {
    "ticker": "LOW",
@@ -1228,7 +1171,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1244,7 +1187,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1255,12 +1198,12 @@
    "ticker": "OKE",
    "side": "LONG",
    "entry": 86.42,
-   "stop": 87.5771,
+   "stop": 87.8382,
    "shares": 1.157139551029854,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1276,7 +1219,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1287,12 +1230,12 @@
    "ticker": "PAYO",
    "side": "LONG",
    "entry": 7.1,
-   "stop": 7.0082,
+   "stop": 7.029,
    "shares": 14.084507042253522,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1308,7 +1251,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1324,7 +1267,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1335,12 +1278,12 @@
    "ticker": "MA",
    "side": "LONG",
    "entry": 562.95,
-   "stop": 539.3044,
+   "stop": 544.4872,
    "shares": 0.17763566924238386,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1356,7 +1299,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1372,7 +1315,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1382,12 +1325,12 @@
    "ticker": "TXT",
    "side": "SHORT",
    "entry": 89.43,
-   "stop": 93.3982,
+   "stop": 93.2017,
    "shares": 1.1181930001118192,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1398,12 +1341,12 @@
    "ticker": "TRMK",
    "side": "LONG",
    "entry": 47.42,
-   "stop": 46.4933,
+   "stop": 46.6772,
    "shares": 2.108814846056516,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1414,12 +1357,12 @@
    "ticker": "V",
    "side": "LONG",
    "entry": 362.5,
-   "stop": 347.5463,
+   "stop": 350.6724,
    "shares": 0.27586206896551724,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "gap",
     "mean reversion"
@@ -1436,7 +1379,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "gap",
     "mean reversion"
@@ -1453,7 +1396,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1463,12 +1406,12 @@
    "ticker": "AMTM",
    "side": "SHORT",
    "entry": 24.77,
-   "stop": 24.526,
+   "stop": 23.7928,
    "shares": 4.037141703673799,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1484,7 +1427,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1500,7 +1443,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1515,7 +1458,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1526,12 +1469,12 @@
    "ticker": "HCA",
    "side": "SHORT",
    "entry": 413.36,
-   "stop": 437.1067,
+   "stop": 436.7922,
    "shares": 0.2419198761370234,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1542,12 +1485,12 @@
    "ticker": "EL",
    "side": "SHORT",
    "entry": 88.35,
-   "stop": 92.726,
+   "stop": 92.4846,
    "shares": 1.1318619128466327,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -1564,7 +1507,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1575,12 +1518,12 @@
    "ticker": "CDW",
    "side": "LONG",
    "entry": 135.81,
-   "stop": 122.6874,
+   "stop": 127.8289,
    "shares": 0.7363228039172373,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1596,7 +1539,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "gap",
     "mean reversion"
@@ -1613,7 +1556,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1624,27 +1567,28 @@
    "ticker": "MC",
    "side": "LONG",
    "entry": 66.63,
-   "stop": 61.38,
+   "stop": 64.9214,
    "shares": 1.5008254539997,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "SOLV",
    "side": "LONG",
    "entry": 82.98,
-   "stop": 79.3636,
+   "stop": 80.8087,
    "shares": 1.205109664979513,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1655,17 +1599,18 @@
    "ticker": "KIM",
    "side": "LONG",
    "entry": 24.46,
-   "stop": 23.44,
+   "stop": 23.4761,
    "shares": 4.088307440719542,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "failed breakout",
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "PECO",
@@ -1676,7 +1621,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -1692,7 +1637,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion",
     "momentum"
@@ -1704,12 +1649,12 @@
    "ticker": "ROL",
    "side": "SHORT",
    "entry": 37.74,
-   "stop": 38.8907,
+   "stop": 38.5209,
    "shares": 2.649708532061473,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1725,7 +1670,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "gap",
     "mean reversion"
@@ -1742,7 +1687,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1752,12 +1697,12 @@
    "ticker": "RJF",
    "side": "LONG",
    "entry": 176.56,
-   "stop": 173.4914,
+   "stop": 173.57,
    "shares": 0.5663797009515179,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1768,12 +1713,12 @@
    "ticker": "QTWO",
    "side": "LONG",
    "entry": 62.81,
-   "stop": 58.1195,
+   "stop": 60.7862,
    "shares": 1.5921031682853048,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1789,7 +1734,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1805,7 +1750,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1820,7 +1765,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "gap",
     "mean reversion"
@@ -1837,7 +1782,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1847,12 +1792,12 @@
    "ticker": "WAB",
    "side": "LONG",
    "entry": 291.81,
-   "stop": 283.4996,
+   "stop": 283.649,
    "shares": 0.34268873582125353,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1868,7 +1813,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "gap",
     "mean reversion"
@@ -1884,7 +1829,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1895,12 +1840,12 @@
    "ticker": "NSC",
    "side": "LONG",
    "entry": 334.36,
-   "stop": 322.4892,
+   "stop": 325.2141,
    "shares": 0.29907883718148104,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "gap",
     "mean reversion"
@@ -1912,12 +1857,12 @@
    "ticker": "MRP",
    "side": "LONG",
    "entry": 28.98,
-   "stop": 28.3922,
+   "stop": 28.8914,
    "shares": 3.450655624568668,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "gap",
     "mean reversion"
@@ -1934,7 +1879,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1950,7 +1895,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -1966,7 +1911,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "gap",
     "mean reversion"
@@ -1978,12 +1923,12 @@
    "ticker": "MDU",
    "side": "SHORT",
    "entry": 20.55,
-   "stop": 21.4655,
+   "stop": 21.2882,
    "shares": 4.866180048661801,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "gap",
     "mean reversion"
@@ -1995,12 +1940,12 @@
    "ticker": "OSW",
    "side": "LONG",
    "entry": 26.21,
-   "stop": 25.0017,
+   "stop": 25.3587,
    "shares": 3.815337657382678,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -2011,12 +1956,12 @@
    "ticker": "NWS",
    "side": "LONG",
    "entry": 32.45,
-   "stop": 30.6544,
+   "stop": 30.9763,
    "shares": 3.081664098613251,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -2027,12 +1972,12 @@
    "ticker": "NWSA",
    "side": "LONG",
    "entry": 28.52,
-   "stop": 26.9186,
+   "stop": 27.302,
    "shares": 3.506311360448808,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -2043,27 +1988,28 @@
    "ticker": "RELY",
    "side": "LONG",
    "entry": 24.42,
-   "stop": 22.1,
+   "stop": 23.2196,
    "shares": 4.095004095004095,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "SAFT",
    "side": "LONG",
    "entry": 103.5,
-   "stop": 100.0047,
+   "stop": 100.5196,
    "shares": 0.966183574879227,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -2079,7 +2025,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -2095,7 +2041,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion",
     "momentum"
@@ -2111,7 +2057,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "gap",
     "mean reversion"
@@ -2123,12 +2069,12 @@
    "ticker": "ESI",
    "side": "LONG",
    "entry": 37.88,
-   "stop": 35.1942,
+   "stop": 35.8717,
    "shares": 2.6399155227032733,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "gap",
     "mean reversion"
@@ -2145,7 +2091,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -2156,12 +2102,12 @@
    "ticker": "DV",
    "side": "LONG",
    "entry": 13.21,
-   "stop": 12.3582,
+   "stop": 12.4245,
    "shares": 7.570022710068129,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion",
     "momentum"
@@ -2178,7 +2124,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -2194,7 +2140,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "gap",
     "mean reversion"
@@ -2206,12 +2152,12 @@
    "ticker": "ANIP",
    "side": "SHORT",
    "entry": 78.25,
-   "stop": 80.3384,
+   "stop": 80.3192,
    "shares": 1.2779552715654952,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -2222,12 +2168,12 @@
    "ticker": "EQIX",
    "side": "LONG",
    "entry": 1042.62,
-   "stop": 1007.0918,
+   "stop": 1014.2492,
    "shares": 0.09591222113521707,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -2243,7 +2189,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -2258,7 +2204,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -2269,12 +2215,12 @@
    "ticker": "ARES",
    "side": "LONG",
    "entry": 136.85,
-   "stop": 132.4104,
+   "stop": 138.5297,
    "shares": 0.7307270734380709,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "gap",
     "mean reversion"
@@ -2291,7 +2237,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -2307,7 +2253,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -2318,12 +2264,12 @@
    "ticker": "AAMI",
    "side": "LONG",
    "entry": 89.85,
-   "stop": 85.7134,
+   "stop": 86.816,
    "shares": 1.1129660545353368,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -2339,7 +2285,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -2355,7 +2301,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "gap",
     "mean reversion"
@@ -2372,7 +2318,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "gap",
     "mean reversion"
@@ -2388,7 +2334,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -2404,7 +2350,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "gap",
     "mean reversion"
@@ -2421,7 +2367,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "gap",
     "mean reversion"
@@ -2433,12 +2379,12 @@
    "ticker": "BFH",
    "side": "LONG",
    "entry": 108.32,
-   "stop": 103.6529,
+   "stop": 105.0417,
    "shares": 0.9231905465288036,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -2449,12 +2395,12 @@
    "ticker": "HWM",
    "side": "LONG",
    "entry": 281.88,
-   "stop": 264.9705,
+   "stop": 265.3178,
    "shares": 0.3547608911593586,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -2465,34 +2411,18 @@
    "ticker": "JXN",
    "side": "LONG",
    "entry": 129.96,
-   "stop": 122.7262,
+   "stop": 126.4243,
    "shares": 0.7694675284702985,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "gap",
     "mean reversion"
    ],
    "n_signals": 2,
    "trailed": true
-  },
-  {
-   "ticker": "FSLR",
-   "side": "LONG",
-   "entry": 250.05,
-   "stop": 221.46,
-   "shares": 0.3999200159968006,
-   "notional": 100.0,
-   "cost": 0.1,
-   "date": "2026-08-07",
-   "days": 3,
-   "families": [
-    "mean reversion",
-    "momentum"
-   ],
-   "n_signals": 2
   },
   {
    "ticker": "FUN",
@@ -2503,7 +2433,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -2519,7 +2449,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -2534,7 +2464,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -2545,12 +2475,12 @@
    "ticker": "IVZ",
    "side": "LONG",
    "entry": 31.58,
-   "stop": 29.8321,
+   "stop": 30.5003,
    "shares": 3.1665611146295127,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "gap",
     "mean reversion"
@@ -2562,12 +2492,12 @@
    "ticker": "NXPI",
    "side": "SHORT",
    "entry": 239.71,
-   "stop": 256.9115,
+   "stop": 254.522,
    "shares": 0.41717074798715115,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "gap",
     "mean reversion"
@@ -2579,12 +2509,12 @@
    "ticker": "PG",
    "side": "SHORT",
    "entry": 145.79,
-   "stop": 150.5399,
+   "stop": 150.5163,
    "shares": 0.6859181013786955,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "gap",
     "mean reversion"
@@ -2601,7 +2531,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -2617,7 +2547,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "gap",
     "mean reversion"
@@ -2634,27 +2564,12 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "gap",
     "mean reversion"
    ],
    "n_signals": 2
-  },
-  {
-   "ticker": "WSC",
-   "side": "LONG",
-   "entry": 24.37,
-   "stop": 22.0,
-   "shares": 4.103405826836274,
-   "notional": 100.0,
-   "cost": 0.1,
-   "date": "2026-08-07",
-   "days": 3,
-   "families": [
-    "mean reversion"
-   ],
-   "n_signals": 1
   },
   {
    "ticker": "SKYW",
@@ -2665,7 +2580,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -2680,7 +2595,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -2690,12 +2605,12 @@
    "ticker": "OII",
    "side": "LONG",
    "entry": 47.97,
-   "stop": 46.4482,
+   "stop": 47.0147,
    "shares": 2.0846362309776945,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -2711,7 +2626,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -2721,12 +2636,12 @@
    "ticker": "LXP",
    "side": "LONG",
    "entry": 60.56,
-   "stop": 59.4917,
+   "stop": 59.6988,
    "shares": 1.6512549537648613,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -2742,7 +2657,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -2753,12 +2668,12 @@
    "ticker": "CVI",
    "side": "LONG",
    "entry": 31.15,
-   "stop": 31.153,
+   "stop": 31.7811,
    "shares": 3.2102728731942216,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -2775,7 +2690,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -2790,7 +2705,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion",
     "momentum"
@@ -2806,7 +2721,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "gap",
     "mean reversion"
@@ -2818,12 +2733,12 @@
    "ticker": "FHB",
    "side": "LONG",
    "entry": 27.49,
-   "stop": 26.4156,
+   "stop": 26.6783,
    "shares": 3.637686431429611,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -2839,7 +2754,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -2856,7 +2771,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -2872,7 +2787,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -2888,7 +2803,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -2903,7 +2818,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -2914,12 +2829,12 @@
    "ticker": "AOS",
    "side": "SHORT",
    "entry": 63.98,
-   "stop": 66.1341,
+   "stop": 66.0603,
    "shares": 1.5629884338855893,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -2930,12 +2845,12 @@
    "ticker": "AUB",
    "side": "LONG",
    "entry": 41.78,
-   "stop": 40.7914,
+   "stop": 41.0478,
    "shares": 2.3934897079942554,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -2952,7 +2867,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -2964,12 +2879,12 @@
    "ticker": "ACA",
    "side": "LONG",
    "entry": 144.84,
-   "stop": 143.1674,
+   "stop": 143.2963,
    "shares": 0.6904170118751726,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -2985,7 +2900,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -3001,7 +2916,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "gap",
     "mean reversion"
@@ -3017,7 +2932,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -3027,12 +2942,12 @@
    "ticker": "AROC",
    "side": "LONG",
    "entry": 33.08,
-   "stop": 30.5474,
+   "stop": 30.7732,
    "shares": 3.0229746070133015,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -3049,7 +2964,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "gap",
     "mean reversion"
@@ -3061,12 +2976,12 @@
    "ticker": "ENVA",
    "side": "LONG",
    "entry": 252.64,
-   "stop": 242.438,
+   "stop": 245.0454,
    "shares": 0.3958201393286891,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "gap",
     "mean reversion"
@@ -3078,12 +2993,12 @@
    "ticker": "FFBC",
    "side": "LONG",
    "entry": 33.66,
-   "stop": 32.743,
+   "stop": 33.047,
    "shares": 2.9708853238265007,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -3094,12 +3009,12 @@
    "ticker": "IRM",
    "side": "LONG",
    "entry": 121.15,
-   "stop": 115.5356,
+   "stop": 118.0866,
    "shares": 0.8254230293025175,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -3110,12 +3025,12 @@
    "ticker": "INDB",
    "side": "LONG",
    "entry": 83.73,
-   "stop": 82.0427,
+   "stop": 82.3212,
    "shares": 1.1943150603129105,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -3131,7 +3046,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "gap",
     "mean reversion"
@@ -3148,7 +3063,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -3159,12 +3074,12 @@
    "ticker": "FULT",
    "side": "LONG",
    "entry": 24.24,
-   "stop": 23.4868,
+   "stop": 23.6565,
    "shares": 4.125412541254126,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -3180,7 +3095,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -3191,12 +3106,12 @@
    "ticker": "PFG",
    "side": "LONG",
    "entry": 113.4,
-   "stop": 108.9794,
+   "stop": 110.2995,
    "shares": 0.8818342151675485,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -3212,7 +3127,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -3228,7 +3143,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "gap",
     "mean reversion"
@@ -3240,12 +3155,12 @@
    "ticker": "KMI",
    "side": "LONG",
    "entry": 30.85,
-   "stop": 30.4312,
+   "stop": 30.757,
    "shares": 3.2414910858995136,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -3261,7 +3176,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -3276,7 +3191,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -3292,7 +3207,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -3309,7 +3224,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -3324,7 +3239,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -3340,7 +3255,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -3356,7 +3271,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -3372,7 +3287,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -3384,12 +3299,12 @@
    "ticker": "SNDK",
    "side": "LONG",
    "entry": 1212.21,
-   "stop": 1016.1854,
+   "stop": 1187.8329,
    "shares": 0.08249395731762649,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -3405,7 +3320,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -3415,12 +3330,12 @@
    "ticker": "SFBS",
    "side": "LONG",
    "entry": 88.92,
-   "stop": 86.6228,
+   "stop": 87.7727,
    "shares": 1.1246063877642825,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "gap",
     "mean reversion"
@@ -3432,12 +3347,12 @@
    "ticker": "PRK",
    "side": "LONG",
    "entry": 203.4,
-   "stop": 194.0069,
+   "stop": 196.295,
    "shares": 0.4916420845624385,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "gap",
     "mean reversion"
@@ -3454,7 +3369,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -3470,7 +3385,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -3481,33 +3396,17 @@
    "ticker": "STX",
    "side": "LONG",
    "entry": 812.76,
-   "stop": 728.8876,
+   "stop": 772.2504,
    "shares": 0.12303755106058369,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
    "n_signals": 1,
    "trailed": true
-  },
-  {
-   "ticker": "SRPT",
-   "side": "SHORT",
-   "entry": 16.78,
-   "stop": 18.61,
-   "shares": 5.959475566150179,
-   "notional": 100.0,
-   "cost": 0.1,
-   "date": "2026-08-07",
-   "days": 3,
-   "families": [
-    "failed breakout",
-    "mean reversion"
-   ],
-   "n_signals": 2
   },
   {
    "ticker": "T",
@@ -3518,7 +3417,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -3533,7 +3432,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -3544,12 +3443,12 @@
    "ticker": "UNFI",
    "side": "LONG",
    "entry": 47.06,
-   "stop": 44.1262,
+   "stop": 44.968,
    "shares": 2.124946876328092,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -3566,7 +3465,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "failed breakout",
     "gap",
@@ -3584,7 +3483,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -3596,12 +3495,12 @@
    "ticker": "XYZ",
    "side": "LONG",
    "entry": 79.0,
-   "stop": 73.6303,
+   "stop": 77.3612,
    "shares": 1.2658227848101267,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-07",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -3612,12 +3511,12 @@
    "ticker": "EQT",
    "side": "SHORT",
    "entry": 54.08,
-   "stop": 56.8514,
+   "stop": 56.766,
    "shares": 1.849112426035503,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -3628,12 +3527,12 @@
    "ticker": "CALM",
    "side": "LONG",
    "entry": 81.98,
-   "stop": 76.4115,
+   "stop": 76.8204,
    "shares": 1.2198097096852891,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -3649,7 +3548,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -3665,7 +3564,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -3681,7 +3580,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -3697,7 +3596,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -3708,12 +3607,12 @@
    "ticker": "EXE",
    "side": "SHORT",
    "entry": 97.56,
-   "stop": 101.5532,
+   "stop": 99.8723,
    "shares": 1.025010250102501,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -3724,12 +3623,12 @@
    "ticker": "PNW",
    "side": "LONG",
    "entry": 99.23,
-   "stop": 96.2384,
+   "stop": 96.7086,
    "shares": 1.007759750075582,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -3740,12 +3639,12 @@
    "ticker": "RCL",
    "side": "LONG",
    "entry": 308.0,
-   "stop": 286.1947,
+   "stop": 288.9914,
    "shares": 0.3246753246753247,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -3756,12 +3655,12 @@
    "ticker": "JBLU",
    "side": "LONG",
    "entry": 5.64,
-   "stop": 5.1176,
+   "stop": 5.1513,
    "shares": 17.73049645390071,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -3777,7 +3676,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -3792,7 +3691,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -3803,12 +3702,12 @@
    "ticker": "HII",
    "side": "SHORT",
    "entry": 330.81,
-   "stop": 348.3649,
+   "stop": 346.9995,
    "shares": 0.30228832260209787,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -3819,28 +3718,29 @@
    "ticker": "REG",
    "side": "LONG",
    "entry": 76.11,
-   "stop": 73.05,
+   "stop": 73.987,
    "shares": 1.3138877939823939,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "failed breakout",
     "mean reversion"
    ],
-   "n_signals": 3
+   "n_signals": 3,
+   "trailed": true
   },
   {
    "ticker": "CNS",
    "side": "LONG",
    "entry": 82.15,
-   "stop": 79.8985,
+   "stop": 80.85,
    "shares": 1.2172854534388313,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -3856,7 +3756,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -3873,7 +3773,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -3883,12 +3783,12 @@
    "ticker": "ED",
    "side": "LONG",
    "entry": 106.3,
-   "stop": 103.3288,
+   "stop": 104.1529,
    "shares": 0.9407337723424272,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -3900,12 +3800,12 @@
    "ticker": "O",
    "side": "LONG",
    "entry": 61.89,
-   "stop": 60.2729,
+   "stop": 60.7016,
    "shares": 1.6157699143641946,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -3916,12 +3816,12 @@
    "ticker": "AX",
    "side": "LONG",
    "entry": 99.18,
-   "stop": 95.0453,
+   "stop": 95.7256,
    "shares": 1.008267795926598,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -3937,7 +3837,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -3953,7 +3853,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -3963,12 +3863,12 @@
    "ticker": "RAMP",
    "side": "LONG",
    "entry": 37.75,
-   "stop": 37.4168,
+   "stop": 37.5492,
    "shares": 2.6490066225165565,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "failed breakout",
     "gap",
@@ -3981,27 +3881,28 @@
    "ticker": "LBRT",
    "side": "SHORT",
    "entry": 21.13,
-   "stop": 24.08,
+   "stop": 23.8023,
    "shares": 4.73260766682442,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "EXR",
    "side": "LONG",
    "entry": 146.66,
-   "stop": 140.2686,
+   "stop": 142.9603,
    "shares": 0.6818491749624983,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -4013,12 +3914,12 @@
    "ticker": "WERN",
    "side": "LONG",
    "entry": 36.68,
-   "stop": 34.6081,
+   "stop": 35.3616,
    "shares": 2.7262813522355507,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4029,12 +3930,12 @@
    "ticker": "AEE",
    "side": "LONG",
    "entry": 107.0,
-   "stop": 104.3316,
+   "stop": 104.8643,
    "shares": 0.9345794392523364,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4045,12 +3946,12 @@
    "ticker": "TER",
    "side": "LONG",
    "entry": 365.1,
-   "stop": 341.7292,
+   "stop": 350.3921,
    "shares": 0.27389756231169543,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4066,7 +3967,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4081,7 +3982,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4096,7 +3997,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -4112,7 +4013,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4123,16 +4024,17 @@
    "ticker": "ETSY",
    "side": "LONG",
    "entry": 80.4,
-   "stop": 73.23,
+   "stop": 73.8363,
    "shares": 1.243781094527363,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "PENN",
@@ -4143,7 +4045,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4159,7 +4061,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4170,32 +4072,34 @@
    "ticker": "STRA",
    "side": "LONG",
    "entry": 81.45,
-   "stop": 74.64,
+   "stop": 75.7351,
    "shares": 1.2277470841006752,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "CPT",
    "side": "LONG",
    "entry": 109.08,
-   "stop": 104.52,
+   "stop": 106.1071,
    "shares": 0.9167583425009168,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "failed breakout",
     "mean reversion"
    ],
-   "n_signals": 3
+   "n_signals": 3,
+   "trailed": true
   },
   {
    "ticker": "PWR",
@@ -4206,7 +4110,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -4223,7 +4127,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -4235,12 +4139,12 @@
    "ticker": "HAL",
    "side": "SHORT",
    "entry": 33.64,
-   "stop": 35.3027,
+   "stop": 34.7972,
    "shares": 2.972651605231867,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4256,7 +4160,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4266,27 +4170,28 @@
    "ticker": "UPBD",
    "side": "LONG",
    "entry": 19.22,
-   "stop": 17.43,
+   "stop": 18.0241,
    "shares": 5.202913631633715,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "KLIC",
    "side": "LONG",
    "entry": 86.5,
-   "stop": 80.0347,
+   "stop": 81.3272,
    "shares": 1.1560693641618498,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4297,12 +4202,12 @@
    "ticker": "ASO",
    "side": "SHORT",
    "entry": 49.89,
-   "stop": 52.9299,
+   "stop": 52.5909,
    "shares": 2.0044097013429543,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -4319,7 +4224,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4329,27 +4234,28 @@
    "ticker": "LAUR",
    "side": "LONG",
    "entry": 37.26,
-   "stop": 34.62,
+   "stop": 34.9064,
    "shares": 2.6838432635534084,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "EVRG",
    "side": "LONG",
    "entry": 82.09,
-   "stop": 80.0439,
+   "stop": 80.3508,
    "shares": 1.2181751735899622,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -4361,12 +4267,12 @@
    "ticker": "JBHT",
    "side": "LONG",
    "entry": 266.14,
-   "stop": 258.378,
+   "stop": 265.5234,
    "shares": 0.3757420906289923,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4382,7 +4288,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4398,7 +4304,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4414,7 +4320,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4424,12 +4330,12 @@
    "ticker": "LTH",
    "side": "LONG",
    "entry": 42.46,
-   "stop": 40.7336,
+   "stop": 41.2656,
    "shares": 2.3551577955723033,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4440,12 +4346,12 @@
    "ticker": "MOS",
    "side": "SHORT",
    "entry": 23.47,
-   "stop": 24.5145,
+   "stop": 23.7884,
    "shares": 4.26075841499787,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4461,7 +4367,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4472,12 +4378,12 @@
    "ticker": "ICHR",
    "side": "LONG",
    "entry": 64.77,
-   "stop": 53.2256,
+   "stop": 55.7859,
    "shares": 1.5439246564767641,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4488,12 +4394,12 @@
    "ticker": "AMD",
    "side": "LONG",
    "entry": 469.56,
-   "stop": 415.7411,
+   "stop": 418.1946,
    "shares": 0.212965329244399,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -4505,12 +4411,12 @@
    "ticker": "BEN",
    "side": "LONG",
    "entry": 33.52,
-   "stop": 31.7838,
+   "stop": 32.12,
    "shares": 2.9832935560859184,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4521,12 +4427,12 @@
    "ticker": "VECO",
    "side": "LONG",
    "entry": 49.34,
-   "stop": 44.3871,
+   "stop": 45.078,
    "shares": 2.026753141467369,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4542,7 +4448,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4557,7 +4463,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4568,12 +4474,12 @@
    "ticker": "DAL",
    "side": "LONG",
    "entry": 89.21,
-   "stop": 85.3039,
+   "stop": 86.2162,
    "shares": 1.1209505660800358,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4584,27 +4490,28 @@
    "ticker": "INVH",
    "side": "LONG",
    "entry": 29.89,
-   "stop": 28.73,
+   "stop": 29.196,
    "shares": 3.3456005352960854,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "TFC",
    "side": "LONG",
    "entry": 51.86,
-   "stop": 50.7636,
+   "stop": 51.1228,
    "shares": 1.9282684149633629,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4620,7 +4527,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -4637,7 +4544,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4648,12 +4555,12 @@
    "ticker": "UAL",
    "side": "LONG",
    "entry": 123.76,
-   "stop": 116.9593,
+   "stop": 117.2204,
    "shares": 0.8080155138978669,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4664,12 +4571,12 @@
    "ticker": "UCTT",
    "side": "LONG",
    "entry": 82.27,
-   "stop": 70.5432,
+   "stop": 73.4608,
    "shares": 1.2155099064057373,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -4686,7 +4593,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4702,7 +4609,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4712,12 +4619,12 @@
    "ticker": "SWKS",
    "side": "LONG",
    "entry": 68.79,
-   "stop": 63.2526,
+   "stop": 63.7512,
    "shares": 1.4536996656490768,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4733,7 +4640,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -4750,7 +4657,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -4767,7 +4674,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4783,7 +4690,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4798,7 +4705,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -4810,12 +4717,12 @@
    "ticker": "SNDR",
    "side": "LONG",
    "entry": 35.26,
-   "stop": 33.1075,
+   "stop": 33.7259,
    "shares": 2.836074872376631,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4831,7 +4738,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4842,12 +4749,12 @@
    "ticker": "COHU",
    "side": "LONG",
    "entry": 49.47,
-   "stop": 46.2302,
+   "stop": 48.7962,
    "shares": 2.0214271275520517,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4863,7 +4770,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4874,12 +4781,12 @@
    "ticker": "CHEF",
    "side": "LONG",
    "entry": 108.83,
-   "stop": 103.063,
+   "stop": 104.0581,
    "shares": 0.9188642837452908,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4895,7 +4802,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4906,16 +4813,17 @@
    "ticker": "CI",
    "side": "LONG",
    "entry": 278.4,
-   "stop": 260.59,
+   "stop": 261.3024,
    "shares": 0.3591954022988506,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "WRLD",
@@ -4926,7 +4834,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4942,7 +4850,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4958,7 +4866,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4969,12 +4877,12 @@
    "ticker": "VMC",
    "side": "SHORT",
    "entry": 285.34,
-   "stop": 297.3964,
+   "stop": 293.5925,
    "shares": 0.35045910142286396,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -4985,12 +4893,12 @@
    "ticker": "VSH",
    "side": "LONG",
    "entry": 33.14,
-   "stop": 26.1719,
+   "stop": 26.3282,
    "shares": 3.017501508750754,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -5006,7 +4914,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -5021,7 +4929,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -5037,7 +4945,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -5053,7 +4961,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -5065,12 +4973,12 @@
    "ticker": "ARM",
    "side": "LONG",
    "entry": 267.85,
-   "stop": 224.6469,
+   "stop": 231.3761,
    "shares": 0.3733432891543774,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -5087,7 +4995,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -5103,7 +5011,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -5120,7 +5028,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -5137,7 +5045,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -5148,12 +5056,12 @@
    "ticker": "MRVL",
    "side": "LONG",
    "entry": 208.56,
-   "stop": 180.8999,
+   "stop": 186.54,
    "shares": 0.4794783275795934,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -5165,12 +5073,12 @@
    "ticker": "MTRN",
    "side": "LONG",
    "entry": 279.67,
-   "stop": 246.4761,
+   "stop": 247.2998,
    "shares": 0.35756427217792397,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -5181,12 +5089,12 @@
    "ticker": "MXL",
    "side": "LONG",
    "entry": 68.44,
-   "stop": 56.9118,
+   "stop": 59.6116,
    "shares": 1.461133839859731,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -5202,7 +5110,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -5212,12 +5120,12 @@
    "ticker": "MKTX",
    "side": "LONG",
    "entry": 162.5,
-   "stop": 155.9237,
+   "stop": 156.3793,
    "shares": 0.6153846153846154,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -5228,12 +5136,12 @@
    "ticker": "MLM",
    "side": "SHORT",
    "entry": 549.54,
-   "stop": 577.364,
+   "stop": 576.7769,
    "shares": 0.18197037522291373,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -5250,7 +5158,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -5266,7 +5174,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -5282,7 +5190,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -5292,17 +5200,18 @@
    "ticker": "MET",
    "side": "LONG",
    "entry": 97.03,
-   "stop": 93.02,
+   "stop": 93.8975,
    "shares": 1.0306090899721736,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "LITE",
@@ -5313,7 +5222,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -5325,12 +5234,12 @@
    "ticker": "LPG",
    "side": "LONG",
    "entry": 44.46,
-   "stop": 40.8063,
+   "stop": 41.7748,
    "shares": 2.249212775528565,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -5342,12 +5251,12 @@
    "ticker": "LRCX",
    "side": "LONG",
    "entry": 306.4,
-   "stop": 280.5404,
+   "stop": 291.6797,
    "shares": 0.3263707571801567,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -5358,12 +5267,12 @@
    "ticker": "EYE",
    "side": "SHORT",
    "entry": 22.43,
-   "stop": 21.6007,
+   "stop": 21.1635,
    "shares": 4.458314757021846,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -5374,12 +5283,12 @@
    "ticker": "KLAC",
    "side": "LONG",
    "entry": 192.74,
-   "stop": 180.9457,
+   "stop": 182.8792,
    "shares": 0.5188336619279859,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -5395,7 +5304,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -5407,12 +5316,12 @@
    "ticker": "KSS",
    "side": "LONG",
    "entry": 19.03,
-   "stop": 17.387,
+   "stop": 17.716,
    "shares": 5.254860746190226,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -5423,12 +5332,12 @@
    "ticker": "JBL",
    "side": "LONG",
    "entry": 336.63,
-   "stop": 332.2425,
+   "stop": 337.0045,
    "shares": 0.2970620562635535,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -5445,7 +5354,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -5457,12 +5366,12 @@
    "ticker": "KEYS",
    "side": "LONG",
    "entry": 335.41,
-   "stop": 327.3632,
+   "stop": 328.191,
    "shares": 0.2981425717778241,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -5479,7 +5388,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -5490,16 +5399,17 @@
    "ticker": "HPQ",
    "side": "LONG",
    "entry": 29.8,
-   "stop": 27.23,
+   "stop": 28.5683,
    "shares": 3.3557046979865772,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "HSY",
@@ -5510,7 +5420,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -5526,7 +5436,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -5542,7 +5452,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -5558,7 +5468,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -5574,7 +5484,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -5586,12 +5496,12 @@
    "ticker": "RXO",
    "side": "LONG",
    "entry": 21.33,
-   "stop": 19.5157,
+   "stop": 20.2025,
    "shares": 4.688232536333802,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -5607,7 +5517,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -5618,12 +5528,12 @@
    "ticker": "QRVO",
    "side": "LONG",
    "entry": 97.0,
-   "stop": 91.87,
+   "stop": 92.4577,
    "shares": 1.0309278350515463,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -5639,7 +5549,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -5655,7 +5565,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -5672,7 +5582,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -5688,7 +5598,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -5700,12 +5610,12 @@
    "ticker": "PCG",
    "side": "LONG",
    "entry": 17.04,
-   "stop": 16.4506,
+   "stop": 16.4791,
    "shares": 5.868544600938967,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -5721,7 +5631,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -5732,12 +5642,12 @@
    "ticker": "DORM",
    "side": "LONG",
    "entry": 133.27,
-   "stop": 121.0298,
+   "stop": 121.2177,
    "shares": 0.7503564192991671,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -5753,39 +5663,22 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
    "n_signals": 1
   },
   {
-   "ticker": "CSCO",
-   "side": "LONG",
-   "entry": 122.57,
-   "stop": 116.1525,
-   "shares": 0.8158603247124093,
-   "notional": 100.0,
-   "cost": 0.1,
-   "date": "2026-08-10",
-   "days": 2,
-   "families": [
-    "mean reversion",
-    "momentum"
-   ],
-   "n_signals": 2,
-   "trailed": true
-  },
-  {
    "ticker": "CVSA",
    "side": "LONG",
    "entry": 128.71,
-   "stop": 114.6207,
+   "stop": 118.3154,
    "shares": 0.776940408670655,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -5801,7 +5694,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -5817,7 +5710,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -5834,7 +5727,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -5850,7 +5743,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -5865,7 +5758,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -5881,7 +5774,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -5898,7 +5791,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -5910,12 +5803,12 @@
    "ticker": "FLEX",
    "side": "LONG",
    "entry": 119.7,
-   "stop": 107.2437,
+   "stop": 107.6813,
    "shares": 0.835421888053467,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -5927,12 +5820,12 @@
    "ticker": "FORM",
    "side": "LONG",
    "entry": 112.47,
-   "stop": 108.0264,
+   "stop": 111.3967,
    "shares": 0.8891259891526629,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -5944,12 +5837,12 @@
    "ticker": "CIEN",
    "side": "LONG",
    "entry": 387.7,
-   "stop": 368.7424,
+   "stop": 379.0487,
    "shares": 0.25793139025019346,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -5965,7 +5858,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -5981,7 +5874,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -5993,12 +5886,12 @@
    "ticker": "CAT",
    "side": "LONG",
    "entry": 837.58,
-   "stop": 778.1062,
+   "stop": 780.4317,
    "shares": 0.11939158050574272,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -6010,12 +5903,12 @@
    "ticker": "CBOE",
    "side": "LONG",
    "entry": 285.02,
-   "stop": 270.2024,
+   "stop": 272.1146,
    "shares": 0.35085257174935097,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6026,12 +5919,12 @@
    "ticker": "CCL",
    "side": "LONG",
    "entry": 27.75,
-   "stop": 25.6559,
+   "stop": 26.4152,
    "shares": 3.6036036036036037,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6047,7 +5940,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6063,7 +5956,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6078,7 +5971,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6094,7 +5987,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6105,12 +5998,12 @@
    "ticker": "ECPG",
    "side": "LONG",
    "entry": 94.92,
-   "stop": 88.6944,
+   "stop": 92.6822,
    "shares": 1.0535187526337968,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6121,12 +6014,12 @@
    "ticker": "EME",
    "side": "LONG",
    "entry": 809.33,
-   "stop": 766.8702,
+   "stop": 767.2475,
    "shares": 0.12355899324132306,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6142,7 +6035,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion",
     "momentum"
@@ -6159,7 +6052,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6170,12 +6063,12 @@
    "ticker": "PENG",
    "side": "LONG",
    "entry": 55.18,
-   "stop": 46.7721,
+   "stop": 48.9591,
    "shares": 1.812250815512867,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -6187,16 +6080,17 @@
    "ticker": "ODFL",
    "side": "LONG",
    "entry": 212.55,
-   "stop": 197.0,
+   "stop": 200.4757,
    "shares": 0.47047753469771814,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "OI",
@@ -6207,7 +6101,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion",
     "momentum"
@@ -6224,7 +6118,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6240,7 +6134,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -6252,12 +6146,12 @@
    "ticker": "NMIH",
    "side": "LONG",
    "entry": 44.2,
-   "stop": 42.7832,
+   "stop": 43.308,
    "shares": 2.262443438914027,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6268,28 +6162,29 @@
    "ticker": "NSP",
    "side": "LONG",
    "entry": 51.22,
-   "stop": 45.5,
+   "stop": 47.9698,
    "shares": 1.952362358453729,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "NVDA",
    "side": "LONG",
    "entry": 217.55,
-   "stop": 209.0614,
+   "stop": 210.842,
    "shares": 0.4596644449551827,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -6306,7 +6201,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6322,7 +6217,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -6339,7 +6234,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6349,12 +6244,12 @@
    "ticker": "ACMR",
    "side": "LONG",
    "entry": 79.41,
-   "stop": 65.1134,
+   "stop": 65.6382,
    "shares": 1.2592872434202242,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6365,12 +6260,12 @@
    "ticker": "ACLS",
    "side": "LONG",
    "entry": 132.65,
-   "stop": 121.2014,
+   "stop": 123.5362,
    "shares": 0.7538635506973238,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6386,7 +6281,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6402,7 +6297,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6412,12 +6307,12 @@
    "ticker": "AGYS",
    "side": "LONG",
    "entry": 106.98,
-   "stop": 96.7827,
+   "stop": 104.713,
    "shares": 0.9347541596560104,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6428,12 +6323,12 @@
    "ticker": "AIN",
    "side": "LONG",
    "entry": 61.01,
-   "stop": 57.8745,
+   "stop": 58.4182,
    "shares": 1.6390755613833798,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6449,7 +6344,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6459,12 +6354,12 @@
    "ticker": "APLE",
    "side": "LONG",
    "entry": 15.71,
-   "stop": 14.9351,
+   "stop": 15.104,
    "shares": 6.365372374283895,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6475,16 +6370,17 @@
    "ticker": "AVB",
    "side": "LONG",
    "entry": 183.84,
-   "stop": 176.44,
+   "stop": 176.4528,
    "shares": 0.5439512619669278,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "BALL",
@@ -6495,7 +6391,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6506,12 +6402,12 @@
    "ticker": "BKU",
    "side": "LONG",
    "entry": 46.26,
-   "stop": 45.3101,
+   "stop": 45.6786,
    "shares": 2.16169476869866,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6522,28 +6418,29 @@
    "ticker": "UDR",
    "side": "LONG",
    "entry": 37.66,
-   "stop": 36.07,
+   "stop": 36.4311,
    "shares": 2.6553372278279346,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "failed breakout",
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "UNIT",
    "side": "LONG",
    "entry": 9.39,
-   "stop": 8.5527,
+   "stop": 8.8468,
    "shares": 10.649627263045792,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6559,7 +6456,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -6576,7 +6473,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6592,7 +6489,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -6609,7 +6506,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6624,7 +6521,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6635,12 +6532,12 @@
    "ticker": "PLD",
    "side": "LONG",
    "entry": 138.76,
-   "stop": 134.3892,
+   "stop": 135.0872,
    "shares": 0.7206687806284232,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -6652,12 +6549,12 @@
    "ticker": "PM",
    "side": "LONG",
    "entry": 186.0,
-   "stop": 176.2959,
+   "stop": 178.973,
    "shares": 0.5376344086021505,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6668,12 +6565,12 @@
    "ticker": "PRKS",
    "side": "LONG",
    "entry": 44.02,
-   "stop": 40.112,
+   "stop": 40.8886,
    "shares": 2.2716946842344385,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6689,7 +6586,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -6701,12 +6598,12 @@
    "ticker": "MAA",
    "side": "LONG",
    "entry": 132.34,
-   "stop": 127.0608,
+   "stop": 128.9532,
    "shares": 0.755629439322956,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6717,12 +6614,12 @@
    "ticker": "MDLZ",
    "side": "LONG",
    "entry": 61.53,
-   "stop": 58.961,
+   "stop": 60.3445,
    "shares": 1.6252234682268811,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6738,7 +6635,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6749,12 +6646,12 @@
    "ticker": "NBTB",
    "side": "LONG",
    "entry": 52.47,
-   "stop": 51.256,
+   "stop": 51.5384,
    "shares": 1.9058509624547362,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -6771,7 +6668,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6782,12 +6679,12 @@
    "ticker": "IDXX",
    "side": "SHORT",
    "entry": 595.76,
-   "stop": 611.3562,
+   "stop": 606.2846,
    "shares": 0.16785282664160064,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6798,12 +6695,12 @@
    "ticker": "INSW",
    "side": "LONG",
    "entry": 90.4,
-   "stop": 84.4661,
+   "stop": 87.3504,
    "shares": 1.1061946902654867,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6814,16 +6711,17 @@
    "ticker": "KHC",
    "side": "LONG",
    "entry": 24.93,
-   "stop": 23.25,
+   "stop": 23.7756,
    "shares": 4.011231448054553,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "FE",
@@ -6834,7 +6732,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6845,12 +6743,12 @@
    "ticker": "FIBK",
    "side": "LONG",
    "entry": 37.38,
-   "stop": 36.9658,
+   "stop": 37.3284,
    "shares": 2.675227394328518,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6861,12 +6759,12 @@
    "ticker": "FRT",
    "side": "LONG",
    "entry": 117.13,
-   "stop": 113.1972,
+   "stop": 114.8826,
    "shares": 0.8537522410996329,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6882,7 +6780,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6892,27 +6790,28 @@
    "ticker": "EQR",
    "side": "LONG",
    "entry": 65.83,
-   "stop": 63.14,
+   "stop": 63.2613,
    "shares": 1.5190642564180465,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "ES",
    "side": "LONG",
    "entry": 71.17,
-   "stop": 68.5352,
+   "stop": 69.2771,
    "shares": 1.405086412814388,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6923,16 +6822,17 @@
    "ticker": "ESS",
    "side": "LONG",
    "entry": 283.21,
-   "stop": 271.3,
+   "stop": 276.0651,
    "shares": 0.35309487659334066,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "ETR",
@@ -6943,7 +6843,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6954,12 +6854,12 @@
    "ticker": "BOH",
    "side": "LONG",
    "entry": 78.69,
-   "stop": 76.2318,
+   "stop": 76.7713,
    "shares": 1.2708095056551023,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -6971,12 +6871,12 @@
    "ticker": "BXP",
    "side": "LONG",
    "entry": 67.9,
-   "stop": 64.1242,
+   "stop": 65.4687,
    "shares": 1.4727540500736376,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -6992,7 +6892,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -7003,12 +6903,12 @@
    "ticker": "CCEP",
    "side": "LONG",
    "entry": 106.03,
-   "stop": 101.9838,
+   "stop": 102.6235,
    "shares": 0.943129303027445,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -7019,12 +6919,12 @@
    "ticker": "CPK",
    "side": "LONG",
    "entry": 132.36,
-   "stop": 128.0231,
+   "stop": 128.8612,
    "shares": 0.7555152614082804,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -7035,12 +6935,12 @@
    "ticker": "CRC",
    "side": "SHORT",
    "entry": 53.75,
-   "stop": 57.1127,
+   "stop": 56.1917,
    "shares": 1.8604651162790697,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -7051,12 +6951,12 @@
    "ticker": "SPG",
    "side": "LONG",
    "entry": 220.55,
-   "stop": 212.0645,
+   "stop": 213.1215,
    "shares": 0.45341192473362046,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -7068,12 +6968,12 @@
    "ticker": "TFIN",
    "side": "LONG",
    "entry": 75.3,
-   "stop": 71.7035,
+   "stop": 73.3773,
    "shares": 1.3280212483399736,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -7084,12 +6984,12 @@
    "ticker": "TFX",
    "side": "LONG",
    "entry": 133.0,
-   "stop": 125.8872,
+   "stop": 127.6857,
    "shares": 0.7518796992481203,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -7105,7 +7005,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -7116,12 +7016,12 @@
    "ticker": "UCB",
    "side": "LONG",
    "entry": 35.4,
-   "stop": 35.0749,
+   "stop": 35.5114,
    "shares": 2.824858757062147,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-10",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -7132,12 +7032,12 @@
    "ticker": "AAP",
    "side": "LONG",
    "entry": 52.95,
-   "stop": 48.2259,
+   "stop": 51.6983,
    "shares": 1.8885741265344664,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -7153,7 +7053,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -7168,7 +7068,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -7179,27 +7079,28 @@
    "ticker": "VRSN",
    "side": "LONG",
    "entry": 287.63,
-   "stop": 269.32,
+   "stop": 269.4409,
    "shares": 0.34766888015853703,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 3
+   "n_signals": 3,
+   "trailed": true
   },
   {
    "ticker": "WELL",
    "side": "LONG",
    "entry": 226.01,
-   "stop": 218.7582,
+   "stop": 223.0332,
    "shares": 0.44245829830538475,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -7210,16 +7111,17 @@
    "ticker": "LNC",
    "side": "LONG",
    "entry": 44.43,
-   "stop": 41.69,
+   "stop": 42.5625,
    "shares": 2.2507314877335136,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 3
+   "n_signals": 3,
+   "trailed": true
   },
   {
    "ticker": "HON",
@@ -7230,7 +7132,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -7241,12 +7143,12 @@
    "ticker": "VTR",
    "side": "LONG",
    "entry": 86.96,
-   "stop": 83.854,
+   "stop": 85.2768,
    "shares": 1.1499540018399266,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -7262,7 +7164,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -7277,7 +7179,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -7293,7 +7195,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -7308,7 +7210,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -7318,12 +7220,12 @@
    "ticker": "BMY",
    "side": "LONG",
    "entry": 63.61,
-   "stop": 60.2488,
+   "stop": 61.2567,
    "shares": 1.5720798616569722,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -7339,7 +7241,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -7349,12 +7251,12 @@
    "ticker": "CARG",
    "side": "LONG",
    "entry": 36.18,
-   "stop": 33.4399,
+   "stop": 34.7039,
    "shares": 2.7639579878385847,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -7365,12 +7267,12 @@
    "ticker": "CNK",
    "side": "LONG",
    "entry": 36.66,
-   "stop": 34.7173,
+   "stop": 35.138,
    "shares": 2.727768685215494,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -7381,12 +7283,12 @@
    "ticker": "CASY",
    "side": "LONG",
    "entry": 829.91,
-   "stop": 784.535,
+   "stop": 798.3687,
    "shares": 0.12049499343302286,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -7397,27 +7299,28 @@
    "ticker": "EG",
    "side": "LONG",
    "entry": 365.7,
-   "stop": 348.82,
+   "stop": 349.8882,
    "shares": 0.27344818156959255,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "SJM",
    "side": "LONG",
    "entry": 117.34,
-   "stop": 112.1146,
+   "stop": 114.1263,
    "shares": 0.8522243054371911,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -7433,7 +7336,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -7444,12 +7347,12 @@
    "ticker": "CSX",
    "side": "LONG",
    "entry": 49.94,
-   "stop": 48.0252,
+   "stop": 48.1463,
    "shares": 2.002402883460152,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -7465,7 +7368,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -7475,12 +7378,12 @@
    "ticker": "ELV",
    "side": "LONG",
    "entry": 390.37,
-   "stop": 373.8117,
+   "stop": 374.4237,
    "shares": 0.25616722596511005,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -7496,7 +7399,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
@@ -7507,12 +7410,12 @@
    "ticker": "AES",
    "side": "LONG",
    "entry": 14.7,
-   "stop": 14.6032,
+   "stop": 14.6258,
    "shares": 6.802721088435375,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -7528,7 +7431,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -7544,7 +7447,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -7555,12 +7458,12 @@
    "ticker": "ZD",
    "side": "LONG",
    "entry": 53.49,
-   "stop": 50.2415,
+   "stop": 51.4638,
    "shares": 1.8695083193120208,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
@@ -7572,16 +7475,17 @@
    "ticker": "FIVN",
    "side": "LONG",
    "entry": 32.63,
-   "stop": 28.66,
+   "stop": 29.7036,
    "shares": 3.064664419246092,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "FERG",
@@ -7592,7 +7496,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -7607,7 +7511,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -7622,29 +7526,13 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
    ],
    "n_signals": 2,
    "trailed": true
-  },
-  {
-   "ticker": "CENX",
-   "side": "LONG",
-   "entry": 52.29,
-   "stop": 46.63,
-   "shares": 1.9124115509657678,
-   "notional": 100.0,
-   "cost": 0.1,
-   "date": "2026-08-11",
-   "days": 1,
-   "families": [
-    "mean reversion",
-    "momentum"
-   ],
-   "n_signals": 2
   },
   {
    "ticker": "CNC",
@@ -7655,7 +7543,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -7666,12 +7554,12 @@
    "ticker": "CON",
    "side": "LONG",
    "entry": 33.03,
-   "stop": 32.1203,
+   "stop": 32.7895,
    "shares": 3.027550711474417,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
@@ -7683,28 +7571,29 @@
    "ticker": "CNMD",
    "side": "LONG",
    "entry": 49.58,
-   "stop": 44.98,
+   "stop": 45.4633,
    "shares": 2.016942315449778,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "REGN",
    "side": "LONG",
    "entry": 797.0,
-   "stop": 756.363,
+   "stop": 764.7393,
    "shares": 0.12547051442910917,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -7715,12 +7604,12 @@
    "ticker": "RDN",
    "side": "LONG",
    "entry": 36.36,
-   "stop": 34.3153,
+   "stop": 34.9075,
    "shares": 2.75027502750275,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -7736,7 +7625,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -7746,12 +7635,12 @@
    "ticker": "THRM",
    "side": "LONG",
    "entry": 41.41,
-   "stop": 37.5731,
+   "stop": 39.1643,
    "shares": 2.4148756339048543,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -7762,12 +7651,12 @@
    "ticker": "SPHR",
    "side": "LONG",
    "entry": 162.37,
-   "stop": 158.2176,
+   "stop": 159.3628,
    "shares": 0.6158773172384061,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -7783,7 +7672,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -7799,7 +7688,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
@@ -7815,7 +7704,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -7830,7 +7719,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -7846,7 +7735,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -7861,7 +7750,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
@@ -7877,7 +7766,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
@@ -7888,12 +7777,12 @@
    "ticker": "LYV",
    "side": "LONG",
    "entry": 183.33,
-   "stop": 176.4673,
+   "stop": 176.8017,
    "shares": 0.5454644629902361,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -7904,12 +7793,12 @@
    "ticker": "LMAT",
    "side": "SHORT",
    "entry": 82.84,
-   "stop": 91.6237,
+   "stop": 90.753,
    "shares": 1.2071463061323031,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
@@ -7921,12 +7810,12 @@
    "ticker": "KFY",
    "side": "LONG",
    "entry": 82.75,
-   "stop": 78.7169,
+   "stop": 80.4267,
    "shares": 1.2084592145015105,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
@@ -7938,12 +7827,12 @@
    "ticker": "KGS",
    "side": "LONG",
    "entry": 61.1,
-   "stop": 55.8028,
+   "stop": 56.2997,
    "shares": 1.6366612111292962,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -7954,12 +7843,12 @@
    "ticker": "KNTK",
    "side": "LONG",
    "entry": 51.11,
-   "stop": 48.1605,
+   "stop": 48.6029,
    "shares": 1.9565642731363726,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -7970,16 +7859,17 @@
    "ticker": "KWR",
    "side": "LONG",
    "entry": 170.9,
-   "stop": 157.07,
+   "stop": 158.1749,
    "shares": 0.5851375073142189,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "INDV",
@@ -7990,7 +7880,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
@@ -8002,16 +7892,17 @@
    "ticker": "ICUI",
    "side": "LONG",
    "entry": 182.08,
-   "stop": 169.32,
+   "stop": 170.781,
    "shares": 0.5492091388400703,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "HUM",
@@ -8022,7 +7913,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
@@ -8039,7 +7930,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
@@ -8050,12 +7941,12 @@
    "ticker": "IBKR",
    "side": "LONG",
    "entry": 89.78,
-   "stop": 84.8439,
+   "stop": 84.8987,
    "shares": 1.1138338159946535,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -8066,16 +7957,17 @@
    "ticker": "FTV",
    "side": "LONG",
    "entry": 61.68,
-   "stop": 58.48,
+   "stop": 58.7932,
    "shares": 1.6212710765239948,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "GD",
@@ -8086,7 +7978,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
@@ -8098,16 +7990,17 @@
    "ticker": "MCD",
    "side": "SHORT",
    "entry": 274.15,
-   "stop": 285.35,
+   "stop": 283.7885,
    "shares": 0.3647638154295094,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "MD",
@@ -8118,7 +8011,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -8134,7 +8027,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -8144,12 +8037,12 @@
    "ticker": "NUE",
    "side": "LONG",
    "entry": 271.95,
-   "stop": 256.3974,
+   "stop": 257.4195,
    "shares": 0.36771465342893916,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
@@ -8166,7 +8059,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -8181,7 +8074,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -8196,7 +8089,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -8207,12 +8100,12 @@
    "ticker": "ALGN",
    "side": "LONG",
    "entry": 172.96,
-   "stop": 160.3671,
+   "stop": 162.9858,
    "shares": 0.5781683626271971,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
@@ -8224,12 +8117,12 @@
    "ticker": "NDAQ",
    "side": "LONG",
    "entry": 95.02,
-   "stop": 91.1082,
+   "stop": 93.0794,
    "shares": 1.0524100189433805,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
@@ -8246,7 +8139,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -8257,12 +8150,12 @@
    "ticker": "NSIT",
    "side": "LONG",
    "entry": 150.95,
-   "stop": 141.3116,
+   "stop": 143.6522,
    "shares": 0.662471016893011,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -8273,12 +8166,12 @@
    "ticker": "NI",
    "side": "SHORT",
    "entry": 42.01,
-   "stop": 43.9041,
+   "stop": 43.893,
    "shares": 2.38038562247084,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -8294,7 +8187,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -8309,7 +8202,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -8319,12 +8212,12 @@
    "ticker": "VRTS",
    "side": "LONG",
    "entry": 166.72,
-   "stop": 156.8017,
+   "stop": 159.251,
    "shares": 0.5998080614203455,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -8340,7 +8233,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -8356,7 +8249,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -8371,7 +8264,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -8382,12 +8275,12 @@
    "ticker": "BIIB",
    "side": "LONG",
    "entry": 203.89,
-   "stop": 194.0435,
+   "stop": 196.6789,
    "shares": 0.49046054244936,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
@@ -8404,7 +8297,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -8419,7 +8312,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion",
     "momentum"
@@ -8435,7 +8328,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -8445,12 +8338,12 @@
    "ticker": "ASTH",
    "side": "LONG",
    "entry": 34.48,
-   "stop": 31.477,
+   "stop": 33.4234,
    "shares": 2.900232018561485,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -8461,16 +8354,17 @@
    "ticker": "BBY",
    "side": "LONG",
    "entry": 83.28,
-   "stop": 77.7,
+   "stop": 79.7717,
    "shares": 1.2007684918347743,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "AMZN",
@@ -8481,7 +8375,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -8491,27 +8385,28 @@
    "ticker": "AON",
    "side": "LONG",
    "entry": 356.46,
-   "stop": 339.03,
+   "stop": 339.3646,
    "shares": 0.28053638556920835,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "CACC",
    "side": "LONG",
    "entry": 572.21,
-   "stop": 535.2022,
+   "stop": 541.4384,
    "shares": 0.17476101431292707,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -8522,12 +8417,12 @@
    "ticker": "VIRT",
    "side": "LONG",
    "entry": 55.08,
-   "stop": 52.1271,
+   "stop": 52.4466,
    "shares": 1.8155410312273057,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -8538,12 +8433,12 @@
    "ticker": "XYL",
    "side": "SHORT",
    "entry": 123.18,
-   "stop": 128.3026,
+   "stop": 126.726,
    "shares": 0.8118201006656924,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -8554,12 +8449,12 @@
    "ticker": "KO",
    "side": "LONG",
    "entry": 86.48,
-   "stop": 83.312,
+   "stop": 84.1135,
    "shares": 1.1563367252543941,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
@@ -8571,12 +8466,12 @@
    "ticker": "LTC",
    "side": "LONG",
    "entry": 38.11,
-   "stop": 36.8009,
+   "stop": 37.1218,
    "shares": 2.623983206507478,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -8593,7 +8488,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -8609,7 +8504,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -8620,12 +8515,12 @@
    "ticker": "GPN",
    "side": "LONG",
    "entry": 85.86,
-   "stop": 82.281,
+   "stop": 88.0202,
    "shares": 1.1646866992778941,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
@@ -8637,12 +8532,12 @@
    "ticker": "DEI",
    "side": "LONG",
    "entry": 11.49,
-   "stop": 10.8362,
+   "stop": 11.0829,
    "shares": 8.703220191470844,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -8653,12 +8548,12 @@
    "ticker": "DLR",
    "side": "LONG",
    "entry": 190.81,
-   "stop": 185.3325,
+   "stop": 186.4515,
    "shares": 0.524081547088727,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
@@ -8670,12 +8565,12 @@
    "ticker": "DLTR",
    "side": "LONG",
    "entry": 128.06,
-   "stop": 120.6554,
+   "stop": 122.0419,
    "shares": 0.7808839606434483,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -8691,7 +8586,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -8706,7 +8601,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -8721,7 +8616,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -8732,28 +8627,29 @@
    "ticker": "PSA",
    "side": "LONG",
    "entry": 325.1,
-   "stop": 309.46,
+   "stop": 313.8648,
    "shares": 0.3075976622577668,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "gap",
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "ADEA",
    "side": "LONG",
    "entry": 27.72,
-   "stop": 24.3505,
+   "stop": 25.0917,
    "shares": 3.6075036075036078,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -8769,7 +8665,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
@@ -8779,16 +8675,17 @@
    "ticker": "PGNY",
    "side": "LONG",
    "entry": 25.42,
-   "stop": 22.83,
+   "stop": 23.3587,
    "shares": 3.9339103068450036,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 3
+   "n_signals": 3,
+   "trailed": true
   },
   {
    "ticker": "LQDA",
@@ -8799,22 +8696,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
-   "families": [
-    "mean reversion"
-   ],
-   "n_signals": 3
-  },
-  {
-   "ticker": "TPR",
-   "side": "LONG",
-   "entry": 153.74,
-   "stop": 143.44,
-   "shares": 0.6504488096786782,
-   "notional": 100.0,
-   "cost": 0.1,
-   "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
@@ -8824,77 +8706,82 @@
    "ticker": "TRV",
    "side": "LONG",
    "entry": 370.16,
-   "stop": 352.88,
+   "stop": 353.1727,
    "shares": 0.2701534471579857,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "failed breakout",
     "mean reversion"
    ],
-   "n_signals": 4
+   "n_signals": 4,
+   "trailed": true
   },
   {
    "ticker": "CHD",
    "side": "LONG",
    "entry": 101.24,
-   "stop": 96.41,
+   "stop": 96.5476,
    "shares": 0.9877518767285658,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "AAPL",
    "side": "LONG",
    "entry": 302.25,
-   "stop": 285.2,
+   "stop": 288.8635,
    "shares": 0.3308519437551696,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "AFL",
    "side": "LONG",
    "entry": 120.73,
-   "stop": 116.43,
+   "stop": 116.8546,
    "shares": 0.8282945415389712,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "CTVA",
    "side": "LONG",
    "entry": 75.53,
-   "stop": 70.83,
+   "stop": 71.3313,
    "shares": 1.3239772275916855,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "PSKY",
@@ -8905,7 +8792,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
@@ -8915,48 +8802,51 @@
    "ticker": "SHW",
    "side": "LONG",
    "entry": 360.2,
-   "stop": 340.16,
+   "stop": 342.2677,
    "shares": 0.27762354247640203,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "gap",
     "mean reversion"
    ],
-   "n_signals": 3
+   "n_signals": 3,
+   "trailed": true
   },
   {
    "ticker": "OTTR",
    "side": "LONG",
    "entry": 92.14,
-   "stop": 86.98,
+   "stop": 87.941,
    "shares": 1.0853049706967657,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "AVGO",
    "side": "LONG",
    "entry": 416.05,
-   "stop": 384.43,
+   "stop": 386.5287,
    "shares": 0.24035572647518327,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "gap",
     "mean reversion"
    ],
-   "n_signals": 3
+   "n_signals": 3,
+   "trailed": true
   },
   {
    "ticker": "ZWS",
@@ -8967,7 +8857,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
@@ -8977,17 +8867,18 @@
    "ticker": "EMN",
    "side": "LONG",
    "entry": 72.54,
-   "stop": 68.46,
+   "stop": 69.6842,
    "shares": 1.3785497656465397,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "gap",
     "mean reversion"
    ],
-   "n_signals": 3
+   "n_signals": 3,
+   "trailed": true
   },
   {
    "ticker": "GM",
@@ -8998,26 +8889,11 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
    "n_signals": 2
-  },
-  {
-   "ticker": "HCC",
-   "side": "LONG",
-   "entry": 96.72,
-   "stop": 89.28,
-   "shares": 1.0339123242349049,
-   "notional": 100.0,
-   "cost": 0.1,
-   "date": "2026-08-12",
-   "days": 0,
-   "families": [
-    "mean reversion"
-   ],
-   "n_signals": 1
   },
   {
    "ticker": "AEP",
@@ -9028,7 +8904,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
@@ -9043,7 +8919,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
@@ -9053,31 +8929,33 @@
    "ticker": "F",
    "side": "LONG",
    "entry": 13.83,
-   "stop": 12.9,
+   "stop": 13.0002,
    "shares": 7.230657989877079,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "FUL",
    "side": "LONG",
    "entry": 60.17,
-   "stop": 56.34,
+   "stop": 56.4657,
    "shares": 1.6619577862722286,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "DOW",
@@ -9088,7 +8966,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
@@ -9098,46 +8976,49 @@
    "ticker": "AXON",
    "side": "LONG",
    "entry": 599.78,
-   "stop": 520.66,
+   "stop": 537.9747,
    "shares": 0.16672780019340425,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "ARR",
    "side": "LONG",
    "entry": 16.64,
-   "stop": 16.03,
+   "stop": 16.133,
    "shares": 6.009615384615384,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "BMI",
    "side": "SHORT",
    "entry": 134.77,
-   "stop": 145.71,
+   "stop": 141.213,
    "shares": 0.7420048972323217,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "UNF",
@@ -9148,7 +9029,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
@@ -9163,7 +9044,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
@@ -9178,7 +9059,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "gap",
     "mean reversion"
@@ -9194,7 +9075,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "gap",
     "mean reversion"
@@ -9210,7 +9091,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
@@ -9220,16 +9101,17 @@
    "ticker": "MSFT",
    "side": "LONG",
    "entry": 492.43,
-   "stop": 462.79,
+   "stop": 468.0881,
    "shares": 0.2030745486668156,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "MNST",
@@ -9240,7 +9122,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
@@ -9255,7 +9137,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
@@ -9265,32 +9147,34 @@
    "ticker": "NIC",
    "side": "LONG",
    "entry": 177.41,
-   "stop": 169.62,
+   "stop": 170.4695,
    "shares": 0.5636660842117129,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion",
     "momentum"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "ENPH",
    "side": "LONG",
    "entry": 40.77,
-   "stop": 35.25,
+   "stop": 35.4858,
    "shares": 2.452783909737552,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "EXC",
@@ -9301,7 +9185,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
@@ -9316,7 +9200,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
@@ -9331,7 +9215,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
@@ -9346,7 +9230,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "gap",
     "mean reversion"
@@ -9362,7 +9246,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
@@ -9372,16 +9256,17 @@
    "ticker": "CNP",
    "side": "SHORT",
    "entry": 40.53,
-   "stop": 42.46,
+   "stop": 42.3528,
    "shares": 2.467308166790032,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "CRGY",
@@ -9392,7 +9277,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "gap",
     "mean reversion"
@@ -9408,7 +9293,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "gap",
     "mean reversion"
@@ -9419,16 +9304,17 @@
    "ticker": "PJT",
    "side": "LONG",
    "entry": 170.59,
-   "stop": 157.72,
+   "stop": 165.9456,
    "shares": 0.586200832405182,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "KALU",
@@ -9439,7 +9325,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
@@ -9454,7 +9340,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion",
     "momentum"
@@ -9465,32 +9351,34 @@
    "ticker": "IFF",
    "side": "LONG",
    "entry": 83.85,
-   "stop": 78.47,
+   "stop": 78.9199,
    "shares": 1.1926058437686347,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "gap",
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "HZO",
    "side": "LONG",
    "entry": 52.13,
-   "stop": 47.38,
+   "stop": 47.5955,
    "shares": 1.9182812200268557,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "YELP",
@@ -9501,7 +9389,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
@@ -9516,7 +9404,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
@@ -9531,7 +9419,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
@@ -9546,7 +9434,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
@@ -9561,7 +9449,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "gap",
     "mean reversion"
@@ -9577,7 +9465,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "gap",
     "mean reversion"
@@ -9588,94 +9476,100 @@
    "ticker": "ALRM",
    "side": "LONG",
    "entry": 55.46,
-   "stop": 52.21,
+   "stop": 52.5568,
    "shares": 1.8031013342949873,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "gap",
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "BCC",
    "side": "LONG",
    "entry": 84.25,
-   "stop": 77.42,
+   "stop": 77.4641,
    "shares": 1.1869436201780414,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "BAX",
    "side": "LONG",
    "entry": 26.95,
-   "stop": 24.64,
+   "stop": 24.8494,
    "shares": 3.710575139146568,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "ADP",
    "side": "LONG",
    "entry": 269.33,
-   "stop": 254.27,
+   "stop": 261.0831,
    "shares": 0.3712917239074741,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "gap",
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "ECHO",
    "side": "SHORT",
    "entry": 92.5,
-   "stop": 102.34,
+   "stop": 100.9496,
    "shares": 1.0810810810810811,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "BF-B",
    "side": "LONG",
    "entry": 27.92,
-   "stop": 26.16,
+   "stop": 26.2925,
    "shares": 3.5816618911174785,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "gap",
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "GDDY",
@@ -9686,7 +9580,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "gap",
     "mean reversion"
@@ -9697,32 +9591,34 @@
    "ticker": "MTCH",
    "side": "LONG",
    "entry": 36.58,
-   "stop": 33.97,
+   "stop": 34.8519,
    "shares": 2.733734281027884,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "MRSH",
    "side": "LONG",
    "entry": 188.86,
-   "stop": 180.0,
+   "stop": 180.0278,
    "shares": 0.5294927459493805,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "gap",
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "IPAR",
@@ -9733,7 +9629,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
@@ -9748,7 +9644,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
@@ -9758,49 +9654,52 @@
    "ticker": "KVUE",
    "side": "LONG",
    "entry": 18.98,
-   "stop": 18.03,
+   "stop": 18.2842,
    "shares": 5.268703898840885,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "failed breakout",
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "ITRI",
    "side": "LONG",
    "entry": 102.61,
-   "stop": 95.35,
+   "stop": 95.6251,
    "shares": 0.9745638826625085,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "gap",
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "PHM",
    "side": "LONG",
    "entry": 129.16,
-   "stop": 120.71,
+   "stop": 122.3338,
    "shares": 0.7742335088262621,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "gap",
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "SHOO",
@@ -9811,7 +9710,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
@@ -9821,28 +9720,1162 @@
    "ticker": "SIG",
    "side": "LONG",
    "entry": 92.53,
-   "stop": 85.37,
+   "stop": 85.6446,
    "shares": 1.0807305738679347,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-12",
-   "days": 0,
+   "days": 1,
    "families": [
     "failed breakout",
+    "gap",
+    "mean reversion"
+   ],
+   "n_signals": 3,
+   "trailed": true
+  },
+  {
+   "ticker": "VST",
+   "side": "SHORT",
+   "entry": 146.68,
+   "stop": 159.6822,
+   "shares": 0.6817562039814562,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-12",
+   "days": 1,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1,
+   "trailed": true
+  },
+  {
+   "ticker": "FICO",
+   "side": "SHORT",
+   "entry": 1110.7,
+   "stop": 1236.96,
+   "shares": 0.09003331232556046,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "gap",
+    "mean reversion"
+   ],
+   "n_signals": 4
+  },
+  {
+   "ticker": "WM",
+   "side": "LONG",
+   "entry": 224.21,
+   "stop": 214.41,
+   "shares": 0.44601043664421747,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 3
+  },
+  {
+   "ticker": "SPGI",
+   "side": "SHORT",
+   "entry": 422.67,
+   "stop": 445.55,
+   "shares": 0.2365911940757565,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 3
+  },
+  {
+   "ticker": "PIPR",
+   "side": "SHORT",
+   "entry": 78.42,
+   "stop": 83.72,
+   "shares": 1.2751849018107626,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 3
+  },
+  {
+   "ticker": "WEC",
+   "side": "SHORT",
+   "entry": 110.28,
+   "stop": 114.66,
+   "shares": 0.9067827348567283,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
     "gap",
     "mean reversion"
    ],
    "n_signals": 3
   },
   {
-   "ticker": "VST",
-   "side": "SHORT",
-   "entry": 146.68,
-   "stop": 160.53,
-   "shares": 0.6817562039814562,
+   "ticker": "RTX",
+   "side": "LONG",
+   "entry": 220.48,
+   "stop": 210.66,
+   "shares": 0.45355587808418,
    "notional": 100.0,
    "cost": 0.1,
-   "date": "2026-08-12",
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "gap",
+    "mean reversion"
+   ],
+   "n_signals": 3
+  },
+  {
+   "ticker": "WTW",
+   "side": "LONG",
+   "entry": 333.99,
+   "stop": 316.69,
+   "shares": 0.29941016198089765,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 2
+  },
+  {
+   "ticker": "SRE",
+   "side": "SHORT",
+   "entry": 86.48,
+   "stop": 90.1,
+   "shares": 1.1563367252543941,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "gap",
+    "mean reversion"
+   ],
+   "n_signals": 3
+  },
+  {
+   "ticker": "SRPT",
+   "side": "SHORT",
+   "entry": 18.42,
+   "stop": 20.16,
+   "shares": 5.4288816503800215,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "failed breakout",
+    "mean reversion"
+   ],
+   "n_signals": 3
+  },
+  {
+   "ticker": "BCPC",
+   "side": "LONG",
+   "entry": 177.14,
+   "stop": 168.64,
+   "shares": 0.5645252342779723,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 2
+  },
+  {
+   "ticker": "MCK",
+   "side": "LONG",
+   "entry": 856.69,
+   "stop": 800.94,
+   "shares": 0.11672833813864991,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 2
+  },
+  {
+   "ticker": "FCX",
+   "side": "LONG",
+   "entry": 66.83,
+   "stop": 61.46,
+   "shares": 1.4963339817447254,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 2
+  },
+  {
+   "ticker": "FISV",
+   "side": "SHORT",
+   "entry": 55.5,
+   "stop": 60.15,
+   "shares": 1.8018018018018018,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 2
+  },
+  {
+   "ticker": "FIS",
+   "side": "SHORT",
+   "entry": 44.13,
+   "stop": 47.56,
+   "shares": 2.2660321776569226,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 2
+  },
+  {
+   "ticker": "DXC",
+   "side": "SHORT",
+   "entry": 11.2,
+   "stop": 12.33,
+   "shares": 8.928571428571429,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 2
+  },
+  {
+   "ticker": "CTAS",
+   "side": "LONG",
+   "entry": 200.7,
+   "stop": 190.32,
+   "shares": 0.4982561036372696,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 2
+  },
+  {
+   "ticker": "CSW",
+   "side": "LONG",
+   "entry": 342.93,
+   "stop": 315.31,
+   "shares": 0.2916047006677748,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 2
+  },
+  {
+   "ticker": "SYY",
+   "side": "LONG",
+   "entry": 83.55,
+   "stop": 79.61,
+   "shares": 1.196888090963495,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 2
+  },
+  {
+   "ticker": "AWI",
+   "side": "LONG",
+   "entry": 181.68,
+   "stop": 172.13,
+   "shares": 0.5504183179216204,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 2
+  },
+  {
+   "ticker": "CME",
+   "side": "SHORT",
+   "entry": 267.21,
+   "stop": 280.22,
+   "shares": 0.3742374911118596,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 2
+  },
+  {
+   "ticker": "COIN",
+   "side": "SHORT",
+   "entry": 153.9,
+   "stop": 171.64,
+   "shares": 0.649772579597141,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "gap",
+    "mean reversion"
+   ],
+   "n_signals": 3
+  },
+  {
+   "ticker": "BL",
+   "side": "SHORT",
+   "entry": 31.36,
+   "stop": 34.89,
+   "shares": 3.188775510204082,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 2
+  },
+  {
+   "ticker": "ACAD",
+   "side": "LONG",
+   "entry": 28.38,
+   "stop": 26.4,
+   "shares": 3.5236081747709656,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 2
+  },
+  {
+   "ticker": "GTM",
+   "side": "SHORT",
+   "entry": 4.31,
+   "stop": 4.85,
+   "shares": 23.20185614849188,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "failed breakout",
+    "mean reversion"
+   ],
+   "n_signals": 3
+  },
+  {
+   "ticker": "FAST",
+   "side": "LONG",
+   "entry": 51.34,
+   "stop": 48.74,
+   "shares": 1.9477989871445265,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1
+  },
+  {
+   "ticker": "FITB",
+   "side": "LONG",
+   "entry": 57.94,
+   "stop": 55.69,
+   "shares": 1.7259233690024163,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1
+  },
+  {
+   "ticker": "DE",
+   "side": "LONG",
+   "entry": 612.38,
+   "stop": 577.87,
+   "shares": 0.1632972990626735,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1
+  },
+  {
+   "ticker": "BANC",
+   "side": "LONG",
+   "entry": 19.63,
+   "stop": 18.51,
+   "shares": 5.094243504839532,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1
+  },
+  {
+   "ticker": "TTD",
+   "side": "SHORT",
+   "entry": 14.56,
+   "stop": 16.94,
+   "shares": 6.868131868131868,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "gap",
+    "mean reversion"
+   ],
+   "n_signals": 2
+  },
+  {
+   "ticker": "UFPT",
+   "side": "LONG",
+   "entry": 319.86,
+   "stop": 292.39,
+   "shares": 0.3126367785906334,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1
+  },
+  {
+   "ticker": "VSAT",
+   "side": "LONG",
+   "entry": 82.9,
+   "stop": 70.98,
+   "shares": 1.2062726176115801,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1
+  },
+  {
+   "ticker": "VRTX",
+   "side": "LONG",
+   "entry": 516.44,
+   "stop": 485.53,
+   "shares": 0.19363333591511112,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "gap",
+    "mean reversion"
+   ],
+   "n_signals": 2
+  },
+  {
+   "ticker": "TRMB",
+   "side": "SHORT",
+   "entry": 57.54,
+   "stop": 62.23,
+   "shares": 1.7379214459506431,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1
+  },
+  {
+   "ticker": "TRIP",
+   "side": "SHORT",
+   "entry": 10.97,
+   "stop": 12.46,
+   "shares": 9.115770282588878,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1
+  },
+  {
+   "ticker": "TDG",
+   "side": "SHORT",
+   "entry": 1246.31,
+   "stop": 1320.55,
+   "shares": 0.08023685920838315,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "gap",
+    "mean reversion"
+   ],
+   "n_signals": 2
+  },
+  {
+   "ticker": "PTON",
+   "side": "SHORT",
+   "entry": 5.56,
+   "stop": 6.13,
+   "shares": 17.98561151079137,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1
+  },
+  {
+   "ticker": "PTGX",
+   "side": "LONG",
+   "entry": 151.42,
+   "stop": 140.29,
+   "shares": 0.6604147404570071,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1
+  },
+  {
+   "ticker": "ITGR",
+   "side": "LONG",
+   "entry": 125.06,
+   "stop": 119.85,
+   "shares": 0.7996161842315689,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1
+  },
+  {
+   "ticker": "DGX",
+   "side": "LONG",
+   "entry": 236.04,
+   "stop": 225.22,
+   "shares": 0.42365700728690053,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1
+  },
+  {
+   "ticker": "JKHY",
+   "side": "SHORT",
+   "entry": 155.86,
+   "stop": 165.17,
+   "shares": 0.6416014371872193,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "gap",
+    "mean reversion"
+   ],
+   "n_signals": 2
+  },
+  {
+   "ticker": "HBAN",
+   "side": "LONG",
+   "entry": 17.77,
+   "stop": 17.07,
+   "shares": 5.627462014631401,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1
+  },
+  {
+   "ticker": "HPE",
+   "side": "LONG",
+   "entry": 59.82,
+   "stop": 53.39,
+   "shares": 1.6716817118020728,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion",
+    "momentum"
+   ],
+   "n_signals": 2
+  },
+  {
+   "ticker": "HRMY",
+   "side": "LONG",
+   "entry": 38.5,
+   "stop": 35.6,
+   "shares": 2.5974025974025974,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1
+  },
+  {
+   "ticker": "DNOW",
+   "side": "LONG",
+   "entry": 16.31,
+   "stop": 15.2,
+   "shares": 6.131207847946046,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "gap",
+    "mean reversion"
+   ],
+   "n_signals": 2
+  },
+  {
+   "ticker": "CAKE",
+   "side": "LONG",
+   "entry": 111.88,
+   "stop": 104.1,
+   "shares": 0.8938148015731141,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "gap",
+    "mean reversion"
+   ],
+   "n_signals": 2
+  },
+  {
+   "ticker": "BAC",
+   "side": "LONG",
+   "entry": 64.09,
+   "stop": 61.96,
+   "shares": 1.5603058199407083,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1
+  },
+  {
+   "ticker": "ALKS",
+   "side": "LONG",
+   "entry": 49.45,
+   "stop": 45.75,
+   "shares": 2.0222446916076846,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1
+  },
+  {
+   "ticker": "BDX",
+   "side": "LONG",
+   "entry": 181.97,
+   "stop": 172.84,
+   "shares": 0.5495411331538166,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1
+  },
+  {
+   "ticker": "COTY",
+   "side": "LONG",
+   "entry": 2.75,
+   "stop": 2.49,
+   "shares": 36.36363636363637,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "gap",
+    "mean reversion"
+   ],
+   "n_signals": 2
+  },
+  {
+   "ticker": "CC",
+   "side": "SHORT",
+   "entry": 15.26,
+   "stop": 17.38,
+   "shares": 6.553079947575361,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "gap",
+    "mean reversion"
+   ],
+   "n_signals": 2
+  },
+  {
+   "ticker": "RSG",
+   "side": "LONG",
+   "entry": 215.22,
+   "stop": 205.88,
+   "shares": 0.46464083263637207,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1
+  },
+  {
+   "ticker": "MAC",
+   "side": "LONG",
+   "entry": 24.65,
+   "stop": 23.35,
+   "shares": 4.056795131845842,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1
+  },
+  {
+   "ticker": "LMT",
+   "side": "LONG",
+   "entry": 598.01,
+   "stop": 566.91,
+   "shares": 0.16722128392501798,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1
+  },
+  {
+   "ticker": "LLY",
+   "side": "LONG",
+   "entry": 1209.0,
+   "stop": 1127.65,
+   "shares": 0.0827129859387924,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "gap",
+    "mean reversion"
+   ],
+   "n_signals": 2
+  },
+  {
+   "ticker": "LIF",
+   "side": "SHORT",
+   "entry": 50.25,
+   "stop": 59.0,
+   "shares": 1.9900497512437811,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1
+  },
+  {
+   "ticker": "VRT",
+   "side": "LONG",
+   "entry": 287.07,
+   "stop": 250.72,
+   "shares": 0.3483470930435086,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1
+  },
+  {
+   "ticker": "VRSK",
+   "side": "SHORT",
+   "entry": 185.94,
+   "stop": 201.22,
+   "shares": 0.5378078950198989,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "gap",
+    "mean reversion"
+   ],
+   "n_signals": 2
+  },
+  {
+   "ticker": "VSEC",
+   "side": "LONG",
+   "entry": 230.9,
+   "stop": 207.2,
+   "shares": 0.43308791684711995,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "gap",
+    "mean reversion"
+   ],
+   "n_signals": 2
+  },
+  {
+   "ticker": "SWK",
+   "side": "LONG",
+   "entry": 102.21,
+   "stop": 95.72,
+   "shares": 0.9783778495254868,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1
+  },
+  {
+   "ticker": "NCLH",
+   "side": "SHORT",
+   "entry": 19.55,
+   "stop": 21.19,
+   "shares": 5.115089514066496,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1
+  },
+  {
+   "ticker": "SBUX",
+   "side": "LONG",
+   "entry": 108.55,
+   "stop": 102.92,
+   "shares": 0.921234454168586,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion",
+    "momentum"
+   ],
+   "n_signals": 2
+  },
+  {
+   "ticker": "PNC",
+   "side": "LONG",
+   "entry": 255.2,
+   "stop": 247.1,
+   "shares": 0.39184952978056425,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1
+  },
+  {
+   "ticker": "PNR",
+   "side": "SHORT",
+   "entry": 66.87,
+   "stop": 71.36,
+   "shares": 1.4954389113204725,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1
+  },
+  {
+   "ticker": "MMSI",
+   "side": "LONG",
+   "entry": 90.5,
+   "stop": 85.5,
+   "shares": 1.1049723756906078,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1
+  },
+  {
+   "ticker": "MDT",
+   "side": "LONG",
+   "entry": 90.58,
+   "stop": 86.25,
+   "shares": 1.103996467211305,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1
+  },
+  {
+   "ticker": "MSGS",
+   "side": "LONG",
+   "entry": 412.98,
+   "stop": 388.12,
+   "shares": 0.242142476633251,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1
+  },
+  {
+   "ticker": "MS",
+   "side": "LONG",
+   "entry": 218.38,
+   "stop": 206.77,
+   "shares": 0.45791739170253687,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion",
+    "momentum"
+   ],
+   "n_signals": 2
+  },
+  {
+   "ticker": "CSCO",
+   "side": "LONG",
+   "entry": 113.47,
+   "stop": 104.52,
+   "shares": 0.8812902088657795,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "failed breakout",
+    "mean reversion"
+   ],
+   "n_signals": 2
+  },
+  {
+   "ticker": "KAI",
+   "side": "LONG",
+   "entry": 331.03,
+   "stop": 303.89,
+   "shares": 0.30208742410053474,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1
+  },
+  {
+   "ticker": "J",
+   "side": "LONG",
+   "entry": 143.91,
+   "stop": 135.8,
+   "shares": 0.6948787436592315,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1
+  },
+  {
+   "ticker": "CCI",
+   "side": "SHORT",
+   "entry": 75.73,
+   "stop": 81.03,
+   "shares": 1.3204806549584047,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1
+  },
+  {
+   "ticker": "AMT",
+   "side": "SHORT",
+   "entry": 174.19,
+   "stop": 184.14,
+   "shares": 0.574085768413801,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1
+  },
+  {
+   "ticker": "SBAC",
+   "side": "SHORT",
+   "entry": 186.19,
+   "stop": 198.73,
+   "shares": 0.5370857725978839,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1
+  },
+  {
+   "ticker": "URBN",
+   "side": "LONG",
+   "entry": 76.2,
+   "stop": 70.76,
+   "shares": 1.3123359580052494,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-13",
    "days": 0,
    "families": [
     "mean reversion"
@@ -10085,6 +11118,244 @@
    "net": -4.032876629772395,
    "pct": -3.932876629772395,
    "reason": "gapped through the stop"
+  },
+  {
+   "ticker": "TSCO",
+   "side": "SHORT",
+   "entry": 34.56,
+   "stop": 36.76,
+   "shares": 2.893518518518518,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-07",
+   "days": 4,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 3,
+   "exit": 36.76,
+   "exit_date": "2026-08-13",
+   "gross": -6.365740740740728,
+   "net": -6.465740740740728,
+   "pct": -6.365740740740728,
+   "reason": "stop hit"
+  },
+  {
+   "ticker": "GTM",
+   "side": "SHORT",
+   "entry": 4.18,
+   "stop": 4.3623,
+   "shares": 23.923444976076556,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-07",
+   "days": 4,
+   "families": [
+    "failed breakout",
+    "mean reversion"
+   ],
+   "n_signals": 3,
+   "trailed": true,
+   "exit": 4.3623,
+   "exit_date": "2026-08-13",
+   "gross": -4.36124401913877,
+   "net": -4.4612440191387694,
+   "pct": -4.36124401913877,
+   "reason": "trailing stop"
+  },
+  {
+   "ticker": "ZS",
+   "side": "SHORT",
+   "entry": 168.68,
+   "stop": 183.98,
+   "shares": 0.5928385107896609,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-07",
+   "days": 4,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 2,
+   "exit": 183.98,
+   "exit_date": "2026-08-13",
+   "gross": -9.070429215081802,
+   "net": -9.170429215081802,
+   "pct": -9.070429215081802,
+   "reason": "stop hit"
+  },
+  {
+   "ticker": "MDT",
+   "side": "SHORT",
+   "entry": 87.16,
+   "stop": 91.54,
+   "shares": 1.1473152822395596,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-07",
+   "days": 4,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 2,
+   "exit": 91.54,
+   "exit_date": "2026-08-13",
+   "gross": -5.025240936209282,
+   "net": -5.1252409362092815,
+   "pct": -5.025240936209282,
+   "reason": "stop hit"
+  },
+  {
+   "ticker": "FSLR",
+   "side": "LONG",
+   "entry": 250.05,
+   "stop": 221.46,
+   "shares": 0.3999200159968006,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-07",
+   "days": 4,
+   "families": [
+    "mean reversion",
+    "momentum"
+   ],
+   "n_signals": 2,
+   "exit": 221.46,
+   "exit_date": "2026-08-13",
+   "gross": -11.433713257348531,
+   "net": -11.53371325734853,
+   "pct": -11.433713257348531,
+   "reason": "stop hit"
+  },
+  {
+   "ticker": "WSC",
+   "side": "LONG",
+   "entry": 24.37,
+   "stop": 22.0,
+   "shares": 4.103405826836274,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-07",
+   "days": 4,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1,
+   "exit": 22.0,
+   "exit_date": "2026-08-13",
+   "gross": -9.725071809601973,
+   "net": -9.825071809601972,
+   "pct": -9.725071809601973,
+   "reason": "stop hit"
+  },
+  {
+   "ticker": "SRPT",
+   "side": "SHORT",
+   "entry": 16.78,
+   "stop": 18.61,
+   "shares": 5.959475566150179,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-07",
+   "days": 4,
+   "families": [
+    "failed breakout",
+    "mean reversion"
+   ],
+   "n_signals": 2,
+   "exit": 18.61,
+   "exit_date": "2026-08-13",
+   "gross": -10.905840286054817,
+   "net": -11.005840286054816,
+   "pct": -10.905840286054818,
+   "reason": "stop hit"
+  },
+  {
+   "ticker": "CSCO",
+   "side": "LONG",
+   "entry": 122.57,
+   "stop": 116.1525,
+   "shares": 0.8158603247124093,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-10",
+   "days": 3,
+   "families": [
+    "mean reversion",
+    "momentum"
+   ],
+   "n_signals": 2,
+   "trailed": true,
+   "exit": 113.46930303955078,
+   "exit_date": "2026-08-13",
+   "gross": -7.424897577261331,
+   "net": -7.5248975772613305,
+   "pct": -7.424897577261331,
+   "reason": "gapped through the stop"
+  },
+  {
+   "ticker": "CENX",
+   "side": "LONG",
+   "entry": 52.29,
+   "stop": 46.63,
+   "shares": 1.9124115509657678,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-11",
+   "days": 2,
+   "families": [
+    "mean reversion",
+    "momentum"
+   ],
+   "n_signals": 2,
+   "exit": 46.63,
+   "exit_date": "2026-08-13",
+   "gross": -10.82424937846624,
+   "net": -10.92424937846624,
+   "pct": -10.824249378466241,
+   "reason": "stop hit"
+  },
+  {
+   "ticker": "TPR",
+   "side": "LONG",
+   "entry": 153.74,
+   "stop": 143.44,
+   "shares": 0.6504488096786782,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-12",
+   "days": 1,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 3,
+   "exit": 132.16919696044923,
+   "exit_date": "2026-08-13",
+   "gross": -14.03070316088902,
+   "net": -14.13070316088902,
+   "pct": -14.03070316088902,
+   "reason": "gapped through the stop"
+  },
+  {
+   "ticker": "HCC",
+   "side": "LONG",
+   "entry": 96.72,
+   "stop": 89.28,
+   "shares": 1.0339123242349049,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-12",
+   "days": 1,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1,
+   "exit": 89.28,
+   "exit_date": "2026-08-13",
+   "gross": -7.69230769230769,
+   "net": -7.7923076923076895,
+   "pct": -7.69230769230769,
+   "reason": "stop hit"
   }
  ],
  "started": "2026-08-09"

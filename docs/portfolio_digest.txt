@@ -1,4 +1,4 @@
-# Trade sheet — 2026-08-13
+# Trade sheet — 2026-08-14
 
 ## Sell
 
@@ -12,11 +12,11 @@ Nothing to buy — slots full or no setups.
 
 | ticker | entry | now | P&L | stop now | locked in |
 |---|---|---|---|---|---|
-| AKAM | 110.54 | 125.29 | +13.3% | 112.32 | +1.6% |
-| ATEN | 26.84 | 27.00 | +0.6% | 25.02 | not yet |
-| AKR | 20.65 | 20.84 | +0.9% | 19.90 | not yet |
-| DAVE | 317.93 | 333.77 | +5.0% | 281.24 | not yet |
-| DRH | 12.53 | 12.29 | -1.9% | 11.85 | not yet |
+| AKAM | 110.54 | 124.99 | +13.1% | 112.54 | +1.8% |
+| ATEN | 26.84 | 27.40 | +2.1% | 25.02 | not yet |
+| AKR | 20.65 | 20.85 | +1.0% | 19.94 | not yet |
+| DAVE | 317.93 | 334.57 | +5.2% | 281.79 | not yet |
+| DRH | 12.53 | 12.36 | -1.4% | 11.85 | not yet |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
-_All signals: 22 closed, 0% profitable, -10.69% avg._
+_All signals: 30 closed, 0% profitable, -9.70% avg._

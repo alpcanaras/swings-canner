@@ -1,22 +1,27 @@
-# Trade sheet — 2026-08-18
+# Trade sheet — 2026-08-19
 
 ## Sell
 
-Nothing to sell.
+| ticker | in | out | P&L | why |
+|---|---|---|---|---|
+| AKAM | 110.54 | 112.54 | +1.8% ($+3.43) | trailing stop |
 
 ## Buy
 
-Nothing to buy — slots full or no setups.
+| ticker | setup | signal px | stop $ | stop % | trail | size |
+|---|---|---|---|---|---|---|
+| ZBRA | mean reversion | 354.65 | 327.20 | -7.7% | 2xATR = $27.45 | $200 = 0.5639 sh |
 
 ## Holding — updated stops
 
 | ticker | entry | now | P&L | stop now | locked in |
 |---|---|---|---|---|---|
-| AKAM | 110.54 | 115.20 | +4.2% | 112.54 | +1.8% |
-| ATEN | 26.84 | 26.60 | -0.9% | 25.02 | not yet |
-| AKR | 20.65 | 21.05 | +1.9% | 20.17 | not yet |
-| DAVE | 317.93 | 333.14 | +4.8% | 289.95 | not yet |
-| DRH | 12.53 | 12.49 | -0.3% | 11.87 | not yet |
+| ATEN | 26.84 | 25.75 | -4.1% | 25.02 | not yet |
+| AKR | 20.65 | 21.18 | +2.6% | 20.32 | not yet |
+| DAVE | 317.93 | 345.05 | +8.5% | 295.06 | not yet |
+| DRH | 12.53 | 12.72 | +1.5% | 12.08 | not yet |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
-_All signals: 73 closed, 3% profitable, -7.51% avg._
+
+_Record: 1 closed, 100% winners, $+3.43 net, balance $1,003.43._
+_All signals: 175 closed, 8% profitable, -5.48% avg._

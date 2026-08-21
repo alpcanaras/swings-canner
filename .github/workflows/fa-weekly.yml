@@ -4,8 +4,6 @@ on:
   schedule:
     - cron: "0 12 * * 1"      # Mondays 12:00 UTC — fundamentals move slowly
   workflow_dispatch:
-  push:
-    paths: [fa_scanner.py]   # TEMP verify
 
 permissions:
   contents: write

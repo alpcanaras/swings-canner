@@ -172,6 +172,7 @@ def render(df: pd.DataFrame, path_html: str, path_txt: str, universe_n: int):
         return pd.DataFrame(rows)
 
     ranked = df[df["coverage"] >= 0.5].sort_values("composite", ascending=False)
+    ranked = ranked.drop_duplicates(subset="name", keep="first")   # GOOG/GOOGL etc.
     buys = sector_cap(ranked[ranked["uptrend"] == True], 3, 12)      # noqa: E712
     watch = sector_cap(ranked[ranked["uptrend"] != True], 2, 8)
 

@@ -96,7 +96,13 @@ def write_brief(regime: dict, processed: dict, path_txt: str, date: str):
     try:
         prev = _json.load(open(rpath)).get("verdict") if _os.path.exists(rpath) else None
         if prev and prev != v:
-            flip = f"{prev} -> {v}"
+            # Only the trend break deserves the loud banner. ON<->MIXED is
+            # breadth hovering around 50% — chatter, not information.
+            if "RISK-OFF" in (prev, v):
+                flip = f"{prev} -> {v}"
+            else:
+                flip = None
+                v_note = f"(shifted from {prev} — breadth noise, not a trend break)"
         _os.makedirs("state", exist_ok=True)
         _json.dump({"verdict": v, "date": date}, open(rpath, "w"))
     except Exception:
@@ -122,7 +128,7 @@ def write_brief(regime: dict, processed: dict, path_txt: str, date: str):
         L += [f"## ⚠️ REGIME CHANGE: {flip}", "",
               "This is the signal that mattered historically — the level is noise, "
               "the flip is information.", ""]
-    L += [f"## Regime: {v}", "", guide, ""]
+    L += [f"## Regime: {v} " + (locals().get("v_note") or ""), "", guide, ""]
     if b:
         L += [f"- BTC ${b['close']:,.0f} — {'above' if b['above200'] else 'below'} "
               f"its 200-day ({b['sma200']:,.0f}); {b['from_high']:+.0f}% from the "

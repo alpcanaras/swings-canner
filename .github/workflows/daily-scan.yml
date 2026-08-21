@@ -36,7 +36,8 @@ jobs:
         run: |
           python crypto_scanner.py --html docs/crypto.html \
             --portfolio-html docs/crypto_portfolio.html \
-            --portfolio-txt docs/crypto_portfolio_digest.txt 2>&1 | tee docs/crypto.log || true
+            --portfolio-txt docs/crypto_portfolio_digest.txt \
+            --brief-txt docs/crypto_brief_digest.txt 2>&1 | tee docs/crypto.log || true
           python crypto_screener.py --html docs/crypto_screen.html \
             --txt docs/crypto_screen_digest.txt 2>&1 | tee -a docs/crypto.log || true
 
@@ -54,20 +55,17 @@ jobs:
         id: d
         run: |
           python make_digest.py                      # writes digest.md (swing) + title
-          # crypto issue body
+          # crypto issue body: regime brief first, then risk screen + discovery,
+          # with the (underperforming) swing book demoted to a footnote link
           {
-            echo "# Crypto — $(date -u +%Y-%m-%d)"
-            echo
-            echo "> Same six-signal, trailing-stop strategy as the swing sheet, on"
-            echo "> liquid coins, tracked in a **separate paper book**. Crypto history"
-            echo "> is short and cycle-driven, so treat backtests with extra suspicion."
-            echo
-            cat docs/crypto_portfolio_digest.txt 2>/dev/null || echo "_(no crypto trade sheet)_"
+            cat docs/crypto_brief_digest.txt 2>/dev/null || echo "# Crypto — $(date -u +%Y-%m-%d)"
             echo
             cat docs/crypto_screen_digest.txt 2>/dev/null || echo "_(no screener output)_"
             echo
             echo "---"
-            echo "Pages: [crypto book](https://alpcanaras.github.io/swings-canner/crypto_portfolio.html) · [signals](https://alpcanaras.github.io/swings-canner/crypto.html) · [risk screen](https://alpcanaras.github.io/swings-canner/crypto_screen.html)"
+            echo "**Experimental swing book** (for evidence only — it underperformed simply holding in the backtest): [see it here](https://alpcanaras.github.io/swings-canner/crypto_portfolio.html)."
+            echo
+            echo "Pages: [risk screen](https://alpcanaras.github.io/swings-canner/crypto_screen.html) · [signals](https://alpcanaras.github.io/swings-canner/crypto.html) · [backtest](https://alpcanaras.github.io/swings-canner/variants_crypto.html)"
             echo "_Not financial advice; not a licensed adviser._"
           } > digest_crypto.md
 

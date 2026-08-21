@@ -49,12 +49,79 @@ def get_crypto_universe() -> list[str]:
     return [f"{c}-USD" for c in MAJORS]
 
 
+def compute_regime(processed: dict) -> dict:
+    """The honest crypto edge is drawdown control, not stock-picking.
+
+    Backtest finding: swing-trading crypto lost heavily to buy-and-hold, but a
+    trend filter (hold above the 200-day, step aside below) captured most of the
+    upside with about half the drawdown. So the primary crypto output is a regime
+    read, not a trade sheet.
+    """
+    def pct(df, n):
+        s = df["Close"]
+        return 100 * (float(s.iloc[-1]) / float(s.iloc[-1 - n]) - 1) if len(s) > n else float("nan")
+
+    above, total = 0, 0
+    for t, (df, _) in processed.items():
+        if df["SMA_S"].notna().iloc[-1]:
+            total += 1
+            above += int(df["Close"].iloc[-1] > df["SMA_S"].iloc[-1])
+    breadth = 100 * above / total if total else float("nan")
+
+    btc = processed.get("BTC-USD")
+    b = {}
+    if btc:
+        df = btc[0]
+        close = float(df["Close"].iloc[-1])
+        sma = float(df["SMA_S"].iloc[-1]) if df["SMA_S"].notna().iloc[-1] else float("nan")
+        hi = float(df["Close"].rolling(252).max().iloc[-1])
+        b = {"close": close, "above200": close > sma, "sma200": sma,
+             "from_high": 100 * (close / hi - 1), "chg30": pct(df, 22), "chg7": pct(df, 5)}
+
+    risk_on = bool(b.get("above200")) and (breadth >= 50)
+    verdict = ("RISK-ON" if risk_on else
+               "RISK-OFF" if (b and not b.get("above200")) else "MIXED / CAUTION")
+    return {"breadth": breadth, "btc": b, "verdict": verdict,
+            "n": total, "above": above}
+
+
+def write_brief(regime: dict, processed: dict, path_txt: str, date: str):
+    b, v = regime["btc"], regime["verdict"]
+    guide = {
+        "RISK-ON": "Trend is up. History says this is when holding majors paid — "
+                   "and a simple 'stay long while BTC is above its 200-day' rule "
+                   "kept you in for it.",
+        "RISK-OFF": "BTC is below its 200-day. Every major crypto bear market lived "
+                    "here. A trend filter would have you de-risked / in stablecoins "
+                    "now — you give up some bounces to avoid the deep drawdowns.",
+        "MIXED / CAUTION": "Signals disagree — BTC and breadth aren't aligned. "
+                           "Historically a chop zone; smaller size, no conviction.",
+    }[v]
+    L = [f"# Crypto brief — {date}", "",
+         f"## Regime: {v}", "",
+         guide, ""]
+    if b:
+        L += [f"- BTC ${b['close']:,.0f} — {'above' if b['above200'] else 'below'} "
+              f"its 200-day ({b['sma200']:,.0f}); {b['from_high']:+.0f}% from the "
+              f"1-year high; {b['chg30']:+.0f}% in 30d.",
+              f"- Breadth: {regime['above']}/{regime['n']} majors above their "
+              f"200-day ({regime['breadth']:.0f}%).", ""]
+    L += ["_Why a regime read, not picks: in a 6-year backtest, swing-trading crypto "
+          "returned far less than simply holding — but a trend filter roughly halved "
+          "the drawdown. The value here is knowing when the tide is going out, not "
+          "timing individual coins. Not financial advice._"]
+    with open(path_txt, "w") as f:
+        f.write("\n".join(L))
+    return "\n".join(L)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--offline", metavar="DIR", help="read <TICKER>.csv files from DIR")
     ap.add_argument("--html", default="crypto.html")
     ap.add_argument("--portfolio-html", default="crypto_portfolio.html")
     ap.add_argument("--portfolio-txt", default="crypto_portfolio_digest.txt")
+    ap.add_argument("--brief-txt", default="crypto_brief_digest.txt")
     ap.add_argument("--no-portfolio", action="store_true")
     args = ap.parse_args()
 
@@ -120,8 +187,15 @@ def main():
                          cand[cand["side"] == "SHORT"].head(CRYPTO_CFG["top_n"])])
 
     date = max(df.index[-1] for df, _ in processed.values()).strftime("%Y-%m-%d")
+
+    # PRIMARY crypto output: the regime brief (the evidence-based part)
+    regime = compute_regime(processed)
+    brief = write_brief(regime, processed, args.brief_txt, date)
+    print(brief.split("\n_Why")[0])
+
     display = top.drop(columns=["_fired"]) if len(top) else top
-    print(f"\nCRYPTO CANDIDATES — {date} (universe: {len(processed)} coins)")
+    print(f"\nCRYPTO SWING (experimental, underperformed holding) — {date} "
+          f"(universe: {len(processed)} coins)")
     print(display.to_string(index=False) if len(top) else "No candidates today.")
 
     write_html(args.html, date, len(processed), top, display, stats)

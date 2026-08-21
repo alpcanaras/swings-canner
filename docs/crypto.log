@@ -6,21 +6,21 @@ Downloading 40 tickers (8y daily)...
 
 Signals disagree — BTC and breadth aren't aligned. Historically a chop zone; smaller size, no conviction.
 
-- BTC $78,484 — above its 200-day (68,974); -19% from the 1-year high; +21% in 30d.
+- BTC $78,322 — above its 200-day (68,974); -19% from the 1-year high; +21% in 30d.
 - Breadth: 19/39 majors above their 200-day (49%).
 
 
 CRYPTO SWING (experimental, underperformed holding) — 2026-08-21 (universe: 39 coins)
 ticker side  score  close                   signals  RS_3m_%  ATR%   stop  min_KO_dist earnings  expected_pct
-  NEAR LONG    1.0 1.9828 Donchian 20d breakout (L)    -20.0  4.45 1.8063       0.2647      n/a          0.82
+  NEAR LONG    1.0   1.98 Donchian 20d breakout (L)    -20.3  4.47 1.8031       0.2653      n/a          0.82
 Written docs/crypto.html
-Crypto paper: 4 closed, -86.86 net
+Crypto paper: 5 closed, -109.68 net
 Written docs/crypto_portfolio.html
 # Crypto risk screen — 21 Aug 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1573.9B, +25%/7d) — risk LOWER: modest liquidity (4.5%)
-- ETH (Ethereum, $305.2B, +34%/7d) — risk LOWER: no major red flags in market data
+- BTC (Bitcoin, $1573.3B, +25%/7d) — risk LOWER: modest liquidity (4.5%)
+- ETH (Ethereum, $304.7B, +34%/7d) — risk LOWER: no major red flags in market data
 
 Written docs/crypto_screen.html and docs/crypto_screen_digest.txt

@@ -32,15 +32,6 @@ jobs:
               --portfolio-txt docs/portfolio_digest.txt
           } 2>&1 | tee docs/run.log
 
-      - name: Crypto scan (majors + screener)
-        run: |
-          python crypto_scanner.py --html docs/crypto.html \
-            --portfolio-html docs/crypto_portfolio.html \
-            --portfolio-txt docs/crypto_portfolio_digest.txt \
-            --brief-txt docs/crypto_brief_digest.txt 2>&1 | tee docs/crypto.log || true
-          python crypto_screener.py --html docs/crypto_screen.html \
-            --txt docs/crypto_screen_digest.txt 2>&1 | tee -a docs/crypto.log || true
-
       - name: Publish
         if: always()
         run: |
@@ -51,35 +42,16 @@ jobs:
           git pull --rebase -X ours || true
           git push
 
-      - name: Build digests
+      - name: Build swing digest
         id: d
-        run: |
-          python make_digest.py                      # writes digest.md (swing) + title
-          # crypto issue body: regime brief first, then risk screen + discovery,
-          # with the (underperforming) swing book demoted to a footnote link
-          {
-            cat docs/crypto_brief_digest.txt 2>/dev/null || echo "# Crypto — $(date -u +%Y-%m-%d)"
-            echo
-            cat docs/crypto_screen_digest.txt 2>/dev/null || echo "_(no screener output)_"
-            echo
-            echo "---"
-            echo "**Experimental swing book** (for evidence only — it underperformed simply holding in the backtest): [see it here](https://alpcanaras.github.io/swings-canner/crypto_portfolio.html)."
-            echo
-            echo "Pages: [risk screen](https://alpcanaras.github.io/swings-canner/crypto_screen.html) · [signals](https://alpcanaras.github.io/swings-canner/crypto.html) · [backtest](https://alpcanaras.github.io/swings-canner/variants_crypto.html)"
-            echo "_Not financial advice; not a licensed adviser._"
-          } > digest_crypto.md
+        run: python make_digest.py                    # writes digest.md (swing) + title
 
-      - name: Email swing + crypto (separate issues)
+      - name: Email the swing sheet
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh issue create --repo "$GITHUB_REPOSITORY" \
             --title "[Swing] ${{ steps.d.outputs.title }}" --body-file digest.md
-          gh issue create --repo "$GITHUB_REPOSITORY" \
-            --title "[Crypto] $(date -u +%Y-%m-%d)" --body-file digest_crypto.md
-          # prune: keep newest 3 of each stream
-          for tag in "[Swing]" "[Crypto]"; do
-            gh issue list --repo "$GITHUB_REPOSITORY" --state open --limit 100 \
-              --search "$tag in:title" --json number --jq '.[].number' \
-              | tail -n +4 | xargs -r -I{} gh issue close {} --repo "$GITHUB_REPOSITORY"
-          done
+          gh issue list --repo "$GITHUB_REPOSITORY" --state open --limit 100 \
+            --search "[Swing] in:title" --json number --jq '.[].number' \
+            | tail -n +4 | xargs -r -I{} gh issue close {} --repo "$GITHUB_REPOSITORY"

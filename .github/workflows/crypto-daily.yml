@@ -1,0 +1,61 @@
+name: crypto-daily
+
+on:
+  schedule:
+    - cron: "0 23 * * *"      # 23:00 UTC every day — crypto trades 24/7
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  crypto:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install yfinance pandas numpy lxml
+
+      - name: Crypto scan (regime brief + book) and screener
+        run: |
+          mkdir -p docs
+          python crypto_scanner.py --html docs/crypto.html \
+            --portfolio-html docs/crypto_portfolio.html \
+            --portfolio-txt docs/crypto_portfolio_digest.txt \
+            --brief-txt docs/crypto_brief_digest.txt 2>&1 | tee docs/crypto.log || true
+          python crypto_screener.py --html docs/crypto_screen.html \
+            --txt docs/crypto_screen_digest.txt 2>&1 | tee -a docs/crypto.log || true
+
+      - name: Publish
+        if: always()
+        run: |
+          git config user.name "scan-bot"
+          git config user.email "scan-bot@users.noreply.github.com"
+          git add docs state
+          git commit -m "crypto $(date -u +%Y-%m-%d)" || echo "no changes"
+          git pull --rebase -X ours || true
+          git push
+
+      - name: Email the crypto brief
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          {
+            cat docs/crypto_brief_digest.txt 2>/dev/null || echo "# Crypto — $(date -u +%Y-%m-%d)"
+            echo
+            cat docs/crypto_screen_digest.txt 2>/dev/null || echo "_(no screener output)_"
+            echo
+            echo "---"
+            echo "**Experimental swing book** (evidence only — it underperformed holding in the backtest): [see it here](https://alpcanaras.github.io/swings-canner/crypto_portfolio.html)."
+            echo
+            echo "Pages: [risk screen](https://alpcanaras.github.io/swings-canner/crypto_screen.html) · [signals](https://alpcanaras.github.io/swings-canner/crypto.html) · [backtest](https://alpcanaras.github.io/swings-canner/variants_crypto.html)"
+            echo "_Not financial advice; not a licensed adviser._"
+          } > digest_crypto.md
+          gh issue create --repo "$GITHUB_REPOSITORY" \
+            --title "[Crypto] $(date -u +%Y-%m-%d)" --body-file digest_crypto.md
+          gh issue list --repo "$GITHUB_REPOSITORY" --state open --limit 100 \
+            --search "[Crypto] in:title" --json number --jq '.[].number' \
+            | tail -n +4 | xargs -r -I{} gh issue close {} --repo "$GITHUB_REPOSITORY"

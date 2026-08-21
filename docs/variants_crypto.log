@@ -1,49 +1,53 @@
-Downloading 18 tickers (8y daily)...
-  usable: 18 tickers
-Replaying 18 tickers from 2020-08-21...
+Downloading 20 tickers (8y daily)...
+  usable: 20 tickers
+Replaying 20 tickers from 2020-08-21...
 
 --- baseline (current live rules)
-      945 trades | return   +182.1% | win 38.7% | avg +1.36% | maxDD -76.2%
+      950 trades | return   +131.8% | win 38.4% | avg +1.23% | maxDD -76.0%
 
 --- trailing stop only (no RSI exit)
-      945 trades | return   +182.1% | win 38.7% | avg +1.36% | maxDD -76.2%
-
---- trailing only, wider 3xATR trail
-      815 trades | return   +179.5% | win 42.0% | avg +1.60% | maxDD -75.1%
+      950 trades | return   +131.8% | win 38.4% | avg +1.23% | maxDD -76.0%
 
 --- long-only
-      646 trades | return   +549.7% | win 38.2% | avg +2.76% | maxDD -68.5%
+      650 trades | return   +496.0% | win 38.3% | avg +2.76% | maxDD -69.1%
 
 --- long-only + trailing only
-      646 trades | return   +549.7% | win 38.2% | avg +2.76% | maxDD -68.5%
+      650 trades | return   +496.0% | win 38.3% | avg +2.76% | maxDD -69.1%
 
 --- long-only, trailing only, mean-reversion signals only
-      582 trades | return    +89.5% | win 37.1% | avg +1.62% | maxDD -69.5%
-
---- two independent ideas required
-      825 trades | return   +572.0% | win 41.0% | avg +1.95% | maxDD -46.8%
+      593 trades | return    +50.3% | win 36.8% | avg +1.47% | maxDD -69.8%
 
 --- long-only, trailing only, 2 ideas, 3xATR
-      406 trades | return   +157.7% | win 39.4% | avg +2.61% | maxDD -52.6%
+      415 trades | return    +91.2% | win 38.1% | avg +2.00% | maxDD -58.9%
+
+--- long+trailing + regime gate (breadth>50%)
+      385 trades | return   +449.1% | win 42.6% | avg +3.60% | maxDD -49.5%
+
+--- long+trailing + RS>median gate
+      638 trades | return   +359.9% | win 37.8% | avg +2.67% | maxDD -68.5%
+
+--- long+trailing + regime + RS gates
+      388 trades | return   +466.1% | win 40.2% | avg +4.05% | maxDD -51.3%
 
 --- momentum/breakouts only, long, trailing
-      328 trades | return   +708.0% | win 39.3% | avg +5.22% | maxDD -36.3%
+      338 trades | return   +419.8% | win 39.1% | avg +3.99% | maxDD -39.6%
 
 --- failed-breakout only, long, trailing
-      360 trades | return    +28.1% | win 39.2% | avg +1.12% | maxDD -64.4%
+      368 trades | return     +9.0% | win 38.0% | avg +0.80% | maxDD -63.9%
 
 ==============================================================================
-BENCHMARK — buy & hold the same stocks: +1872.3%
-   +708.0%  loses to buy&hold  |   328 trades | maxDD  -36.3% | momentum/breakouts only, long, trailing
-   +572.0%  loses to buy&hold  |   825 trades | maxDD  -46.8% | two independent ideas required
-   +549.7%  loses to buy&hold  |   646 trades | maxDD  -68.5% | long-only
-   +549.7%  loses to buy&hold  |   646 trades | maxDD  -68.5% | long-only + trailing only
-   +182.1%  loses to buy&hold  |   945 trades | maxDD  -76.2% | baseline (current live rules)
-   +182.1%  loses to buy&hold  |   945 trades | maxDD  -76.2% | trailing stop only (no RSI exit)
-   +179.5%  loses to buy&hold  |   815 trades | maxDD  -75.1% | trailing only, wider 3xATR trail
-   +157.7%  loses to buy&hold  |   406 trades | maxDD  -52.6% | long-only, trailing only, 2 ideas, 3xATR
-    +89.5%  loses to buy&hold  |   582 trades | maxDD  -69.5% | long-only, trailing only, mean-reversion signals only
-    +28.1%  loses to buy&hold  |   360 trades | maxDD  -64.4% | failed-breakout only, long, trailing
+BENCHMARK — buy & hold the same stocks: +1681.6%
+   +496.0%  loses to buy&hold  |   650 trades | maxDD  -69.1% | long-only
+   +496.0%  loses to buy&hold  |   650 trades | maxDD  -69.1% | long-only + trailing only
+   +466.1%  loses to buy&hold  |   388 trades | maxDD  -51.3% | long+trailing + regime + RS gates
+   +449.1%  loses to buy&hold  |   385 trades | maxDD  -49.5% | long+trailing + regime gate (breadth>50%)
+   +419.8%  loses to buy&hold  |   338 trades | maxDD  -39.6% | momentum/breakouts only, long, trailing
+   +359.9%  loses to buy&hold  |   638 trades | maxDD  -68.5% | long+trailing + RS>median gate
+   +131.8%  loses to buy&hold  |   950 trades | maxDD  -76.0% | baseline (current live rules)
+   +131.8%  loses to buy&hold  |   950 trades | maxDD  -76.0% | trailing stop only (no RSI exit)
+    +91.2%  loses to buy&hold  |   415 trades | maxDD  -58.9% | long-only, trailing only, 2 ideas, 3xATR
+    +50.3%  loses to buy&hold  |   593 trades | maxDD  -69.8% | long-only, trailing only, mean-reversion signals only
+     +9.0%  loses to buy&hold  |   368 trades | maxDD  -63.9% | failed-breakout only, long, trailing
 ==============================================================================
 VERDICT: no variant beats buy-and-hold. The idea does not work.
 

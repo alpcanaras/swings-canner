@@ -21,4 +21,4 @@ Nothing to buy — slots full or no setups.
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 
 _Record: 1 closed, 100% winners, $+3.43 net, balance $1,003.43._
-_All signals: 281 closed, 7% profitable, -5.44% avg._
+_All signals: 284 closed, 8% profitable, -5.34% avg._

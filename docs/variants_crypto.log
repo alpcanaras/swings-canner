@@ -29,6 +29,15 @@ Replaying 20 tickers from 2020-08-21...
 --- long+trailing + regime + RS gates
       388 trades | return   +466.1% | win 40.2% | avg +4.05% | maxDD -51.3%
 
+--- long+trailing + regime gate (breadth>50%)
+      395 trades | return   +439.0% | win 41.5% | avg +3.48% | maxDD -42.8%
+
+--- long+trailing + RS>median gate
+      642 trades | return   +488.5% | win 38.3% | avg +3.01% | maxDD -72.7%
+
+--- long+trailing + regime + RS gates
+      401 trades | return   +513.2% | win 41.4% | avg +4.13% | maxDD -44.1%
+
 --- momentum/breakouts only, long, trailing
       338 trades | return   +419.8% | win 39.1% | avg +3.99% | maxDD -39.6%
 

@@ -4,47 +4,51 @@ Downloading 89 tickers (12y daily)...
 Replaying 88 tickers from 2016-08-21...
 
 --- baseline (current live rules)
-     1106 trades | return   +123.7% | win 40.9% | avg +0.54% | maxDD -33.7%
+     1101 trades | return   +155.3% | win 41.2% | avg +0.60% | maxDD -30.8%
 
 --- trailing stop only (no RSI exit)
-     1106 trades | return   +123.7% | win 40.9% | avg +0.54% | maxDD -33.7%
-
---- trailing only, wider 3xATR trail
-      915 trades | return   +106.7% | win 41.1% | avg +0.60% | maxDD -41.2%
+     1101 trades | return   +155.3% | win 41.2% | avg +0.60% | maxDD -30.8%
 
 --- long-only
-     1088 trades | return   +315.6% | win 42.7% | avg +0.92% | maxDD -28.2%
+     1089 trades | return   +348.2% | win 42.9% | avg +0.96% | maxDD -29.4%
 
 --- long-only + trailing only
-     1088 trades | return   +315.6% | win 42.7% | avg +0.92% | maxDD -28.2%
+     1089 trades | return   +348.2% | win 42.9% | avg +0.96% | maxDD -29.4%
 
 --- long-only, trailing only, mean-reversion signals only
      1098 trades | return   +209.5% | win 41.3% | avg +0.75% | maxDD -40.9%
 
---- two independent ideas required
-     1124 trades | return     +9.8% | win 38.9% | avg +0.20% | maxDD -39.0%
-
 --- long-only, trailing only, 2 ideas, 3xATR
-      896 trades | return   +240.8% | win 45.0% | avg +0.93% | maxDD -34.4%
+      893 trades | return   +288.6% | win 45.6% | avg +1.01% | maxDD -30.9%
+
+--- long+trailing + regime gate (breadth>50%)
+      972 trades | return   +273.9% | win 43.1% | avg +0.89% | maxDD -21.5%
+
+--- long+trailing + RS>median gate
+     1094 trades | return   +229.0% | win 42.2% | avg +0.79% | maxDD -33.6%
+
+--- long+trailing + regime + RS gates
+      967 trades | return   +198.0% | win 43.3% | avg +0.74% | maxDD -20.5%
 
 --- momentum/breakouts only, long, trailing
      1012 trades | return   +112.3% | win 41.0% | avg +0.56% | maxDD -37.4%
 
 --- failed-breakout only, long, trailing
-     1029 trades | return   +275.2% | win 44.4% | avg +0.85% | maxDD -29.3%
+     1030 trades | return   +356.5% | win 44.7% | avg +0.95% | maxDD -27.8%
 
 ==============================================================================
 BENCHMARK — buy & hold the same stocks: +808.1%
-   +315.6%  loses to buy&hold  |  1088 trades | maxDD  -28.2% | long-only
-   +315.6%  loses to buy&hold  |  1088 trades | maxDD  -28.2% | long-only + trailing only
-   +275.2%  loses to buy&hold  |  1029 trades | maxDD  -29.3% | failed-breakout only, long, trailing
-   +240.8%  loses to buy&hold  |   896 trades | maxDD  -34.4% | long-only, trailing only, 2 ideas, 3xATR
+   +356.5%  loses to buy&hold  |  1030 trades | maxDD  -27.8% | failed-breakout only, long, trailing
+   +348.2%  loses to buy&hold  |  1089 trades | maxDD  -29.4% | long-only
+   +348.2%  loses to buy&hold  |  1089 trades | maxDD  -29.4% | long-only + trailing only
+   +288.6%  loses to buy&hold  |   893 trades | maxDD  -30.9% | long-only, trailing only, 2 ideas, 3xATR
+   +273.9%  loses to buy&hold  |   972 trades | maxDD  -21.5% | long+trailing + regime gate (breadth>50%)
+   +229.0%  loses to buy&hold  |  1094 trades | maxDD  -33.6% | long+trailing + RS>median gate
    +209.5%  loses to buy&hold  |  1098 trades | maxDD  -40.9% | long-only, trailing only, mean-reversion signals only
-   +123.7%  loses to buy&hold  |  1106 trades | maxDD  -33.7% | baseline (current live rules)
-   +123.7%  loses to buy&hold  |  1106 trades | maxDD  -33.7% | trailing stop only (no RSI exit)
+   +198.0%  loses to buy&hold  |   967 trades | maxDD  -20.5% | long+trailing + regime + RS gates
+   +155.3%  loses to buy&hold  |  1101 trades | maxDD  -30.8% | baseline (current live rules)
+   +155.3%  loses to buy&hold  |  1101 trades | maxDD  -30.8% | trailing stop only (no RSI exit)
    +112.3%  loses to buy&hold  |  1012 trades | maxDD  -37.4% | momentum/breakouts only, long, trailing
-   +106.7%  loses to buy&hold  |   915 trades | maxDD  -41.2% | trailing only, wider 3xATR trail
-     +9.8%  loses to buy&hold  |  1124 trades | maxDD  -39.0% | two independent ideas required
 ==============================================================================
 VERDICT: no variant beats buy-and-hold. The idea does not work.
 

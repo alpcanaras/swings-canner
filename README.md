@@ -6,8 +6,14 @@ as a GitHub issue so it lands in your inbox:
 | Email | Cadence | What it is | Honest status |
 |---|---|---|---|
 | **[Swing]** stocks | daily | Days-to-weeks trade sheet: picks, signal price, stop $/%, trailing rule, updated stops | Best of 8 backtested variants (long-only, trailing). Still lost to buy-and-hold over 10y — traded eyes-open. |
-| **[Long-term]** FA | weekly (Mon) | Quality + value + trend ranking of large caps; a research shortlist | Months-to-years. Not signals. `fa_scanner.py` |
-| **[Crypto]** | daily | **Regime brief** (risk-on/off via 200-day trend) + risk screener + small-cap discovery | Swing-trading crypto lost badly to holding; a trend filter roughly halved drawdown, so the brief leads. `crypto_scanner.py`, `crypto_screener.py` |
+| **[Long-term]** FA | weekly (Mon) | Value + quality + growth + **momentum** ranking of ~500 large caps, max 3/sector; a research shortlist | Months-to-years. Not signals. `fa_scanner.py` |
+| **[Crypto]** | daily (7 days) | **Regime brief** with ⚠ flip alerts on trend breaks + risk screener + small-cap discovery | Swing-trading crypto lost badly to holding; a trend filter roughly halved drawdown, so the brief leads. `crypto_scanner.py`, `crypto_screener.py` |
+
+Also tested and NOT adopted (pre-committed rule: adopt only what beats the
+current live rules): a market-breadth regime gate (cut max drawdown −29%→−21%
+but cost ~75pp of return — available as `regime_gate` in `portfolio.py` if you
+prefer calmer equity over return) and a relative-strength entry gate (worse on
+both counts). Full results: docs/variants.html.
 
 Key finding from replaying real history: on both stocks and crypto, mechanical
 swing-trading **underperformed simply buying and holding** — but a trend filter

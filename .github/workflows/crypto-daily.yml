@@ -4,6 +4,8 @@ on:
   schedule:
     - cron: "0 23 * * *"      # 23:00 UTC every day — crypto trades 24/7
   workflow_dispatch:
+  push:
+    paths: [crypto_scanner.py]   # TEMP verify
 
 permissions:
   contents: write
@@ -54,8 +56,9 @@ jobs:
             echo "Pages: [risk screen](https://alpcanaras.github.io/swings-canner/crypto_screen.html) · [signals](https://alpcanaras.github.io/swings-canner/crypto.html) · [backtest](https://alpcanaras.github.io/swings-canner/variants_crypto.html)"
             echo "_Not financial advice; not a licensed adviser._"
           } > digest_crypto.md
+          R=$(cat docs/crypto_regime.txt 2>/dev/null || echo "")
           gh issue create --repo "$GITHUB_REPOSITORY" \
-            --title "[Crypto] $(date -u +%Y-%m-%d)" --body-file digest_crypto.md
+            --title "[Crypto] $(date -u +%Y-%m-%d)${R:+ — $R}" --body-file digest_crypto.md
           gh issue list --repo "$GITHUB_REPOSITORY" --state open --limit 100 \
             --search "[Crypto] in:title" --json number --jq '.[].number' \
             | tail -n +4 | xargs -r -I{} gh issue close {} --repo "$GITHUB_REPOSITORY"

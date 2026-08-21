@@ -86,7 +86,27 @@ def compute_regime(processed: dict) -> dict:
 
 
 def write_brief(regime: dict, processed: dict, path_txt: str, date: str):
+    import json as _json
+    import os as _os
     b, v = regime["btc"], regime["verdict"]
+
+    # regime-FLIP detection: the change is the actionable moment, not the level
+    flip = None
+    rpath = "state/crypto_regime.json"
+    try:
+        prev = _json.load(open(rpath)).get("verdict") if _os.path.exists(rpath) else None
+        if prev and prev != v:
+            flip = f"{prev} -> {v}"
+        _os.makedirs("state", exist_ok=True)
+        _json.dump({"verdict": v, "date": date}, open(rpath, "w"))
+    except Exception:
+        pass
+    try:  # one-line file the workflow uses for the email subject
+        _os.makedirs("docs", exist_ok=True)
+        with open("docs/crypto_regime.txt", "w") as f:
+            f.write(("REGIME CHANGE! " if flip else "") + v)
+    except Exception:
+        pass
     guide = {
         "RISK-ON": "Trend is up. History says this is when holding majors paid — "
                    "and a simple 'stay long while BTC is above its 200-day' rule "
@@ -97,9 +117,12 @@ def write_brief(regime: dict, processed: dict, path_txt: str, date: str):
         "MIXED / CAUTION": "Signals disagree — BTC and breadth aren't aligned. "
                            "Historically a chop zone; smaller size, no conviction.",
     }[v]
-    L = [f"# Crypto brief — {date}", "",
-         f"## Regime: {v}", "",
-         guide, ""]
+    L = [f"# Crypto brief — {date}", ""]
+    if flip:
+        L += [f"## ⚠️ REGIME CHANGE: {flip}", "",
+              "This is the signal that mattered historically — the level is noise, "
+              "the flip is information.", ""]
+    L += [f"## Regime: {v}", "", guide, ""]
     if b:
         L += [f"- BTC ${b['close']:,.0f} — {'above' if b['above200'] else 'below'} "
               f"its 200-day ({b['sma200']:,.0f}); {b['from_high']:+.0f}% from the "

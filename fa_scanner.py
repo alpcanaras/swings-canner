@@ -48,7 +48,7 @@ METRICS = {
     "revenueGrowth":                ("growth", True),
     "earningsGrowth":               ("growth", True),
 }
-PILLARS = ("value", "quality", "growth")
+PILLARS = ("value", "quality", "growth", "momentum")
 
 
 def fetch_fundamentals(tickers: list[str]) -> pd.DataFrame:
@@ -75,20 +75,24 @@ def fetch_fundamentals(tickers: list[str]) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
-def trend_up(tickers: list[str]) -> dict:
-    """Price above its 200-day average = long-term uptrend. One bulk download."""
+def trend_and_momentum(tickers: list[str]) -> tuple[dict, dict]:
+    """One bulk download gives both the 200-day trend flag and 12-1 momentum
+    (return over the last year excluding the most recent month — the classic
+    academic momentum definition, the best-documented cross-sectional factor)."""
     import yfinance as yf
-    out = {}
+    up, mom = {}, {}
     try:
-        px = yf.download(tickers, period="1y", interval="1d", auto_adjust=True,
+        px = yf.download(tickers, period="2y", interval="1d", auto_adjust=True,
                          progress=False, threads=True)["Close"]
         for t in tickers:
             s = px[t].dropna() if t in px else pd.Series(dtype=float)
             if len(s) > 200:
-                out[t] = bool(s.iloc[-1] > s.rolling(200).mean().iloc[-1])
+                up[t] = bool(s.iloc[-1] > s.rolling(200).mean().iloc[-1])
+            if len(s) > 260:
+                mom[t] = float(s.iloc[-21] / s.iloc[-252] - 1)
     except Exception as e:
         print(f"  trend download failed: {e}")
-    return out
+    return up, mom
 
 
 def score(df: pd.DataFrame) -> pd.DataFrame:
@@ -101,9 +105,11 @@ def score(df: pd.DataFrame) -> pd.DataFrame:
             col = col.where(col > 0)
         r = col.rank(pct=True)
         df[f"r_{m}"] = (r if higher else 1 - r) * 100
-    for pillar in PILLARS:
+    for pillar in ("value", "quality", "growth"):
         cols = [f"r_{m}" for m, (p, _) in METRICS.items() if p == pillar]
         df[pillar] = df[cols].mean(axis=1, skipna=True)
+    # momentum pillar: percentile rank of 12-1 return
+    df["momentum"] = pd.to_numeric(df.get("mom_12_1"), errors="coerce").rank(pct=True) * 100
     df["quality_value"] = df[["quality", "value"]].mean(axis=1)
     df["composite"] = df[list(PILLARS)].mean(axis=1, skipna=True)
     # require a minimum amount of real data behind the score
@@ -153,21 +159,35 @@ def flags(row) -> list[str]:
 
 
 def render(df: pd.DataFrame, path_html: str, path_txt: str, universe_n: int):
+    def sector_cap(d, per_sector, total):
+        rows, cnt = [], {}
+        for _, r in d.iterrows():
+            sec = r.get("sector") or "?"
+            if cnt.get(sec, 0) >= per_sector:
+                continue
+            cnt[sec] = cnt.get(sec, 0) + 1
+            rows.append(r)
+            if len(rows) >= total:
+                break
+        return pd.DataFrame(rows)
+
     ranked = df[df["coverage"] >= 0.5].sort_values("composite", ascending=False)
-    buys = ranked[ranked["uptrend"] == True].head(12)          # noqa: E712
-    watch = ranked[ranked["uptrend"] != True].head(8)
+    buys = sector_cap(ranked[ranked["uptrend"] == True], 3, 12)      # noqa: E712
+    watch = sector_cap(ranked[ranked["uptrend"] != True], 2, 8)
 
     def line(r):
         f = flags(r)
         fl = f" ⚠ {', '.join(f)}" if f else ""
         mc = f"${r['marketCap']/1e9:.0f}B" if pd.notna(r.get("marketCap")) else ""
+        mo = r.get("momentum")
+        mo_s = f"/M{mo:.0f}" if pd.notna(mo) else ""
         return (f"{r['ticker']} ({r['name']}, {mc}) — score {r['composite']:.0f}"
-                f" [V{r['value']:.0f}/Q{r['quality']:.0f}/G{r['growth']:.0f}]. "
+                f" [V{r['value']:.0f}/Q{r['quality']:.0f}/G{r['growth']:.0f}{mo_s}]. "
                 f"{thesis(r)}{fl}")
 
     # plain-text weekly bulletin
     L = [f"# Long-term ideas (FA) — week of {datetime.now():%d %b %Y}", "",
-         f"Ranked {universe_n} large caps on value, quality and growth. "
+         f"Ranked {universe_n} large caps on value, quality, growth and momentum, max 3 per sector. "
          "Relative ranks, not absolute value. Research these — they are not buy "
          "signals, and this is a months-to-years view, separate from the swing sheet.",
          "", "## Quality at a reasonable price, and in an uptrend", ""]
@@ -234,8 +254,9 @@ def main():
         df = fetch_fundamentals(uni)
         if len(df) < 20:
             sys.exit("Too little fundamental data returned.")
-        up = trend_up(list(df["ticker"]))
+        up, mom = trend_and_momentum(list(df["ticker"]))
         df["uptrend"] = df["ticker"].map(up).fillna(False)
+        df["mom_12_1"] = df["ticker"].map(mom)
         n = len(df)
 
     df = score(df)

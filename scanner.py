@@ -483,6 +483,18 @@ def main():
 
     html_report(results, args.html)
 
+    # machine-readable regime for the portfolio layer (SPX trend, NDX fallback)
+    try:
+        import json as _json
+        key = "SPX" if "SPX" in results else "NDX"
+        view = results[key][0]
+        _os_dir = os.path.dirname(args.html) or "."
+        _json.dump({"risk_on": view["trend"] == "UP", "index": key,
+                    "as_of": view["date"]},
+                   open(os.path.join(_os_dir, "regime.json"), "w"))
+    except Exception as e:
+        print(f"(regime.json not written: {e})")
+
 
 if __name__ == "__main__":
     main()

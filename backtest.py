@@ -52,18 +52,22 @@ def prepare(data: dict) -> dict:
 VARIANTS = [
     {"name": "baseline (current live rules)", "cfg": {}},
     {"name": "trailing stop only (no RSI exit)", "cfg": {"use_rsi_target": False}},
-    {"name": "trailing only, wider 3xATR trail",
-     "cfg": {"use_rsi_target": False, "atr_stop_mult": 3.0}},
     {"name": "long-only", "cfg": {}, "long_only": True},
     {"name": "long-only + trailing only",
      "cfg": {"use_rsi_target": False}, "long_only": True},
     {"name": "long-only, trailing only, mean-reversion signals only",
      "cfg": {"use_rsi_target": False}, "long_only": True,
      "families": {"mean reversion"}},
-    {"name": "two independent ideas required", "cfg": {}, "min_families": 2},
     {"name": "long-only, trailing only, 2 ideas, 3xATR",
      "cfg": {"use_rsi_target": False, "atr_stop_mult": 3.0},
      "long_only": True, "min_families": 2},
+    {"name": "long+trailing + regime gate (breadth>50%)",
+     "cfg": {"use_rsi_target": False}, "long_only": True, "regime_gate": True},
+    {"name": "long+trailing + RS>median gate",
+     "cfg": {"use_rsi_target": False}, "long_only": True, "rs_gate": True},
+    {"name": "long+trailing + regime + RS gates",
+     "cfg": {"use_rsi_target": False}, "long_only": True,
+     "regime_gate": True, "rs_gate": True},
     {"name": "momentum/breakouts only, long, trailing",
      "cfg": {"use_rsi_target": False}, "long_only": True, "families": {"momentum"}},
     {"name": "failed-breakout only, long, trailing",
@@ -84,9 +88,17 @@ def variant_net(prepared: dict, families: set | None) -> dict:
 
 def run_backtest(prepared: dict, start: pd.Timestamp, equity0: float,
                  long_only: bool = False, min_families: int = 1,
-                 families: set | None = None) -> dict:
+                 families: set | None = None,
+                 regime_gate: bool = False, rs_gate: bool = False) -> dict:
     p = pf.PORTFOLIO
     nets = variant_net(prepared, families)
+    # market breadth (fraction of names above their 200-day) and cross-sectional
+    # momentum, both computable without lookahead
+    above = pd.DataFrame({t: v["df"]["Close"] > v["df"]["SMA_S"]
+                          for t, v in prepared.items()})
+    breadth = above.mean(axis=1)
+    momdf = pd.DataFrame({t: v["df"]["MOM63"] for t, v in prepared.items()})
+    mom_med = momdf.median(axis=1)
     dates = sorted({d for v in prepared.values() for d in v["df"].index if d >= start})
     equity = equity0
     state = {"open": [], "closed": []}
@@ -114,6 +126,8 @@ def run_backtest(prepared: dict, start: pd.Timestamp, equity0: float,
 
         # 2) rank today's signals, enter at TOMORROW's open
         free = p["max_positions"] - len(state["open"])
+        if regime_gate and day in breadth.index and breadth.loc[day] < 0.5:
+            free = 0                      # risk-off: manage exits, no new entries
         if free > 0:
             held = {q["ticker"] for q in state["open"]}
             cands = []
@@ -126,6 +140,11 @@ def run_backtest(prepared: dict, start: pd.Timestamp, equity0: float,
                     continue
                 if long_only and score < 0:
                     continue
+                if rs_gate:
+                    m = momdf.at[day, t] if (day in momdf.index and t in momdf) else np.nan
+                    md = mom_med.get(day, np.nan)
+                    if not (pd.notna(m) and pd.notna(md) and m > md):
+                        continue
                 df = v["df"]
                 dvol = float((df["Close"] * df["Volume"]).rolling(20).mean().loc[day]) \
                     if "Volume" in df else np.inf
@@ -281,7 +300,9 @@ def sweep(prepared: dict, start: pd.Timestamp, equity0: float, years: float,
         res = run_backtest(prepared, start, equity0,
                            long_only=v.get("long_only", False),
                            min_families=v.get("min_families", 1),
-                           families=v.get("families"))
+                           families=v.get("families"),
+                           regime_gate=v.get("regime_gate", False),
+                           rs_gate=v.get("rs_gate", False))
         s = stats(res, equity0, bench, years)
         s["name"] = v["name"]
         rows.append(s)

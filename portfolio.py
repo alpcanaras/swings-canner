@@ -51,6 +51,8 @@ PORTFOLIO = {
     "atr_stop_mult": CONFIG["stop_atr_mult"],   # trail distance, in ATRs
     "use_rsi_target": False,     # backtest: the RSI exit cut winners and cost a lot
     "long_only": True,           # backtest: shorts were a consistent drag
+    "regime_gate": False,        # pause NEW buys when the index is below its
+                                 # 200-day; flipped on only if the backtest agrees
     "target_rsi": 70.0,          # long exit when RSI(2) recovers above this
     "max_hold_days": 20,         # backstop so nothing becomes a zombie
     # Stops do NOT execute outside regular hours, so an overnight gap blows
@@ -299,6 +301,17 @@ def open_positions(state: dict, candidates, today: str) -> list[str]:
     """Fill free slots from today's candidates (best score first)."""
     p = PORTFOLIO
     events = []
+    if p.get("regime_gate"):
+        try:
+            import json as _json
+            rg = _json.load(open("docs/regime.json"))
+            if not rg.get("risk_on", True):
+                events.append(
+                    f"<b>No new buys:</b> {rg.get('index','index')} is below its "
+                    "200-day (risk-off). Managing exits only until the trend returns.")
+                return events
+        except Exception:
+            pass
     held = {pos["ticker"] for pos in state["open"]}
     free = p["max_positions"] - len(state["open"])
     if free <= 0 or candidates is None or not len(candidates):

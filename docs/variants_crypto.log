@@ -1,0 +1,50 @@
+Downloading 18 tickers (8y daily)...
+  usable: 18 tickers
+Replaying 18 tickers from 2020-08-21...
+
+--- baseline (current live rules)
+      945 trades | return   +182.1% | win 38.7% | avg +1.36% | maxDD -76.2%
+
+--- trailing stop only (no RSI exit)
+      945 trades | return   +182.1% | win 38.7% | avg +1.36% | maxDD -76.2%
+
+--- trailing only, wider 3xATR trail
+      815 trades | return   +179.5% | win 42.0% | avg +1.60% | maxDD -75.1%
+
+--- long-only
+      646 trades | return   +549.7% | win 38.2% | avg +2.76% | maxDD -68.5%
+
+--- long-only + trailing only
+      646 trades | return   +549.7% | win 38.2% | avg +2.76% | maxDD -68.5%
+
+--- long-only, trailing only, mean-reversion signals only
+      582 trades | return    +89.5% | win 37.1% | avg +1.62% | maxDD -69.5%
+
+--- two independent ideas required
+      825 trades | return   +572.0% | win 41.0% | avg +1.95% | maxDD -46.8%
+
+--- long-only, trailing only, 2 ideas, 3xATR
+      406 trades | return   +157.7% | win 39.4% | avg +2.61% | maxDD -52.6%
+
+--- momentum/breakouts only, long, trailing
+      328 trades | return   +708.0% | win 39.3% | avg +5.22% | maxDD -36.3%
+
+--- failed-breakout only, long, trailing
+      360 trades | return    +28.1% | win 39.2% | avg +1.12% | maxDD -64.4%
+
+==============================================================================
+BENCHMARK — buy & hold the same stocks: +1872.3%
+   +708.0%  loses to buy&hold  |   328 trades | maxDD  -36.3% | momentum/breakouts only, long, trailing
+   +572.0%  loses to buy&hold  |   825 trades | maxDD  -46.8% | two independent ideas required
+   +549.7%  loses to buy&hold  |   646 trades | maxDD  -68.5% | long-only
+   +549.7%  loses to buy&hold  |   646 trades | maxDD  -68.5% | long-only + trailing only
+   +182.1%  loses to buy&hold  |   945 trades | maxDD  -76.2% | baseline (current live rules)
+   +182.1%  loses to buy&hold  |   945 trades | maxDD  -76.2% | trailing stop only (no RSI exit)
+   +179.5%  loses to buy&hold  |   815 trades | maxDD  -75.1% | trailing only, wider 3xATR trail
+   +157.7%  loses to buy&hold  |   406 trades | maxDD  -52.6% | long-only, trailing only, 2 ideas, 3xATR
+    +89.5%  loses to buy&hold  |   582 trades | maxDD  -69.5% | long-only, trailing only, mean-reversion signals only
+    +28.1%  loses to buy&hold  |   360 trades | maxDD  -64.4% | failed-breakout only, long, trailing
+==============================================================================
+VERDICT: no variant beats buy-and-hold. The idea does not work.
+
+Written to docs/variants_crypto.html

@@ -1,42 +1,50 @@
   Wikipedia constituent fetch failed (no constituent table found); using built-in list.
 Downloading 89 tickers (12y daily)...
-  usable: 89 tickers
-Replaying 89 tickers from 2016-08-08...
+  usable: 88 tickers
+Replaying 88 tickers from 2016-08-21...
 
 --- baseline (current live rules)
-     3292 trades | return    +18.5% | win 64.1% | avg +0.16% | maxDD -42.1%
+     1106 trades | return   +123.7% | win 40.9% | avg +0.54% | maxDD -33.7%
 
 --- trailing stop only (no RSI exit)
-     1109 trades | return   +102.5% | win 40.4% | avg +0.51% | maxDD -29.6%
+     1106 trades | return   +123.7% | win 40.9% | avg +0.54% | maxDD -33.7%
 
 --- trailing only, wider 3xATR trail
-      932 trades | return    +70.7% | win 40.2% | avg +0.48% | maxDD -39.9%
+      915 trades | return   +106.7% | win 41.1% | avg +0.60% | maxDD -41.2%
 
 --- long-only
-     3982 trades | return    +58.2% | win 65.9% | avg +0.19% | maxDD -35.2%
+     1088 trades | return   +315.6% | win 42.7% | avg +0.92% | maxDD -28.2%
 
 --- long-only + trailing only
-     1089 trades | return   +312.7% | win 42.7% | avg +0.91% | maxDD -27.7%
+     1088 trades | return   +315.6% | win 42.7% | avg +0.92% | maxDD -28.2%
 
 --- long-only, trailing only, mean-reversion signals only
-     1100 trades | return   +227.4% | win 41.5% | avg +0.77% | maxDD -40.3%
+     1098 trades | return   +209.5% | win 41.3% | avg +0.75% | maxDD -40.9%
 
 --- two independent ideas required
-     3636 trades | return    -40.8% | win 64.7% | avg +0.06% | maxDD -47.8%
+     1124 trades | return     +9.8% | win 38.9% | avg +0.20% | maxDD -39.0%
 
 --- long-only, trailing only, 2 ideas, 3xATR
-      898 trades | return   +187.2% | win 45.2% | avg +0.83% | maxDD -31.7%
+      896 trades | return   +240.8% | win 45.0% | avg +0.93% | maxDD -34.4%
+
+--- momentum/breakouts only, long, trailing
+     1012 trades | return   +112.3% | win 41.0% | avg +0.56% | maxDD -37.4%
+
+--- failed-breakout only, long, trailing
+     1029 trades | return   +275.2% | win 44.4% | avg +0.85% | maxDD -29.3%
 
 ==============================================================================
-BENCHMARK — buy & hold the same stocks: +849.1%
-   +312.7%  loses to buy&hold  |  1089 trades | maxDD  -27.7% | long-only + trailing only
-   +227.4%  loses to buy&hold  |  1100 trades | maxDD  -40.3% | long-only, trailing only, mean-reversion signals only
-   +187.2%  loses to buy&hold  |   898 trades | maxDD  -31.7% | long-only, trailing only, 2 ideas, 3xATR
-   +102.5%  loses to buy&hold  |  1109 trades | maxDD  -29.6% | trailing stop only (no RSI exit)
-    +70.7%  loses to buy&hold  |   932 trades | maxDD  -39.9% | trailing only, wider 3xATR trail
-    +58.2%  loses to buy&hold  |  3982 trades | maxDD  -35.2% | long-only
-    +18.5%  loses to buy&hold  |  3292 trades | maxDD  -42.1% | baseline (current live rules)
-    -40.8%  loses to buy&hold  |  3636 trades | maxDD  -47.8% | two independent ideas required
+BENCHMARK — buy & hold the same stocks: +808.1%
+   +315.6%  loses to buy&hold  |  1088 trades | maxDD  -28.2% | long-only
+   +315.6%  loses to buy&hold  |  1088 trades | maxDD  -28.2% | long-only + trailing only
+   +275.2%  loses to buy&hold  |  1029 trades | maxDD  -29.3% | failed-breakout only, long, trailing
+   +240.8%  loses to buy&hold  |   896 trades | maxDD  -34.4% | long-only, trailing only, 2 ideas, 3xATR
+   +209.5%  loses to buy&hold  |  1098 trades | maxDD  -40.9% | long-only, trailing only, mean-reversion signals only
+   +123.7%  loses to buy&hold  |  1106 trades | maxDD  -33.7% | baseline (current live rules)
+   +123.7%  loses to buy&hold  |  1106 trades | maxDD  -33.7% | trailing stop only (no RSI exit)
+   +112.3%  loses to buy&hold  |  1012 trades | maxDD  -37.4% | momentum/breakouts only, long, trailing
+   +106.7%  loses to buy&hold  |   915 trades | maxDD  -41.2% | trailing only, wider 3xATR trail
+     +9.8%  loses to buy&hold  |  1124 trades | maxDD  -39.0% | two independent ideas required
 ==============================================================================
 VERDICT: no variant beats buy-and-hold. The idea does not work.
 

@@ -1,14 +1,14 @@
   Wikipedia constituent fetch failed (no constituent table found); using built-in list.
 Downloading 89 tickers (12y daily)...
-  usable: 89 tickers
-Replaying 89 tickers from 2016-08-08...
-Period: 10.0 years · 89 stocks · 3293 trades · 99% of days invested
-Strategy return: +14.6% (+1.4%/yr)
-Buy & hold the same universe: +849.1%
-Worst drawdown: -42.9%
-Win rate: 64.0% · average trade +0.15% · held 3.8 days · best +21.1% / worst -27.0%
-Exits: stop hit 400, move played out (RSI target) 2447, trailing stop 306, gapped through the stop 140
-By signal family: failed breakout: 968 trades, 63% win, -0.05% avg | gap: 1106 trades, 67% win, +0.28% avg | mean reversion: 2994 trades, 64% win, +0.16% avg | momentum: 297 trades, 64% win, +0.03% avg
+  usable: 88 tickers
+Replaying 88 tickers from 2016-08-21...
+Period: 10.0 years · 88 stocks · 1110 trades · 100% of days invested
+Strategy return: +94.7% (+6.9%/yr)
+Buy & hold the same universe: +808.1%
+Worst drawdown: -33.9%
+Win rate: 40.1% · average trade +0.50% · held 11.3 days · best +61.3% / worst -17.8%
+Exits: stop hit 154, trailing stop 578, gapped through the stop 148, 20-day backstop 230
+By signal family: failed breakout: 423 trades, 39% win, +0.49% avg | gap: 277 trades, 47% win, +0.66% avg | mean reversion: 1073 trades, 40% win, +0.48% avg | momentum: 35 trades, 43% win, +0.60% avg
 The strategy did NOT beat simply buying and holding the same stocks.
 
 Written to docs/backtest.html

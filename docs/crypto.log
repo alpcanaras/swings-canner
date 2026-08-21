@@ -1,17 +1,26 @@
 Downloading 40 tickers (8y daily)...
   usable: 39 tickers
+# Crypto brief — 2026-08-21
 
-CRYPTO CANDIDATES — 2026-08-21 (universe: 39 coins)
+## Regime: RISK-ON
+
+Trend is up. History says this is when holding majors paid — and a simple 'stay long while BTC is above its 200-day' rule kept you in for it.
+
+- BTC $78,681 — above its 200-day (68,975); -19% from the 1-year high; +22% in 30d.
+- Breadth: 20/39 majors above their 200-day (51%).
+
+
+CRYPTO SWING (experimental, underperformed holding) — 2026-08-21 (universe: 39 coins)
 ticker side  score  close                   signals  RS_3m_%  ATR%   stop  min_KO_dist earnings  expected_pct
-  NEAR LONG    1.0  1.974 Donchian 20d breakout (L)    -20.7  4.41 1.7999       0.2612      n/a          0.82
+  NEAR LONG    1.0 1.9761 Donchian 20d breakout (L)    -20.9  4.43 1.8011       0.2625      n/a          0.82
 Written docs/crypto.html
-Crypto paper: 1 closed, -20.65 net
+Crypto paper: 2 closed, -42.68 net
 Written docs/crypto_portfolio.html
 # Crypto risk screen — 21 Aug 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1573.2B, +25%/7d) — risk LOWER: modest liquidity (4.5%)
-- ETH (Ethereum, $304.6B, +34%/7d) — risk LOWER: no major red flags in market data
+- BTC (Bitcoin, $1578.2B, +25%/7d) — risk LOWER: modest liquidity (4.5%)
+- ETH (Ethereum, $306.4B, +34%/7d) — risk LOWER: no major red flags in market data
 
 Written docs/crypto_screen.html and docs/crypto_screen_digest.txt

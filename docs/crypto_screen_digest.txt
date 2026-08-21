@@ -2,12 +2,12 @@
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1573.2B, +25%/7d) — risk LOWER: modest liquidity (4.5%)
-- ETH (Ethereum, $304.6B, +34%/7d) — risk LOWER: no major red flags in market data
-- BNB (BNB, $91.4B, +13%/7d) — risk LOWER: modest liquidity (2.1%)
-- XRP (XRP, $89.1B, +41%/7d) — risk LOWER: no major red flags in market data
-- SOL (Solana, $54.8B, +25%/7d) — risk LOWER: no major red flags in market data
-- DOGE (Dogecoin, $14.4B, +31%/7d) — risk LOWER: no major red flags in market data
+- BTC (Bitcoin, $1578.2B, +25%/7d) — risk LOWER: modest liquidity (4.5%)
+- ETH (Ethereum, $306.4B, +34%/7d) — risk LOWER: no major red flags in market data
+- BNB (BNB, $91.7B, +13%/7d) — risk LOWER: modest liquidity (2.1%)
+- XRP (XRP, $89.4B, +41%/7d) — risk LOWER: no major red flags in market data
+- SOL (Solana, $54.9B, +25%/7d) — risk LOWER: no major red flags in market data
+- DOGE (Dogecoin, $14.5B, +31%/7d) — risk LOWER: no major red flags in market data
 
 ## Small-cap discovery — RESEARCH ONLY, NOT PICKS
 
@@ -15,15 +15,15 @@
 
 - REUR (Royal Euro, $62M, +261%/7d) — risk MEDIUM: small-cap; only 0% of supply circulating (future dilution); near all-time high (-0% from ATH — chasing risk)
 - MAGMA (Magma Finance, $60M, +77%/7d) — risk MEDIUM: small-cap; only 19% of supply circulating (future dilution)
-- PURR (Purr, $69M, +76%/7d) — risk LOWER: small-cap
+- PURR (Purr, $70M, +76%/7d) — risk LOWER: small-cap
 - TROLL (TROLL, $62M, +65%/7d) — risk LOWER: small-cap
-- USELESS (Useless Coin, $63M, +61%/7d) — risk LOWER: small-cap
+- USELESS (Useless Coin, $64M, +61%/7d) — risk LOWER: small-cap
 - NPC (Non-Playable Coin, $67M, +59%/7d) — risk LOWER: small-cap
 - BOME (BOOK OF MEME, $85M, +53%/7d) — risk LOWER: small-cap
 - PEOPLE (ConstitutionDAO, $58M, +51%/7d) — risk LOWER: small-cap
-- KMNO (Kamino, $141M, +46%/7d) — risk LOWER: small-cap
+- KMNO (Kamino, $143M, +46%/7d) — risk LOWER: small-cap
 - ENS (Ethereum Name Service, $242M, +44%/7d) — risk LOWER: small-cap
-- WIF (dogwifhat, $195M, +43%/7d) — risk LOWER: small-cap
+- WIF (dogwifhat, $196M, +43%/7d) — risk LOWER: small-cap
 - RED (RedStone, $60M, +42%/7d) — risk LOWER: small-cap
 
 _Objective market-data signals only — no contract audit, no holder analysis. Not financial advice; not a licensed adviser._

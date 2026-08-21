@@ -5,16 +5,17 @@
 | ticker | in | out | P&L | why |
 |---|---|---|---|---|
 | NEAR | 1.96 | 1.76 | -10.2% ($-20.65) | gapped through the stop |
+| NEAR | 1.97 | 1.76 | -10.9% ($-22.03) | gapped through the stop |
 
 ## Buy
 
 | ticker | setup | signal px | stop $ | stop % | trail | size |
 |---|---|---|---|---|---|---|
-| NEAR | momentum | 1.97 | 1.80 | -8.8% | 2xATR = $0.17 | $200 = 101.3 sh |
+| NEAR | momentum | 1.98 | 1.80 | -8.9% | 2xATR = $0.18 | $200 = 101.2 sh |
 
 ## Holding — updated stops
 
 No open positions carried over.
 
-_Record: 1 closed, 0% winners, $-20.65 net, balance $979.35._
-_All signals: 1 closed, 0% profitable, -10.22% avg._
+_Record: 2 closed, 0% winners, $-42.68 net, balance $957.32._
+_All signals: 2 closed, 0% profitable, -10.57% avg._

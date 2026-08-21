@@ -1,0 +1,16 @@
+Downloading 40 tickers (8y daily)...
+  usable: 39 tickers
+
+CRYPTO CANDIDATES — 2026-08-21 (universe: 39 coins)
+ticker side  score  close                   signals  RS_3m_%  ATR%   stop  min_KO_dist earnings  expected_pct
+  NEAR LONG    1.0 1.9588 Donchian 20d breakout (L)    -20.1  4.43 1.7854       0.2602      n/a          0.82
+Written docs/crypto.html
+Written docs/crypto_portfolio.html
+# Crypto risk screen — 21 Aug 2026
+
+## Watchlist risk read
+
+- BTC (Bitcoin, $1575.4B, +25%/7d) — risk LOWER: modest liquidity (4.5%)
+- ETH (Ethereum, $303.4B, +34%/7d) — risk LOWER: no major red flags in market data
+
+Written docs/crypto_screen.html and docs/crypto_screen_digest.txt

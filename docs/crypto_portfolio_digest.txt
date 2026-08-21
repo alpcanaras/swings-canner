@@ -1,0 +1,15 @@
+# Trade sheet — 2026-08-21
+
+## Sell
+
+Nothing to sell.
+
+## Buy
+
+| ticker | setup | signal px | stop $ | stop % | trail | size |
+|---|---|---|---|---|---|---|
+| NEAR | momentum | 1.96 | 1.79 | -8.9% | 2xATR = $0.17 | $200 = 102.1 sh |
+
+## Holding — updated stops
+
+No open positions carried over.

@@ -4,8 +4,6 @@ on:
   schedule:
     - cron: "0 23 * * *"      # 23:00 UTC every day — crypto trades 24/7
   workflow_dispatch:
-  push:
-    branches: [main]        # TEMP: verify once, removed next commit
 
 permissions:
   contents: write

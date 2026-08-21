@@ -2,11 +2,11 @@
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1578.2B, +25%/7d) — risk LOWER: modest liquidity (4.5%)
-- ETH (Ethereum, $306.4B, +34%/7d) — risk LOWER: no major red flags in market data
-- BNB (BNB, $91.7B, +13%/7d) — risk LOWER: modest liquidity (2.1%)
+- BTC (Bitcoin, $1578.8B, +25%/7d) — risk LOWER: modest liquidity (4.5%)
+- ETH (Ethereum, $305.9B, +34%/7d) — risk LOWER: no major red flags in market data
+- BNB (BNB, $91.8B, +13%/7d) — risk LOWER: modest liquidity (2.1%)
 - XRP (XRP, $89.4B, +41%/7d) — risk LOWER: no major red flags in market data
-- SOL (Solana, $54.9B, +25%/7d) — risk LOWER: no major red flags in market data
+- SOL (Solana, $54.7B, +25%/7d) — risk LOWER: no major red flags in market data
 - DOGE (Dogecoin, $14.5B, +31%/7d) — risk LOWER: no major red flags in market data
 
 ## Small-cap discovery — RESEARCH ONLY, NOT PICKS
@@ -19,10 +19,10 @@
 - TROLL (TROLL, $62M, +65%/7d) — risk LOWER: small-cap
 - USELESS (Useless Coin, $64M, +61%/7d) — risk LOWER: small-cap
 - NPC (Non-Playable Coin, $67M, +59%/7d) — risk LOWER: small-cap
-- BOME (BOOK OF MEME, $85M, +53%/7d) — risk LOWER: small-cap
+- BOME (BOOK OF MEME, $86M, +53%/7d) — risk LOWER: small-cap
 - PEOPLE (ConstitutionDAO, $58M, +51%/7d) — risk LOWER: small-cap
 - KMNO (Kamino, $143M, +46%/7d) — risk LOWER: small-cap
-- ENS (Ethereum Name Service, $242M, +44%/7d) — risk LOWER: small-cap
+- ENS (Ethereum Name Service, $243M, +44%/7d) — risk LOWER: small-cap
 - WIF (dogwifhat, $196M, +43%/7d) — risk LOWER: small-cap
 - RED (RedStone, $60M, +42%/7d) — risk LOWER: small-cap
 

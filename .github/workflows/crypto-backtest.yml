@@ -1,0 +1,37 @@
+name: crypto-backtest
+
+on:
+  workflow_dispatch:
+  push:
+    paths: [crypto-backtest-trigger, backtest.py]
+
+permissions:
+  contents: write
+
+jobs:
+  bt:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install yfinance pandas numpy lxml
+      - name: Crypto-only variant sweep
+        run: |
+          mkdir -p docs
+          printf "%s\n" BTC-USD ETH-USD SOL-USD XRP-USD BNB-USD ADA-USD DOGE-USD \
+            AVAX-USD LINK-USD DOT-USD LTC-USD BCH-USD ATOM-USD UNI-USD ETC-USD \
+            FIL-USD NEAR-USD AAVE-USD XLM-USD ALGO-USD > crypto.txt
+          python backtest.py --tickers crypto.txt --years 6 \
+            --sweep --html docs/variants_crypto.html 2>&1 | tee docs/variants_crypto.log
+      - name: Publish
+        if: always()
+        run: |
+          git config user.name "scan-bot"
+          git config user.email "scan-bot@users.noreply.github.com"
+          git add docs
+          git commit -m "crypto backtest $(date -u +%Y-%m-%d)" || echo "no changes"
+          git pull --rebase -X ours || true
+          git push

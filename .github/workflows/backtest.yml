@@ -40,6 +40,9 @@ jobs:
           echo "^NDX ^RUT" > indices.txt
           python backtest.py --tickers indices.txt --years 10 \
             --sweep --html docs/variants_index.html 2>&1 | tee docs/variants_index.log
+          printf "%s\n" BTC-USD ETH-USD SOL-USD XRP-USD BNB-USD ADA-USD DOGE-USD AVAX-USD LINK-USD DOT-USD LTC-USD BCH-USD ATOM-USD UNI-USD ETC-USD FIL-USD NEAR-USD AAVE-USD > crypto.txt
+          python backtest.py --tickers crypto.txt --years 6 \
+            --sweep --html docs/variants_crypto.html 2>&1 | tee docs/variants_crypto.log
 
       - name: Publish
         if: always()

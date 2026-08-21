@@ -1,2 +1,7 @@
 __pycache__/
 *.pyc
+
+data_crypto/
+fa_test.json
+markets_test.json
+crypto.txt

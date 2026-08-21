@@ -2,29 +2,26 @@ name: daily-scan
 
 on:
   schedule:
-    - cron: "15 22 * * 1-5"    # 22:15 UTC Mon-Fri — after US close year-round
-  workflow_dispatch:            # manual trigger from the Actions tab (works on mobile)
+    - cron: "15 22 * * 1-5"    # 22:15 UTC Mon-Fri — after US close
+  workflow_dispatch:
   push:
-    branches: [main]            # also run on push (bot commits to docs/ don't re-trigger)
+    branches: [main]
 
 permissions:
   contents: write
-  issues: write        # daily digest is posted as an issue, which GitHub emails
+  issues: write
 
 jobs:
   scan:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - run: pip install yfinance pandas numpy lxml
 
-      - name: Install dependencies
-        run: pip install yfinance pandas numpy lxml
-
-      - name: Run scanners
+      - name: Swing scan (stocks)
         run: |
           mkdir -p docs
           set -o pipefail
@@ -35,28 +32,56 @@ jobs:
               --portfolio-txt docs/portfolio_digest.txt
           } 2>&1 | tee docs/run.log
 
-      - name: Publish to GitHub Pages branch folder
-        if: always()          # commit the log even when the scan fails
+      - name: Crypto scan (majors + screener)
+        run: |
+          python crypto_scanner.py --html docs/crypto.html \
+            --portfolio-html docs/crypto_portfolio.html \
+            --portfolio-txt docs/crypto_portfolio_digest.txt 2>&1 | tee docs/crypto.log || true
+          python crypto_screener.py --html docs/crypto_screen.html \
+            --txt docs/crypto_screen_digest.txt 2>&1 | tee -a docs/crypto.log || true
+
+      - name: Publish
+        if: always()
         run: |
           git config user.name "scan-bot"
           git config user.email "scan-bot@users.noreply.github.com"
           git add docs state
           git commit -m "scan $(date -u +%Y-%m-%d)" || echo "no changes"
+          git pull --rebase -X ours || true
           git push
 
-      - name: Build digest
-        id: digest
-        run: python make_digest.py
+      - name: Build digests
+        id: d
+        run: |
+          python make_digest.py                      # writes digest.md (swing) + title
+          # crypto issue body
+          {
+            echo "# Crypto — $(date -u +%Y-%m-%d)"
+            echo
+            echo "> Same six-signal, trailing-stop strategy as the swing sheet, on"
+            echo "> liquid coins, tracked in a **separate paper book**. Crypto history"
+            echo "> is short and cycle-driven, so treat backtests with extra suspicion."
+            echo
+            cat docs/crypto_portfolio_digest.txt 2>/dev/null || echo "_(no crypto trade sheet)_"
+            echo
+            cat docs/crypto_screen_digest.txt 2>/dev/null || echo "_(no screener output)_"
+            echo
+            echo "---"
+            echo "Pages: [crypto book](https://alpcanaras.github.io/swings-canner/crypto_portfolio.html) · [signals](https://alpcanaras.github.io/swings-canner/crypto.html) · [risk screen](https://alpcanaras.github.io/swings-canner/crypto_screen.html)"
+            echo "_Not financial advice; not a licensed adviser._"
+          } > digest_crypto.md
 
-      - name: Email the digest (via a GitHub issue)
+      - name: Email swing + crypto (separate issues)
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh issue create \
-            --title "${{ steps.digest.outputs.title }}" \
-            --body-file digest.md \
-            --repo "$GITHUB_REPOSITORY"
-          # keep the issue list tidy: close everything older than the newest 5
-          gh issue list --repo "$GITHUB_REPOSITORY" --state open --limit 100 \
-            --json number --jq '.[].number' | tail -n +6 | \
-            xargs -r -I{} gh issue close {} --repo "$GITHUB_REPOSITORY"
+          gh issue create --repo "$GITHUB_REPOSITORY" \
+            --title "[Swing] ${{ steps.d.outputs.title }}" --body-file digest.md
+          gh issue create --repo "$GITHUB_REPOSITORY" \
+            --title "[Crypto] $(date -u +%Y-%m-%d)" --body-file digest_crypto.md
+          # prune: keep newest 3 of each stream
+          for tag in "[Swing]" "[Crypto]"; do
+            gh issue list --repo "$GITHUB_REPOSITORY" --state open --limit 100 \
+              --search "$tag in:title" --json number --jq '.[].number' \
+              | tail -n +4 | xargs -r -I{} gh issue close {} --repo "$GITHUB_REPOSITORY"
+          done

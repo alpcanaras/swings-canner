@@ -64,6 +64,10 @@ VARIANTS = [
     {"name": "long-only, trailing only, 2 ideas, 3xATR",
      "cfg": {"use_rsi_target": False, "atr_stop_mult": 3.0},
      "long_only": True, "min_families": 2},
+    {"name": "momentum/breakouts only, long, trailing",
+     "cfg": {"use_rsi_target": False}, "long_only": True, "families": {"momentum"}},
+    {"name": "failed-breakout only, long, trailing",
+     "cfg": {"use_rsi_target": False}, "long_only": True, "families": {"failed breakout"}},
 ]
 
 

@@ -1,0 +1,53 @@
+name: fa-weekly
+
+on:
+  schedule:
+    - cron: "0 12 * * 1"      # Mondays 12:00 UTC — fundamentals move slowly
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  fa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install yfinance pandas numpy lxml
+
+      - name: Fundamental scan (long-term ideas)
+        run: |
+          mkdir -p docs
+          python fa_scanner.py --universe all --html docs/fa.html \
+            --txt docs/fa_digest.txt 2>&1 | tee docs/fa.log
+
+      - name: Publish
+        if: always()
+        run: |
+          git config user.name "scan-bot"
+          git config user.email "scan-bot@users.noreply.github.com"
+          git add docs
+          git commit -m "fa $(date -u +%Y-%m-%d)" || echo "no changes"
+          git pull --rebase -X ours || true
+          git push
+
+      - name: Email the long-term bulletin
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          {
+            cat docs/fa_digest.txt
+            echo
+            echo "---"
+            echo "Full table: https://alpcanaras.github.io/swings-canner/fa.html"
+          } > digest_fa.md
+          gh issue create --repo "$GITHUB_REPOSITORY" \
+            --title "[Long-term] week of $(date -u +%Y-%m-%d)" --body-file digest_fa.md
+          gh issue list --repo "$GITHUB_REPOSITORY" --state open --limit 100 \
+            --search "[Long-term] in:title" --json number --jq '.[].number' \
+            | tail -n +4 | xargs -r -I{} gh issue close {} --repo "$GITHUB_REPOSITORY"

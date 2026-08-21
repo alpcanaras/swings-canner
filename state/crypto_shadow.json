@@ -3,9 +3,24 @@
   {
    "ticker": "NEAR",
    "side": "LONG",
-   "entry": 1.9879,
-   "stop": 1.8111,
-   "shares": 50.30434126465114,
+   "entry": 1.9756,
+   "stop": 1.7986,
+   "shares": 50.61753391374772,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-21",
+   "days": 0,
+   "families": [
+    "momentum"
+   ],
+   "n_signals": 1
+  },
+  {
+   "ticker": "INJ",
+   "side": "LONG",
+   "entry": 5.074,
+   "stop": 4.5546,
+   "shares": 19.70831690973591,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-21",
@@ -141,6 +156,27 @@
    "gross": -11.185265237634828,
    "net": -11.285265237634828,
    "pct": -11.185265237634828,
+   "reason": "gapped through the stop"
+  },
+  {
+   "ticker": "NEAR",
+   "side": "LONG",
+   "entry": 1.9879,
+   "stop": 1.8111,
+   "shares": 50.30434126465114,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-08-21",
+   "days": 1,
+   "families": [
+    "momentum"
+   ],
+   "n_signals": 1,
+   "exit": 1.7585317482948304,
+   "exit_date": "2026-08-21",
+   "gross": -11.538218809053253,
+   "net": -11.638218809053253,
+   "pct": -11.538218809053253,
    "reason": "gapped through the stop"
   }
  ],

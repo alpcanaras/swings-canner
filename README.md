@@ -1,4 +1,26 @@
-# Swing Signal Scanner (days to weeks, long/short)
+# Market scanner — three products, three emails
+
+Runs itself on GitHub Actions (free). You get three separate emails, each posted
+as a GitHub issue so it lands in your inbox:
+
+| Email | Cadence | What it is | Honest status |
+|---|---|---|---|
+| **[Swing]** stocks | daily | Days-to-weeks trade sheet: picks, signal price, stop $/%, trailing rule, updated stops | Best of 8 backtested variants (long-only, trailing). Still lost to buy-and-hold over 10y — traded eyes-open. |
+| **[Long-term]** FA | weekly (Mon) | Quality + value + trend ranking of large caps; a research shortlist | Months-to-years. Not signals. `fa_scanner.py` |
+| **[Crypto]** | daily | **Regime brief** (risk-on/off via 200-day trend) + risk screener + small-cap discovery | Swing-trading crypto lost badly to holding; a trend filter roughly halved drawdown, so the brief leads. `crypto_scanner.py`, `crypto_screener.py` |
+
+Key finding from replaying real history: on both stocks and crypto, mechanical
+swing-trading **underperformed simply buying and holding** — but a trend filter
+(stay long above the 200-day, step aside below) cut crypto's drawdown about in
+half. So the products are framed around what the evidence supports, not hype.
+The "gem finder" is deliberately a **red-flag screener**, not a picker: a public
+feed has no edge finding gems before insiders, and that corner is scam-heavy.
+
+Not financial advice; I am not a licensed adviser.
+
+---
+
+## Swing engine (the original)
 
 Three parts, one system:
 

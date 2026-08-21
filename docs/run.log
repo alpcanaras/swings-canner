@@ -102,7 +102,7 @@ ticker  side  score  close                                                      
 
 Pooled signal history across universe (direction-adjusted fwd returns, %):
                 signal      N  win%_3d  avg_3d  edge_3d  win%_5d  avg_5d  edge_5d  win%_10d  avg_10d  edge_10d
- RSI(2) mean-reversion 222456     52.1    0.19    -0.03     51.9    0.26    -0.10      51.3     0.14     -0.58
+ RSI(2) mean-reversion 222458     52.1    0.19    -0.03     51.9    0.26    -0.10      51.3     0.14     -0.58
     IBS mean-reversion 369007     51.7    0.15    -0.06     51.7    0.22    -0.14      51.2     0.20     -0.51
 7-day extreme pullback 406488     51.1    0.09    -0.13     51.0    0.15    -0.21      50.6     0.05     -0.67
  Donchian 20d breakout 335835     49.5   -0.08    -0.30     49.5   -0.12    -0.48      49.6    -0.15     -0.87

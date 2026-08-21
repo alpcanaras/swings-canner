@@ -81,7 +81,7 @@ STOCK CANDIDATES — 2026-08-21  (universe: 1104 names)
 ticker  side  score  close                                                                                                  signals  RS_3m_%  ATR%   stop  min_KO_dist  expected_pct earnings
    AFL  LONG   1.00 116.07                            RSI(2) mean-reversion (L), IBS mean-reversion (L), 7-day extreme pullback (L)     -8.5  1.81 111.87         6.30         0.210   in 75d
   ADEA  LONG   1.00  26.25                            RSI(2) mean-reversion (L), IBS mean-reversion (L), 7-day extreme pullback (L)     -7.8  6.25  22.97         4.93         0.210   in 73d
-  EVRG  LONG   1.00  80.92 RSI(2) mean-reversion (L), IBS mean-reversion (L), 7-day extreme pullback (L), Sweep & reclaim (10d) (L)     -9.2  1.84  77.94         4.47         0.163   in 76d
+  EVRG  LONG   1.00  80.92 RSI(2) mean-reversion (L), IBS mean-reversion (L), 7-day extreme pullback (L), Sweep & reclaim (10d) (L)     -9.2  1.84  77.94         4.47         0.160   in 76d
   FIBK  LONG   1.00  37.49                            RSI(2) mean-reversion (L), IBS mean-reversion (L), 7-day extreme pullback (L)      0.3  1.92  36.05         2.16         0.210   in 68d
    FHB  LONG   1.00  26.32                            RSI(2) mean-reversion (L), IBS mean-reversion (L), 7-day extreme pullback (L)    -10.1  1.97  25.28         1.55         0.210   in 63d
     ED  LONG   1.00 106.35                            RSI(2) mean-reversion (L), IBS mean-reversion (L), 7-day extreme pullback (L)     -7.7  1.87 102.37         5.97         0.210   in 76d
@@ -96,9 +96,9 @@ ticker  side  score  close                                                      
    HCA SHORT   1.00 429.19                            RSI(2) mean-reversion (S), IBS mean-reversion (S), 7-day extreme pullback (S)      2.0  2.99 454.89        38.55         0.210   in 63d
   CTSH SHORT   0.65  61.87                                                    RSI(2) mean-reversion (S), 7-day extreme pullback (S)     11.4  4.06  66.89         7.54         0.205   in 68d
   COIN SHORT   0.65 186.49                                                    RSI(2) mean-reversion (S), 7-day extreme pullback (S)    -11.2  5.39 206.58        30.13         0.205   in 69d
-  EPAM SHORT   0.65 110.34                         RSI(2) mean-reversion (S), 7-day extreme pullback (S), Sweep & reclaim (10d) (S)     -0.6  5.17 121.74        17.11         0.143   in 76d
+  EPAM SHORT   0.65 110.34                         RSI(2) mean-reversion (S), 7-day extreme pullback (S), Sweep & reclaim (10d) (S)     -0.6  5.17 121.74        17.11         0.140   in 76d
    BTU SHORT   0.65  27.61                                                    RSI(2) mean-reversion (S), 7-day extreme pullback (S)      5.9  4.11  29.88         3.40         0.205   in 69d
-   FMC SHORT   0.65  11.02                         RSI(2) mean-reversion (S), 7-day extreme pullback (S), Sweep & reclaim (10d) (S)    -22.2  5.05  12.13         1.67         0.143   in 68d
+   FMC SHORT   0.65  11.02                         RSI(2) mean-reversion (S), 7-day extreme pullback (S), Sweep & reclaim (10d) (S)    -22.2  5.05  12.13         1.67         0.140   in 68d
 
 Pooled signal history across universe (direction-adjusted fwd returns, %):
                 signal      N  win%_3d  avg_3d  edge_3d  win%_5d  avg_5d  edge_5d  win%_10d  avg_10d  edge_10d

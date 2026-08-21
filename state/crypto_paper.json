@@ -3,15 +3,15 @@
   {
    "ticker": "NEAR",
    "side": "LONG",
-   "entry": 1.98,
-   "stop": 1.8031,
-   "shares": 101.01010101010101,
+   "entry": 1.9879,
+   "stop": 1.8111,
+   "shares": 100.60868252930229,
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-08-21",
    "days": 0,
    "viable": true,
-   "atr_pct": 4.47,
+   "atr_pct": 4.45,
    "setup": "momentum"
   }
  ],
@@ -114,6 +114,26 @@
    "gross": -22.621368943430454,
    "net": -22.821368943430453,
    "pct": -11.310684471715227,
+   "reason": "gapped through the stop"
+  },
+  {
+   "ticker": "NEAR",
+   "side": "LONG",
+   "entry": 1.98,
+   "stop": 1.8031,
+   "shares": 101.01010101010101,
+   "notional": 200.0,
+   "cost": 0.2,
+   "date": "2026-08-21",
+   "days": 1,
+   "viable": true,
+   "atr_pct": 4.47,
+   "setup": "momentum",
+   "exit": 1.7585317482948304,
+   "exit_date": "2026-08-21",
+   "gross": -22.370530475269657,
+   "net": -22.570530475269656,
+   "pct": -11.185265237634828,
    "reason": "gapped through the stop"
   }
  ],

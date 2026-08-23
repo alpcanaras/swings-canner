@@ -9,7 +9,7 @@
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-08-21",
-   "days": 1,
+   "days": 2,
    "viable": true,
    "atr_pct": 4.48,
    "setup": "momentum"
@@ -18,15 +18,16 @@
    "ticker": "INJ",
    "side": "LONG",
    "entry": 5.074,
-   "stop": 4.5546,
+   "stop": 4.7321,
    "shares": 39.41663381947182,
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-08-21",
-   "days": 1,
+   "days": 2,
    "viable": true,
    "atr_pct": 5.12,
-   "setup": "momentum"
+   "setup": "momentum",
+   "trailed": true
   }
  ],
  "closed": [

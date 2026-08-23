@@ -1,29 +1,29 @@
-# Crypto risk screen — 22 Aug 2026
+# Crypto risk screen — 23 Aug 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1545.1B, +22%/7d) — risk LOWER: modest liquidity (2.4%)
-- ETH (Ethereum, $291.5B, +28%/7d) — risk LOWER: no major red flags in market data
-- BNB (BNB, $92.3B, +14%/7d) — risk LOWER: modest liquidity (2.4%)
-- XRP (XRP, $91.9B, +46%/7d) — risk LOWER: no major red flags in market data
-- SOL (Solana, $54.6B, +24%/7d) — risk LOWER: no major red flags in market data
-- DOGE (Dogecoin, $14.3B, +31%/7d) — risk LOWER: no major red flags in market data
+- BTC (Bitcoin, $1553.4B, +24%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.9% — hard to exit)
+- ETH (Ethereum, $295.3B, +31%/7d) — risk LOWER: no major red flags in market data
+- XRP (XRP, $94.9B, +53%/7d) — risk LOWER: no major red flags in market data
+- BNB (BNB, $93.3B, +16%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.1% — hard to exit)
+- SOL (Solana, $55.5B, +29%/7d) — risk LOWER: no major red flags in market data
+- DOGE (Dogecoin, $14.4B, +34%/7d) — risk LOWER: no major red flags in market data
 
 ## Small-cap discovery — RESEARCH ONLY, NOT PICKS
 
 > Most of these will fail. A public feed cannot find gems before insiders. This tool cannot see rug-pulls, honeypots or fake volume. Treat every name as guilty until proven safe with real due diligence.
 
 - REUR (Royal Euro, $62M, +261%/7d) — risk MEDIUM: small-cap; only 0% of supply circulating (future dilution); near all-time high (-0% from ATH — chasing risk)
-- NOCK (Nockchain, $48M, +100%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); modest liquidity (3.6%)
-- TUT (Tutorial, $52M, +90%/7d) — risk LOWER: small-cap
-- NPC (Non-Playable Coin, $72M, +72%/7d) — risk LOWER: small-cap
-- USELESS (Useless Coin, $65M, +65%/7d) — risk LOWER: small-cap
-- MELANIA (Melania Meme, $108M, +56%/7d) — risk LOWER: small-cap
-- MAGMA (Magma Finance, $50M, +48%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 19% of supply circulating (future dilution)
-- WIF (dogwifhat, $196M, +43%/7d) — risk LOWER: small-cap
-- PEOPLE (ConstitutionDAO, $55M, +43%/7d) — risk LOWER: small-cap
-- PURR (Purr, $56M, +41%/7d) — risk LOWER: small-cap
-- TRB (Tellor Tributes, $52M, +41%/7d) — risk LOWER: small-cap
-- TROLL (TROLL, $53M, +40%/7d) — risk LOWER: small-cap
+- NPC (Non-Playable Coin, $98M, +142%/7d) — risk LOWER: small-cap
+- PURR (Purr, $91M, +131%/7d) — risk LOWER: small-cap
+- TUT (Tutorial, $55M, +106%/7d) — risk LOWER: small-cap
+- USELESS (Useless Coin, $69M, +75%/7d) — risk LOWER: small-cap
+- SPK (Spark, $70M, +61%/7d) — risk MEDIUM: small-cap; only 31% of supply circulating (future dilution)
+- KNTQ (Kinetiq, $57M, +59%/7d) — risk MEDIUM: small-cap; only 28% of supply circulating (future dilution)
+- BRETT (Brett, $56M, +54%/7d) — risk LOWER: small-cap
+- MET (Meteora, $133M, +52%/7d) — risk LOWER: small-cap
+- ENS (Ethereum Name Service, $247M, +52%/7d) — risk LOWER: small-cap
+- TRB (Tellor Tributes, $54M, +51%/7d) — risk LOWER: small-cap
+- MINA (Mina Protocol, $75M, +50%/7d) — risk LOWER: small-cap
 
 _Objective market-data signals only — no contract audit, no holder analysis. Not financial advice; not a licensed adviser._

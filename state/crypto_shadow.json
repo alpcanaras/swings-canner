@@ -9,7 +9,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-21",
-   "days": 1,
+   "days": 2,
    "families": [
     "momentum"
    ],
@@ -19,16 +19,17 @@
    "ticker": "INJ",
    "side": "LONG",
    "entry": 5.074,
-   "stop": 4.5546,
+   "stop": 4.7321,
    "shares": 19.70831690973591,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-21",
-   "days": 1,
+   "days": 2,
    "families": [
     "momentum"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   }
  ],
  "closed": [

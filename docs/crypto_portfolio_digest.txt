@@ -1,4 +1,4 @@
-# Trade sheet — 2026-08-23
+# Trade sheet — 2026-08-24
 
 ## Sell
 
@@ -12,8 +12,8 @@ Nothing to buy — slots full or no setups.
 
 | ticker | entry | now | P&L | stop now | locked in |
 |---|---|---|---|---|---|
-| NEAR | 1.98 | 2.01 | +1.9% | 1.80 | not yet |
-| INJ | 5.07 | 5.36 | +5.6% | 4.73 | not yet |
+| NEAR | 1.98 | 1.94 | -2.0% | 1.80 | not yet |
+| INJ | 5.07 | 5.64 | +11.2% | 4.95 | not yet |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 

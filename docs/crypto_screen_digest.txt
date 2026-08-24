@@ -1,29 +1,29 @@
-# Crypto risk screen — 23 Aug 2026
+# Crypto risk screen — 24 Aug 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1553.4B, +24%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.9% — hard to exit)
-- ETH (Ethereum, $295.3B, +31%/7d) — risk LOWER: no major red flags in market data
-- XRP (XRP, $94.9B, +53%/7d) — risk LOWER: no major red flags in market data
-- BNB (BNB, $93.3B, +16%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.1% — hard to exit)
-- SOL (Solana, $55.5B, +29%/7d) — risk LOWER: no major red flags in market data
-- DOGE (Dogecoin, $14.4B, +34%/7d) — risk LOWER: no major red flags in market data
+- BTC (Bitcoin, $1580.4B, +22%/7d) — risk LOWER: modest liquidity (3.3%)
+- ETH (Ethereum, $298.9B, +30%/7d) — risk LOWER: no major red flags in market data
+- BNB (BNB, $93.4B, +16%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.3% — hard to exit)
+- XRP (XRP, $92.5B, +48%/7d) — risk LOWER: no major red flags in market data
+- SOL (Solana, $56.9B, +29%/7d) — risk LOWER: no major red flags in market data
+- DOGE (Dogecoin, $13.9B, +28%/7d) — risk LOWER: no major red flags in market data
 
 ## Small-cap discovery — RESEARCH ONLY, NOT PICKS
 
 > Most of these will fail. A public feed cannot find gems before insiders. This tool cannot see rug-pulls, honeypots or fake volume. Treat every name as guilty until proven safe with real due diligence.
 
 - REUR (Royal Euro, $62M, +261%/7d) — risk MEDIUM: small-cap; only 0% of supply circulating (future dilution); near all-time high (-0% from ATH — chasing risk)
-- NPC (Non-Playable Coin, $98M, +142%/7d) — risk LOWER: small-cap
-- PURR (Purr, $91M, +131%/7d) — risk LOWER: small-cap
-- TUT (Tutorial, $55M, +106%/7d) — risk LOWER: small-cap
-- USELESS (Useless Coin, $69M, +75%/7d) — risk LOWER: small-cap
-- SPK (Spark, $70M, +61%/7d) — risk MEDIUM: small-cap; only 31% of supply circulating (future dilution)
-- KNTQ (Kinetiq, $57M, +59%/7d) — risk MEDIUM: small-cap; only 28% of supply circulating (future dilution)
-- BRETT (Brett, $56M, +54%/7d) — risk LOWER: small-cap
-- MET (Meteora, $133M, +52%/7d) — risk LOWER: small-cap
-- ENS (Ethereum Name Service, $247M, +52%/7d) — risk LOWER: small-cap
-- TRB (Tellor Tributes, $54M, +51%/7d) — risk LOWER: small-cap
-- MINA (Mina Protocol, $75M, +50%/7d) — risk LOWER: small-cap
+- PONS (Pons, $54M, +162%/7d) — risk MEDIUM: small-cap; near all-time high (-11% from ATH — chasing risk)
+- NPC (Non-Playable Coin, $107M, +154%/7d) — risk LOWER: small-cap
+- DOG (Dog (Bitcoin), $116M, +89%/7d) — risk MEDIUM: small-cap; modest liquidity (4.4%)
+- CASHCAT (Cash Cat, $208M, +88%/7d) — risk MEDIUM: small-cap; near all-time high (-8% from ATH — chasing risk)
+- PROM (Prom, $66M, +87%/7d) — risk LOWER: small-cap
+- PURR (Purr, $79M, +86%/7d) — risk LOWER: small-cap
+- KNTQ (Kinetiq, $64M, +82%/7d) — risk MEDIUM: small-cap; only 28% of supply circulating (future dilution)
+- DRV (Derive, $161M, +72%/7d) — risk LOWER: small-cap
+- MELANIA (Melania Meme, $109M, +54%/7d) — risk LOWER: small-cap
+- USELESS (Useless Coin, $65M, +52%/7d) — risk LOWER: small-cap
+- MINA (Mina Protocol, $76M, +48%/7d) — risk LOWER: small-cap
 
 _Objective market-data signals only — no contract audit, no holder analysis. Not financial advice; not a licensed adviser._

@@ -1,26 +1,28 @@
+
+1 Failed download:
+['IMX-USD']: OperationalError('database is locked')
 Downloading 40 tickers (8y daily)...
-  usable: 39 tickers
-# Crypto brief — 2026-08-24
+  usable: 38 tickers
+# Crypto brief — 2026-08-25
 
 ## Regime: MIXED / CAUTION 
 
 Signals disagree — BTC and breadth aren't aligned. Historically a chop zone; smaller size, no conviction.
 
-- BTC $78,790 — above its 200-day (69,085); -19% from the 1-year high; +24% in 30d.
-- Breadth: 16/39 majors above their 200-day (41%).
+- BTC $78,756 — above its 200-day (69,127); -19% from the 1-year high; +24% in 30d.
+- Breadth: 12/38 majors above their 200-day (32%).
 
 
-CRYPTO SWING (experimental, underperformed holding) — 2026-08-24 (universe: 39 coins)
-ticker side  score  close                   signals  RS_3m_%  ATR%   stop  min_KO_dist earnings  expected_pct
-   INJ LONG    1.0   5.64 Donchian 20d breakout (L)      9.7  6.11 4.9506       1.0341      n/a          0.82
+CRYPTO SWING (experimental, underperformed holding) — 2026-08-25 (universe: 38 coins)
+No candidates today.
 Written docs/crypto.html
 Crypto paper: 7 closed, -155.53 net
 Written docs/crypto_portfolio.html
-# Crypto risk screen — 24 Aug 2026
+# Crypto risk screen — 25 Aug 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1580.4B, +22%/7d) — risk LOWER: modest liquidity (3.3%)
-- ETH (Ethereum, $298.9B, +30%/7d) — risk LOWER: no major red flags in market data
+- BTC (Bitcoin, $1584.2B, +22%/7d) — risk LOWER: modest liquidity (2.7%)
+- ETH (Ethereum, $296.2B, +28%/7d) — risk LOWER: no major red flags in market data
 
 Written docs/crypto_screen.html and docs/crypto_screen_digest.txt

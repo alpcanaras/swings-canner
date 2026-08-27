@@ -1,30 +1,24 @@
-# Trade sheet — 2026-08-25
+# Trade sheet — 2026-08-26
 
 ## Sell
 
-| ticker | in | out | P&L | why |
-|---|---|---|---|---|
-| ATEN | 26.84 | 25.02 | -6.8% ($-13.75) | trailing stop |
-| AKR | 20.65 | 21.24 | +2.9% ($+5.51) | 20-day backstop |
-| DAVE | 317.93 | 349.47 | +9.9% ($+15.83) | 20-day backstop |
-| DRH | 12.53 | 12.87 | +2.7% ($+5.23) | 20-day backstop |
+Nothing to sell.
 
 ## Buy
 
-| ticker | setup | signal px | stop $ | stop % | trail | size |
-|---|---|---|---|---|---|---|
-| CALY | mean reversion | 15.47 | 14.31 | -7.5% | 2xATR = $1.16 | $200 = 12.93 sh |
-| BOH | mean reversion | 76.16 | 73.41 | -3.6% | 2xATR = $2.76 | $200 = 2.626 sh |
-| BKR | mean reversion | 61.82 | 58.52 | -5.3% | 2xATR = $3.30 | $200 = 3.235 sh |
-| CATY | failed breakout, mean reversion | 61.89 | 59.98 | -3.1% | 2xATR = $1.92 | $200 = 3.232 sh |
+Nothing to buy — slots full or no setups.
 
 ## Holding — updated stops
 
 | ticker | entry | now | P&L | stop now | locked in |
 |---|---|---|---|---|---|
-| ZBRA | 354.65 | 360.52 | +1.7% | 341.52 | not yet |
+| ZBRA | 354.65 | 359.84 | +1.5% | 341.52 | not yet |
+| CALY | 15.47 | 15.74 | +1.7% | 14.61 | not yet |
+| BOH | 76.16 | 77.25 | +1.4% | 74.48 | not yet |
+| BKR | 61.82 | 62.00 | +0.3% | 58.72 | not yet |
+| CATY | 61.89 | 62.04 | +0.2% | 60.18 | not yet |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 
 _Record: 5 closed, 80% winners, $+16.24 net, balance $1,016.24._
-_All signals: 477 closed, 26% profitable, -3.00% avg._
+_All signals: 601 closed, 33% profitable, -2.17% avg._

@@ -9,7 +9,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-21",
-   "days": 5,
+   "days": 6,
    "families": [
     "momentum"
    ],
@@ -24,7 +24,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-21",
-   "days": 5,
+   "days": 6,
    "families": [
     "momentum"
    ],

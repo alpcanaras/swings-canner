@@ -1,4 +1,4 @@
-# Trade sheet — 2026-08-27
+# Trade sheet — 2026-08-28
 
 ## Sell
 
@@ -12,13 +12,13 @@ Nothing to buy — slots full or no setups.
 
 | ticker | entry | now | P&L | stop now | locked in |
 |---|---|---|---|---|---|
-| ZBRA | 354.65 | 361.11 | +1.8% | 341.52 | not yet |
-| CALY | 15.47 | 15.44 | -0.2% | 14.61 | not yet |
-| BOH | 76.16 | 77.23 | +1.4% | 74.50 | not yet |
-| BKR | 61.82 | 62.11 | +0.5% | 58.74 | not yet |
-| CATY | 61.89 | 62.12 | +0.4% | 60.25 | not yet |
+| ZBRA | 354.65 | 356.45 | +0.5% | 341.52 | not yet |
+| CALY | 15.47 | 15.69 | +1.4% | 14.61 | not yet |
+| BOH | 76.16 | 77.29 | +1.5% | 74.63 | not yet |
+| BKR | 61.82 | 62.41 | +1.0% | 59.15 | not yet |
+| CATY | 61.89 | 61.87 | -0.0% | 60.25 | not yet |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 
 _Record: 5 closed, 80% winners, $+16.24 net, balance $1,016.24._
-_All signals: 695 closed, 36% profitable, -1.80% avg._
+_All signals: 758 closed, 37% profitable, -1.70% avg._

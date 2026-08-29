@@ -1,29 +1,29 @@
-# Crypto risk screen — 28 Aug 2026
+# Crypto risk screen — 29 Aug 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1603.0B, +6%/7d) — risk LOWER: modest liquidity (2.3%)
-- ETH (Ethereum, $302.0B, +6%/7d) — risk LOWER: no major red flags in market data
-- BNB (BNB, $95.0B, +8%/7d) — risk MEDIUM: thin liquidity (vol/mcap 0.9% — hard to exit)
-- XRP (XRP, $89.5B, +8%/7d) — risk LOWER: modest liquidity (3.7%)
-- SOL (Solana, $62.7B, +20%/7d) — risk LOWER: no major red flags in market data
-- DOGE (Dogecoin, $13.7B, +7%/7d) — risk LOWER: no major red flags in market data
+- BTC (Bitcoin, $1556.4B, -0%/7d) — risk LOWER: modest liquidity (2.1%)
+- ETH (Ethereum, $293.9B, -3%/7d) — risk LOWER: modest liquidity (4.6%)
+- BNB (BNB, $91.7B, +0%/7d) — risk MEDIUM: thin liquidity (vol/mcap 0.9% — hard to exit)
+- XRP (XRP, $86.5B, -6%/7d) — risk LOWER: modest liquidity (3.1%)
+- SOL (Solana, $60.7B, +11%/7d) — risk LOWER: no major red flags in market data
+- DOGE (Dogecoin, $13.2B, -7%/7d) — risk LOWER: modest liquidity (4.9%)
 
 ## Small-cap discovery — RESEARCH ONLY, NOT PICKS
 
 > Most of these will fail. A public feed cannot find gems before insiders. This tool cannot see rug-pulls, honeypots or fake volume. Treat every name as guilty until proven safe with real due diligence.
 
+- PONS (Pons, $111M, +308%/7d) — risk MEDIUM: small-cap; near all-time high (-2% from ATH — chasing risk)
 - REUR (Royal Euro, $62M, +261%/7d) — risk MEDIUM: small-cap; only 0% of supply circulating (future dilution); near all-time high (-0% from ATH — chasing risk)
-- PONS (Pons, $100M, +252%/7d) — risk MEDIUM: small-cap; near all-time high (-3% from ATH — chasing risk)
-- NPC (Non-Playable Coin, $134M, +124%/7d) — risk LOWER: small-cap
-- PROM (Prom, $89M, +118%/7d) — risk LOWER: small-cap
-- MAGMA (Magma Finance, $75M, +62%/7d) — risk MEDIUM: small-cap; only 19% of supply circulating (future dilution)
-- CASHCAT (Cash Cat, $217M, +61%/7d) — risk MEDIUM: small-cap; near all-time high (-14% from ATH — chasing risk)
-- ANSEM (The Black Bull, $160M, +53%/7d) — risk MEDIUM: small-cap; near all-time high (-13% from ATH — chasing risk)
-- PURR (Purr, $79M, +51%/7d) — risk LOWER: small-cap
-- MELANIA (Melania Meme, $121M, +45%/7d) — risk LOWER: small-cap
-- CYS (Cysic, $131M, +45%/7d) — risk MEDIUM: small-cap; only 16% of supply circulating (future dilution)
-- DRV (Derive, $168M, +40%/7d) — risk LOWER: small-cap
-- CVX (Convex Finance, $226M, +36%/7d) — risk MEDIUM: small-cap; modest liquidity (4.1%)
+- 龙虾 (龙虾 (Lobster), $62M, +184%/7d) — risk MEDIUM: small-cap; near all-time high (-4% from ATH — chasing risk)
+- NPC (Non-Playable Coin, $147M, +119%/7d) — risk LOWER: small-cap
+- PROM (Prom, $94M, +84%/7d) — risk LOWER: small-cap
+- MAGMA (Magma Finance, $100M, +61%/7d) — risk MEDIUM: small-cap; modest liquidity (3.9%); only 19% of supply circulating (future dilution)
+- CASHCAT (Cash Cat, $188M, +52%/7d) — risk LOWER: small-cap
+- MARSCOIN (MarsCoin, $49M, +44%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
+- DRV (Derive, $165M, +43%/7d) — risk MEDIUM: small-cap; modest liquidity (3.8%)
+- ONG (Ontology Gas, $55M, +32%/7d) — risk LOWER: small-cap
+- UP (Unitas, $102M, +30%/7d) — risk MEDIUM: small-cap; only 22% of supply circulating (future dilution); near all-time high (-7% from ATH — chasing risk)
+- CHIP (USD.AI, $81M, +30%/7d) — risk MEDIUM: small-cap; only 20% of supply circulating (future dilution)
 
 _Objective market-data signals only — no contract audit, no holder analysis. Not financial advice; not a licensed adviser._

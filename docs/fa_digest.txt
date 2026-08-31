@@ -1,31 +1,31 @@
-# Long-term ideas (FA) — week of 24 Aug 2026
+# Long-term ideas (FA) — week of 31 Aug 2026
 
 Ranked 512 large caps on value, quality, growth and momentum, max 3 per sector. Relative ranks, not absolute value. Research these — they are not buy signals, and this is a months-to-years view, separate from the swing sheet.
 
 ## Quality at a reasonable price, and in an uptrend
 
-- MU (Micron Technology, Inc., $1092B) — score 88 [V56/Q96/G100/M100]. strong quality & growth & momentum; in an uptrend. P/E 22, ROE 67%, net margin 56%, rev growth 346%, debt/equity 0.1
-- SNDK (Sandisk Corporation, $234B) — score 87 [V54/Q95/G100/M100]. strong quality & growth & momentum; in an uptrend. P/E 22, ROE 92%, net margin 56%, rev growth 372%, debt/equity 1.3
-- WDC (Western Digital Corporation, $166B) — score 84 [V52/Q87/G96/M100]. strong quality & growth & momentum; in an uptrend. P/E 17, ROE 131%, net margin 73%, rev growth 44%, debt/equity 0.1
-- CF (CF Industries Holdings, Inc., $20B) — score 83 [V83/Q85/G80/M82]. strong value & quality & growth & momentum; in an uptrend. P/E 10, ROE 30%, net margin 27%, rev growth 18%, debt/equity 0.4
-- EOG (EOG Resources, Inc., $82B) — score 79 [V76/Q79/G93/M68]. strong value & quality & growth & momentum; in an uptrend. P/E 12, ROE 23%, net margin 26%, rev growth 59%, debt/equity 0.3
-- VLO (Valero Energy Corporation, $100B) — score 79 [V72/Q52/G96/M95]. strong value & growth & momentum; in an uptrend. P/E 15, ROE 28%, net margin 5%, rev growth 52%, debt/equity 0.4
-- MPC (Marathon Petroleum Corporation, $105B) — score 78 [V81/Q42/G96/M94]. strong value & growth & momentum; in an uptrend. P/E 12, ROE 42%, net margin 6%, rev growth 54%, debt/equity 1.3
-- GOOGL (Alphabet Inc., $4217B) — score 77 [V42/Q89/G89/M89]. strong quality & growth & momentum; in an uptrend. P/E 17, ROE 49%, net margin 55%, rev growth 24%, debt/equity 0.2
-- NTRS (Northern Trust Corporation, $34B) — score 77 [V66/Q74/G89/M81]. strong value & quality & growth & momentum; in an uptrend. P/E 16, ROE 17%, net margin 25%, rev growth 36%
-- C (Citigroup, Inc., $221B) — score 74 [V81/Q60/G75/M81]. strong value & growth & momentum; in an uptrend. P/E 14, ROE 9%, net margin 22%, rev growth 16%
-- GS (Goldman Sachs Group, Inc. (The), $303B) — score 74 [V62/Q60/G89/M85]. strong growth & momentum; in an uptrend. P/E 16, ROE 17%, net margin 31%, rev growth 42%, debt/equity 7.3 ⚠ high debt
-- INCY (Incyte Corporation, $26B) — score 74 [V51/Q89/G81/M75]. strong quality & growth & momentum; in an uptrend. P/E 16, ROE 31%, net margin 28%, rev growth 38%, debt/equity 0.6
+- SNDK (Sandisk Corporation, $215B) — score 88 [V57/Q95/G100/M100]. strong quality & growth & momentum; in an uptrend. P/E 20, ROE 92%, net margin 56%, rev growth 372%, debt/equity 1.3
+- MU (Micron Technology, Inc., $1061B) — score 88 [V56/Q96/G100/M100]. strong quality & growth & momentum; in an uptrend. P/E 21, ROE 67%, net margin 56%, rev growth 346%, debt/equity 0.1
+- WDC (Western Digital Corporation, $161B) — score 84 [V52/Q87/G96/M100]. strong quality & growth & momentum; in an uptrend. P/E 17, ROE 131%, net margin 73%, rev growth 44%, debt/equity 0.1
+- CF (CF Industries Holdings, Inc., $19B) — score 82 [V83/Q85/G80/M80]. strong value & quality & growth & momentum; in an uptrend. P/E 10, ROE 30%, net margin 27%, rev growth 18%, debt/equity 0.4
+- VLO (Valero Energy Corporation, $103B) — score 79 [V71/Q52/G96/M95]. strong value & growth & momentum; in an uptrend. P/E 15, ROE 28%, net margin 5%, rev growth 52%, debt/equity 0.4
+- GOOG (Alphabet Inc., $4094B) — score 78 [V43/Q89/G89/M93]. strong quality & growth & momentum; in an uptrend. P/E 17, ROE 49%, net margin 55%, rev growth 24%, debt/equity 0.2
+- EOG (EOG Resources, Inc., $76B) — score 78 [V78/Q79/G93/M63]. strong value & quality & growth; in an uptrend. P/E 11, ROE 23%, net margin 26%, rev growth 59%, debt/equity 0.3
+- MPC (Marathon Petroleum Corporation, $104B) — score 78 [V80/Q42/G96/M93]. strong value & growth & momentum; in an uptrend. P/E 13, ROE 42%, net margin 6%, rev growth 54%, debt/equity 1.3
+- NTRS (Northern Trust Corporation, $34B) — score 78 [V65/Q74/G88/M83]. strong quality & growth & momentum; in an uptrend. P/E 16, ROE 17%, net margin 25%, rev growth 36%
+- INCY (Incyte Corporation, $25B) — score 76 [V51/Q89/G80/M81]. strong quality & growth & momentum; in an uptrend. P/E 16, ROE 31%, net margin 28%, rev growth 38%, debt/equity 0.6
+- C (Citigroup, Inc., $221B) — score 75 [V81/Q60/G75/M82]. strong value & growth & momentum; in an uptrend. P/E 14, ROE 9%, net margin 22%, rev growth 16%
+- GS (Goldman Sachs Group, Inc. (The), $299B) — score 73 [V62/Q60/G89/M81]. strong growth & momentum; in an uptrend. P/E 16, ROE 17%, net margin 31%, rev growth 42%, debt/equity 7.3 ⚠ high debt
 
 ## Strong businesses currently out of favour (watch, don't chase)
 
-- ALB (Albemarle Corporation, $17B) — score 71 [V62/Q53/G88/M82]. strong growth & momentum; below its 200-day (out of favour). P/E 531, ROE 3%, net margin 4%, rev growth 31%, debt/equity 0.2 ⚠ very expensive
-- NXPI (NXP Semiconductors N.V., $57B) — score 71 [V72/Q69/G80/M63]. strong value & quality & growth; below its 200-day (out of favour). P/E 19, ROE 28%, net margin 23%, rev growth 20%, debt/equity 0.9
-- TPL (Texas Pacific Land Corporation, $26B) — score 69 [V26/Q95/G77/M80]. strong quality & growth & momentum; below its 200-day (out of favour). P/E 49, ROE 37%, net margin 60%, rev growth 31%, debt/equity 1.1
-- ON (ON Semiconductor Corporation, $29B) — score 65 [V56/Q52/G60/M93]. strong momentum; below its 200-day (out of favour). P/E 49, ROE 8%, net margin 10%, rev growth 9%, debt/equity 0.7
-- APP (Applovin Corporation, $102B) — score 63 [V51/Q85/G87/M29]. strong quality & growth; below its 200-day (out of favour). P/E 24, ROE 204%, net margin 65%, rev growth 53%, debt/equity 1.1
-- TPR (Tapestry, Inc., $26B) — score 63 [V62/Q58/G49/M82]. strong momentum; below its 200-day (out of favour). P/E 18, ROE 197%, net margin 19%, rev growth 9%, debt/equity 5.7 ⚠ high debt
-- WFC (Wells Fargo & Company, $254B) — score 62 [V72/Q68/G57/M52]. strong value & quality; below its 200-day (out of favour). P/E 12, ROE 13%, net margin 27%, rev growth 10%
-- CHRW (C.H. Robinson Worldwide, Inc., $17B) — score 62 [V51/Q40/G68/M87]. strong growth & momentum; below its 200-day (out of favour). P/E 27, ROE 37%, net margin 4%, rev growth 19%, debt/equity 1.2
+- ALB (Albemarle Corporation, $16B) — score 72 [V64/Q53/G87/M83]. strong growth & momentum; below its 200-day (out of favour). P/E 496, ROE 3%, net margin 4%, rev growth 31%, debt/equity 0.2 ⚠ very expensive
+- TPL (Texas Pacific Land Corporation, $25B) — score 68 [V26/Q95/G77/M74]. strong quality & growth & momentum; below its 200-day (out of favour). P/E 47, ROE 37%, net margin 60%, rev growth 31%, debt/equity 1.1
+- EME (EMCOR Group, Inc., $32B) — score 66 [V61/Q55/G72/M75]. strong growth & momentum; below its 200-day (out of favour). P/E 23, ROE 40%, net margin 8%, rev growth 20%, debt/equity 0.1
+- TPR (Tapestry, Inc., $24B) — score 65 [V65/Q58/G49/M88]. strong momentum; below its 200-day (out of favour). P/E 17, ROE 197%, net margin 19%, rev growth 9%, debt/equity 5.7 ⚠ high debt
+- FSLR (First Solar, Inc., $22B) — score 65 [V81/Q85/G32/M61]. strong value & quality; below its 200-day (out of favour). P/E 12, ROE 19%, net margin 32%, rev growth -4%, debt/equity 1.9 ⚠ shrinking revenue
+- ON (ON Semiconductor Corporation, $29B) — score 64 [V55/Q52/G60/M90]. strong momentum; below its 200-day (out of favour). P/E 48, ROE 8%, net margin 10%, rev growth 9%, debt/equity 0.7
+- RL (Ralph Lauren Corporation, $20B) — score 62 [V56/Q57/G62/M72]. strong momentum; below its 200-day (out of favour). P/E 22, ROE 38%, net margin 12%, rev growth 14%, debt/equity 1.1
+- DD (DuPont de Nemours, Inc., $18B) — score 60 [V53/Q43/G58/M86]. strong momentum; below its 200-day (out of favour). P/E 57, ROE 2%, net margin 1%, rev growth 4%, debt/equity 0.2
 
 _Scores are relative to the scanned universe. Free fundamental data is imperfect. Not financial advice; not a licensed adviser._

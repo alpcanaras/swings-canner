@@ -9,7 +9,7 @@
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-08-21",
-   "days": 8,
+   "days": 9,
    "viable": true,
    "atr_pct": 4.48,
    "setup": "momentum"
@@ -23,7 +23,7 @@
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-08-21",
-   "days": 8,
+   "days": 9,
    "viable": true,
    "atr_pct": 5.12,
    "setup": "momentum",

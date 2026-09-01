@@ -9,25 +9,10 @@
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-08-21",
-   "days": 9,
+   "days": 10,
    "viable": true,
    "atr_pct": 4.48,
    "setup": "momentum"
-  },
-  {
-   "ticker": "INJ",
-   "side": "LONG",
-   "entry": 5.074,
-   "stop": 4.9506,
-   "shares": 39.41663381947182,
-   "notional": 200.0,
-   "cost": 0.2,
-   "date": "2026-08-21",
-   "days": 9,
-   "viable": true,
-   "atr_pct": 5.12,
-   "setup": "momentum",
-   "trailed": true
   }
  ],
  "closed": [
@@ -169,6 +154,27 @@
    "gross": -23.076437618106507,
    "net": -23.276437618106506,
    "pct": -11.538218809053253,
+   "reason": "gapped through the stop"
+  },
+  {
+   "ticker": "INJ",
+   "side": "LONG",
+   "entry": 5.074,
+   "stop": 4.9506,
+   "shares": 39.41663381947182,
+   "notional": 200.0,
+   "cost": 0.2,
+   "date": "2026-08-21",
+   "days": 10,
+   "viable": true,
+   "atr_pct": 5.12,
+   "setup": "momentum",
+   "trailed": true,
+   "exit": 4.907180437088012,
+   "exit_date": "2026-09-01",
+   "gross": -6.575465625226154,
+   "net": -6.775465625226154,
+   "pct": -3.2877328126130774,
    "reason": "gapped through the stop"
   }
  ],

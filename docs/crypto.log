@@ -1,25 +1,28 @@
+
+1 Failed download:
+['AAVE-USD']: OperationalError('database is locked')
 Downloading 40 tickers (8y daily)...
-  usable: 39 tickers
-# Crypto brief — 2026-09-01
+  usable: 38 tickers
+# Crypto brief — 2026-09-02
 
 ## Regime: MIXED / CAUTION 
 
 Signals disagree — BTC and breadth aren't aligned. Historically a chop zone; smaller size, no conviction.
 
-- BTC $78,385 — above its 200-day (69,425); -19% from the 1-year high; +21% in 30d.
-- Breadth: 13/39 majors above their 200-day (33%).
+- BTC $77,210 — above its 200-day (69,467); -20% from the 1-year high; +21% in 30d.
+- Breadth: 13/38 majors above their 200-day (34%).
 
 
-CRYPTO SWING (experimental, underperformed holding) — 2026-09-01 (universe: 39 coins)
+CRYPTO SWING (experimental, underperformed holding) — 2026-09-02 (universe: 38 coins)
 No candidates today.
 Written docs/crypto.html
 Crypto paper: 8 closed, -162.30 net
 Written docs/crypto_portfolio.html
-# Crypto risk screen — 01 Sep 2026
+# Crypto risk screen — 02 Sep 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1573.7B, -0%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.9% — hard to exit)
-- ETH (Ethereum, $296.7B, -0%/7d) — risk LOWER: modest liquidity (3.9%)
+- BTC (Bitcoin, $1549.2B, -2%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.9% — hard to exit)
+- ETH (Ethereum, $290.6B, -1%/7d) — risk LOWER: modest liquidity (4.4%)
 
 Written docs/crypto_screen.html and docs/crypto_screen_digest.txt

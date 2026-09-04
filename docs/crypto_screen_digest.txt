@@ -1,29 +1,29 @@
-# Crypto risk screen — 03 Sep 2026
+# Crypto risk screen — 04 Sep 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1547.6B, -2%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.7% — hard to exit)
-- ETH (Ethereum, $290.6B, -4%/7d) — risk LOWER: modest liquidity (4.4%)
-- BNB (BNB, $91.5B, -2%/7d) — risk MEDIUM: thin liquidity (vol/mcap 0.8% — hard to exit)
-- XRP (XRP, $84.4B, -4%/7d) — risk LOWER: modest liquidity (2.7%)
-- SOL (Solana, $58.3B, +1%/7d) — risk LOWER: modest liquidity (5.0%)
-- DOGE (Dogecoin, $12.7B, -6%/7d) — risk LOWER: modest liquidity (4.3%)
+- BTC (Bitcoin, $1632.4B, +1%/7d) — risk LOWER: modest liquidity (2.5%)
+- ETH (Ethereum, $306.4B, -0%/7d) — risk LOWER: no major red flags in market data
+- BNB (BNB, $96.8B, +2%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.2% — hard to exit)
+- XRP (XRP, $91.1B, -0%/7d) — risk LOWER: modest liquidity (4.6%)
+- SOL (Solana, $60.9B, -5%/7d) — risk LOWER: no major red flags in market data
+- DOGE (Dogecoin, $13.7B, -2%/7d) — risk LOWER: no major red flags in market data
 
 ## Small-cap discovery — RESEARCH ONLY, NOT PICKS
 
 > Most of these will fail. A public feed cannot find gems before insiders. This tool cannot see rug-pulls, honeypots or fake volume. Treat every name as guilty until proven safe with real due diligence.
 
 - REUR (Royal Euro, $62M, +261%/7d) — risk MEDIUM: small-cap; only 0% of supply circulating (future dilution); near all-time high (-0% from ATH — chasing risk)
-- SKR (Seeker, $162M, +175%/7d) — risk LOWER: small-cap
-- INDEX (The Index, $49M, +118%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); near all-time high (-1% from ATH — chasing risk)
-- 龙虾 (龙虾 (Lobster), $69M, +114%/7d) — risk LOWER: small-cap
-- HNT (Helium, $92M, +113%/7d) — risk LOWER: small-cap
-- MARSCOIN (MarsCoin, $60M, +102%/7d) — risk LOWER: small-cap
-- USELESS (Useless Coin, $127M, +87%/7d) — risk LOWER: small-cap
-- 牛来 (牛来 (Niu Lai), $74M, +76%/7d) — risk LOWER: small-cap
-- EGLD (MultiversX, $152M, +55%/7d) — risk LOWER: small-cap
-- MAGMA (Magma Finance, $77M, +48%/7d) — risk MEDIUM: small-cap; modest liquidity (4.7%); only 19% of supply circulating (future dilution)
-- UAI (UnifAI Network, $103M, +46%/7d) — risk MEDIUM: small-cap; only 24% of supply circulating (future dilution)
-- T (Threshold Network, $56M, +42%/7d) — risk LOWER: small-cap
+- AI (Artificial Inu, $247M, +250%/7d) — risk LOWER: small-cap
+- MARSCOIN (MarsCoin, $123M, +244%/7d) — risk MEDIUM: small-cap; near all-time high (-5% from ATH — chasing risk)
+- HNT (Helium, $124M, +208%/7d) — risk LOWER: small-cap
+- INDEX (The Index, $71M, +201%/7d) — risk MEDIUM: small-cap; near all-time high (-2% from ATH — chasing risk)
+- USELESS (Useless Coin, $201M, +200%/7d) — risk LOWER: small-cap
+- BASECAT (Basecat, $47M, +114%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); near all-time high (-13% from ATH — chasing risk)
+- 龙虾 (龙虾 (Lobster), $72M, +112%/7d) — risk LOWER: small-cap
+- SKR (Seeker, $139M, +97%/7d) — risk LOWER: small-cap
+- 牛来 (牛来 (Niu Lai), $96M, +94%/7d) — risk LOWER: small-cap
+- EDGE (edgeX, $211M, +60%/7d) — risk MEDIUM: small-cap; only 35% of supply circulating (future dilution)
+- CHIP (USD.AI, $116M, +44%/7d) — risk MEDIUM: small-cap; only 20% of supply circulating (future dilution)
 
 _Objective market-data signals only — no contract audit, no holder analysis. Not financial advice; not a licensed adviser._

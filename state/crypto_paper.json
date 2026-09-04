@@ -9,9 +9,23 @@
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-08-21",
-   "days": 12,
+   "days": 13,
    "viable": true,
    "atr_pct": 4.48,
+   "setup": "momentum"
+  },
+  {
+   "ticker": "BNB",
+   "side": "LONG",
+   "entry": 727.29,
+   "stop": 688.91,
+   "shares": 0.2749934689051135,
+   "notional": 200.0,
+   "cost": 0.2,
+   "date": "2026-09-04",
+   "days": 0,
+   "viable": true,
+   "atr_pct": 2.64,
    "setup": "momentum"
   }
  ],

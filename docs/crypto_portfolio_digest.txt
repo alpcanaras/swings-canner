@@ -1,4 +1,4 @@
-# Trade sheet — 2026-09-03
+# Trade sheet — 2026-09-04
 
 ## Sell
 
@@ -6,13 +6,15 @@ Nothing to sell.
 
 ## Buy
 
-Nothing to buy — slots full or no setups.
+| ticker | setup | signal px | stop $ | stop % | trail | size |
+|---|---|---|---|---|---|---|
+| BNB | momentum | 727.29 | 688.91 | -5.3% | 2xATR = $38.40 | $200 = 0.275 sh |
 
 ## Holding — updated stops
 
 | ticker | entry | now | P&L | stop now | locked in |
 |---|---|---|---|---|---|
-| NEAR | 1.98 | 1.87 | -5.5% | 1.80 | not yet |
+| NEAR | 1.98 | 1.95 | -1.3% | 1.80 | not yet |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 

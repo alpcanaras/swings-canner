@@ -4,15 +4,16 @@
    "ticker": "NEAR",
    "side": "LONG",
    "entry": 1.9756,
-   "stop": 1.7986,
+   "stop": 1.9784,
    "shares": 101.23506782749544,
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-08-21",
-   "days": 13,
+   "days": 14,
    "viable": true,
    "atr_pct": 4.48,
-   "setup": "momentum"
+   "setup": "momentum",
+   "trailed": true
   },
   {
    "ticker": "BNB",
@@ -23,7 +24,7 @@
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-09-04",
-   "days": 0,
+   "days": 1,
    "viable": true,
    "atr_pct": 2.64,
    "setup": "momentum"

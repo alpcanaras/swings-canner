@@ -9,7 +9,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-21",
-   "days": 14,
+   "days": 15,
    "families": [
     "momentum"
    ],
@@ -20,12 +20,28 @@
    "ticker": "BNB",
    "side": "LONG",
    "entry": 727.29,
-   "stop": 688.91,
+   "stop": 725.7367,
    "shares": 0.13749673445255675,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-04",
-   "days": 1,
+   "days": 2,
+   "families": [
+    "momentum"
+   ],
+   "n_signals": 1,
+   "trailed": true
+  },
+  {
+   "ticker": "LINK",
+   "side": "LONG",
+   "entry": 12.086,
+   "stop": 11.025,
+   "shares": 8.274036074797285,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-09-06",
+   "days": 0,
    "families": [
     "momentum"
    ],

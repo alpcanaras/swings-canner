@@ -1,4 +1,4 @@
-# Trade sheet — 2026-09-06
+# Trade sheet — 2026-09-07
 
 ## Sell
 
@@ -8,14 +8,15 @@ Nothing to sell.
 
 | ticker | setup | signal px | stop $ | stop % | trail | size |
 |---|---|---|---|---|---|---|
-| LINK | momentum | 12.09 | 11.03 | -8.8% | 2xATR = $1.06 | $200 = 16.55 sh |
+| ETH | momentum | 2,515.46 | 2,333.83 | -7.2% | 2xATR = $181.62 | $200 = 0.07951 sh |
 
 ## Holding — updated stops
 
 | ticker | entry | now | P&L | stop now | locked in |
 |---|---|---|---|---|---|
-| NEAR | 1.98 | 2.20 | +11.3% | 1.98 | +0.1% |
-| BNB | 727.29 | 768.12 | +5.6% | 725.74 | not yet |
+| NEAR | 1.98 | 2.43 | +23.0% | 2.15 | +8.8% |
+| BNB | 727.29 | 752.63 | +3.5% | 725.74 | not yet |
+| LINK | 12.09 | 13.29 | +10.0% | 12.10 | +0.2% |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 

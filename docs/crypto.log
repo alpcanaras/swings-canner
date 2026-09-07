@@ -1,28 +1,28 @@
 Downloading 40 tickers (8y daily)...
   usable: 39 tickers
-# Crypto brief — 2026-09-06
+# Crypto brief — 2026-09-07
 
-## Regime: MIXED / CAUTION 
+## Regime: RISK-ON (shifted from MIXED / CAUTION — breadth noise, not a trend break)
 
-Signals disagree — BTC and breadth aren't aligned. Historically a chop zone; smaller size, no conviction.
+Trend is up. History says this is when holding majors paid — and a simple 'stay long while BTC is above its 200-day' rule kept you in for it.
 
-- BTC $79,936 — above its 200-day (69,685); -18% from the 1-year high; +27% in 30d.
-- Breadth: 19/39 majors above their 200-day (49%).
+- BTC $80,160 — above its 200-day (69,753); -17% from the 1-year high; +27% in 30d.
+- Breadth: 21/39 majors above their 200-day (54%).
 
 
-CRYPTO SWING (experimental, underperformed holding) — 2026-09-06 (universe: 39 coins)
-ticker side  score   close                   signals  RS_3m_%  ATR%     stop  min_KO_dist earnings  expected_pct
-   BNB LONG    1.0 768.120 Donchian 20d breakout (L)     25.1  2.76 725.7367      63.5749      n/a          0.82
-  LINK LONG    1.0  12.086 Donchian 20d breakout (L)     42.6  4.39  11.0250       1.5916      n/a          0.82
-  NEAR LONG    1.0   2.199 Donchian 20d breakout (L)      1.6  5.66   1.9500       0.3735      n/a          0.82
+CRYPTO SWING (experimental, underperformed holding) — 2026-09-07 (universe: 39 coins)
+ticker side  score     close                   signals  RS_3m_%  ATR%      stop  min_KO_dist earnings  expected_pct
+   ETH LONG    1.0 2515.4600 Donchian 20d breakout (L)     29.9  3.61 2333.8342     272.4386      n/a          0.82
+  LINK LONG    1.0   13.2900 Donchian 20d breakout (L)     53.8  4.46   12.1044       1.7784      n/a          0.82
+  NEAR LONG    1.0    2.4294 Donchian 20d breakout (L)      9.5  5.75    2.1501       0.4189      n/a          0.82
 Written docs/crypto.html
 Crypto paper: 8 closed, -162.30 net
 Written docs/crypto_portfolio.html
-# Crypto risk screen — 06 Sep 2026
+# Crypto risk screen — 07 Sep 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1604.7B, +2%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.2% — hard to exit)
-- ETH (Ethereum, $303.2B, +1%/7d) — risk LOWER: modest liquidity (2.2%)
+- BTC (Bitcoin, $1609.4B, +2%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.3% — hard to exit)
+- ETH (Ethereum, $306.8B, +2%/7d) — risk LOWER: modest liquidity (3.3%)
 
 Written docs/crypto_screen.html and docs/crypto_screen_digest.txt

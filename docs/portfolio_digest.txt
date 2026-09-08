@@ -1,27 +1,24 @@
-# Trade sheet — 2026-09-03
+# Trade sheet — 2026-09-04
 
 ## Sell
 
-| ticker | in | out | P&L | why |
-|---|---|---|---|---|
-| ZBRA | 354.65 | 357.50 | +0.8% ($+1.41) | 20-day backstop |
+Nothing to sell.
 
 ## Buy
 
-| ticker | setup | signal px | stop $ | stop % | trail | size |
-|---|---|---|---|---|---|---|
-| CVSA | mean reversion | 127.64 | 116.44 | -8.8% | 2xATR = $11.21 | $200 = 1.567 sh |
+Nothing to buy — slots full or no setups.
 
 ## Holding — updated stops
 
 | ticker | entry | now | P&L | stop now | locked in |
 |---|---|---|---|---|---|
-| CALY | 15.47 | 15.72 | +1.6% | 14.68 | not yet |
-| BOH | 76.16 | 76.65 | +0.6% | 74.63 | not yet |
-| BKR | 61.82 | 63.64 | +2.9% | 61.31 | not yet |
-| CATY | 61.89 | 62.58 | +1.1% | 60.60 | not yet |
+| CALY | 15.47 | 15.90 | +2.8% | 14.89 | not yet |
+| BOH | 76.16 | 77.19 | +1.4% | 74.63 | not yet |
+| BKR | 61.82 | 63.50 | +2.7% | 61.31 | not yet |
+| CATY | 61.89 | 62.69 | +1.3% | 60.69 | not yet |
+| CVSA | 127.64 | 128.09 | +0.4% | 117.26 | not yet |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 
 _Record: 6 closed, 83% winners, $+17.65 net, balance $1,017.65._
-_All signals: 1151 closed, 37% profitable, -1.64% avg._
+_All signals: 1202 closed, 37% profitable, -1.58% avg._

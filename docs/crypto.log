@@ -1,26 +1,26 @@
 Downloading 40 tickers (8y daily)...
   usable: 39 tickers
-# Crypto brief — 2026-09-08
+# Crypto brief — 2026-09-09
 
 ## Regime: RISK-ON 
 
 Trend is up. History says this is when holding majors paid — and a simple 'stay long while BTC is above its 200-day' rule kept you in for it.
 
-- BTC $79,259 — above its 200-day (69,815); -18% from the 1-year high; +26% in 30d.
-- Breadth: 21/39 majors above their 200-day (54%).
+- BTC $78,785 — above its 200-day (69,868); -19% from the 1-year high; +22% in 30d.
+- Breadth: 23/39 majors above their 200-day (59%).
 
 
-CRYPTO SWING (experimental, underperformed holding) — 2026-09-08 (universe: 39 coins)
+CRYPTO SWING (experimental, underperformed holding) — 2026-09-09 (universe: 39 coins)
 ticker side  score  close                   signals  RS_3m_%  ATR%   stop  min_KO_dist earnings  expected_pct
-   INJ LONG    1.0  6.318 Donchian 20d breakout (L)     18.6  5.97 5.5636       1.1317      n/a          0.82
+   INJ LONG    1.0  6.503 Donchian 20d breakout (L)     19.6  5.82 5.7463        1.135      n/a          0.82
 Written docs/crypto.html
 Crypto paper: 8 closed, -162.30 net
 Written docs/crypto_portfolio.html
-# Crypto risk screen — 08 Sep 2026
+# Crypto risk screen — 09 Sep 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1591.1B, +1%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.4% — hard to exit)
-- ETH (Ethereum, $303.9B, +1%/7d) — risk LOWER: modest liquidity (3.7%)
+- BTC (Bitcoin, $1581.8B, +2%/7d) — risk LOWER: modest liquidity (2.3%)
+- ETH (Ethereum, $304.6B, +3%/7d) — risk LOWER: modest liquidity (3.9%)
 
 Written docs/crypto_screen.html and docs/crypto_screen_digest.txt

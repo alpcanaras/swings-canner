@@ -9,7 +9,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-21",
-   "days": 17,
+   "days": 18,
    "families": [
     "momentum"
    ],
@@ -25,7 +25,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-04",
-   "days": 4,
+   "days": 5,
    "families": [
     "momentum"
    ],
@@ -41,7 +41,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-06",
-   "days": 2,
+   "days": 3,
    "families": [
     "momentum"
    ],
@@ -57,7 +57,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-07",
-   "days": 1,
+   "days": 2,
    "families": [
     "momentum"
    ],
@@ -67,16 +67,17 @@
    "ticker": "INJ",
    "side": "LONG",
    "entry": 6.318,
-   "stop": 5.5636,
+   "stop": 5.7463,
    "shares": 15.827793605571385,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-08",
-   "days": 0,
+   "days": 1,
    "families": [
     "momentum"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   }
  ],
  "closed": [

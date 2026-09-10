@@ -1,29 +1,29 @@
-# Crypto risk screen — 09 Sep 2026
+# Crypto risk screen — 10 Sep 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1581.8B, +2%/7d) — risk LOWER: modest liquidity (2.3%)
-- ETH (Ethereum, $304.6B, +3%/7d) — risk LOWER: modest liquidity (3.9%)
-- BNB (BNB, $100.6B, +10%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.2% — hard to exit)
-- XRP (XRP, $89.1B, +5%/7d) — risk LOWER: modest liquidity (2.7%)
-- SOL (Solana, $60.8B, +4%/7d) — risk LOWER: modest liquidity (4.8%)
-- DOGE (Dogecoin, $14.1B, +11%/7d) — risk LOWER: no major red flags in market data
+- BTC (Bitcoin, $1570.4B, +2%/7d) — risk LOWER: modest liquidity (2.2%)
+- ETH (Ethereum, $300.8B, +4%/7d) — risk LOWER: modest liquidity (4.5%)
+- BNB (BNB, $96.1B, +5%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.2% — hard to exit)
+- XRP (XRP, $87.2B, +4%/7d) — risk LOWER: modest liquidity (2.8%)
+- SOL (Solana, $59.3B, +2%/7d) — risk LOWER: no major red flags in market data
+- DOGE (Dogecoin, $13.4B, +6%/7d) — risk LOWER: no major red flags in market data
 
 ## Small-cap discovery — RESEARCH ONLY, NOT PICKS
 
 > Most of these will fail. A public feed cannot find gems before insiders. This tool cannot see rug-pulls, honeypots or fake volume. Treat every name as guilty until proven safe with real due diligence.
 
-- STONK (STONK, $139M, +914%/7d) — risk LOWER: small-cap
+- HOOD (GreenHood, $79M, +953%/7d) — risk LOWER: small-cap
+- STONK (STONK, $162M, +670%/7d) — risk LOWER: small-cap
+- BULLA (BULLA, $81M, +298%/7d) — risk MEDIUM: small-cap; modest liquidity (4.5%)
 - REUR (Royal Euro, $62M, +261%/7d) — risk MEDIUM: small-cap; only 0% of supply circulating (future dilution); near all-time high (-0% from ATH — chasing risk)
-- NOCK (Nockchain, $87M, +108%/7d) — risk MEDIUM: small-cap; modest liquidity (3.2%)
-- MARSCOIN (MarsCoin, $128M, +92%/7d) — risk LOWER: small-cap
-- INDEX (The Index, $47M, +64%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
-- DIEM (Diem, $81M, +61%/7d) — risk MEDIUM: small-cap; modest liquidity (4.2%); near all-time high (-7% from ATH — chasing risk)
-- EDGE (edgeX, $200M, +54%/7d) — risk MEDIUM: small-cap; modest liquidity (3.5%); only 35% of supply circulating (future dilution)
-- BP (Backpack, $145M, +46%/7d) — risk MEDIUM: small-cap; only 25% of supply circulating (future dilution)
-- B (BUILDon, $192M, +42%/7d) — risk MEDIUM: small-cap; modest liquidity (3.3%)
-- COTI (COTI, $53M, +41%/7d) — risk LOWER: small-cap
-- PEAQ (peaq, $79M, +40%/7d) — risk LOWER: small-cap
-- AIOZ (AIOZ Network, $98M, +37%/7d) — risk LOWER: small-cap
+- IOST (IOST, $61M, +221%/7d) — risk LOWER: small-cap
+- USELESS (Useless Coin, $226M, +82%/7d) — risk LOWER: small-cap
+- UAI (UnifAI Network, $190M, +78%/7d) — risk MEDIUM: small-cap; only 24% of supply circulating (future dilution); near all-time high (-2% from ATH — chasing risk)
+- MARSCOIN (MarsCoin, $110M, +71%/7d) — risk LOWER: small-cap
+- COTI (COTI, $55M, +44%/7d) — risk LOWER: small-cap
+- BP (Backpack, $150M, +42%/7d) — risk MEDIUM: small-cap; only 25% of supply circulating (future dilution)
+- BR (Bedrock, $91M, +39%/7d) — risk HIGH: small-cap; modest liquidity (3.0%); only 29% of supply circulating (future dilution); near all-time high (-11% from ATH — chasing risk)
+- MINA (Mina Protocol, $120M, +37%/7d) — risk LOWER: small-cap
 
 _Objective market-data signals only — no contract audit, no holder analysis. Not financial advice; not a licensed adviser._

@@ -4,44 +4,12 @@
    "ticker": "NEAR",
    "side": "LONG",
    "entry": 1.9756,
-   "stop": 2.1501,
+   "stop": 2.1715,
    "shares": 50.61753391374772,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-08-21",
-   "days": 18,
-   "families": [
-    "momentum"
-   ],
-   "n_signals": 1,
-   "trailed": true
-  },
-  {
-   "ticker": "BNB",
-   "side": "LONG",
-   "entry": 727.29,
-   "stop": 725.7367,
-   "shares": 0.13749673445255675,
-   "notional": 100.0,
-   "cost": 0.1,
-   "date": "2026-09-04",
-   "days": 5,
-   "families": [
-    "momentum"
-   ],
-   "n_signals": 1,
-   "trailed": true
-  },
-  {
-   "ticker": "LINK",
-   "side": "LONG",
-   "entry": 12.086,
-   "stop": 12.1044,
-   "shares": 8.274036074797285,
-   "notional": 100.0,
-   "cost": 0.1,
-   "date": "2026-09-06",
-   "days": 3,
+   "days": 19,
    "families": [
     "momentum"
    ],
@@ -57,7 +25,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-07",
-   "days": 2,
+   "days": 3,
    "families": [
     "momentum"
    ],
@@ -72,7 +40,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-08",
-   "days": 1,
+   "days": 2,
    "families": [
     "momentum"
    ],
@@ -248,6 +216,50 @@
    "gross": -3.287732812613077,
    "net": -3.387732812613077,
    "pct": -3.2877328126130774,
+   "reason": "gapped through the stop"
+  },
+  {
+   "ticker": "BNB",
+   "side": "LONG",
+   "entry": 727.29,
+   "stop": 725.7367,
+   "shares": 0.13749673445255675,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-09-04",
+   "days": 6,
+   "families": [
+    "momentum"
+   ],
+   "n_signals": 1,
+   "trailed": true,
+   "exit": 719.8672067871094,
+   "exit_date": "2026-09-10",
+   "gross": -1.020609827289061,
+   "net": -1.120609827289061,
+   "pct": -1.020609827289061,
+   "reason": "gapped through the stop"
+  },
+  {
+   "ticker": "LINK",
+   "side": "LONG",
+   "entry": 12.086,
+   "stop": 12.1044,
+   "shares": 8.274036074797285,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-09-06",
+   "days": 4,
+   "families": [
+    "momentum"
+   ],
+   "n_signals": 1,
+   "trailed": true,
+   "exit": 11.756941577911377,
+   "exit_date": "2026-09-10",
+   "gross": -2.7226412550771424,
+   "net": -2.8226412550771425,
+   "pct": -2.7226412550771424,
    "reason": "gapped through the stop"
   }
  ],

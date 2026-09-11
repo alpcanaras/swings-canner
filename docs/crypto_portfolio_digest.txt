@@ -1,11 +1,10 @@
-# Trade sheet — 2026-09-10
+# Trade sheet — 2026-09-11
 
 ## Sell
 
 | ticker | in | out | P&L | why |
 |---|---|---|---|---|
-| BNB | 727.29 | 719.87 | -1.0% ($-2.24) | gapped through the stop |
-| LINK | 12.09 | 11.76 | -2.7% ($-5.65) | gapped through the stop |
+| NEAR | 1.98 | 2.47 | +25.2% ($+50.24) | 20-day backstop |
 
 ## Buy
 
@@ -15,11 +14,10 @@ Nothing to buy — slots full or no setups.
 
 | ticker | entry | now | P&L | stop now | locked in |
 |---|---|---|---|---|---|
-| NEAR | 1.98 | 2.47 | +25.0% | 2.17 | +9.9% |
-| ETH | 2,515.46 | 2,463.02 | -2.1% | 2,333.83 | not yet |
-| INJ | 6.32 | 6.05 | -4.3% | 5.75 | not yet |
+| ETH | 2,515.46 | 2,450.84 | -2.6% | 2,333.83 | not yet |
+| INJ | 6.32 | 5.98 | -5.4% | 5.75 | not yet |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 
-_Record: 10 closed, 0% winners, $-170.19 net, balance $829.81._
-_All signals: 10 closed, 0% profitable, -8.41% avg._
+_Record: 11 closed, 9% winners, $-119.95 net, balance $880.05._
+_All signals: 11 closed, 9% profitable, -5.35% avg._

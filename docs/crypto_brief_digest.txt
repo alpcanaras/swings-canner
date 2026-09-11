@@ -1,10 +1,10 @@
-# Crypto brief — 2026-09-10
+# Crypto brief — 2026-09-11
 
-## Regime: MIXED / CAUTION (shifted from RISK-ON — breadth noise, not a trend break)
+## Regime: MIXED / CAUTION 
 
 Signals disagree — BTC and breadth aren't aligned. Historically a chop zone; smaller size, no conviction.
 
-- BTC $78,132 — above its 200-day (69,917); -19% from the 1-year high; +21% in 30d.
-- Breadth: 19/39 majors above their 200-day (49%).
+- BTC $76,755 — above its 200-day (69,963); -21% from the 1-year high; +11% in 30d.
+- Breadth: 17/39 majors above their 200-day (44%).
 
 _Why a regime read, not picks: in a 6-year backtest, swing-trading crypto returned far less than simply holding — but a trend filter roughly halved the drawdown. The value here is knowing when the tide is going out, not timing individual coins. Not financial advice._

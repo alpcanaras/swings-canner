@@ -1,29 +1,29 @@
-# Crypto risk screen — 11 Sep 2026
+# Crypto risk screen — 12 Sep 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1540.8B, -6%/7d) — risk MEDIUM: thin liquidity (vol/mcap 2.0% — hard to exit)
-- ETH (Ethereum, $299.1B, -2%/7d) — risk LOWER: no major red flags in market data
-- BNB (BNB, $94.7B, -2%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.1% — hard to exit)
-- XRP (XRP, $84.0B, -8%/7d) — risk LOWER: modest liquidity (2.7%)
-- SOL (Solana, $57.9B, -5%/7d) — risk LOWER: no major red flags in market data
-- DOGE (Dogecoin, $13.0B, -5%/7d) — risk LOWER: no major red flags in market data
+- BTC (Bitcoin, $1551.8B, -3%/7d) — risk LOWER: modest liquidity (2.2%)
+- ETH (Ethereum, $306.6B, +3%/7d) — risk LOWER: no major red flags in market data
+- BNB (BNB, $96.9B, +1%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.2% — hard to exit)
+- XRP (XRP, $85.4B, -3%/7d) — risk LOWER: modest liquidity (3.2%)
+- SOL (Solana, $59.9B, +1%/7d) — risk LOWER: no major red flags in market data
+- DOGE (Dogecoin, $13.1B, -0%/7d) — risk LOWER: no major red flags in market data
 
 ## Small-cap discovery — RESEARCH ONLY, NOT PICKS
 
 > Most of these will fail. A public feed cannot find gems before insiders. This tool cannot see rug-pulls, honeypots or fake volume. Treat every name as guilty until proven safe with real due diligence.
 
-- STONK (STONK, $174M, +739%/7d) — risk LOWER: small-cap
-- HOOD (GreenHood, $53M, +433%/7d) — risk LOWER: small-cap
+- STONK (STONK, $250M, +1262%/7d) — risk MEDIUM: small-cap; near all-time high (-15% from ATH — chasing risk)
+- HOOD (GreenHood, $54M, +460%/7d) — risk LOWER: small-cap
 - REUR (Royal Euro, $62M, +261%/7d) — risk MEDIUM: small-cap; only 0% of supply circulating (future dilution); near all-time high (-0% from ATH — chasing risk)
-- BFC (Bifrost, $53M, +260%/7d) — risk LOWER: small-cap
-- UAI (UnifAI Network, $156M, +79%/7d) — risk MEDIUM: small-cap; only 24% of supply circulating (future dilution)
-- VTHO (VeThor, $54M, +44%/7d) — risk LOWER: small-cap
-- COTI (COTI, $56M, +41%/7d) — risk LOWER: small-cap
-- KAVA (Kava, $69M, +28%/7d) — risk LOWER: small-cap
-- MINA (Mina Protocol, $119M, +26%/7d) — risk LOWER: small-cap
-- ANTFUN (AntFun, $148M, +25%/7d) — risk MEDIUM: small-cap; only 22% of supply circulating (future dilution); near all-time high (-7% from ATH — chasing risk)
-- BP (Backpack, $138M, +24%/7d) — risk MEDIUM: small-cap; modest liquidity (3.8%); only 25% of supply circulating (future dilution)
-- 牛来 (牛来 (Niu Lai), $118M, +22%/7d) — risk LOWER: small-cap
+- BFC (Bifrost, $49M, +234%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
+- NOCK (Nockchain, $88M, +56%/7d) — risk MEDIUM: small-cap; modest liquidity (3.5%)
+- 牛来 (牛来 (Niu Lai), $126M, +50%/7d) — risk LOWER: small-cap
+- VTHO (VeThor, $60M, +46%/7d) — risk LOWER: small-cap
+- MINA (Mina Protocol, $141M, +44%/7d) — risk LOWER: small-cap
+- UAI (UnifAI Network, $159M, +35%/7d) — risk MEDIUM: small-cap; only 24% of supply circulating (future dilution)
+- KAVA (Kava, $72M, +33%/7d) — risk LOWER: small-cap
+- AIOZ (AIOZ Network, $96M, +32%/7d) — risk LOWER: small-cap
+- KTA (Keeta, $55M, +30%/7d) — risk MEDIUM: small-cap; modest liquidity (3.5%)
 
 _Objective market-data signals only — no contract audit, no holder analysis. Not financial advice; not a licensed adviser._

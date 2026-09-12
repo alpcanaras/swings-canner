@@ -4,27 +4,12 @@
    "ticker": "ETH",
    "side": "LONG",
    "entry": 2515.46,
-   "stop": 2333.8342,
+   "stop": 2339.1513,
    "shares": 0.039754160272872555,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-07",
-   "days": 4,
-   "families": [
-    "momentum"
-   ],
-   "n_signals": 1
-  },
-  {
-   "ticker": "INJ",
-   "side": "LONG",
-   "entry": 6.318,
-   "stop": 5.7463,
-   "shares": 15.827793605571385,
-   "notional": 100.0,
-   "cost": 0.1,
-   "date": "2026-09-08",
-   "days": 3,
+   "days": 5,
    "families": [
     "momentum"
    ],
@@ -267,6 +252,28 @@
    "net": 25.117652557397758,
    "pct": 25.21765255739776,
    "reason": "20-day backstop"
+  },
+  {
+   "ticker": "INJ",
+   "side": "LONG",
+   "entry": 6.318,
+   "stop": 5.7463,
+   "shares": 15.827793605571385,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-09-08",
+   "days": 4,
+   "families": [
+    "momentum"
+   ],
+   "n_signals": 1,
+   "trailed": true,
+   "exit": 5.7084202709198,
+   "exit_date": "2026-09-12",
+   "gross": -9.648302138021524,
+   "net": -9.748302138021524,
+   "pct": -9.648302138021524,
+   "reason": "gapped through the stop"
   }
  ],
  "started": "2026-08-21"

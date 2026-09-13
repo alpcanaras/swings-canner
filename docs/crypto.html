@@ -1,4 +1,35 @@
-<style>body{font-family:system-ui;margin:24px;max-width:900px;line-height:1.5;color:#111}table{border-collapse:collapse;width:100%;margin:8px 0 20px}td,th{border:1px solid #ddd;padding:6px 10px;font-size:12px;text-align:right}th{background:#f5f5f5}td:first-child,th:first-child{text-align:left}.card{border:1px solid #e2e2e2;border-radius:10px;padding:12px 18px;margin:12px 0}.long{border-left:5px solid #0a7a2f}.short{border-left:5px solid #b3261e}.meta{color:#666;font-size:13px}h2{margin:26px 0 6px}details{margin-top:14px}summary{cursor:pointer;color:#555;font-size:14px}.note{background:#f7f7f9;border-radius:8px;padding:12px 16px;font-size:14px;color:#444}</style><h1>Stock candidates</h1><div style='background:#fff4f4;border:1px solid #f0c0c0;border-radius:8px;padding:12px 16px;margin:12px 0;font-size:14px'><b>Backtested and rejected.</b> Replayed over 10 years and 3,291 trades, this strategy returned +22% against +849% for simply holding the same stocks, with a 42% drawdown. A 64% win rate did not save it. These cards are market observations, not trade ideas.</div><p class=meta>Updated 2026-09-12 00:50 · data through 2026-09-12 · scanned 39 stocks · not financial advice.</p><p><b>Nothing today.</b> No stock met the criteria — that's a normal outcome, not a bug.</p><details><summary>Which signals are actually working</summary><table border="1" class="dataframe">
+<style>body{font-family:system-ui;margin:24px;max-width:900px;line-height:1.5;color:#111}table{border-collapse:collapse;width:100%;margin:8px 0 20px}td,th{border:1px solid #ddd;padding:6px 10px;font-size:12px;text-align:right}th{background:#f5f5f5}td:first-child,th:first-child{text-align:left}.card{border:1px solid #e2e2e2;border-radius:10px;padding:12px 18px;margin:12px 0}.long{border-left:5px solid #0a7a2f}.short{border-left:5px solid #b3261e}.meta{color:#666;font-size:13px}h2{margin:26px 0 6px}details{margin-top:14px}summary{cursor:pointer;color:#555;font-size:14px}.note{background:#f7f7f9;border-radius:8px;padding:12px 16px;font-size:14px;color:#444}</style><h1>Stock candidates</h1><div style='background:#fff4f4;border:1px solid #f0c0c0;border-radius:8px;padding:12px 16px;margin:12px 0;font-size:14px'><b>Backtested and rejected.</b> Replayed over 10 years and 3,291 trades, this strategy returned +22% against +849% for simply holding the same stocks, with a 42% drawdown. A 64% win rate did not save it. These cards are market observations, not trade ideas.</div><p class=meta>Updated 2026-09-13 00:32 · data through 2026-09-13 · scanned 39 stocks · not financial advice.</p><h2>Possible buys</h2><div class='card long'><b>ETH — Buy the breakout.</b> It broke out above its 20-day high. One idea (momentum). It has been outperforming its peers by 31% over 3 months. Close the trade if it reaches <b>2,343.05</b>. Daily swing is about 3.6%. Size: <b>$200</b> = 20% of capital (0.0792 shares). If the stop hits you lose $14.43 (1.4% of the account), the stop being 7.2% away. Expected profit $1.62 vs $0.20 costs (8.1× — worth doing).</div><details><summary>The same thing as a table</summary><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ticker</th>
+      <th>side</th>
+      <th>score</th>
+      <th>close</th>
+      <th>signals</th>
+      <th>RS_3m_%</th>
+      <th>ATR%</th>
+      <th>stop</th>
+      <th>min_KO_dist</th>
+      <th>earnings</th>
+      <th>expected_pct</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ETH</td>
+      <td>LONG</td>
+      <td>1.0</td>
+      <td>2525.2</td>
+      <td>Donchian 20d breakout (L)</td>
+      <td>30.9</td>
+      <td>3.61</td>
+      <td>2343.0543</td>
+      <td>273.2185</td>
+      <td>n/a</td>
+      <td>0.81</td>
+    </tr>
+  </tbody>
+</table></details><details><summary>Which signals are actually working</summary><table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>signal</th>
@@ -18,86 +49,86 @@
   <tbody>
     <tr>
       <td>RSI(2) mean-reversion</td>
-      <td>7928</td>
+      <td>7931</td>
       <td>50.1</td>
       <td>-0.25</td>
-      <td>-39.63</td>
+      <td>-39.62</td>
       <td>51.5</td>
-      <td>-0.39</td>
-      <td>-39.64</td>
+      <td>-0.38</td>
+      <td>-39.63</td>
       <td>50.8</td>
       <td>-1.29</td>
-      <td>-42.58</td>
+      <td>-42.57</td>
       <td>0.00</td>
     </tr>
     <tr>
       <td>IBS mean-reversion</td>
-      <td>13081</td>
+      <td>13087</td>
       <td>50.2</td>
-      <td>-117.58</td>
-      <td>-156.96</td>
+      <td>-117.53</td>
+      <td>-156.90</td>
       <td>51.3</td>
-      <td>-273.55</td>
-      <td>-312.81</td>
+      <td>-273.53</td>
+      <td>-312.78</td>
       <td>50.1</td>
-      <td>-79.63</td>
-      <td>-120.92</td>
+      <td>-79.60</td>
+      <td>-120.88</td>
       <td>0.00</td>
     </tr>
     <tr>
       <td>7-day extreme pullback</td>
-      <td>14817</td>
-      <td>50.2</td>
-      <td>-103.76</td>
-      <td>-143.14</td>
+      <td>14821</td>
+      <td>50.1</td>
+      <td>-103.74</td>
+      <td>-143.10</td>
       <td>51.7</td>
-      <td>-241.37</td>
-      <td>-280.63</td>
+      <td>-241.31</td>
+      <td>-280.55</td>
       <td>50.3</td>
-      <td>-70.75</td>
-      <td>-112.04</td>
+      <td>-70.72</td>
+      <td>-111.99</td>
       <td>0.00</td>
     </tr>
     <tr>
       <td>Donchian 20d breakout</td>
-      <td>10371</td>
+      <td>10373</td>
       <td>49.2</td>
       <td>0.60</td>
-      <td>-38.78</td>
+      <td>-38.77</td>
       <td>49.7</td>
       <td>0.81</td>
-      <td>-38.44</td>
+      <td>-38.43</td>
       <td>49.6</td>
       <td>1.37</td>
-      <td>-39.92</td>
+      <td>-39.91</td>
       <td>0.76</td>
     </tr>
     <tr>
       <td>Sweep &amp; reclaim (10d)</td>
-      <td>4814</td>
-      <td>52.4</td>
-      <td>-0.22</td>
-      <td>-39.60</td>
-      <td>54.2</td>
-      <td>-0.18</td>
-      <td>-39.44</td>
-      <td>51.2</td>
-      <td>-0.83</td>
-      <td>-42.12</td>
+      <td>4808</td>
+      <td>52.5</td>
+      <td>-0.19</td>
+      <td>-39.56</td>
+      <td>54.3</td>
+      <td>-0.14</td>
+      <td>-39.38</td>
+      <td>51.3</td>
+      <td>-0.78</td>
+      <td>-42.05</td>
       <td>0.00</td>
     </tr>
     <tr>
       <td>FVG retest</td>
-      <td>19738</td>
-      <td>49.7</td>
-      <td>-183.59</td>
-      <td>-222.97</td>
+      <td>19743</td>
+      <td>49.6</td>
+      <td>-183.55</td>
+      <td>-222.91</td>
       <td>49.2</td>
-      <td>-181.16</td>
+      <td>-181.17</td>
       <td>-220.42</td>
       <td>49.3</td>
-      <td>-105.22</td>
-      <td>-146.50</td>
+      <td>-105.19</td>
+      <td>-146.47</td>
       <td>0.00</td>
     </tr>
   </tbody>

@@ -4,12 +4,12 @@
    "ticker": "ETH",
    "side": "LONG",
    "entry": 2515.46,
-   "stop": 2339.1513,
+   "stop": 2343.0543,
    "shares": 0.039754160272872555,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-07",
-   "days": 5,
+   "days": 6,
    "families": [
     "momentum"
    ],

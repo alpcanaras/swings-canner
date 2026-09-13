@@ -1,10 +1,8 @@
-# Trade sheet — 2026-09-12
+# Trade sheet — 2026-09-13
 
 ## Sell
 
-| ticker | in | out | P&L | why |
-|---|---|---|---|---|
-| INJ | 6.32 | 5.71 | -9.6% ($-19.50) | gapped through the stop |
+Nothing to sell.
 
 ## Buy
 
@@ -14,7 +12,7 @@ Nothing to buy — slots full or no setups.
 
 | ticker | entry | now | P&L | stop now | locked in |
 |---|---|---|---|---|---|
-| ETH | 2,515.46 | 2,512.35 | -0.1% | 2,339.15 | not yet |
+| ETH | 2,515.46 | 2,525.20 | +0.4% | 2,343.05 | not yet |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 

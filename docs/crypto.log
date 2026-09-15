@@ -1,25 +1,25 @@
 Downloading 40 tickers (8y daily)...
   usable: 39 tickers
-# Crypto brief — 2026-09-14
+# Crypto brief — 2026-09-15
 
 ## Regime: MIXED / CAUTION 
 
 Signals disagree — BTC and breadth aren't aligned. Historically a chop zone; smaller size, no conviction.
 
-- BTC $76,675 — above its 200-day (70,135); -21% from the 1-year high; -1% in 30d.
-- Breadth: 17/39 majors above their 200-day (44%).
+- BTC $77,803 — above its 200-day (70,187); -20% from the 1-year high; +0% in 30d.
+- Breadth: 16/39 majors above their 200-day (41%).
 
 
-CRYPTO SWING (experimental, underperformed holding) — 2026-09-14 (universe: 39 coins)
+CRYPTO SWING (experimental, underperformed holding) — 2026-09-15 (universe: 39 coins)
 No candidates today.
 Written docs/crypto.html
 Crypto paper: 12 closed, -139.45 net
 Written docs/crypto_portfolio.html
-# Crypto risk screen — 14 Sep 2026
+# Crypto risk screen — 15 Sep 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1539.9B, -4%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.1% — hard to exit)
-- ETH (Ethereum, $302.7B, -1%/7d) — risk LOWER: modest liquidity (3.3%)
+- BTC (Bitcoin, $1563.0B, -1%/7d) — risk LOWER: modest liquidity (2.1%)
+- ETH (Ethereum, $306.6B, +1%/7d) — risk LOWER: no major red flags in market data
 
 Written docs/crypto_screen.html and docs/crypto_screen_digest.txt

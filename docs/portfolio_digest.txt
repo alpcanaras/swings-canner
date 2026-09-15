@@ -12,17 +12,17 @@
 | ticker | setup | signal px | stop $ | stop % | trail | size |
 |---|---|---|---|---|---|---|
 | CAH | mean reversion | 236.02 | 225.32 | -4.5% | 2xATR = $10.72 | $200 = 0.8474 sh |
-| BLK | mean reversion | 1,062.40 | 1,017.62 | -4.2% | 2xATR = $44.83 | $200 = 0.1883 sh |
+| BLK | mean reversion | 1,062.40 | 1,033.84 | -2.7% | 2xATR = $44.83 | $200 = 0.1883 sh |
 
 ## Holding — updated stops
 
 | ticker | entry | now | P&L | stop now | locked in |
 |---|---|---|---|---|---|
-| CALY | 15.47 | 15.29 | -1.2% | 14.89 | not yet |
-| CATY | 61.89 | 62.04 | +0.2% | 60.69 | not yet |
-| CVSA | 127.64 | 123.63 | -3.1% | 117.26 | not yet |
+| CALY | 15.47 | 15.46 | -0.1% | 14.89 | not yet |
+| CATY | 61.89 | 62.01 | +0.2% | 60.69 | not yet |
+| CVSA | 127.64 | 125.09 | -2.0% | 117.26 | not yet |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 
 _Record: 8 closed, 62% winners, $+11.57 net, balance $1,011.57._
-_All signals: 1459 closed, 33% profitable, -2.00% avg._
+_All signals: 1484 closed, 32% profitable, -2.03% avg._

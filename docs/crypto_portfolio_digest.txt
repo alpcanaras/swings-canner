@@ -1,4 +1,4 @@
-# Trade sheet — 2026-09-15
+# Trade sheet — 2026-09-16
 
 ## Sell
 
@@ -6,13 +6,18 @@ Nothing to sell.
 
 ## Buy
 
-Nothing to buy — slots full or no setups.
+| ticker | setup | signal px | stop $ | stop % | trail | size |
+|---|---|---|---|---|---|---|
+| INJ | gap, mean reversion | 5.43 | 4.53 | -16.5% | 2xATR = $0.90 | $182 = 33.48 sh |
+| BTC | mean reversion | 75,674.29 | 71,311.08 | -5.8% | 2xATR = $4,358.84 | $200 = 0.002643 sh |
+| SOL | mean reversion | 96.90 | 88.27 | -8.9% | 2xATR = $8.62 | $200 = 2.064 sh |
+| LINK | mean reversion | 10.89 | 9.69 | -11.0% | 2xATR = $1.20 | $200 = 18.36 sh |
 
 ## Holding — updated stops
 
 | ticker | entry | now | P&L | stop now | locked in |
 |---|---|---|---|---|---|
-| ETH | 2,515.46 | 2,511.68 | -0.2% | 2,343.05 | not yet |
+| ETH | 2,515.46 | 2,397.32 | -4.7% | 2,343.05 | not yet |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 

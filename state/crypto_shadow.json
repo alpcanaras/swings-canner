@@ -9,12 +9,103 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-07",
-   "days": 8,
+   "days": 9,
    "families": [
     "momentum"
    ],
    "n_signals": 1,
    "trailed": true
+  },
+  {
+   "ticker": "INJ",
+   "side": "LONG",
+   "entry": 5.428,
+   "stop": 4.532,
+   "shares": 18.422991893883566,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-09-16",
+   "days": 0,
+   "families": [
+    "gap",
+    "mean reversion"
+   ],
+   "n_signals": 3
+  },
+  {
+   "ticker": "BTC",
+   "side": "LONG",
+   "entry": 75674.2891,
+   "stop": 71311.0813,
+   "shares": 0.0013214527838887886,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-09-16",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1
+  },
+  {
+   "ticker": "SOL",
+   "side": "LONG",
+   "entry": 96.9,
+   "stop": 88.2663,
+   "shares": 1.0319917440660473,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-09-16",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 2
+  },
+  {
+   "ticker": "LINK",
+   "side": "LONG",
+   "entry": 10.893,
+   "stop": 9.6938,
+   "shares": 9.180207472688883,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-09-16",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 2
+  },
+  {
+   "ticker": "LTC",
+   "side": "LONG",
+   "entry": 51.072,
+   "stop": 47.077,
+   "shares": 1.958020050125313,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-09-16",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 3
+  },
+  {
+   "ticker": "ICP",
+   "side": "LONG",
+   "entry": 2.4868,
+   "stop": 2.1587,
+   "shares": 40.2123210551713,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-09-16",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 2
   }
  ],
  "closed": [

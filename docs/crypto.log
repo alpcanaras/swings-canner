@@ -1,25 +1,32 @@
 Downloading 40 tickers (8y daily)...
-  usable: 39 tickers
-# Crypto brief — 2026-09-15
+  usable: 34 tickers
+# Crypto brief — 2026-09-16
 
 ## Regime: MIXED / CAUTION 
 
 Signals disagree — BTC and breadth aren't aligned. Historically a chop zone; smaller size, no conviction.
 
-- BTC $77,803 — above its 200-day (70,187); -20% from the 1-year high; +0% in 30d.
-- Breadth: 16/39 majors above their 200-day (41%).
+- BTC $75,674 — above its 200-day (70,238); -22% from the 1-year high; -4% in 30d.
+- Breadth: 15/34 majors above their 200-day (44%).
 
 
-CRYPTO SWING (experimental, underperformed holding) — 2026-09-15 (universe: 39 coins)
-No candidates today.
+CRYPTO SWING (experimental, underperformed holding) — 2026-09-16 (universe: 34 coins)
+ticker side  score      close                                                                       signals  RS_3m_%  ATR%       stop  min_KO_dist earnings  expected_pct
+   INJ LONG   0.17     5.4280            IBS mean-reversion (L), 7-day extreme pullback (L), FVG retest (L)     -1.0  8.25     4.5320       1.3440      n/a         0.213
+   ETH LONG   0.06  2397.3201                            IBS mean-reversion (L), 7-day extreme pullback (L)     18.4  4.02  2204.6434     289.0150      n/a         0.170
+   BTC LONG   0.06 75674.2891                                                    7-day extreme pullback (L)      8.1  2.88 71311.0813    6544.8116      n/a         0.180
+   SOL LONG   0.06    96.9000                            IBS mean-reversion (L), 7-day extreme pullback (L)     16.2  4.45    88.2663      12.9506      n/a         0.170
+  LINK LONG   0.06    10.8930                            IBS mean-reversion (L), 7-day extreme pullback (L)     22.2  5.50     9.6938       1.7987      n/a         0.170
+   LTC LONG   0.06    51.0720 RSI(2) mean-reversion (L), IBS mean-reversion (L), 7-day extreme pullback (L)      4.0  3.91    47.0770       5.9925      n/a         0.117
+   ICP LONG   0.06     2.4868                         RSI(2) mean-reversion (L), 7-day extreme pullback (L)      3.5  6.60     2.1587       0.4921      n/a         0.095
 Written docs/crypto.html
 Crypto paper: 12 closed, -139.45 net
 Written docs/crypto_portfolio.html
-# Crypto risk screen — 15 Sep 2026
+# Crypto risk screen — 16 Sep 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1563.0B, -1%/7d) — risk LOWER: modest liquidity (2.1%)
-- ETH (Ethereum, $306.6B, +1%/7d) — risk LOWER: no major red flags in market data
+- BTC (Bitcoin, $1520.4B, -4%/7d) — risk LOWER: modest liquidity (2.6%)
+- ETH (Ethereum, $292.8B, -4%/7d) — risk LOWER: no major red flags in market data
 
 Written docs/crypto_screen.html and docs/crypto_screen_digest.txt

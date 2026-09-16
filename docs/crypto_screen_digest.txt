@@ -1,29 +1,29 @@
-# Crypto risk screen — 15 Sep 2026
+# Crypto risk screen — 16 Sep 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1563.0B, -1%/7d) — risk LOWER: modest liquidity (2.1%)
-- ETH (Ethereum, $306.6B, +1%/7d) — risk LOWER: no major red flags in market data
-- BNB (BNB, $95.7B, -3%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.0% — hard to exit)
-- XRP (XRP, $89.2B, +2%/7d) — risk LOWER: modest liquidity (4.5%)
-- SOL (Solana, $60.1B, -1%/7d) — risk LOWER: no major red flags in market data
-- DOGE (Dogecoin, $13.0B, -8%/7d) — risk LOWER: modest liquidity (4.8%)
+- BTC (Bitcoin, $1520.4B, -4%/7d) — risk LOWER: modest liquidity (2.6%)
+- ETH (Ethereum, $292.8B, -4%/7d) — risk LOWER: no major red flags in market data
+- BNB (BNB, $95.1B, -6%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.0% — hard to exit)
+- XRP (XRP, $80.9B, -9%/7d) — risk LOWER: no major red flags in market data
+- SOL (Solana, $56.9B, -6%/7d) — risk LOWER: no major red flags in market data
+- DOGE (Dogecoin, $12.5B, -11%/7d) — risk LOWER: no major red flags in market data
 
 ## Small-cap discovery — RESEARCH ONLY, NOT PICKS
 
 > Most of these will fail. A public feed cannot find gems before insiders. This tool cannot see rug-pulls, honeypots or fake volume. Treat every name as guilty until proven safe with real due diligence.
 
-- LSK (Lisk, $91M, +280%/7d) — risk LOWER: small-cap
 - REUR (Royal Euro, $62M, +261%/7d) — risk MEDIUM: small-cap; only 0% of supply circulating (future dilution); near all-time high (-0% from ATH — chasing risk)
-- 龙虾 (龙虾 (Lobster), $162M, +198%/7d) — risk MEDIUM: small-cap; near all-time high (-11% from ATH — chasing risk)
-- BR (Bedrock, $159M, +93%/7d) — risk MEDIUM: small-cap; only 30% of supply circulating (future dilution); near all-time high (-3% from ATH — chasing risk)
-- DEBIT (Teller, $50M, +74%/7d) — risk MEDIUM: small-cap; only 17% of supply circulating (future dilution)
-- VTHO (VeThor, $64M, +48%/7d) — risk LOWER: small-cap
-- 牛来 (牛来 (Niu Lai), $121M, +47%/7d) — risk LOWER: small-cap
-- CAP (Cap, $104M, +40%/7d) — risk MEDIUM: small-cap; only 16% of supply circulating (future dilution); near all-time high (-15% from ATH — chasing risk)
-- STONK (STONK, $178M, +34%/7d) — risk LOWER: small-cap
-- T (Threshold Network, $61M, +26%/7d) — risk LOWER: small-cap
-- ELF (aelf, $59M, +23%/7d) — risk LOWER: small-cap
-- NOCK (Nockchain, $95M, +22%/7d) — risk MEDIUM: small-cap; modest liquidity (3.3%)
+- LSK (Lisk, $91M, +239%/7d) — risk LOWER: small-cap
+- 龙虾 (龙虾 (Lobster), $197M, +231%/7d) — risk MEDIUM: small-cap; near all-time high (-3% from ATH — chasing risk)
+- VTHO (VeThor, $74M, +66%/7d) — risk LOWER: small-cap
+- ELF (aelf, $57M, +33%/7d) — risk LOWER: small-cap
+- ONE (ONEchain, $69M, +27%/7d) — risk LOWER: small-cap
+- CAP (Cap, $90M, +23%/7d) — risk MEDIUM: small-cap; only 16% of supply circulating (future dilution)
+- 牛来 (牛来 (Niu Lai), $118M, +22%/7d) — risk LOWER: small-cap
+- ANTFUN (AntFun, $170M, +12%/7d) — risk MEDIUM: small-cap; only 22% of supply circulating (future dilution); near all-time high (-2% from ATH — chasing risk)
+- KAVA (Kava, $72M, +11%/7d) — risk LOWER: small-cap
+- ASTR (Astar, $59M, +10%/7d) — risk LOWER: small-cap
+- ARC (AI Rig Complex, $77M, +9%/7d) — risk LOWER: small-cap
 
 _Objective market-data signals only — no contract audit, no holder analysis. Not financial advice; not a licensed adviser._

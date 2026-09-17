@@ -1,4 +1,4 @@
-# Trade sheet — 2026-09-14
+# Trade sheet — 2026-09-16
 
 ## Sell
 
@@ -12,13 +12,13 @@ Nothing to buy — slots full or no setups.
 
 | ticker | entry | now | P&L | stop now | locked in |
 |---|---|---|---|---|---|
-| CALY | 15.47 | 15.26 | -1.4% | 14.89 | not yet |
-| CATY | 61.89 | 62.42 | +0.9% | 60.69 | not yet |
-| CVSA | 127.64 | 125.49 | -1.7% | 117.26 | not yet |
-| CAH | 236.02 | 234.89 | -0.5% | 225.32 | not yet |
-| BLK | 1,062.40 | 1,065.60 | +0.3% | 1,033.84 | not yet |
+| CALY | 15.47 | 15.09 | -2.5% | 14.89 | not yet |
+| CATY | 61.89 | 62.45 | +0.9% | 60.69 | not yet |
+| CVSA | 127.64 | 126.28 | -1.1% | 117.26 | not yet |
+| CAH | 236.02 | 232.65 | -1.4% | 225.32 | not yet |
+| BLK | 1,062.40 | 1,058.66 | -0.4% | 1,033.84 | not yet |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 
 _Record: 8 closed, 62% winners, $+11.57 net, balance $1,011.57._
-_All signals: 1547 closed, 31% profitable, -2.07% avg._
+_All signals: 1587 closed, 31% profitable, -2.14% avg._

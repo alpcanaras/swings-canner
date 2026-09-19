@@ -1,28 +1,24 @@
-# Trade sheet — 2026-09-17
+# Trade sheet — 2026-09-18
 
 ## Sell
 
-| ticker | in | out | P&L | why |
-|---|---|---|---|---|
-| CALY | 15.47 | 14.89 | -3.7% ($-7.67) | trailing stop |
-| BLK | 1,062.40 | 1,033.84 | -2.7% ($-5.58) | trailing stop |
+Nothing to sell.
 
 ## Buy
 
-| ticker | setup | signal px | stop $ | stop % | trail | size |
-|---|---|---|---|---|---|---|
-| D | mean reversion | 63.51 | 61.31 | -3.5% | 2xATR = $2.20 | $200 = 3.149 sh |
-| BG | failed breakout, mean reversion | 117.13 | 108.42 | -7.4% | 2xATR = $8.71 | $200 = 1.708 sh |
+Nothing to buy — slots full or no setups.
 
 ## Holding — updated stops
 
 | ticker | entry | now | P&L | stop now | locked in |
 |---|---|---|---|---|---|
-| CATY | 61.89 | 62.00 | +0.2% | 60.69 | not yet |
-| CVSA | 127.64 | 127.20 | -0.3% | 117.74 | not yet |
-| CAH | 236.02 | 232.54 | -1.5% | 225.32 | not yet |
+| CATY | 61.89 | 62.02 | +0.2% | 60.69 | not yet |
+| CVSA | 127.64 | 126.41 | -1.0% | 117.74 | not yet |
+| CAH | 236.02 | 226.34 | -4.1% | 225.32 | not yet |
+| D | 63.51 | 64.29 | +1.2% | 62.13 | not yet |
+| BG | 117.13 | 119.31 | +1.9% | 110.31 | not yet |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 
 _Record: 10 closed, 50% winners, $-1.68 net, balance $998.32._
-_All signals: 1654 closed, 30% profitable, -2.16% avg._
+_All signals: 1678 closed, 30% profitable, -2.18% avg._

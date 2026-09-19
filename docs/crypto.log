@@ -1,29 +1,33 @@
 Downloading 40 tickers (8y daily)...
   usable: 34 tickers
-# Crypto brief — 2026-09-18
+# Crypto brief — 2026-09-19
 
-## Regime: RISK-ON (shifted from MIXED / CAUTION — breadth noise, not a trend break)
+## Regime: RISK-ON 
 
 Trend is up. History says this is when holding majors paid — and a simple 'stay long while BTC is above its 200-day' rule kept you in for it.
 
-- BTC $76,505 — above its 200-day (70,337); -21% from the 1-year high; -3% in 30d.
-- Breadth: 17/34 majors above their 200-day (50%).
+- BTC $81,259 — above its 200-day (70,399); -16% from the 1-year high; +1% in 30d.
+- Breadth: 26/34 majors above their 200-day (76%).
 
 
-CRYPTO SWING (experimental, underperformed holding) — 2026-09-18 (universe: 34 coins)
-ticker side  score    close                   signals  RS_3m_%  ATR%     stop  min_KO_dist earnings  expected_pct
-  NEAR LONG   0.67   3.1505 Donchian 20d breakout (L)     43.5  6.70   2.7283       0.6333      n/a          1.56
-   BNB LONG   0.11 737.3900            FVG retest (L)     12.2  2.85 695.3789      63.0166      n/a          0.30
-   FIL LONG   0.11   0.8508            FVG retest (L)     -6.0  7.53   0.7227       0.1921      n/a          0.30
-   INJ LONG   0.11   5.7310            FVG retest (L)      1.3  7.55   4.8658       1.2977      n/a          0.30
+CRYPTO SWING (experimental, underperformed holding) — 2026-09-19 (universe: 34 coins)
+ticker side  score     close                   signals  RS_3m_%  ATR%      stop  min_KO_dist earnings  expected_pct
+   ETH LONG   0.67 2618.4700 Donchian 20d breakout (L)     14.1  3.83 2417.9990     300.7064      n/a          1.56
+   SOL LONG   0.67  113.4100 Donchian 20d breakout (L)     23.0  4.16  103.9833      14.1400      n/a          1.56
+   INJ LONG   0.67    6.7920 Donchian 20d breakout (L)      4.1  7.10    5.8275       1.4468      n/a          1.56
+  NEAR LONG   0.67    3.7328 Donchian 20d breakout (L)     65.5  6.51    3.2467       0.7291      n/a          1.56
+  AAVE LONG   0.67  143.3300 Donchian 20d breakout (L)     31.2  5.46  127.6807      23.4739      n/a          1.56
+  LINK LONG   0.11   12.3680            FVG retest (L)     21.6  4.96   11.1399       1.8421      n/a          0.30
+  ATOM LONG   0.11    1.7295            FVG retest (L)    -13.5  5.54    1.5378       0.2876      n/a          0.30
+   ICP LONG   0.11    2.8756            FVG retest (L)      6.0  5.82    2.5409       0.5021      n/a          0.30
 Written docs/crypto.html
 Crypto paper: 12 closed, -139.45 net
 Written docs/crypto_portfolio.html
-# Crypto risk screen — 18 Sep 2026
+# Crypto risk screen — 19 Sep 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1536.0B, -0%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.5% — hard to exit)
-- ETH (Ethereum, $298.3B, +0%/7d) — risk LOWER: modest liquidity (4.0%)
+- BTC (Bitcoin, $1632.4B, +5%/7d) — risk LOWER: modest liquidity (2.8%)
+- ETH (Ethereum, $319.7B, +4%/7d) — risk LOWER: no major red flags in market data
 
 Written docs/crypto_screen.html and docs/crypto_screen_digest.txt

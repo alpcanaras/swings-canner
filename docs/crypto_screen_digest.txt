@@ -1,29 +1,29 @@
-# Crypto risk screen — 18 Sep 2026
+# Crypto risk screen — 19 Sep 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1536.0B, -0%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.5% — hard to exit)
-- ETH (Ethereum, $298.3B, +0%/7d) — risk LOWER: modest liquidity (4.0%)
-- BNB (BNB, $98.1B, +4%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.0% — hard to exit)
-- XRP (XRP, $81.6B, -4%/7d) — risk LOWER: modest liquidity (2.8%)
-- SOL (Solana, $59.5B, +2%/7d) — risk LOWER: no major red flags in market data
-- DOGE (Dogecoin, $12.7B, -2%/7d) — risk LOWER: modest liquidity (4.4%)
+- BTC (Bitcoin, $1632.4B, +5%/7d) — risk LOWER: modest liquidity (2.8%)
+- ETH (Ethereum, $319.7B, +4%/7d) — risk LOWER: no major red flags in market data
+- BNB (BNB, $101.7B, +5%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.5% — hard to exit)
+- XRP (XRP, $88.6B, +4%/7d) — risk LOWER: modest liquidity (4.9%)
+- SOL (Solana, $66.5B, +11%/7d) — risk LOWER: no major red flags in market data
+- DOGE (Dogecoin, $13.7B, +4%/7d) — risk LOWER: no major red flags in market data
 
 ## Small-cap discovery — RESEARCH ONLY, NOT PICKS
 
 > Most of these will fail. A public feed cannot find gems before insiders. This tool cannot see rug-pulls, honeypots or fake volume. Treat every name as guilty until proven safe with real due diligence.
 
-- 龙虾 (龙虾 (Lobster), $232M, +501%/7d) — risk MEDIUM: small-cap; near all-time high (-6% from ATH — chasing risk)
-- LSK (Lisk, $110M, +279%/7d) — risk LOWER: small-cap
 - REUR (Royal Euro, $62M, +261%/7d) — risk MEDIUM: small-cap; only 0% of supply circulating (future dilution); near all-time high (-0% from ATH — chasing risk)
-- HOOD (GreenHood, $62M, +209%/7d) — risk LOWER: small-cap
-- CNPY (Canopy, $60M, +155%/7d) — risk LOWER: small-cap
-- BR (Bedrock, $198M, +148%/7d) — risk MEDIUM: small-cap; only 30% of supply circulating (future dilution); near all-time high (-5% from ATH — chasing risk)
-- CX (Cortex, $51M, +132%/7d) — risk LOWER: small-cap
-- ORBIO (Orbio.so, $49M, +93%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); near all-time high (-8% from ATH — chasing risk)
-- ONE (ONEchain, $88M, +50%/7d) — risk LOWER: small-cap
-- DEBIT (Teller, $46M, +39%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 17% of supply circulating (future dilution)
-- COTI (COTI, $71M, +37%/7d) — risk LOWER: small-cap
-- DGAI (DGrid AI, $139M, +28%/7d) — risk MEDIUM: small-cap; only 15% of supply circulating (future dilution); near all-time high (-6% from ATH — chasing risk)
+- LSK (Lisk, $102M, +226%/7d) — risk LOWER: small-cap
+- BR (Bedrock, $238M, +226%/7d) — risk MEDIUM: small-cap; only 30% of supply circulating (future dilution)
+- 龙虾 (龙虾 (Lobster), $234M, +218%/7d) — risk MEDIUM: small-cap; modest liquidity (4.5%); near all-time high (-13% from ATH — chasing risk)
+- CX (Cortex, $62M, +173%/7d) — risk MEDIUM: small-cap; modest liquidity (4.1%)
+- SYN (Synapse, $49M, +172%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
+- CNPY (Canopy, $63M, +141%/7d) — risk MEDIUM: small-cap; near all-time high (-13% from ATH — chasing risk)
+- G (Gravity (by Galxe), $53M, +106%/7d) — risk LOWER: small-cap
+- BONER (Boner Coin, $50M, +51%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
+- ZCAT (Anonymous Cat, $118M, +50%/7d) — risk LOWER: small-cap
+- AR (Arweave, $238M, +41%/7d) — risk LOWER: small-cap
+- CARDS (Collector Crypt, $165M, +40%/7d) — risk LOWER: small-cap
 
 _Objective market-data signals only — no contract audit, no holder analysis. Not financial advice; not a licensed adviser._

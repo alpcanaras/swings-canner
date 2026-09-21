@@ -1,29 +1,29 @@
-# Crypto risk screen — 20 Sep 2026
+# Crypto risk screen — 21 Sep 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1632.7B, +5%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.5% — hard to exit)
-- ETH (Ethereum, $320.8B, +4%/7d) — risk LOWER: modest liquidity (3.4%)
-- BNB (BNB, $101.4B, +5%/7d) — risk MEDIUM: thin liquidity (vol/mcap 0.9% — hard to exit)
-- XRP (XRP, $88.3B, +4%/7d) — risk LOWER: modest liquidity (3.5%)
-- SOL (Solana, $65.1B, +9%/7d) — risk LOWER: modest liquidity (4.5%)
-- DOGE (Dogecoin, $13.7B, +4%/7d) — risk LOWER: no major red flags in market data
+- BTC (Bitcoin, $1637.9B, +6%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.5% — hard to exit)
+- ETH (Ethereum, $327.7B, +7%/7d) — risk LOWER: modest liquidity (4.1%)
+- BNB (BNB, $103.6B, +8%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.0% — hard to exit)
+- XRP (XRP, $89.4B, +5%/7d) — risk LOWER: modest liquidity (2.8%)
+- SOL (Solana, $65.9B, +11%/7d) — risk LOWER: no major red flags in market data
+- DOGE (Dogecoin, $13.8B, +6%/7d) — risk LOWER: no major red flags in market data
 
 ## Small-cap discovery — RESEARCH ONLY, NOT PICKS
 
 > Most of these will fail. A public feed cannot find gems before insiders. This tool cannot see rug-pulls, honeypots or fake volume. Treat every name as guilty until proven safe with real due diligence.
 
-- BLORB (BLORB, $234M, +5729%/7d) — risk LOWER: small-cap
-- ONE (Harmony, $59M, +490%/7d) — risk LOWER: small-cap
+- ONE (Harmony, $62M, +528%/7d) — risk LOWER: small-cap
+- ORBIO (Orbio.so, $55M, +267%/7d) — risk MEDIUM: small-cap; near all-time high (-10% from ATH — chasing risk)
 - REUR (Royal Euro, $62M, +261%/7d) — risk MEDIUM: small-cap; only 0% of supply circulating (future dilution); near all-time high (-0% from ATH — chasing risk)
-- ORBIO (Orbio.so, $51M, +229%/7d) — risk MEDIUM: small-cap; near all-time high (-15% from ATH — chasing risk)
-- G (Gravity (by Galxe), $81M, +182%/7d) — risk LOWER: small-cap
-- SYN (Synapse, $49M, +173%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
-- ZAMA (Zama, $208M, +71%/7d) — risk MEDIUM: small-cap; only 22% of supply circulating (future dilution); near all-time high (-10% from ATH — chasing risk)
-- 龙虾 (龙虾 (Lobster), $232M, +47%/7d) — risk MEDIUM: small-cap; near all-time high (-14% from ATH — chasing risk)
-- KNTQ (Kinetiq, $82M, +41%/7d) — risk MEDIUM: small-cap; modest liquidity (3.8%); only 28% of supply circulating (future dilution)
-- LSK (Lisk, $95M, +38%/7d) — risk LOWER: small-cap
-- BONER (Boner Coin, $51M, +38%/7d) — risk LOWER: small-cap
-- CX (Cortex, $61M, +38%/7d) — risk MEDIUM: small-cap; modest liquidity (4.7%)
+- SYN (Synapse, $49M, +182%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
+- ZAMA (Zama, $216M, +75%/7d) — risk MEDIUM: small-cap; only 22% of supply circulating (future dilution); near all-time high (-9% from ATH — chasing risk)
+- BP (Backpack, $212M, +69%/7d) — risk MEDIUM: small-cap; only 25% of supply circulating (future dilution); near all-time high (-6% from ATH — chasing risk)
+- 龙虾 (龙虾 (Lobster), $240M, +65%/7d) — risk MEDIUM: small-cap; near all-time high (-12% from ATH — chasing risk)
+- S (Sonic, $155M, +53%/7d) — risk LOWER: small-cap
+- BONER (Boner Coin, $50M, +50%/7d) — risk MEDIUM: small-cap; modest liquidity (4.3%)
+- CFG (Centrifuge, $56M, +39%/7d) — risk LOWER: small-cap
+- PEAQ (peaq, $84M, +35%/7d) — risk MEDIUM: small-cap; modest liquidity (4.9%)
+- KMNO (Kamino, $184M, +33%/7d) — risk LOWER: small-cap
 
 _Objective market-data signals only — no contract audit, no holder analysis. Not financial advice; not a licensed adviser._

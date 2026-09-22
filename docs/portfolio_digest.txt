@@ -2,23 +2,26 @@
 
 ## Sell
 
-Nothing to sell.
+| ticker | in | out | P&L | why |
+|---|---|---|---|---|
+| CAH | 236.02 | 224.39 | -4.9% ($-10.06) | gapped through the stop |
 
 ## Buy
 
-Nothing to buy — slots full or no setups.
+| ticker | setup | signal px | stop $ | stop % | trail | size |
+|---|---|---|---|---|---|---|
+| ALKS | mean reversion | 43.39 | 40.27 | -7.2% | 2xATR = $3.12 | $200 = 4.609 sh |
 
 ## Holding — updated stops
 
 | ticker | entry | now | P&L | stop now | locked in |
 |---|---|---|---|---|---|
-| CATY | 61.89 | 62.02 | +0.2% | 60.69 | not yet |
-| CVSA | 127.64 | 126.41 | -1.0% | 117.74 | not yet |
-| CAH | 236.02 | 226.34 | -4.1% | 225.32 | not yet |
-| D | 63.51 | 64.29 | +1.2% | 62.13 | not yet |
-| BG | 117.13 | 119.31 | +1.9% | 110.31 | not yet |
+| CATY | 61.89 | 62.25 | +0.6% | 60.69 | not yet |
+| CVSA | 127.64 | 126.72 | -0.7% | 117.83 | not yet |
+| D | 63.51 | 63.58 | +0.1% | 62.13 | not yet |
+| BG | 117.13 | 115.58 | -1.3% | 110.31 | not yet |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 
-_Record: 10 closed, 50% winners, $-1.68 net, balance $998.32._
-_All signals: 1678 closed, 30% profitable, -2.18% avg._
+_Record: 11 closed, 45% winners, $-11.73 net, balance $988.27._
+_All signals: 1751 closed, 30% profitable, -2.15% avg._

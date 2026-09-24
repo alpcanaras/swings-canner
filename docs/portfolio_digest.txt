@@ -1,16 +1,12 @@
-# Trade sheet — 2026-09-21
+# Trade sheet — 2026-09-23
 
 ## Sell
 
-| ticker | in | out | P&L | why |
-|---|---|---|---|---|
-| CATY | 61.89 | 61.48 | -0.7% ($-1.52) | 20-day backstop |
+Nothing to sell.
 
 ## Buy
 
-| ticker | setup | signal px | stop $ | stop % | trail | size |
-|---|---|---|---|---|---|---|
-| ACAD | mean reversion | 26.40 | 24.71 | -6.4% | 2xATR = $1.69 | $200 = 7.576 sh |
+Nothing to buy — slots full or no setups.
 
 ## Holding — updated stops
 
@@ -20,8 +16,9 @@
 | D | 63.51 | 62.82 | -1.1% | 62.13 | not yet |
 | BG | 117.13 | 112.61 | -3.9% | 110.31 | not yet |
 | ALKS | 43.39 | 44.18 | +1.8% | 41.04 | not yet |
+| ACAD | 26.40 | 26.40 | -0.0% | 24.71 | not yet |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 
 _Record: 12 closed, 42% winners, $-13.26 net, balance $986.74._
-_All signals: 1800 closed, 30% profitable, -2.07% avg._
+_All signals: 1834 closed, 31% profitable, -1.94% avg._

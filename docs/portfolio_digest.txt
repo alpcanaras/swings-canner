@@ -1,24 +1,28 @@
-# Trade sheet — 2026-09-23
+# Trade sheet — 2026-09-24
 
 ## Sell
 
-Nothing to sell.
+| ticker | in | out | P&L | why |
+|---|---|---|---|---|
+| D | 63.51 | 62.13 | -2.2% ($-4.56) | trailing stop |
+| BG | 117.13 | 110.31 | -5.8% ($-11.85) | trailing stop |
 
 ## Buy
 
-Nothing to buy — slots full or no setups.
+| ticker | setup | signal px | stop $ | stop % | trail | size |
+|---|---|---|---|---|---|---|
+| ABNB | mean reversion | 149.58 | 138.29 | -7.5% | 2xATR = $11.31 | $200 = 1.337 sh |
+| VIRT | mean reversion | 53.01 | 48.17 | -9.1% | 2xATR = $4.85 | $200 = 3.773 sh |
 
 ## Holding — updated stops
 
 | ticker | entry | now | P&L | stop now | locked in |
 |---|---|---|---|---|---|
-| CVSA | 127.64 | 125.79 | -1.4% | 117.83 | not yet |
-| D | 63.51 | 62.82 | -1.1% | 62.13 | not yet |
-| BG | 117.13 | 112.61 | -3.9% | 110.31 | not yet |
-| ALKS | 43.39 | 44.18 | +1.8% | 41.04 | not yet |
-| ACAD | 26.40 | 26.40 | -0.0% | 24.71 | not yet |
+| CVSA | 127.64 | 123.19 | -3.5% | 117.83 | not yet |
+| ALKS | 43.39 | 42.13 | -2.9% | 41.04 | not yet |
+| ACAD | 26.40 | 25.43 | -3.7% | 24.71 | not yet |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 
-_Record: 12 closed, 42% winners, $-13.26 net, balance $986.74._
-_All signals: 1834 closed, 31% profitable, -1.94% avg._
+_Record: 14 closed, 36% winners, $-29.66 net, balance $970.34._
+_All signals: 1954 closed, 30% profitable, -1.99% avg._

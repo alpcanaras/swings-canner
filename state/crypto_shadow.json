@@ -9,7 +9,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-07",
-   "days": 17,
+   "days": 18,
    "families": [
     "momentum"
    ],
@@ -25,7 +25,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-16",
-   "days": 8,
+   "days": 9,
    "families": [
     "gap",
     "mean reversion"
@@ -42,7 +42,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-16",
-   "days": 8,
+   "days": 9,
    "families": [
     "mean reversion"
    ],
@@ -58,7 +58,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-16",
-   "days": 8,
+   "days": 9,
    "families": [
     "mean reversion"
    ],
@@ -69,12 +69,12 @@
    "ticker": "LINK",
    "side": "LONG",
    "entry": 10.893,
-   "stop": 11.9305,
+   "stop": 11.9956,
    "shares": 9.180207472688883,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-16",
-   "days": 8,
+   "days": 9,
    "families": [
     "mean reversion"
    ],
@@ -85,12 +85,12 @@
    "ticker": "LTC",
    "side": "LONG",
    "entry": 51.072,
-   "stop": 58.3346,
+   "stop": 65.0289,
    "shares": 1.958020050125313,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-16",
-   "days": 8,
+   "days": 9,
    "families": [
     "mean reversion"
    ],
@@ -101,12 +101,12 @@
    "ticker": "ICP",
    "side": "LONG",
    "entry": 2.4868,
-   "stop": 2.6826,
+   "stop": 2.7522,
    "shares": 40.2123210551713,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-16",
-   "days": 8,
+   "days": 9,
    "families": [
     "mean reversion"
    ],
@@ -117,12 +117,12 @@
    "ticker": "NEAR",
    "side": "LONG",
    "entry": 2.6547,
-   "stop": 3.7735,
+   "stop": 3.9176,
    "shares": 37.669039816175086,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-17",
-   "days": 7,
+   "days": 8,
    "families": [
     "momentum"
    ],
@@ -138,7 +138,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-17",
-   "days": 7,
+   "days": 8,
    "families": [
     "mean reversion"
    ],
@@ -154,7 +154,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-18",
-   "days": 6,
+   "days": 7,
    "families": [
     "gap"
    ],
@@ -170,7 +170,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-18",
-   "days": 6,
+   "days": 7,
    "families": [
     "gap"
    ],
@@ -186,7 +186,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-19",
-   "days": 5,
+   "days": 6,
    "families": [
     "gap"
    ],
@@ -202,7 +202,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-21",
-   "days": 3,
+   "days": 4,
    "families": [
     "momentum"
    ],
@@ -218,7 +218,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-23",
-   "days": 1,
+   "days": 2,
    "families": [
     "momentum"
    ],
@@ -228,62 +228,66 @@
    "ticker": "ADA",
    "side": "LONG",
    "entry": 0.2379,
-   "stop": 0.2111,
+   "stop": 0.224,
    "shares": 420.3446826397646,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-24",
-   "days": 0,
+   "days": 1,
    "families": [
     "gap"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "DOGE",
    "side": "LONG",
    "entry": 0.0929,
-   "stop": 0.0825,
+   "stop": 0.0859,
    "shares": 1076.4262648008612,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-24",
-   "days": 0,
+   "days": 1,
    "families": [
     "gap"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "AVAX",
    "side": "LONG",
    "entry": 10.216,
-   "stop": 8.9299,
+   "stop": 9.0387,
    "shares": 9.788566953797964,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-24",
-   "days": 0,
+   "days": 1,
    "families": [
     "gap"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "DOT",
    "side": "LONG",
    "entry": 1.0964,
-   "stop": 0.9437,
+   "stop": 1.0087,
    "shares": 91.20758847136081,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-24",
-   "days": 0,
+   "days": 1,
    "families": [
     "gap",
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   }
  ],
  "closed": [

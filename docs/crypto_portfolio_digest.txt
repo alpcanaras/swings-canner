@@ -1,4 +1,4 @@
-# Trade sheet — 2026-09-25
+# Trade sheet — 2026-09-26
 
 ## Sell
 
@@ -12,11 +12,11 @@ Nothing to buy — slots full or no setups.
 
 | ticker | entry | now | P&L | stop now | locked in |
 |---|---|---|---|---|---|
-| ETH | 2,515.46 | 2,695.29 | +7.1% | 2,576.06 | +2.4% |
-| INJ | 5.43 | 8.01 | +47.5% | 7.00 | +28.9% |
-| BTC | 75,674.29 | 84,668.68 | +11.9% | 82,030.69 | +8.4% |
-| SOL | 96.90 | 117.74 | +21.5% | 109.83 | +13.3% |
-| LINK | 10.89 | 13.33 | +22.3% | 12.00 | +10.1% |
+| ETH | 2,515.46 | 2,690.84 | +7.0% | 2,576.06 | +2.4% |
+| INJ | 5.43 | 7.95 | +46.4% | 7.00 | +28.9% |
+| BTC | 75,674.29 | 83,952.55 | +10.9% | 82,030.69 | +8.4% |
+| SOL | 96.90 | 121.76 | +25.7% | 111.82 | +15.4% |
+| LINK | 10.89 | 14.02 | +28.7% | 12.61 | +15.8% |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 

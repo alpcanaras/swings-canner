@@ -1,29 +1,29 @@
-# Crypto risk screen — 25 Sep 2026
+# Crypto risk screen — 26 Sep 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1700.5B, +11%/7d) — risk LOWER: modest liquidity (2.2%)
-- ETH (Ethereum, $328.8B, +10%/7d) — risk LOWER: modest liquidity (4.5%)
-- BNB (BNB, $103.6B, +5%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.0% — hard to exit)
-- XRP (XRP, $97.4B, +19%/7d) — risk LOWER: modest liquidity (4.6%)
-- SOL (Solana, $69.1B, +16%/7d) — risk LOWER: no major red flags in market data
-- DOGE (Dogecoin, $15.1B, +18%/7d) — risk LOWER: no major red flags in market data
+- BTC (Bitcoin, $1686.7B, +4%/7d) — risk LOWER: modest liquidity (2.1%)
+- ETH (Ethereum, $328.5B, +3%/7d) — risk LOWER: modest liquidity (4.3%)
+- BNB (BNB, $103.4B, +2%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.0% — hard to exit)
+- XRP (XRP, $98.6B, +12%/7d) — risk LOWER: no major red flags in market data
+- SOL (Solana, $71.6B, +8%/7d) — risk LOWER: no major red flags in market data
+- DOGE (Dogecoin, $15.4B, +13%/7d) — risk LOWER: no major red flags in market data
 
 ## Small-cap discovery — RESEARCH ONLY, NOT PICKS
 
 > Most of these will fail. A public feed cannot find gems before insiders. This tool cannot see rug-pulls, honeypots or fake volume. Treat every name as guilty until proven safe with real due diligence.
 
-- AURORA (Aurora, $63M, +422%/7d) — risk LOWER: small-cap
 - REUR (Royal Euro, $62M, +261%/7d) — risk MEDIUM: small-cap; only 0% of supply circulating (future dilution); near all-time high (-0% from ATH — chasing risk)
-- ALEO (ALEO, $66M, +199%/7d) — risk LOWER: small-cap
-- NIL (Nillion, $57M, +162%/7d) — risk LOWER: small-cap
-- ZAMA (Zama, $219M, +77%/7d) — risk MEDIUM: small-cap; only 22% of supply circulating (future dilution)
-- AIOZ (AIOZ Network, $155M, +74%/7d) — risk LOWER: small-cap
-- SN53 (EfficientFrontier, $58M, +64%/7d) — risk LOWER: small-cap
-- DBR (deBridge, $148M, +59%/7d) — risk LOWER: small-cap
-- ALCH (Alchemist AI, $55M, +58%/7d) — risk MEDIUM: small-cap; modest liquidity (3.3%)
-- S (Sonic, $159M, +51%/7d) — risk LOWER: small-cap
-- MINA (Mina Protocol, $187M, +49%/7d) — risk LOWER: small-cap
-- ARX (Arcium, $53M, +48%/7d) — risk MEDIUM: small-cap; only 21% of supply circulating (future dilution)
+- AURORA (Aurora, $58M, +249%/7d) — risk LOWER: small-cap
+- PHA (PHALA, $75M, +162%/7d) — risk LOWER: small-cap
+- NIL (Nillion, $58M, +149%/7d) — risk LOWER: small-cap
+- ORBIO (Orbio.so, $70M, +86%/7d) — risk LOWER: small-cap
+- ARK (ARK, $51M, +78%/7d) — risk LOWER: small-cap
+- MUBARAK (Mubarak, $57M, +75%/7d) — risk LOWER: small-cap
+- SN53 (EfficientFrontier, $64M, +68%/7d) — risk MEDIUM: small-cap; near all-time high (-11% from ATH — chasing risk)
+- AIOZ (AIOZ Network, $158M, +52%/7d) — risk MEDIUM: small-cap; modest liquidity (4.9%)
+- TREAD (Tread.fi, $81M, +51%/7d) — risk MEDIUM: small-cap; modest liquidity (3.5%); near all-time high (-10% from ATH — chasing risk)
+- ZAMA (Zama, $222M, +51%/7d) — risk MEDIUM: small-cap; only 22% of supply circulating (future dilution)
+- ZETA (ZetaChain, $88M, +48%/7d) — risk LOWER: small-cap
 
 _Objective market-data signals only — no contract audit, no holder analysis. Not financial advice; not a licensed adviser._

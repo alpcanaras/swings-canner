@@ -6,23 +6,25 @@
 |---|---|---|---|---|
 | D | 63.51 | 62.13 | -2.2% ($-4.56) | trailing stop |
 | BG | 117.13 | 110.31 | -5.8% ($-11.85) | trailing stop |
+| ALKS | 43.39 | 41.04 | -5.4% ($-11.02) | trailing stop |
+| ACAD | 26.40 | 24.28 | -8.0% ($-16.24) | gapped through the stop |
 
 ## Buy
 
 | ticker | setup | signal px | stop $ | stop % | trail | size |
 |---|---|---|---|---|---|---|
-| ABNB | mean reversion | 149.58 | 138.29 | -7.5% | 2xATR = $11.31 | $200 = 1.337 sh |
-| VIRT | mean reversion | 53.01 | 48.17 | -9.1% | 2xATR = $4.85 | $200 = 3.773 sh |
+| ABNB | mean reversion | 149.58 | 140.43 | -6.1% | 2xATR = $11.31 | $200 = 1.337 sh |
+| VIRT | mean reversion | 53.01 | 48.18 | -9.1% | 2xATR = $4.85 | $200 = 3.773 sh |
+| ACT | mean reversion | 47.25 | 45.33 | -4.1% | 2xATR = $1.93 | $200 = 4.233 sh |
+| CB | mean reversion | 334.84 | 324.49 | -3.1% | 2xATR = $10.38 | $200 = 0.5973 sh |
 
 ## Holding — updated stops
 
 | ticker | entry | now | P&L | stop now | locked in |
 |---|---|---|---|---|---|
-| CVSA | 127.64 | 123.19 | -3.5% | 117.83 | not yet |
-| ALKS | 43.39 | 42.13 | -2.9% | 41.04 | not yet |
-| ACAD | 26.40 | 25.43 | -3.7% | 24.71 | not yet |
+| CVSA | 127.64 | 124.16 | -2.7% | 117.83 | not yet |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 
-_Record: 14 closed, 36% winners, $-29.66 net, balance $970.34._
-_All signals: 1954 closed, 30% profitable, -1.99% avg._
+_Record: 16 closed, 31% winners, $-56.92 net, balance $943.08._
+_All signals: 2016 closed, 30% profitable, -1.95% avg._

@@ -1,24 +1,27 @@
-# Trade sheet — 2026-09-26
+# Trade sheet — 2026-09-27
 
 ## Sell
 
-Nothing to sell.
+| ticker | in | out | P&L | why |
+|---|---|---|---|---|
+| ETH | 2,515.46 | 2,692.08 | +7.0% ($+13.84) | 20-day backstop |
 
 ## Buy
 
-Nothing to buy — slots full or no setups.
+| ticker | setup | signal px | stop $ | stop % | trail | size |
+|---|---|---|---|---|---|---|
+| AAVE | momentum | 154.88 | 137.65 | -11.1% | 2xATR = $17.22 | $200 = 1.291 sh |
 
 ## Holding — updated stops
 
 | ticker | entry | now | P&L | stop now | locked in |
 |---|---|---|---|---|---|
-| ETH | 2,515.46 | 2,690.84 | +7.0% | 2,576.06 | +2.4% |
-| INJ | 5.43 | 7.95 | +46.4% | 7.00 | +28.9% |
-| BTC | 75,674.29 | 83,952.55 | +10.9% | 82,030.69 | +8.4% |
-| SOL | 96.90 | 121.76 | +25.7% | 111.82 | +15.4% |
-| LINK | 10.89 | 14.02 | +28.7% | 12.61 | +15.8% |
+| INJ | 5.43 | 7.70 | +41.9% | 7.00 | +28.9% |
+| BTC | 75,674.29 | 84,275.92 | +11.4% | 82,030.69 | +8.4% |
+| SOL | 96.90 | 120.80 | +24.7% | 111.82 | +15.4% |
+| LINK | 10.89 | 14.05 | +29.0% | 12.70 | +16.5% |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 
-_Record: 12 closed, 8% winners, $-139.45 net, balance $860.55._
-_All signals: 12 closed, 8% profitable, -5.71% avg._
+_Record: 13 closed, 15% winners, $-125.61 net, balance $874.39._
+_All signals: 13 closed, 15% profitable, -4.73% avg._

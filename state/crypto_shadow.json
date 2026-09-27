@@ -1,22 +1,6 @@
 {
  "open": [
   {
-   "ticker": "ETH",
-   "side": "LONG",
-   "entry": 2515.46,
-   "stop": 2576.0642,
-   "shares": 0.039754160272872555,
-   "notional": 100.0,
-   "cost": 0.1,
-   "date": "2026-09-07",
-   "days": 19,
-   "families": [
-    "momentum"
-   ],
-   "n_signals": 1,
-   "trailed": true
-  },
-  {
    "ticker": "INJ",
    "side": "LONG",
    "entry": 5.428,
@@ -25,7 +9,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-16",
-   "days": 10,
+   "days": 11,
    "families": [
     "gap",
     "mean reversion"
@@ -42,7 +26,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-16",
-   "days": 10,
+   "days": 11,
    "families": [
     "mean reversion"
    ],
@@ -58,7 +42,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-16",
-   "days": 10,
+   "days": 11,
    "families": [
     "mean reversion"
    ],
@@ -69,12 +53,12 @@
    "ticker": "LINK",
    "side": "LONG",
    "entry": 10.893,
-   "stop": 12.6132,
+   "stop": 12.6951,
    "shares": 9.180207472688883,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-16",
-   "days": 10,
+   "days": 11,
    "families": [
     "mean reversion"
    ],
@@ -90,7 +74,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-16",
-   "days": 10,
+   "days": 11,
    "families": [
     "mean reversion"
    ],
@@ -101,12 +85,12 @@
    "ticker": "ICP",
    "side": "LONG",
    "entry": 2.4868,
-   "stop": 2.8067,
+   "stop": 2.8267,
    "shares": 40.2123210551713,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-16",
-   "days": 10,
+   "days": 11,
    "families": [
     "mean reversion"
    ],
@@ -117,12 +101,12 @@
    "ticker": "NEAR",
    "side": "LONG",
    "entry": 2.6547,
-   "stop": 4.1706,
+   "stop": 4.2879,
    "shares": 37.669039816175086,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-17",
-   "days": 9,
+   "days": 10,
    "families": [
     "momentum"
    ],
@@ -138,7 +122,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-17",
-   "days": 9,
+   "days": 10,
    "families": [
     "mean reversion"
    ],
@@ -154,7 +138,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-18",
-   "days": 8,
+   "days": 9,
    "families": [
     "gap"
    ],
@@ -165,12 +149,12 @@
    "ticker": "FIL",
    "side": "LONG",
    "entry": 0.8508,
-   "stop": 0.8945,
+   "stop": 0.9649,
    "shares": 117.53643629525153,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-18",
-   "days": 8,
+   "days": 9,
    "families": [
     "gap"
    ],
@@ -186,7 +170,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-19",
-   "days": 7,
+   "days": 8,
    "families": [
     "gap"
    ],
@@ -202,7 +186,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-21",
-   "days": 5,
+   "days": 6,
    "families": [
     "momentum"
    ],
@@ -218,7 +202,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-23",
-   "days": 3,
+   "days": 4,
    "families": [
     "momentum"
    ],
@@ -233,7 +217,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-24",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap"
    ],
@@ -249,7 +233,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-24",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap"
    ],
@@ -260,12 +244,12 @@
    "ticker": "AVAX",
    "side": "LONG",
    "entry": 10.216,
-   "stop": 9.4095,
+   "stop": 9.5083,
    "shares": 9.788566953797964,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-24",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap"
    ],
@@ -276,18 +260,33 @@
    "ticker": "DOT",
    "side": "LONG",
    "entry": 1.0964,
-   "stop": 1.0791,
+   "stop": 1.0864,
    "shares": 91.20758847136081,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-24",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
    ],
    "n_signals": 2,
    "trailed": true
+  },
+  {
+   "ticker": "ETH",
+   "side": "LONG",
+   "entry": 2692.0801,
+   "stop": 2506.2526,
+   "shares": 0.037145997253202084,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-09-27",
+   "days": 0,
+   "families": [
+    "gap"
+   ],
+   "n_signals": 1
   }
  ],
  "closed": [
@@ -547,6 +546,28 @@
    "net": -9.748302138021524,
    "pct": -9.648302138021524,
    "reason": "gapped through the stop"
+  },
+  {
+   "ticker": "ETH",
+   "side": "LONG",
+   "entry": 2515.46,
+   "stop": 2576.0642,
+   "shares": 0.039754160272872555,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-09-07",
+   "days": 20,
+   "families": [
+    "momentum"
+   ],
+   "n_signals": 1,
+   "trailed": true,
+   "exit": 2692.080078125,
+   "exit_date": "2026-09-27",
+   "gross": 7.0213828931885205,
+   "net": 6.921382893188521,
+   "pct": 7.02138289318852,
+   "reason": "20-day backstop"
   }
  ],
  "started": "2026-08-21"

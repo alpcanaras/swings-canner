@@ -1,44 +1,41 @@
-$SUI-USD: possibly delisted; no timezone found
 $PEPE-USD: possibly delisted; no timezone found
 $APT-USD: possibly delisted; no timezone found
-$GRT-USD: possibly delisted; no timezone found
 $UNI-USD: possibly delisted; no timezone found
+$GRT-USD: possibly delisted; no timezone found
 $IMX-USD: possibly delisted; no timezone found
+$SUI-USD: possibly delisted; no timezone found
 
 6 Failed downloads:
-['SUI-USD', 'PEPE-USD', 'APT-USD', 'GRT-USD', 'UNI-USD', 'IMX-USD']: possibly delisted; no timezone found
+['PEPE-USD', 'APT-USD', 'UNI-USD', 'GRT-USD', 'IMX-USD', 'SUI-USD']: possibly delisted; no timezone found
 Downloading 40 tickers (8y daily)...
   usable: 34 tickers
-# Crypto brief — 2026-09-26
+# Crypto brief — 2026-09-27
 
 ## Regime: RISK-ON 
 
 Trend is up. History says this is when holding majors paid — and a simple 'stay long while BTC is above its 200-day' rule kept you in for it.
 
-- BTC $83,953 — above its 200-day (70,929); -12% from the 1-year high; +3% in 30d.
+- BTC $84,276 — above its 200-day (71,001); -10% from the 1-year high; +6% in 30d.
 - Breadth: 31/34 majors above their 200-day (91%).
 
 
-CRYPTO SWING (experimental, underperformed holding) — 2026-09-26 (universe: 34 coins)
-ticker side  score      close                                           signals  RS_3m_%  ATR%       stop  min_KO_dist earnings  expected_pct
-   SOL LONG   0.66   121.7600                         Donchian 20d breakout (L)     20.2  4.08   111.8215      14.9078      n/a          1.59
-  LINK LONG   0.66    14.0220                         Donchian 20d breakout (L)     23.6  5.02    12.6132       2.1131      n/a          1.59
-   LTC LONG   0.66    72.7980                         Donchian 20d breakout (L)     12.5  4.46    66.3019       9.7442      n/a          1.59
-   ICP LONG   0.66     3.1730                         Donchian 20d breakout (L)      3.8  5.77     2.8067       0.5494      n/a          1.59
-  AAVE LONG   0.66   155.8600                         Donchian 20d breakout (L)     22.9  5.71   138.0494      26.7158      n/a          1.59
-  NEAR LONG   0.66     4.9121 IBS mean-reversion (L), Donchian 20d breakout (L)    127.4  7.55     4.1706       1.1123      n/a          0.89
-   XLM LONG   0.66     0.2198                         Donchian 20d breakout (L)    -21.0  5.32     0.1964       0.0351      n/a          1.59
-   ETH LONG   0.11  2690.8401                                    FVG retest (L)      0.0  3.53  2500.7725     285.1013      n/a          0.30
-   BTC LONG   0.11 83952.5469                                    FVG retest (L)    -13.7  2.78 79279.2086    7010.0074      n/a          0.30
-   BNB LONG   0.11   776.1800                                    FVG retest (L)     -7.1  2.87   731.5962      66.8756      n/a          0.30
+CRYPTO SWING (experimental, underperformed holding) — 2026-09-27 (universe: 34 coins)
+ticker side  score      close                                            signals  RS_3m_%  ATR%       stop  min_KO_dist earnings  expected_pct
+  AAVE LONG   0.66   154.8800                          Donchian 20d breakout (L)     26.5  5.56   137.6477      25.8484      n/a         1.590
+  NEAR LONG   0.66     5.0497                          Donchian 20d breakout (L)    140.0  7.54     4.2879       1.1427      n/a         1.590
+  LINK LONG   0.66    14.0520  IBS mean-reversion (L), Donchian 20d breakout (L)     25.9  4.83    12.6951       2.0353      n/a         0.890
+  DOGE LONG   0.11     0.0962             IBS mean-reversion (L), FVG retest (L)     -7.7  5.48     0.0856       0.0158      n/a         0.245
+   ETH LONG   0.11  2692.0801                                     FVG retest (L)      1.8  3.45  2506.2526     278.7413      n/a         0.300
+   BTC LONG   0.11 84275.9219                                     FVG retest (L)    -10.9  2.72 79683.0766    6889.2679      n/a         0.300
+   INJ LONG   0.05     7.7000 IBS mean-reversion (L), 7-day extreme pullback (L)      9.9  7.87     6.4876       1.8186      n/a         0.180
 Written docs/crypto.html
-Crypto paper: 12 closed, -139.45 net
+Crypto paper: 13 closed, -125.61 net
 Written docs/crypto_portfolio.html
-# Crypto risk screen — 26 Sep 2026
+# Crypto risk screen — 27 Sep 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1686.7B, +4%/7d) — risk LOWER: modest liquidity (2.1%)
-- ETH (Ethereum, $328.5B, +3%/7d) — risk LOWER: modest liquidity (4.3%)
+- BTC (Bitcoin, $1693.4B, +4%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.0% — hard to exit)
+- ETH (Ethereum, $328.8B, +2%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.8% — hard to exit)
 
 Written docs/crypto_screen.html and docs/crypto_screen_digest.txt

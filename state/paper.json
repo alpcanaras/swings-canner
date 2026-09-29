@@ -1,30 +1,15 @@
 {
  "open": [
   {
-   "ticker": "CVSA",
-   "side": "LONG",
-   "entry": 127.64,
-   "stop": 117.8328,
-   "shares": 1.5669069257286117,
-   "notional": 200.0,
-   "cost": 0.2,
-   "date": "2026-09-03",
-   "days": 15,
-   "viable": false,
-   "atr_pct": 4.39,
-   "setup": "mean reversion",
-   "trailed": true
-  },
-  {
    "ticker": "ABNB",
    "side": "LONG",
    "entry": 149.58,
-   "stop": 140.4269,
+   "stop": 144.9818,
    "shares": 1.3370771493515174,
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-09-24",
-   "days": 1,
+   "days": 2,
    "viable": false,
    "atr_pct": 3.78,
    "setup": "mean reversion",
@@ -39,7 +24,7 @@
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-09-24",
-   "days": 1,
+   "days": 2,
    "viable": false,
    "atr_pct": 4.57,
    "setup": "mean reversion",
@@ -54,7 +39,7 @@
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-09-24",
-   "days": 0,
+   "days": 1,
    "viable": false,
    "atr_pct": 2.04,
    "setup": "mean reversion"
@@ -68,9 +53,23 @@
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-09-24",
-   "days": 0,
+   "days": 1,
    "viable": false,
    "atr_pct": 1.55,
+   "setup": "mean reversion"
+  },
+  {
+   "ticker": "ADM",
+   "side": "LONG",
+   "entry": 80.38,
+   "stop": 75.62,
+   "shares": 2.488181139586962,
+   "notional": 200.0,
+   "cost": 0.2,
+   "date": "2026-09-28",
+   "days": 0,
+   "viable": false,
+   "atr_pct": 2.96,
    "setup": "mean reversion"
   }
  ],
@@ -408,6 +407,27 @@
    "net": -16.241824514215622,
    "pct": -8.020912257107812,
    "reason": "gapped through the stop"
+  },
+  {
+   "ticker": "CVSA",
+   "side": "LONG",
+   "entry": 127.64,
+   "stop": 117.8328,
+   "shares": 1.5669069257286117,
+   "notional": 200.0,
+   "cost": 0.2,
+   "date": "2026-09-03",
+   "days": 16,
+   "viable": false,
+   "atr_pct": 4.39,
+   "setup": "mean reversion",
+   "trailed": true,
+   "exit": 117.8328,
+   "exit_date": "2026-09-28",
+   "gross": -15.366969602005632,
+   "net": -15.566969602005631,
+   "pct": -7.683484801002816,
+   "reason": "trailing stop"
   }
  ],
  "started": "2026-08-09"

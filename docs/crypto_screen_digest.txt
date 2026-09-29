@@ -1,29 +1,29 @@
-# Crypto risk screen — 28 Sep 2026
+# Crypto risk screen — 29 Sep 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1686.1B, +4%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.4% — hard to exit)
-- ETH (Ethereum, $325.7B, +1%/7d) — risk LOWER: modest liquidity (2.9%)
-- BNB (BNB, $103.5B, +1%/7d) — risk MEDIUM: thin liquidity (vol/mcap 0.7% — hard to exit)
-- XRP (XRP, $95.0B, +7%/7d) — risk LOWER: modest liquidity (3.0%)
-- SOL (Solana, $71.4B, +10%/7d) — risk LOWER: no major red flags in market data
-- DOGE (Dogecoin, $15.0B, +11%/7d) — risk LOWER: no major red flags in market data
+- BTC (Bitcoin, $1667.4B, -3%/7d) — risk LOWER: modest liquidity (2.4%)
+- ETH (Ethereum, $324.3B, -3%/7d) — risk LOWER: modest liquidity (5.0%)
+- BNB (BNB, $100.6B, -5%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.0% — hard to exit)
+- XRP (XRP, $92.7B, -3%/7d) — risk LOWER: modest liquidity (4.5%)
+- SOL (Solana, $68.6B, -1%/7d) — risk LOWER: no major red flags in market data
+- DOGE (Dogecoin, $14.4B, -7%/7d) — risk LOWER: no major red flags in market data
 
 ## Small-cap discovery — RESEARCH ONLY, NOT PICKS
 
 > Most of these will fail. A public feed cannot find gems before insiders. This tool cannot see rug-pulls, honeypots or fake volume. Treat every name as guilty until proven safe with real due diligence.
 
-- RHEA (RHEA, $68M, +432%/7d) — risk LOWER: small-cap
 - REUR (Royal Euro, $62M, +261%/7d) — risk MEDIUM: small-cap; only 0% of supply circulating (future dilution); near all-time high (-0% from ATH — chasing risk)
-- AURORA (Aurora, $51M, +238%/7d) — risk LOWER: small-cap
-- CLOUD (Cloud, $53M, +134%/7d) — risk MEDIUM: small-cap; modest liquidity (3.5%)
-- US (Talus, $82M, +87%/7d) — risk MEDIUM: small-cap; only 29% of supply circulating (future dilution)
-- PHA (PHALA, $57M, +79%/7d) — risk LOWER: small-cap
-- SOON (SOON, $109M, +77%/7d) — risk MEDIUM: small-cap; only 3% of supply circulating (future dilution)
-- MUBARAK (Mubarak, $52M, +59%/7d) — risk LOWER: small-cap
-- ORBIO (Orbio.so, $84M, +58%/7d) — risk LOWER: small-cap
-- ALCH (Alchemist AI, $59M, +51%/7d) — risk LOWER: small-cap
-- MCAT (Marscat Token, $74M, +51%/7d) — risk MEDIUM: small-cap; modest liquidity (3.8%); only 9% of supply circulating (future dilution)
-- MET (Meteora, $201M, +44%/7d) — risk LOWER: small-cap
+- US (Talus, $93M, +85%/7d) — risk MEDIUM: small-cap; only 29% of supply circulating (future dilution)
+- NMR (Numeraire, $102M, +52%/7d) — risk LOWER: small-cap
+- MARSCOIN (MarsCoin, $157M, +50%/7d) — risk LOWER: small-cap
+- SOON (SOON, $100M, +49%/7d) — risk MEDIUM: small-cap; only 3% of supply circulating (future dilution)
+- MUBARAK (Mubarak, $58M, +30%/7d) — risk LOWER: small-cap
+- CAP (Cap, $89M, +27%/7d) — risk MEDIUM: small-cap; only 16% of supply circulating (future dilution)
+- PROM (Prom, $115M, +26%/7d) — risk LOWER: small-cap
+- ARX (Arcium, $52M, +26%/7d) — risk MEDIUM: small-cap; only 21% of supply circulating (future dilution)
+- AMP (Amp, $55M, +26%/7d) — risk LOWER: small-cap
+- 2Z (DoubleZero, $226M, +25%/7d) — risk MEDIUM: small-cap; only 35% of supply circulating (future dilution)
+- SUPER (SuperVerse, $121M, +25%/7d) — risk LOWER: small-cap
 
 _Objective market-data signals only — no contract audit, no holder analysis. Not financial advice; not a licensed adviser._

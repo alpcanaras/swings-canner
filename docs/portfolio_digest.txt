@@ -1,16 +1,12 @@
-# Trade sheet — 2026-09-28
+# Trade sheet — 2026-09-29
 
 ## Sell
 
-| ticker | in | out | P&L | why |
-|---|---|---|---|---|
-| CVSA | 127.64 | 117.83 | -7.7% ($-15.57) | trailing stop |
+Nothing to sell.
 
 ## Buy
 
-| ticker | setup | signal px | stop $ | stop % | trail | size |
-|---|---|---|---|---|---|---|
-| ADM | mean reversion | 80.38 | 75.62 | -5.9% | 2xATR = $4.76 | $200 = 2.488 sh |
+Nothing to buy — slots full or no setups.
 
 ## Holding — updated stops
 
@@ -20,8 +16,9 @@
 | VIRT | 53.01 | 51.97 | -2.0% | 48.18 | not yet |
 | ACT | 47.25 | 46.94 | -0.7% | 45.33 | not yet |
 | CB | 334.84 | 331.37 | -1.0% | 324.49 | not yet |
+| ADM | 80.38 | 80.38 | -0.0% | 75.62 | not yet |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 
 _Record: 17 closed, 29% winners, $-72.49 net, balance $927.51._
-_All signals: 2087 closed, 30% profitable, -1.96% avg._
+_All signals: 2110 closed, 31% profitable, -1.85% avg._

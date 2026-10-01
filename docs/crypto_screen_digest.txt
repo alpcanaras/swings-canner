@@ -1,29 +1,29 @@
-# Crypto risk screen — 30 Sep 2026
+# Crypto risk screen — 01 Oct 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1675.5B, -3%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.7% — hard to exit)
-- ETH (Ethereum, $326.1B, -3%/7d) — risk LOWER: modest liquidity (4.7%)
-- BNB (BNB, $101.1B, -4%/7d) — risk MEDIUM: thin liquidity (vol/mcap 0.9% — hard to exit)
-- XRP (XRP, $94.5B, -5%/7d) — risk LOWER: modest liquidity (4.1%)
-- SOL (Solana, $70.2B, +0%/7d) — risk LOWER: modest liquidity (5.0%)
-- DOGE (Dogecoin, $14.7B, -7%/7d) — risk LOWER: no major red flags in market data
+- BTC (Bitcoin, $1678.0B, -1%/7d) — risk LOWER: modest liquidity (2.1%)
+- ETH (Ethereum, $328.2B, +0%/7d) — risk LOWER: modest liquidity (4.2%)
+- BNB (BNB, $102.4B, +0%/7d) — risk MEDIUM: thin liquidity (vol/mcap 0.8% — hard to exit)
+- XRP (XRP, $94.1B, -1%/7d) — risk LOWER: modest liquidity (3.2%)
+- SOL (Solana, $69.5B, +3%/7d) — risk LOWER: no major red flags in market data
+- DOGE (Dogecoin, $14.8B, +2%/7d) — risk LOWER: no major red flags in market data
 
 ## Small-cap discovery — RESEARCH ONLY, NOT PICKS
 
 > Most of these will fail. A public feed cannot find gems before insiders. This tool cannot see rug-pulls, honeypots or fake volume. Treat every name as guilty until proven safe with real due diligence.
 
 - REUR (Royal Euro, $62M, +261%/7d) — risk MEDIUM: small-cap; only 0% of supply circulating (future dilution); near all-time high (-0% from ATH — chasing risk)
-- SOON (SOON, $138M, +113%/7d) — risk MEDIUM: small-cap; only 3% of supply circulating (future dilution)
-- ARK (ARK, $50M, +59%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
-- PHA (PHALA, $61M, +45%/7d) — risk LOWER: small-cap
-- 0G (0G, $72M, +38%/7d) — risk MEDIUM: small-cap; only 21% of supply circulating (future dilution)
-- AMP (Amp, $57M, +28%/7d) — risk LOWER: small-cap
-- CAP (Cap, $94M, +28%/7d) — risk MEDIUM: small-cap; only 16% of supply circulating (future dilution)
-- KMNO (Kamino, $244M, +26%/7d) — risk LOWER: small-cap
-- HUMA (Huma Finance, $52M, +23%/7d) — risk MEDIUM: small-cap; only 17% of supply circulating (future dilution)
-- PROM (Prom, $108M, +21%/7d) — risk LOWER: small-cap
-- PEAQ (peaq, $108M, +20%/7d) — risk MEDIUM: small-cap; modest liquidity (3.3%)
-- ARX (Arcium, $55M, +20%/7d) — risk MEDIUM: small-cap; only 21% of supply circulating (future dilution)
+- SOON (SOON, $170M, +158%/7d) — risk MEDIUM: small-cap; only 3% of supply circulating (future dilution)
+- SHX (Stronghold, $123M, +83%/7d) — risk MEDIUM: small-cap; modest liquidity (3.3%); only 19% of supply circulating (future dilution)
+- ARK (ARK, $57M, +82%/7d) — risk LOWER: small-cap
+- LCX (LCX, $54M, +80%/7d) — risk LOWER: small-cap
+- QUBIC (Qubic, $97M, +72%/7d) — risk LOWER: small-cap
+- PHA (PHALA, $63M, +57%/7d) — risk LOWER: small-cap
+- US (Talus, $75M, +34%/7d) — risk MEDIUM: small-cap; only 29% of supply circulating (future dilution)
+- TRAC (OriginTrail, $226M, +34%/7d) — risk LOWER: small-cap
+- PROS (Pharos, $99M, +31%/7d) — risk MEDIUM: small-cap; only 14% of supply circulating (future dilution)
+- AMP (Amp, $57M, +30%/7d) — risk LOWER: small-cap
+- CAP (Cap, $109M, +30%/7d) — risk MEDIUM: small-cap; only 16% of supply circulating (future dilution); near all-time high (-11% from ATH — chasing risk)
 
 _Objective market-data signals only — no contract audit, no holder analysis. Not financial advice; not a licensed adviser._

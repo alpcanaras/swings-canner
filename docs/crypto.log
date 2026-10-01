@@ -1,44 +1,44 @@
-$GRT-USD: possibly delisted; no timezone found
-$IMX-USD: possibly delisted; no timezone found
-$SUI-USD: possibly delisted; no timezone found
 $PEPE-USD: possibly delisted; no timezone found
 $UNI-USD: possibly delisted; no timezone found
+$IMX-USD: possibly delisted; no timezone found
 $APT-USD: possibly delisted; no timezone found
+$GRT-USD: possibly delisted; no timezone found
+$SUI-USD: possibly delisted; no timezone found
 
 6 Failed downloads:
-['GRT-USD', 'IMX-USD', 'SUI-USD', 'PEPE-USD', 'UNI-USD', 'APT-USD']: possibly delisted; no timezone found
+['PEPE-USD', 'UNI-USD', 'IMX-USD', 'APT-USD', 'GRT-USD', 'SUI-USD']: possibly delisted; no timezone found
 Downloading 40 tickers (8y daily)...
   usable: 34 tickers
-# Crypto brief — 2026-09-30
+# Crypto brief — 2026-10-01
 
 ## Regime: RISK-ON 
 
 Trend is up. History says this is when holding majors paid — and a simple 'stay long while BTC is above its 200-day' rule kept you in for it.
 
-- BTC $83,412 — above its 200-day (71,200); -7% from the 1-year high; +5% in 30d.
+- BTC $83,547 — above its 200-day (71,263); -7% from the 1-year high; +7% in 30d.
 - Breadth: 30/34 majors above their 200-day (88%).
 
 
-CRYPTO SWING (experimental, underperformed holding) — 2026-09-30 (universe: 34 coins)
-ticker side  score      close                                           signals  RS_3m_%  ATR%       stop  min_KO_dist earnings  expected_pct
-  AAVE LONG   0.66   161.7300 IBS mean-reversion (L), Donchian 20d breakout (L)     15.5  5.70   143.2902      27.6597      n/a         0.885
-   ICP LONG   0.66     3.4912                         Donchian 20d breakout (L)     20.0  5.85     3.0824       0.6132      n/a         1.590
-   BTC LONG   0.16 83411.7188        7-day extreme pullback (L), FVG retest (L)    -14.5  2.51 79220.1161    6287.4040      n/a         0.240
-   ETH LONG   0.16  2671.0500        7-day extreme pullback (L), FVG retest (L)     -6.0  3.22  2498.8754     258.2620      n/a         0.240
-   SOL LONG   0.11   119.4900                                    FVG retest (L)     17.1  3.85   110.2780      13.8180      n/a         0.310
-   XRP LONG   0.11     1.4980                                    FVG retest (L)     -4.8  5.13     1.3442       0.2307      n/a         0.310
-  DOGE LONG   0.11     0.0941                                    FVG retest (L)    -12.1  5.23     0.0843       0.0148      n/a         0.310
-   FIL LONG   0.11     1.0720                                    FVG retest (L)      6.9  7.74     0.9060       0.2490      n/a         0.310
-   LTC LONG   0.11    67.4790                                    FVG retest (L)      1.2  5.01    60.7133      10.1485      n/a         0.310
-   AXS LONG   0.11     1.1597                                    FVG retest (L)     -6.7  5.45     1.0333       0.1896      n/a         0.310
+CRYPTO SWING (experimental, underperformed holding) — 2026-10-01 (universe: 34 coins)
+ticker side  score      close                                                            signals  RS_3m_%  ATR%       stop  min_KO_dist earnings  expected_pct
+   INJ LONG   0.16     7.3740 IBS mean-reversion (L), 7-day extreme pullback (L), FVG retest (L)     13.7  7.69     6.2399       1.7012      n/a         0.220
+   BTC LONG   0.11 83546.8594                                                     FVG retest (L)    -15.8  2.47 79427.6783    6178.7716      n/a         0.310
+   ETH LONG   0.11  2689.5200                                                     FVG retest (L)     -5.6  3.19  2517.9201     257.3998      n/a         0.310
+   SOL LONG   0.11   118.1500                                                     FVG retest (L)     14.0  3.92   108.8807      13.9040      n/a         0.310
+  DOGE LONG   0.11     0.0948                                                     FVG retest (L)    -11.3  5.17     0.0850       0.0147      n/a         0.310
+   XRP LONG   0.11     1.4901                                                     FVG retest (L)     -7.7  5.17     1.3361       0.2310      n/a         0.310
+   DOT LONG   0.11     1.2267                                                     FVG retest (L)     14.3  6.52     1.0667       0.2400      n/a         0.310
+   LTC LONG   0.11    67.1410                             IBS mean-reversion (L), FVG retest (L)      1.3  4.74    60.7812       9.5397      n/a         0.245
+   AXS LONG   0.11     1.1547                                                     FVG retest (L)     -5.6  5.36     1.0308       0.1858      n/a         0.310
+   ETC LONG   0.05     8.8860              RSI(2) mean-reversion (L), 7-day extreme pullback (L)    -13.4  5.84     7.8477       1.5574      n/a         0.100
 Written docs/crypto.html
 Crypto paper: 13 closed, -125.61 net
 Written docs/crypto_portfolio.html
-# Crypto risk screen — 30 Sep 2026
+# Crypto risk screen — 01 Oct 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1675.5B, -3%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.7% — hard to exit)
-- ETH (Ethereum, $326.1B, -3%/7d) — risk LOWER: modest liquidity (4.7%)
+- BTC (Bitcoin, $1678.0B, -1%/7d) — risk LOWER: modest liquidity (2.1%)
+- ETH (Ethereum, $328.2B, +0%/7d) — risk LOWER: modest liquidity (4.2%)
 
 Written docs/crypto_screen.html and docs/crypto_screen_digest.txt

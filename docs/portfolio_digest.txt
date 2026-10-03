@@ -24,4 +24,4 @@
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 
 _Record: 18 closed, 28% winners, $-90.86 net, balance $909.14._
-_All signals: 2274 closed, 30% profitable, -1.94% avg._
+_All signals: 2297 closed, 31% profitable, -1.82% avg._

@@ -1,29 +1,29 @@
-# Crypto risk screen — 03 Oct 2026
+# Crypto risk screen — 04 Oct 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1700.4B, +1%/7d) — risk LOWER: modest liquidity (2.6%)
-- ETH (Ethereum, $327.3B, -1%/7d) — risk LOWER: no major red flags in market data
-- BNB (BNB, $102.4B, -1%/7d) — risk MEDIUM: thin liquidity (vol/mcap 0.9% — hard to exit)
-- XRP (XRP, $94.1B, -5%/7d) — risk LOWER: modest liquidity (4.0%)
-- SOL (Solana, $70.2B, -3%/7d) — risk LOWER: no major red flags in market data
-- DOGE (Dogecoin, $14.6B, -6%/7d) — risk LOWER: no major red flags in market data
+- BTC (Bitcoin, $1703.8B, +1%/7d) — risk MEDIUM: thin liquidity (vol/mcap 0.9% — hard to exit)
+- ETH (Ethereum, $328.8B, +0%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.5% — hard to exit)
+- BNB (BNB, $104.2B, +2%/7d) — risk MEDIUM: thin liquidity (vol/mcap 0.7% — hard to exit)
+- XRP (XRP, $93.9B, -2%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.1% — hard to exit)
+- SOL (Solana, $70.6B, -1%/7d) — risk LOWER: modest liquidity (2.2%)
+- DOGE (Dogecoin, $14.5B, -4%/7d) — risk LOWER: modest liquidity (2.6%)
 
 ## Small-cap discovery — RESEARCH ONLY, NOT PICKS
 
 > Most of these will fail. A public feed cannot find gems before insiders. This tool cannot see rug-pulls, honeypots or fake volume. Treat every name as guilty until proven safe with real due diligence.
 
 - REUR (Royal Euro, $62M, +261%/7d) — risk MEDIUM: small-cap; only 0% of supply circulating (future dilution); near all-time high (-0% from ATH — chasing risk)
-- POD (Dolphin, $53M, +91%/7d) — risk MEDIUM: small-cap; only 17% of supply circulating (future dilution)
-- SOON (SOON, $124M, +85%/7d) — risk MEDIUM: small-cap; only 3% of supply circulating (future dilution)
-- LCX (LCX, $51M, +61%/7d) — risk MEDIUM: small-cap; modest liquidity (4.0%)
-- SAND (The Sandbox, $204M, +49%/7d) — risk LOWER: small-cap
-- CAP (Cap, $115M, +44%/7d) — risk MEDIUM: small-cap; only 16% of supply circulating (future dilution)
-- MAGMA (Magma Finance, $64M, +40%/7d) — risk MEDIUM: small-cap; only 19% of supply circulating (future dilution)
-- ORE (ORE, $55M, +36%/7d) — risk MEDIUM: small-cap; modest liquidity (3.9%)
-- SUPER (SuperVerse, $155M, +30%/7d) — risk LOWER: small-cap
-- HUMA (Huma Finance, $59M, +27%/7d) — risk MEDIUM: small-cap; only 17% of supply circulating (future dilution)
-- AMP (Amp, $56M, +24%/7d) — risk LOWER: small-cap
-- PURR (Purr, $93M, +23%/7d) — risk LOWER: small-cap
+- POD (Dolphin, $69M, +141%/7d) — risk MEDIUM: small-cap; only 17% of supply circulating (future dilution); near all-time high (-7% from ATH — chasing risk)
+- SAND (The Sandbox, $215M, +64%/7d) — risk LOWER: small-cap
+- SOON (SOON, $121M, +49%/7d) — risk MEDIUM: small-cap; only 3% of supply circulating (future dilution)
+- ORBIO (Orbio.so, $98M, +42%/7d) — risk LOWER: small-cap
+- CARDS (Collector Crypt, $236M, +40%/7d) — risk MEDIUM: small-cap; modest liquidity (3.8%)
+- SUPER (SuperVerse, $169M, +30%/7d) — risk LOWER: small-cap
+- CAP (Cap, $106M, +30%/7d) — risk MEDIUM: small-cap; only 16% of supply circulating (future dilution)
+- ARX (Arcium, $58M, +24%/7d) — risk MEDIUM: small-cap; only 21% of supply circulating (future dilution)
+- TRAC (OriginTrail, $203M, +23%/7d) — risk LOWER: small-cap
+- NMR (Numeraire, $82M, +20%/7d) — risk LOWER: small-cap
+- HUMA (Huma Finance, $59M, +19%/7d) — risk MEDIUM: small-cap; only 17% of supply circulating (future dilution)
 
 _Objective market-data signals only — no contract audit, no holder analysis. Not financial advice; not a licensed adviser._

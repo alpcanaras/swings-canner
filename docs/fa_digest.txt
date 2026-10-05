@@ -1,31 +1,31 @@
-# Long-term ideas (FA) — week of 28 Sep 2026
+# Long-term ideas (FA) — week of 05 Oct 2026
 
 Ranked 512 large caps on value, quality, growth and momentum, max 3 per sector. Relative ranks, not absolute value. Research these — they are not buy signals, and this is a months-to-years view, separate from the swing sheet.
 
 ## Quality at a reasonable price, and in an uptrend
 
-- MU (Micron Technology, Inc., $1192B) — score 87 [V53/Q96/G100/M100]. strong quality & growth & momentum; in an uptrend. P/E 24, ROE 67%, net margin 56%, rev growth 346%, debt/equity 0.1
+- MU (Micron Technology, Inc., $1202B) — score 90 [V65/Q97/G100/M100]. strong quality & growth & momentum; in an uptrend. P/E 14, ROE 88%, net margin 64%, rev growth 379%, debt/equity 3.7
 - SNDK (Sandisk Corporation, $250B) — score 86 [V49/Q95/G100/M100]. strong quality & growth & momentum; in an uptrend. P/E 23, ROE 92%, net margin 56%, rev growth 372%, debt/equity 1.3
-- WDC (Western Digital Corporation, $165B) — score 83 [V48/Q88/G96/M99]. strong quality & growth & momentum; in an uptrend. P/E 17, ROE 131%, net margin 73%, rev growth 44%, debt/equity 0.1
-- CF (CF Industries Holdings, Inc., $18B) — score 82 [V84/Q84/G80/M81]. strong value & quality & growth & momentum; in an uptrend. P/E 9, ROE 30%, net margin 27%, rev growth 18%, debt/equity 0.4
-- MPC (Marathon Petroleum Corporation, $109B) — score 80 [V87/Q42/G96/M94]. strong value & growth & momentum; in an uptrend. P/E 13, ROE 42%, net margin 6%, rev growth 54%, debt/equity 1.3
-- VLO (Valero Energy Corporation, $112B) — score 79 [V74/Q51/G96/M96]. strong value & growth & momentum; in an uptrend. P/E 16, ROE 28%, net margin 5%, rev growth 52%, debt/equity 0.4
-- EOG (EOG Resources, Inc., $74B) — score 79 [V75/Q79/G92/M69]. strong value & quality & growth & momentum; in an uptrend. P/E 11, ROE 23%, net margin 26%, rev growth 59%, debt/equity 0.3
-- NTRS (Northern Trust Corporation, $32B) — score 78 [V66/Q74/G88/M83]. strong value & quality & growth & momentum; in an uptrend. P/E 15, ROE 17%, net margin 25%, rev growth 36%
-- STT (State Street Corporation, $49B) — score 77 [V72/Q65/G77/M92]. strong value & growth & momentum; in an uptrend. P/E 16, ROE 12%, net margin 23%, rev growth 18%
-- INCY (Incyte Corporation, $26B) — score 76 [V49/Q89/G80/M87]. strong quality & growth & momentum; in an uptrend. P/E 16, ROE 31%, net margin 28%, rev growth 38%, debt/equity 0.6
-- GOOGL (Alphabet Inc., $4184B) — score 74 [V37/Q89/G88/M82]. strong quality & growth & momentum; in an uptrend. P/E 17, ROE 49%, net margin 55%, rev growth 24%, debt/equity 0.2
-- EXPE (Expedia Group, Inc., $32B) — score 73 [V81/Q44/G79/M86]. strong value & growth & momentum; in an uptrend. P/E 17, ROE 89%, net margin 13%, rev growth 14%, debt/equity 2.3 ⚠ high debt
+- CF (CF Industries Holdings, Inc., $18B) — score 84 [V84/Q85/G80/M88]. strong value & quality & growth & momentum; in an uptrend. P/E 9, ROE 30%, net margin 27%, rev growth 18%, debt/equity 0.4
+- WDC (Western Digital Corporation, $159B) — score 83 [V50/Q88/G96/M99]. strong quality & growth & momentum; in an uptrend. P/E 16, ROE 131%, net margin 73%, rev growth 44%, debt/equity 0.1
+- EOG (EOG Resources, Inc., $77B) — score 81 [V74/Q79/G92/M77]. strong value & quality & growth & momentum; in an uptrend. P/E 11, ROE 23%, net margin 26%, rev growth 59%, debt/equity 0.3
+- MPC (Marathon Petroleum Corporation, $127B) — score 80 [V84/Q42/G96/M96]. strong value & growth & momentum; in an uptrend. P/E 15, ROE 42%, net margin 6%, rev growth 54%, debt/equity 1.3
+- VLO (Valero Energy Corporation, $121B) — score 79 [V70/Q52/G96/M97]. strong value & growth & momentum; in an uptrend. P/E 17, ROE 28%, net margin 5%, rev growth 52%, debt/equity 0.4
+- NTRS (Northern Trust Corporation, $31B) — score 79 [V68/Q74/G88/M85]. strong value & quality & growth & momentum; in an uptrend. P/E 15, ROE 17%, net margin 25%, rev growth 36%
+- STT (State Street Corporation, $48B) — score 77 [V73/Q65/G77/M93]. strong value & growth & momentum; in an uptrend. P/E 16, ROE 12%, net margin 23%, rev growth 18%
+- INCY (Incyte Corporation, $23B) — score 77 [V52/Q89/G80/M86]. strong quality & growth & momentum; in an uptrend. P/E 15, ROE 31%, net margin 28%, rev growth 38%, debt/equity 0.6
+- C (Citigroup, Inc., $216B) — score 75 [V80/Q60/G74/M85]. strong value & growth & momentum; in an uptrend. P/E 14, ROE 9%, net margin 22%, rev growth 16%
+- GOOGL (Alphabet Inc., $4237B) — score 74 [V37/Q89/G88/M81]. strong quality & growth & momentum; in an uptrend. P/E 17, ROE 49%, net margin 55%, rev growth 24%, debt/equity 0.2
 
 ## Strong businesses currently out of favour (watch, don't chase)
 
-- ALB (Albemarle Corporation, $13B) — score 74 [V66/Q52/G87/M89]. strong value & growth & momentum; below its 200-day (out of favour). P/E 399, ROE 3%, net margin 4%, rev growth 31%, debt/equity 0.2 ⚠ very expensive
-- GS (Goldman Sachs Group, Inc. (The), $267B) — score 72 [V66/Q60/G89/M72]. strong growth & momentum; below its 200-day (out of favour). P/E 14, ROE 17%, net margin 31%, rev growth 42%, debt/equity 7.3 ⚠ high debt
-- CIEN (Ciena Corporation, $49B) — score 69 [V30/Q55/G94/M98]. strong growth & momentum; below its 200-day (out of favour). P/E 77, ROE 22%, net margin 11%, rev growth 37%, debt/equity 1.1 ⚠ very expensive
-- CINF (Cincinnati Financial Corporatio, $25B) — score 68 [V66/Q73/G85/M48]. strong value & quality & growth; below its 200-day (out of favour). P/E 8, ROE 21%, net margin 24%, rev growth 32%, debt/equity 0.1
-- LYB (LyondellBasell Industries NV, $19B) — score 68 [V78/Q30/G87/M77]. strong value & growth & momentum; below its 200-day (out of favour). ROE -2%, net margin -1%, rev growth 20%, debt/equity 1.3 ⚠ loss-making
-- VRT (Vertiv Holdings, LLC, $94B) — score 66 [V31/Q61/G78/M94]. strong growth & momentum; below its 200-day (out of favour). P/E 55, ROE 44%, net margin 15%, rev growth 24%, debt/equity 0.7
-- AVGO (Broadcom Inc., $1671B) — score 66 [V36/Q85/G96/M48]. strong quality & growth; below its 200-day (out of favour). P/E 45, ROE 44%, net margin 43%, rev growth 86%, debt/equity 0.6
-- JBHT (J.B. Hunt Transport Services, I, $21B) — score 65 [V47/Q43/G74/M96]. strong growth & momentum; below its 200-day (out of favour). P/E 32, ROE 18%, net margin 5%, rev growth 19%, debt/equity 0.4
+- GS (Goldman Sachs Group, Inc. (The), $260B) — score 73 [V67/Q59/G89/M77]. strong value & growth & momentum; below its 200-day (out of favour). P/E 14, ROE 17%, net margin 31%, rev growth 42%, debt/equity 7.3 ⚠ high debt
+- ALB (Albemarle Corporation, $12B) — score 73 [V67/Q53/G87/M85]. strong value & growth & momentum; below its 200-day (out of favour). P/E 387, ROE 3%, net margin 4%, rev growth 31%, debt/equity 0.2 ⚠ very expensive
+- COF (Capital One Financial Corporati, $120B) — score 71 [V85/Q59/G100/M41]. strong value & growth; below its 200-day (out of favour). P/E 13, ROE 9%, net margin 22%, rev growth 1111%
+- CIEN (Ciena Corporation, $55B) — score 69 [V28/Q55/G94/M97]. strong growth & momentum; below its 200-day (out of favour). P/E 87, ROE 22%, net margin 11%, rev growth 37%, debt/equity 1.1 ⚠ very expensive
+- LYB (LyondellBasell Industries NV, $19B) — score 68 [V77/Q30/G87/M79]. strong value & growth & momentum; below its 200-day (out of favour). ROE -2%, net margin -1%, rev growth 20%, debt/equity 1.3 ⚠ loss-making
+- JBL (Jabil Inc., $32B) — score 68 [V66/Q31/G85/M90]. strong growth & momentum; below its 200-day (out of favour). P/E 31, ROE 66%, net margin 3%, rev growth 29%, debt/equity 2.5 ⚠ high debt
+- REGN (Regeneron Pharmaceuticals, Inc., $75B) — score 66 [V59/Q78/G47/M81]. strong quality & momentum; below its 200-day (out of favour). P/E 18, ROE 14%, net margin 28%, rev growth 17%, debt/equity 0.1
+- VRT (Vertiv Holdings, LLC, $98B) — score 66 [V31/Q61/G78/M94]. strong growth & momentum; below its 200-day (out of favour). P/E 57, ROE 44%, net margin 15%, rev growth 24%, debt/equity 0.7
 
 _Scores are relative to the scanned universe. Free fundamental data is imperfect. Not financial advice; not a licensed adviser._

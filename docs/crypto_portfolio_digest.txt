@@ -1,24 +1,30 @@
-# Trade sheet — 2026-10-05
+# Trade sheet — 2026-10-06
 
 ## Sell
 
-Nothing to sell.
+| ticker | in | out | P&L | why |
+|---|---|---|---|---|
+| INJ | 5.43 | 7.53 | +38.7% ($+70.10) | 20-day backstop |
+| BTC | 75,674.29 | 85,625.29 | +13.1% ($+26.10) | 20-day backstop |
+| SOL | 96.90 | 120.51 | +24.4% ($+48.53) | 20-day backstop |
+| LINK | 10.89 | 13.79 | +26.6% ($+53.03) | 20-day backstop |
 
 ## Buy
 
-Nothing to buy — slots full or no setups.
+| ticker | setup | signal px | stop $ | stop % | trail | size |
+|---|---|---|---|---|---|---|
+| ADA | mean reversion, momentum | 0.27 | 0.24 | -10.7% | 2xATR = $0.03 | $200 = 747.4 sh |
+| ICP | mean reversion, momentum | 3.49 | 3.08 | -11.8% | 2xATR = $0.41 | $200 = 57.35 sh |
+| FIL | mean reversion, momentum | 1.15 | 0.98 | -14.1% | 2xATR = $0.16 | $200 = 174.4 sh |
+| LTC | gap | 69.62 | 63.63 | -8.6% | 2xATR = $5.99 | $200 = 2.873 sh |
 
 ## Holding — updated stops
 
 | ticker | entry | now | P&L | stop now | locked in |
 |---|---|---|---|---|---|
-| INJ | 5.43 | 7.67 | +41.3% | 7.00 | +28.9% |
-| BTC | 75,674.29 | 86,962.92 | +14.9% | 82,620.94 | +9.2% |
-| SOL | 96.90 | 121.59 | +25.5% | 112.74 | +16.3% |
-| LINK | 10.89 | 14.26 | +30.9% | 13.51 | +24.1% |
-| AAVE | 154.88 | 181.40 | +17.1% | 161.67 | +4.4% |
+| AAVE | 154.88 | 182.56 | +17.9% | 162.87 | +5.2% |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 
-_Record: 13 closed, 15% winners, $-125.61 net, balance $874.39._
-_All signals: 14 closed, 14% profitable, -4.74% avg._
+_Record: 17 closed, 35% winners, $+72.15 net, balance $1,072.15._
+_All signals: 20 closed, 40% profitable, +5.65% avg._

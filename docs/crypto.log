@@ -1,40 +1,41 @@
-$GRT-USD: possibly delisted; no timezone found
+$APT-USD: possibly delisted; no timezone found
 $PEPE-USD: possibly delisted; no timezone found
-$IMX-USD: possibly delisted; no timezone found
 $UNI-USD: possibly delisted; no timezone found
 $SUI-USD: possibly delisted; no timezone found
-$APT-USD: possibly delisted; no timezone found
+$GRT-USD: possibly delisted; no timezone found
+$IMX-USD: possibly delisted; no timezone found
 
 6 Failed downloads:
-['GRT-USD', 'PEPE-USD', 'IMX-USD', 'UNI-USD', 'SUI-USD', 'APT-USD']: possibly delisted; no timezone found
+['APT-USD', 'PEPE-USD', 'UNI-USD', 'SUI-USD', 'GRT-USD', 'IMX-USD']: possibly delisted; no timezone found
 Downloading 40 tickers (8y daily)...
   usable: 34 tickers
-# Crypto brief — 2026-10-05
+# Crypto brief — 2026-10-06
 
 ## Regime: RISK-ON 
 
 Trend is up. History says this is when holding majors paid — and a simple 'stay long while BTC is above its 200-day' rule kept you in for it.
 
-- BTC $86,963 — above its 200-day (71,504); -2% from the 1-year high; +13% in 30d.
-- Breadth: 33/34 majors above their 200-day (97%).
+- BTC $85,625 — above its 200-day (71,580); -4% from the 1-year high; +11% in 30d.
+- Breadth: 32/34 majors above their 200-day (94%).
 
 
-CRYPTO SWING (experimental, underperformed holding) — 2026-10-05 (universe: 34 coins)
-ticker side  score      close                                           signals  RS_3m_%  ATR%       stop  min_KO_dist earnings  expected_pct
-   BTC LONG   0.65 86962.9219                         Donchian 20d breakout (L)    -14.1  2.50 82620.9368    6512.9776      n/a          1.58
-   BNB LONG   0.65   800.0600                         Donchian 20d breakout (L)    -14.9  2.56   759.1260      61.4010      n/a          1.58
-   ADA LONG   0.65     0.2652                         Donchian 20d breakout (L)    -11.0  5.39     0.2366       0.0429      n/a          1.58
-   MKR LONG   0.65  2205.7422 IBS mean-reversion (L), Donchian 20d breakout (L)    -11.9  8.58  1827.3538     567.5826      n/a          0.88
-   BCH LONG   0.12   320.2100                                    FVG retest (L)     -0.4  5.19   287.0031      49.8103      n/a          0.32
-   FIL LONG   0.12     1.0624                                    FVG retest (L)     -3.0  7.23     0.9087       0.2305      n/a          0.32
+CRYPTO SWING (experimental, underperformed holding) — 2026-10-06 (universe: 34 coins)
+ticker side  score    close                                            signals  RS_3m_%  ATR%     stop  min_KO_dist earnings  expected_pct
+   ADA LONG   0.65   0.2676  IBS mean-reversion (L), Donchian 20d breakout (L)    -11.8  5.32   0.2391       0.0427      n/a          0.88
+   ICP LONG   0.65   3.4872  IBS mean-reversion (L), Donchian 20d breakout (L)     15.1  5.90   3.0758       0.6170      n/a          0.88
+   FIL LONG   0.65   1.1465  IBS mean-reversion (L), Donchian 20d breakout (L)      8.5  7.06   0.9846       0.2429      n/a          0.88
+  AAVE LONG   0.65 182.5600  IBS mean-reversion (L), Donchian 20d breakout (L)     47.8  5.39 162.8692      29.5362      n/a          0.88
+   LTC LONG   0.12  69.6200                                     FVG retest (L)      7.3  4.30  63.6286       8.9871      n/a          0.32
+  LINK LONG   0.06  13.7920 IBS mean-reversion (L), 7-day extreme pullback (L)     18.7  5.22  12.3515       2.1608      n/a          0.18
+   XLM LONG   0.06   0.2147 IBS mean-reversion (L), 7-day extreme pullback (L)    -24.6  5.55   0.1909       0.0358      n/a          0.18
 Written docs/crypto.html
-Crypto paper: 13 closed, -125.61 net
+Crypto paper: 17 closed, +72.15 net
 Written docs/crypto_portfolio.html
-# Crypto risk screen — 05 Oct 2026
+# Crypto risk screen — 06 Oct 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1745.5B, +3%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.1% — hard to exit)
-- ETH (Ethereum, $333.4B, +2%/7d) — risk MEDIUM: thin liquidity (vol/mcap 2.0% — hard to exit)
+- BTC (Bitcoin, $1719.1B, +3%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.7% — hard to exit)
+- ETH (Ethereum, $330.1B, +1%/7d) — risk LOWER: modest liquidity (3.6%)
 
 Written docs/crypto_screen.html and docs/crypto_screen_digest.txt

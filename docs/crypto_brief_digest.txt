@@ -1,10 +1,10 @@
-# Crypto brief — 2026-10-05
+# Crypto brief — 2026-10-06
 
 ## Regime: RISK-ON 
 
 Trend is up. History says this is when holding majors paid — and a simple 'stay long while BTC is above its 200-day' rule kept you in for it.
 
-- BTC $86,963 — above its 200-day (71,504); -2% from the 1-year high; +13% in 30d.
-- Breadth: 33/34 majors above their 200-day (97%).
+- BTC $85,625 — above its 200-day (71,580); -4% from the 1-year high; +11% in 30d.
+- Breadth: 32/34 majors above their 200-day (94%).
 
 _Why a regime read, not picks: in a 6-year backtest, swing-trading crypto returned far less than simply holding — but a trend filter roughly halved the drawdown. The value here is knowing when the tide is going out, not timing individual coins. Not financial advice._

@@ -1,38 +1,6 @@
 {
  "open": [
   {
-   "ticker": "NEAR",
-   "side": "LONG",
-   "entry": 2.6547,
-   "stop": 4.5741,
-   "shares": 37.669039816175086,
-   "notional": 100.0,
-   "cost": 0.1,
-   "date": "2026-09-17",
-   "days": 19,
-   "families": [
-    "momentum"
-   ],
-   "n_signals": 1,
-   "trailed": true
-  },
-  {
-   "ticker": "AAVE",
-   "side": "LONG",
-   "entry": 119.83,
-   "stop": 162.8692,
-   "shares": 0.8345155637152633,
-   "notional": 100.0,
-   "cost": 0.1,
-   "date": "2026-09-17",
-   "days": 19,
-   "families": [
-    "mean reversion"
-   ],
-   "n_signals": 1,
-   "trailed": true
-  },
-  {
    "ticker": "BNB",
    "side": "LONG",
    "entry": 737.39,
@@ -41,7 +9,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-18",
-   "days": 18,
+   "days": 19,
    "families": [
     "gap"
    ],
@@ -57,7 +25,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-18",
-   "days": 18,
+   "days": 19,
    "families": [
     "gap"
    ],
@@ -73,7 +41,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-21",
-   "days": 15,
+   "days": 16,
    "families": [
     "momentum"
    ],
@@ -89,7 +57,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-23",
-   "days": 13,
+   "days": 14,
    "families": [
     "momentum"
    ],
@@ -104,7 +72,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-24",
-   "days": 12,
+   "days": 13,
    "families": [
     "gap"
    ],
@@ -120,7 +88,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-24",
-   "days": 12,
+   "days": 13,
    "families": [
     "gap"
    ],
@@ -131,12 +99,12 @@
    "ticker": "AVAX",
    "side": "LONG",
    "entry": 10.216,
-   "stop": 10.1169,
+   "stop": 10.1948,
    "shares": 9.788566953797964,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-24",
-   "days": 12,
+   "days": 13,
    "families": [
     "gap"
    ],
@@ -152,7 +120,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-24",
-   "days": 12,
+   "days": 13,
    "families": [
     "gap",
     "mean reversion"
@@ -169,7 +137,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-27",
-   "days": 9,
+   "days": 10,
    "families": [
     "gap"
    ],
@@ -185,7 +153,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-28",
-   "days": 8,
+   "days": 9,
    "families": [
     "gap",
     "mean reversion"
@@ -201,7 +169,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-09-30",
-   "days": 6,
+   "days": 7,
    "families": [
     "gap"
    ],
@@ -217,7 +185,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-01",
-   "days": 5,
+   "days": 6,
    "families": [
     "mean reversion"
    ],
@@ -233,7 +201,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-04",
-   "days": 2,
+   "days": 3,
    "families": [
     "momentum"
    ],
@@ -249,7 +217,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-06",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion",
     "momentum"
@@ -265,7 +233,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-06",
-   "days": 0,
+   "days": 1,
    "families": [
     "gap"
    ],
@@ -275,13 +243,46 @@
    "ticker": "LINK",
    "side": "LONG",
    "entry": 13.792,
-   "stop": 12.3515,
+   "stop": 12.402,
    "shares": 7.250580046403712,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-06",
+   "days": 1,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 2,
+   "trailed": true
+  },
+  {
+   "ticker": "SOL",
+   "side": "LONG",
+   "entry": 119.32,
+   "stop": 111.0839,
+   "shares": 0.8380824673147839,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-10-07",
    "days": 0,
    "families": [
+    "gap",
+    "mean reversion"
+   ],
+   "n_signals": 2
+  },
+  {
+   "ticker": "AAVE",
+   "side": "LONG",
+   "entry": 174.88,
+   "stop": 155.2639,
+   "shares": 0.5718206770356816,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-10-07",
+   "days": 0,
+   "families": [
+    "gap",
     "mean reversion"
    ],
    "n_signals": 2
@@ -720,6 +721,50 @@
    "gross": 40.228406857961005,
    "net": 40.128406857961004,
    "pct": 40.228406857961005,
+   "reason": "20-day backstop"
+  },
+  {
+   "ticker": "NEAR",
+   "side": "LONG",
+   "entry": 2.6547,
+   "stop": 4.5741,
+   "shares": 37.669039816175086,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-09-17",
+   "days": 20,
+   "families": [
+    "momentum"
+   ],
+   "n_signals": 1,
+   "trailed": true,
+   "exit": 5.057400226593018,
+   "exit_date": "2026-10-07",
+   "gross": 90.50741050186528,
+   "net": 90.40741050186529,
+   "pct": 90.5074105018653,
+   "reason": "20-day backstop"
+  },
+  {
+   "ticker": "AAVE",
+   "side": "LONG",
+   "entry": 119.83,
+   "stop": 162.8692,
+   "shares": 0.8345155637152633,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-09-17",
+   "days": 20,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1,
+   "trailed": true,
+   "exit": 174.8800048828125,
+   "exit_date": "2026-10-07",
+   "gross": 45.94008585730827,
+   "net": 45.84008585730827,
+   "pct": 45.94008585730827,
    "reason": "20-day backstop"
   }
  ],

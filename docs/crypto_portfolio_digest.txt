@@ -1,4 +1,4 @@
-# Trade sheet — 2026-10-07
+# Trade sheet — 2026-10-08
 
 ## Sell
 
@@ -12,13 +12,13 @@ Nothing to buy — slots full or no setups.
 
 | ticker | entry | now | P&L | stop now | locked in |
 |---|---|---|---|---|---|
-| AAVE | 154.88 | 174.88 | +12.9% | 162.87 | +5.2% |
-| ADA | 0.27 | 0.26 | -2.2% | 0.24 | not yet |
-| ICP | 3.49 | 3.31 | -5.2% | 3.08 | not yet |
-| FIL | 1.15 | 1.12 | -1.9% | 0.98 | not yet |
-| LTC | 69.62 | 68.54 | -1.6% | 63.63 | not yet |
+| AAVE | 154.88 | 174.48 | +12.7% | 162.87 | +5.2% |
+| ADA | 0.27 | 0.26 | -4.2% | 0.24 | not yet |
+| ICP | 3.49 | 3.21 | -8.1% | 3.08 | not yet |
+| FIL | 1.15 | 1.06 | -7.4% | 0.98 | not yet |
+| LTC | 69.62 | 65.97 | -5.2% | 63.63 | not yet |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 
 _Record: 17 closed, 35% winners, $+72.15 net, balance $1,072.15._
-_All signals: 22 closed, 45% profitable, +11.34% avg._
+_All signals: 26 closed, 46% profitable, +10.28% avg._

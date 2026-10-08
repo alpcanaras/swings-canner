@@ -9,7 +9,7 @@
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-09-27",
-   "days": 10,
+   "days": 11,
    "viable": true,
    "atr_pct": 5.56,
    "setup": "momentum",
@@ -24,7 +24,7 @@
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-10-06",
-   "days": 1,
+   "days": 2,
    "viable": true,
    "atr_pct": 5.32,
    "setup": "mean reversion, momentum"
@@ -38,7 +38,7 @@
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-10-06",
-   "days": 1,
+   "days": 2,
    "viable": true,
    "atr_pct": 5.9,
    "setup": "mean reversion, momentum"
@@ -52,7 +52,7 @@
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-10-06",
-   "days": 1,
+   "days": 2,
    "viable": true,
    "atr_pct": 7.06,
    "setup": "mean reversion, momentum"
@@ -66,7 +66,7 @@
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-10-06",
-   "days": 1,
+   "days": 2,
    "viable": true,
    "atr_pct": 4.3,
    "setup": "gap"

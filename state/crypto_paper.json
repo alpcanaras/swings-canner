@@ -9,7 +9,7 @@
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-09-27",
-   "days": 12,
+   "days": 13,
    "viable": true,
    "atr_pct": 5.56,
    "setup": "momentum",
@@ -24,7 +24,7 @@
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-10-06",
-   "days": 3,
+   "days": 4,
    "viable": true,
    "atr_pct": 7.06,
    "setup": "mean reversion, momentum"
@@ -33,43 +33,46 @@
    "ticker": "NEAR",
    "side": "LONG",
    "entry": 4.6551,
-   "stop": 3.7137,
+   "stop": 4.013,
    "shares": 31.867431485022298,
    "notional": 148.3460803059273,
    "cost": 0.1483460803059273,
    "date": "2026-10-09",
-   "days": 0,
+   "days": 1,
    "viable": true,
    "atr_pct": 10.11,
-   "setup": "failed breakout, mean reversion"
+   "setup": "failed breakout, mean reversion",
+   "trailed": true
   },
   {
    "ticker": "ICP",
    "side": "LONG",
    "entry": 2.9936,
-   "stop": 2.5396,
+   "stop": 2.6266,
    "shares": 66.07929515418506,
    "notional": 197.81497797356838,
    "cost": 0.1978149779735684,
    "date": "2026-10-09",
-   "days": 0,
+   "days": 1,
    "viable": false,
    "atr_pct": 7.58,
-   "setup": "failed breakout, mean reversion"
+   "setup": "failed breakout, mean reversion",
+   "trailed": true
   },
   {
    "ticker": "AVAX",
    "side": "LONG",
    "entry": 10.233,
-   "stop": 8.9233,
+   "stop": 9.1028,
    "shares": 19.54461057363432,
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-10-09",
-   "days": 0,
+   "days": 1,
    "viable": true,
    "atr_pct": 6.4,
-   "setup": "failed breakout, mean reversion"
+   "setup": "failed breakout, mean reversion",
+   "trailed": true
   }
  ],
  "closed": [

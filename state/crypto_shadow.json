@@ -9,7 +9,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-06",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -25,7 +25,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-07",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap",
     "mean reversion"
@@ -42,7 +42,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-08",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -57,7 +57,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-08",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -72,7 +72,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-08",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -82,214 +82,228 @@
    "ticker": "NEAR",
    "side": "LONG",
    "entry": 4.6551,
-   "stop": 3.7137,
+   "stop": 4.013,
    "shares": 21.48181564305815,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 0,
+   "days": 1,
    "families": [
     "failed breakout",
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "ICP",
    "side": "LONG",
    "entry": 2.9936,
-   "stop": 2.5396,
+   "stop": 2.6266,
    "shares": 33.404596472474616,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 0,
+   "days": 1,
    "families": [
     "failed breakout",
     "mean reversion"
    ],
-   "n_signals": 3
+   "n_signals": 3,
+   "trailed": true
   },
   {
    "ticker": "AVAX",
    "side": "LONG",
    "entry": 10.233,
-   "stop": 8.9233,
+   "stop": 9.1028,
    "shares": 9.77230528681716,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 0,
+   "days": 1,
    "families": [
     "failed breakout",
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "DOT",
    "side": "LONG",
    "entry": 1.1344,
-   "stop": 0.9788,
+   "stop": 1.0932,
    "shares": 88.15232722143864,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 0,
+   "days": 1,
    "families": [
     "failed breakout"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "FIL",
    "side": "LONG",
    "entry": 1.0791,
-   "stop": 0.9143,
+   "stop": 0.927,
    "shares": 92.66981744045965,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 0,
+   "days": 1,
    "families": [
     "gap"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "ETH",
    "side": "LONG",
    "entry": 2481.0601,
-   "stop": 2310.4364,
+   "stop": 2320.9789,
    "shares": 0.04030535173251144,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "SOL",
    "side": "LONG",
    "entry": 109.8,
-   "stop": 100.6872,
+   "stop": 100.7608,
    "shares": 0.9107468123861566,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "ADA",
    "side": "LONG",
    "entry": 0.2331,
-   "stop": 0.2023,
+   "stop": 0.2211,
    "shares": 429.000429000429,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "BNB",
    "side": "LONG",
    "entry": 736.71,
-   "stop": 694.2435,
+   "stop": 701.4752,
    "shares": 0.13573862171003515,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "LTC",
    "side": "LONG",
    "entry": 63.336,
-   "stop": 57.3705,
+   "stop": 57.7455,
    "shares": 1.578880889225717,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "ETC",
    "side": "LONG",
    "entry": 8.108,
-   "stop": 7.1957,
+   "stop": 7.4766,
    "shares": 12.333497779970399,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "INJ",
    "side": "LONG",
    "entry": 6.918,
-   "stop": 5.7648,
+   "stop": 5.8296,
    "shares": 14.455044810638913,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "MKR",
    "side": "LONG",
    "entry": 1750.4706,
-   "stop": 1328.2353,
+   "stop": 1356.3173,
    "shares": 0.05712749474341357,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 3
+   "n_signals": 3,
+   "trailed": true
   },
   {
    "ticker": "AXS",
    "side": "LONG",
    "entry": 1.1615,
-   "stop": 0.9856,
+   "stop": 1.0322,
    "shares": 86.09556607834696,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   }
  ],
  "closed": [

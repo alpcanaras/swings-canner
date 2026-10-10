@@ -1,29 +1,29 @@
-# Crypto risk screen — 09 Oct 2026
+# Crypto risk screen — 10 Oct 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1646.5B, -3%/7d) — risk LOWER: modest liquidity (2.6%)
-- ETH (Ethereum, $302.7B, -8%/7d) — risk LOWER: no major red flags in market data
-- BNB (BNB, $98.1B, -5%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.3% — hard to exit)
-- XRP (XRP, $87.4B, -7%/7d) — risk LOWER: modest liquidity (3.8%)
-- SOL (Solana, $64.6B, -8%/7d) — risk LOWER: no major red flags in market data
-- DOGE (Dogecoin, $13.2B, -10%/7d) — risk LOWER: no major red flags in market data
+- BTC (Bitcoin, $1660.4B, -2%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.6% — hard to exit)
+- ETH (Ethereum, $304.5B, -7%/7d) — risk LOWER: modest liquidity (3.0%)
+- BNB (BNB, $99.2B, -3%/7d) — risk MEDIUM: thin liquidity (vol/mcap 0.7% — hard to exit)
+- XRP (XRP, $88.8B, -5%/7d) — risk MEDIUM: thin liquidity (vol/mcap 2.0% — hard to exit)
+- SOL (Solana, $64.7B, -8%/7d) — risk LOWER: modest liquidity (4.1%)
+- DOGE (Dogecoin, $13.5B, -8%/7d) — risk LOWER: modest liquidity (4.0%)
 
 ## Small-cap discovery — RESEARCH ONLY, NOT PICKS
 
 > Most of these will fail. A public feed cannot find gems before insiders. This tool cannot see rug-pulls, honeypots or fake volume. Treat every name as guilty until proven safe with real due diligence.
 
 - REUR (Royal Euro, $62M, +261%/7d) — risk MEDIUM: small-cap; only 0% of supply circulating (future dilution); near all-time high (-0% from ATH — chasing risk)
-- RLC (iExec RLC, $78M, +133%/7d) — risk LOWER: small-cap
-- SAND (The Sandbox, $204M, +56%/7d) — risk LOWER: small-cap
-- MET (Meteora, $242M, +44%/7d) — risk LOWER: small-cap
-- ORCA (Orca, $148M, +42%/7d) — risk LOWER: small-cap
-- EDU (Open Campus, $57M, +33%/7d) — risk LOWER: small-cap
-- BEAM (Beam, $133M, +27%/7d) — risk LOWER: small-cap
-- CARDS (Collector Crypt, $250M, +25%/7d) — risk LOWER: small-cap
-- NMR (Numeraire, $99M, +24%/7d) — risk LOWER: small-cap
-- MUBARAK (Mubarak, $76M, +22%/7d) — risk LOWER: small-cap
-- SOSO (SoSoValue, $124M, +22%/7d) — risk MEDIUM: small-cap; modest liquidity (4.7%); only 34% of supply circulating (future dilution)
-- Q (Quack AI, $117M, +21%/7d) — risk LOWER: small-cap
+- RLC (iExec RLC, $92M, +185%/7d) — risk LOWER: small-cap
+- BAT (Basic Attention, $206M, +45%/7d) — risk LOWER: small-cap
+- MET (Meteora, $231M, +41%/7d) — risk LOWER: small-cap
+- US (Talus, $99M, +40%/7d) — risk MEDIUM: small-cap; only 29% of supply circulating (future dilution)
+- EDU (Open Campus, $59M, +34%/7d) — risk LOWER: small-cap
+- ORCA (Orca, $141M, +31%/7d) — risk LOWER: small-cap
+- Q (Quack AI, $129M, +27%/7d) — risk LOWER: small-cap
+- MUBARAK (Mubarak, $77M, +25%/7d) — risk LOWER: small-cap
+- BEAM (Beam, $136M, +24%/7d) — risk LOWER: small-cap
+- CHIP (USD.AI, $106M, +21%/7d) — risk MEDIUM: small-cap; only 20% of supply circulating (future dilution)
+- CAP (Cap, $139M, +18%/7d) — risk MEDIUM: small-cap; only 16% of supply circulating (future dilution); near all-time high (-12% from ATH — chasing risk)
 
 _Objective market-data signals only — no contract audit, no holder analysis. Not financial advice; not a licensed adviser._

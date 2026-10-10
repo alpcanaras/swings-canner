@@ -1,44 +1,38 @@
-$GRT-USD: possibly delisted; no timezone found
-$APT-USD: possibly delisted; no timezone found
-$PEPE-USD: possibly delisted; no timezone found
 $IMX-USD: possibly delisted; no timezone found
-$UNI-USD: possibly delisted; no timezone found
+$GRT-USD: possibly delisted; no timezone found
+$PEPE-USD: possibly delisted; no timezone found
+$APT-USD: possibly delisted; no timezone found
 $SUI-USD: possibly delisted; no timezone found
+$UNI-USD: possibly delisted; no timezone found
 
 6 Failed downloads:
-['GRT-USD', 'APT-USD', 'PEPE-USD', 'IMX-USD', 'UNI-USD', 'SUI-USD']: possibly delisted; no timezone found
+['IMX-USD', 'GRT-USD', 'PEPE-USD', 'APT-USD', 'SUI-USD', 'UNI-USD']: possibly delisted; no timezone found
 Downloading 40 tickers (8y daily)...
   usable: 34 tickers
-# Crypto brief — 2026-10-09
+# Crypto brief — 2026-10-10
 
 ## Regime: RISK-ON 
 
 Trend is up. History says this is when holding majors paid — and a simple 'stay long while BTC is above its 200-day' rule kept you in for it.
 
-- BTC $81,944 — above its 200-day (71,799); -5% from the 1-year high; +8% in 30d.
+- BTC $82,607 — above its 200-day (71,857); -5% from the 1-year high; +8% in 30d.
 - Breadth: 29/34 majors above their 200-day (85%).
 
 
-CRYPTO SWING (experimental, underperformed holding) — 2026-10-09 (universe: 34 coins)
-ticker side  score      close                                                                          signals  RS_3m_%  ATR%       stop  min_KO_dist earnings  expected_pct
-  NEAR LONG   0.23     4.6551                            7-day extreme pullback (L), Sweep & reclaim (10d) (L)    146.7 10.11     3.7137       1.4121      n/a         0.320
-   ICP LONG   0.23     2.9936 RSI(2) mean-reversion (L), 7-day extreme pullback (L), Sweep & reclaim (10d) (L)      8.8  7.58     2.5396       0.6810      n/a         0.217
-  AVAX LONG   0.23    10.2330                            7-day extreme pullback (L), Sweep & reclaim (10d) (L)     24.8  6.40     8.9233       1.9645      n/a         0.320
-   DOT LONG   0.18     1.1344                                                        Sweep & reclaim (10d) (L)      3.9  6.86     0.9788       0.2334      n/a         0.460
-   FIL LONG   0.12     1.0791                                                                   FVG retest (L)     19.3  7.63     0.9143       0.2472      n/a         0.320
-   BTC LONG   0.06 81943.6875                            RSI(2) mean-reversion (L), 7-day extreme pullback (L)     -6.8  2.60 77684.8468    6388.2610      n/a         0.095
-   ETH LONG   0.06  2481.0601                            RSI(2) mean-reversion (L), 7-day extreme pullback (L)     -3.9  3.44  2310.4364     255.9354      n/a         0.095
-   SOL LONG   0.06   109.8000                            RSI(2) mean-reversion (L), 7-day extreme pullback (L)     16.9  4.15   100.6872      13.6691      n/a         0.095
-   ADA LONG   0.06     0.2331                            RSI(2) mean-reversion (L), 7-day extreme pullback (L)    -18.3  6.60     0.2023       0.0462      n/a         0.095
-   BNB LONG   0.06   736.7100                            RSI(2) mean-reversion (L), 7-day extreme pullback (L)     -9.8  2.88   694.2435      63.6998      n/a         0.095
+CRYPTO SWING (experimental, underperformed holding) — 2026-10-10 (universe: 34 coins)
+ticker side  score     close                                               signals  RS_3m_%  ATR%      stop  min_KO_dist earnings  expected_pct
+   DOT LONG   0.66    1.2728                             Donchian 20d breakout (L)     16.9  7.06    1.0932       0.2694      n/a         1.580
+   ADA LONG   0.11    0.2539                                        FVG retest (L)    -12.5  6.46    0.2211       0.0492      n/a         0.310
+   FIL LONG   0.11    1.0928                                        FVG retest (L)     21.2  7.59    0.9270       0.2487      n/a         0.310
+   MKR LONG   0.06 1755.9259 RSI(2) mean-reversion (L), 7-day extreme pullback (L)    -22.1 11.38 1356.3173     599.4129      n/a         0.095
 Written docs/crypto.html
 Crypto paper: 20 closed, -8.91 net
 Written docs/crypto_portfolio.html
-# Crypto risk screen — 09 Oct 2026
+# Crypto risk screen — 10 Oct 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1646.5B, -3%/7d) — risk LOWER: modest liquidity (2.6%)
-- ETH (Ethereum, $302.7B, -8%/7d) — risk LOWER: no major red flags in market data
+- BTC (Bitcoin, $1660.4B, -2%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.6% — hard to exit)
+- ETH (Ethereum, $304.5B, -7%/7d) — risk LOWER: modest liquidity (3.0%)
 
 Written docs/crypto_screen.html and docs/crypto_screen_digest.txt

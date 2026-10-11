@@ -1,38 +1,37 @@
-$IMX-USD: possibly delisted; no timezone found
-$GRT-USD: possibly delisted; no timezone found
 $PEPE-USD: possibly delisted; no timezone found
-$APT-USD: possibly delisted; no timezone found
+$GRT-USD: possibly delisted; no timezone found
 $SUI-USD: possibly delisted; no timezone found
 $UNI-USD: possibly delisted; no timezone found
+$IMX-USD: possibly delisted; no timezone found
+$APT-USD: possibly delisted; no timezone found
 
-6 Failed downloads:
-['IMX-USD', 'GRT-USD', 'PEPE-USD', 'APT-USD', 'SUI-USD', 'UNI-USD']: possibly delisted; no timezone found
+7 Failed downloads:
+['CRV-USD']: OperationalError('database is locked')
+['PEPE-USD', 'GRT-USD', 'SUI-USD', 'UNI-USD', 'IMX-USD', 'APT-USD']: possibly delisted; no timezone found
 Downloading 40 tickers (8y daily)...
-  usable: 34 tickers
-# Crypto brief — 2026-10-10
+  usable: 33 tickers
+# Crypto brief — 2026-10-11
 
 ## Regime: RISK-ON 
 
 Trend is up. History says this is when holding majors paid — and a simple 'stay long while BTC is above its 200-day' rule kept you in for it.
 
-- BTC $82,607 — above its 200-day (71,857); -5% from the 1-year high; +8% in 30d.
-- Breadth: 29/34 majors above their 200-day (85%).
+- BTC $82,938 — above its 200-day (71,918); -4% from the 1-year high; +3% in 30d.
+- Breadth: 29/33 majors above their 200-day (88%).
 
 
-CRYPTO SWING (experimental, underperformed holding) — 2026-10-10 (universe: 34 coins)
-ticker side  score     close                                               signals  RS_3m_%  ATR%      stop  min_KO_dist earnings  expected_pct
-   DOT LONG   0.66    1.2728                             Donchian 20d breakout (L)     16.9  7.06    1.0932       0.2694      n/a         1.580
-   ADA LONG   0.11    0.2539                                        FVG retest (L)    -12.5  6.46    0.2211       0.0492      n/a         0.310
-   FIL LONG   0.11    1.0928                                        FVG retest (L)     21.2  7.59    0.9270       0.2487      n/a         0.310
-   MKR LONG   0.06 1755.9259 RSI(2) mean-reversion (L), 7-day extreme pullback (L)    -22.1 11.38 1356.3173     599.4129      n/a         0.095
+CRYPTO SWING (experimental, underperformed holding) — 2026-10-11 (universe: 33 coins)
+ticker side  score  close        signals  RS_3m_%  ATR%   stop  min_KO_dist earnings  expected_pct
+   ADA LONG    0.1 0.2484 FVG retest (L)    -11.6  6.07 0.2182       0.0452      n/a          0.29
+   FIL LONG    0.1 1.1143 FVG retest (L)     20.6  7.21 0.9537       0.2410      n/a          0.29
 Written docs/crypto.html
 Crypto paper: 20 closed, -8.91 net
 Written docs/crypto_portfolio.html
-# Crypto risk screen — 10 Oct 2026
+# Crypto risk screen — 11 Oct 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1660.4B, -2%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.6% — hard to exit)
-- ETH (Ethereum, $304.5B, -7%/7d) — risk LOWER: modest liquidity (3.0%)
+- BTC (Bitcoin, $1666.8B, -2%/7d) — risk MEDIUM: thin liquidity (vol/mcap 0.9% — hard to exit)
+- ETH (Ethereum, $306.0B, -7%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.9% — hard to exit)
 
 Written docs/crypto_screen.html and docs/crypto_screen_digest.txt

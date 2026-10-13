@@ -1,21 +1,6 @@
 {
  "open": [
   {
-   "ticker": "AAVE",
-   "side": "LONG",
-   "entry": 154.88,
-   "stop": 162.8692,
-   "shares": 1.2913223140495869,
-   "notional": 200.0,
-   "cost": 0.2,
-   "date": "2026-09-27",
-   "days": 15,
-   "viable": true,
-   "atr_pct": 5.56,
-   "setup": "momentum",
-   "trailed": true
-  },
-  {
    "ticker": "FIL",
    "side": "LONG",
    "entry": 1.1465,
@@ -24,7 +9,7 @@
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-10-06",
-   "days": 6,
+   "days": 7,
    "viable": true,
    "atr_pct": 7.06,
    "setup": "mean reversion, momentum",
@@ -39,7 +24,7 @@
    "notional": 148.3460803059273,
    "cost": 0.1483460803059273,
    "date": "2026-10-09",
-   "days": 3,
+   "days": 4,
    "viable": true,
    "atr_pct": 10.11,
    "setup": "failed breakout, mean reversion",
@@ -54,7 +39,7 @@
    "notional": 197.81497797356838,
    "cost": 0.1978149779735684,
    "date": "2026-10-09",
-   "days": 3,
+   "days": 4,
    "viable": false,
    "atr_pct": 7.58,
    "setup": "failed breakout, mean reversion",
@@ -69,11 +54,25 @@
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-10-09",
-   "days": 3,
+   "days": 4,
    "viable": true,
    "atr_pct": 6.4,
    "setup": "failed breakout, mean reversion",
    "trailed": true
+  },
+  {
+   "ticker": "SOL",
+   "side": "LONG",
+   "entry": 106.39,
+   "stop": 96.9814,
+   "shares": 1.8798759281887396,
+   "notional": 200.0,
+   "cost": 0.2,
+   "date": "2026-10-13",
+   "days": 0,
+   "viable": true,
+   "atr_pct": 4.42,
+   "setup": "failed breakout, mean reversion"
   }
  ],
  "closed": [
@@ -485,6 +484,27 @@
    "gross": -19.451458543855825,
    "net": -19.651458543855824,
    "pct": -9.725729271927912,
+   "reason": "gapped through the stop"
+  },
+  {
+   "ticker": "AAVE",
+   "side": "LONG",
+   "entry": 154.88,
+   "stop": 162.8692,
+   "shares": 1.2913223140495869,
+   "notional": 200.0,
+   "cost": 0.2,
+   "date": "2026-09-27",
+   "days": 16,
+   "viable": true,
+   "atr_pct": 5.56,
+   "setup": "momentum",
+   "trailed": true,
+   "exit": 156.10461071777343,
+   "exit_date": "2026-10-13",
+   "gross": 1.5813671458851115,
+   "net": 1.3813671458851116,
+   "pct": 0.7906835729425558,
    "reason": "gapped through the stop"
   }
  ],

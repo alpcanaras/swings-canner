@@ -1,29 +1,29 @@
-# Crypto risk screen — 13 Oct 2026
+# Crypto risk screen — 14 Oct 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1663.5B, -3%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.8% — hard to exit)
-- ETH (Ethereum, $303.6B, -8%/7d) — risk LOWER: no major red flags in market data
-- BNB (BNB, $98.5B, -5%/7d) — risk MEDIUM: thin liquidity (vol/mcap 0.9% — hard to exit)
-- XRP (XRP, $85.9B, -9%/7d) — risk LOWER: modest liquidity (2.5%)
-- SOL (Solana, $62.7B, -12%/7d) — risk LOWER: no major red flags in market data
-- DOGE (Dogecoin, $13.1B, -12%/7d) — risk LOWER: no major red flags in market data
+- BTC (Bitcoin, $1673.4B, -3%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.8% — hard to exit)
+- ETH (Ethereum, $305.8B, -7%/7d) — risk LOWER: modest liquidity (3.6%)
+- BNB (BNB, $98.9B, -5%/7d) — risk MEDIUM: thin liquidity (vol/mcap 0.6% — hard to exit)
+- XRP (XRP, $86.4B, -8%/7d) — risk LOWER: modest liquidity (2.0%)
+- SOL (Solana, $63.2B, -11%/7d) — risk LOWER: no major red flags in market data
+- DOGE (Dogecoin, $13.2B, -10%/7d) — risk LOWER: modest liquidity (3.8%)
 
 ## Small-cap discovery — RESEARCH ONLY, NOT PICKS
 
 > Most of these will fail. A public feed cannot find gems before insiders. This tool cannot see rug-pulls, honeypots or fake volume. Treat every name as guilty until proven safe with real due diligence.
 
 - REUR (Royal Euro, $62M, +261%/7d) — risk MEDIUM: small-cap; only 0% of supply circulating (future dilution); near all-time high (-0% from ATH — chasing risk)
-- Q (Quack AI, $169M, +72%/7d) — risk MEDIUM: small-cap; modest liquidity (4.3%)
-- S (Sonic, $225M, +34%/7d) — risk LOWER: small-cap
-- RLC (iExec RLC, $84M, +34%/7d) — risk LOWER: small-cap
-- MET (Meteora, $211M, +30%/7d) — risk LOWER: small-cap
-- CAP (Cap, $148M, +27%/7d) — risk MEDIUM: small-cap; only 16% of supply circulating (future dilution)
-- ALEO (ALEO, $50M, +23%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); modest liquidity (3.5%)
-- AZTEC (Aztec, $60M, +19%/7d) — risk MEDIUM: small-cap; only 29% of supply circulating (future dilution)
-- RSR (Reserve Rights, $127M, +19%/7d) — risk LOWER: small-cap
-- ZK (ZKsync, $159M, +14%/7d) — risk LOWER: small-cap
-- CKB (Nervos Network, $75M, +13%/7d) — risk LOWER: small-cap
-- WIN (WINkLink, $57M, +12%/7d) — risk LOWER: small-cap
+- Q (Quack AI, $200M, +101%/7d) — risk LOWER: small-cap
+- ALEO (ALEO, $59M, +45%/7d) — risk LOWER: small-cap
+- S (Sonic, $225M, +32%/7d) — risk LOWER: small-cap
+- ZK (ZKsync, $176M, +26%/7d) — risk LOWER: small-cap
+- AZTEC (Aztec, $61M, +23%/7d) — risk MEDIUM: small-cap; only 29% of supply circulating (future dilution)
+- BEAM (Beam, $155M, +20%/7d) — risk LOWER: small-cap
+- CKB (Nervos Network, $78M, +19%/7d) — risk LOWER: small-cap
+- RLC (iExec RLC, $78M, +19%/7d) — risk LOWER: small-cap
+- RSR (Reserve Rights, $130M, +19%/7d) — risk LOWER: small-cap
+- AMP (Amp, $65M, +18%/7d) — risk LOWER: small-cap
+- SAFE (Safe, $106M, +17%/7d) — risk LOWER: small-cap
 
 _Objective market-data signals only — no contract audit, no holder analysis. Not financial advice; not a licensed adviser._

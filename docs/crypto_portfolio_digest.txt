@@ -1,25 +1,22 @@
-# Trade sheet — 2026-10-13
+# Trade sheet — 2026-10-14
 
 ## Sell
 
-| ticker | in | out | P&L | why |
-|---|---|---|---|---|
-| AAVE | 154.88 | 156.10 | +0.8% ($+1.38) | gapped through the stop |
+Nothing to sell.
 
 ## Buy
 
-| ticker | setup | signal px | stop $ | stop % | trail | size |
-|---|---|---|---|---|---|---|
-| SOL | failed breakout, mean reversion | 106.39 | 96.98 | -8.8% | 2xATR = $9.40 | $200 = 1.88 sh |
+Nothing to buy — slots full or no setups.
 
 ## Holding — updated stops
 
 | ticker | entry | now | P&L | stop now | locked in |
 |---|---|---|---|---|---|
-| FIL | 1.15 | 1.15 | +0.2% | 1.05 | not yet |
-| NEAR | 4.66 | 5.26 | +13.1% | 4.80 | +3.1% |
-| ICP | 2.99 | 3.11 | +3.9% | 3.00 | +0.2% |
-| AVAX | 10.23 | 10.38 | +1.4% | 9.65 | not yet |
+| FIL | 1.15 | 1.16 | +1.1% | 1.05 | not yet |
+| NEAR | 4.66 | 5.09 | +9.3% | 4.80 | +3.1% |
+| ICP | 2.99 | 3.12 | +4.4% | 3.00 | +0.2% |
+| AVAX | 10.23 | 10.28 | +0.5% | 9.65 | not yet |
+| SOL | 106.39 | 107.24 | +0.8% | 98.29 | not yet |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 

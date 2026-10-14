@@ -1,44 +1,39 @@
 $UNI-USD: possibly delisted; no timezone found
+$GRT-USD: possibly delisted; no timezone found
+$APT-USD: possibly delisted; no timezone found
 $SUI-USD: possibly delisted; no timezone found
 $IMX-USD: possibly delisted; no timezone found
-$GRT-USD: possibly delisted; no timezone found
 $PEPE-USD: possibly delisted; no timezone found
-$APT-USD: possibly delisted; no timezone found
 
 6 Failed downloads:
-['UNI-USD', 'SUI-USD', 'IMX-USD', 'GRT-USD', 'PEPE-USD', 'APT-USD']: possibly delisted; no timezone found
+['UNI-USD', 'GRT-USD', 'APT-USD', 'SUI-USD', 'IMX-USD', 'PEPE-USD']: possibly delisted; no timezone found
 Downloading 40 tickers (8y daily)...
   usable: 34 tickers
-# Crypto brief — 2026-10-13
+# Crypto brief — 2026-10-14
 
 ## Regime: RISK-ON 
 
 Trend is up. History says this is when holding majors paid — and a simple 'stay long while BTC is above its 200-day' rule kept you in for it.
 
-- BTC $82,709 — above its 200-day (72,050); -4% from the 1-year high; +2% in 30d.
+- BTC $83,208 — above its 200-day (72,129); -4% from the 1-year high; -4% in 30d.
 - Breadth: 29/34 majors above their 200-day (85%).
 
 
-CRYPTO SWING (experimental, underperformed holding) — 2026-10-13 (universe: 34 coins)
-ticker side  score    close                                               signals  RS_3m_%  ATR%     stop  min_KO_dist earnings  expected_pct
-   SOL LONG   0.23 106.3900 7-day extreme pullback (L), Sweep & reclaim (10d) (L)      6.2  4.42  96.9814      14.1130      n/a          0.31
-   XRP LONG   0.23   1.3602 7-day extreme pullback (L), Sweep & reclaim (10d) (L)      0.6  4.69   1.2327       0.1912      n/a          0.31
-   LTC LONG   0.23  61.4040 7-day extreme pullback (L), Sweep & reclaim (10d) (L)      2.2  4.76  55.5618       8.7633      n/a          0.31
-   AXS LONG   0.23   1.1335 7-day extreme pullback (L), Sweep & reclaim (10d) (L)     -9.4  7.80   0.9566       0.2653      n/a          0.31
-   FIL LONG   0.11   1.1488                                        FVG retest (L)     29.7  8.50   0.9536       0.2928      n/a          0.31
-   DOT LONG   0.11   1.1575                                        FVG retest (L)     10.0  7.41   0.9861       0.2572      n/a          0.31
-   INJ LONG   0.11   7.4080                                        FVG retest (L)     35.1  8.16   6.1993       1.8130      n/a          0.31
-  NEAR LONG   0.11   5.2629                                        FVG retest (L)    194.6 10.33   4.1757       1.6308      n/a          0.31
-   XLM LONG   0.05   0.1914                            7-day extreme pullback (L)    -15.2  5.98   0.1685       0.0343      n/a          0.16
-  AAVE LONG   0.05 158.2500                            7-day extreme pullback (L)     43.7  6.45 137.8387      30.6170      n/a          0.16
+CRYPTO SWING (experimental, underperformed holding) — 2026-10-14 (universe: 34 coins)
+ticker side  score  close                                            signals  RS_3m_%  ATR%   stop  min_KO_dist earnings  expected_pct
+   DOT LONG   0.11 1.1680                                     FVG retest (L)     13.5  6.71 1.0112       0.2352      n/a         0.310
+  ATOM LONG   0.11 1.8290                                     FVG retest (L)     -7.1  6.56 1.5891       0.3599      n/a         0.310
+  NEAR LONG   0.11 5.0880                                     FVG retest (L)    180.6 10.13 4.0574       1.5459      n/a         0.310
+   XLM LONG   0.05 0.1899 IBS mean-reversion (L), 7-day extreme pullback (L)    -17.1  5.55 0.1688       0.0316      n/a         0.175
+   AXS LONG   0.05 1.1429                         7-day extreme pullback (L)     -6.3  7.05 0.9816       0.2419      n/a         0.170
 Written docs/crypto.html
 Crypto paper: 21 closed, -7.53 net
 Written docs/crypto_portfolio.html
-# Crypto risk screen — 13 Oct 2026
+# Crypto risk screen — 14 Oct 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1663.5B, -3%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.8% — hard to exit)
-- ETH (Ethereum, $303.6B, -8%/7d) — risk LOWER: no major red flags in market data
+- BTC (Bitcoin, $1673.4B, -3%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.8% — hard to exit)
+- ETH (Ethereum, $305.8B, -7%/7d) — risk LOWER: modest liquidity (3.6%)
 
 Written docs/crypto_screen.html and docs/crypto_screen_digest.txt

@@ -9,7 +9,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-08",
-   "days": 6,
+   "days": 7,
    "families": [
     "mean reversion"
    ],
@@ -25,7 +25,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-08",
-   "days": 6,
+   "days": 7,
    "families": [
     "mean reversion"
    ],
@@ -40,7 +40,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-08",
-   "days": 6,
+   "days": 7,
    "families": [
     "mean reversion"
    ],
@@ -56,7 +56,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 5,
+   "days": 6,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -73,7 +73,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 5,
+   "days": 6,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -90,7 +90,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 5,
+   "days": 6,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -107,7 +107,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 5,
+   "days": 6,
    "families": [
     "failed breakout"
    ],
@@ -123,7 +123,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 5,
+   "days": 6,
    "families": [
     "gap"
    ],
@@ -139,7 +139,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 5,
+   "days": 6,
    "families": [
     "mean reversion"
    ],
@@ -155,7 +155,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 5,
+   "days": 6,
    "families": [
     "mean reversion"
    ],
@@ -171,23 +171,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 5,
-   "families": [
-    "mean reversion"
-   ],
-   "n_signals": 2,
-   "trailed": true
-  },
-  {
-   "ticker": "LTC",
-   "side": "LONG",
-   "entry": 63.336,
-   "stop": 59.3463,
-   "shares": 1.578880889225717,
-   "notional": 100.0,
-   "cost": 0.1,
-   "date": "2026-10-09",
-   "days": 5,
+   "days": 6,
    "families": [
     "mean reversion"
    ],
@@ -203,7 +187,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 5,
+   "days": 6,
    "families": [
     "mean reversion"
    ],
@@ -219,7 +203,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 5,
+   "days": 6,
    "families": [
     "mean reversion"
    ],
@@ -235,27 +219,11 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 5,
+   "days": 6,
    "families": [
     "mean reversion"
    ],
    "n_signals": 3,
-   "trailed": true
-  },
-  {
-   "ticker": "AXS",
-   "side": "LONG",
-   "entry": 1.1615,
-   "stop": 1.0812,
-   "shares": 86.09556607834696,
-   "notional": 100.0,
-   "cost": 0.1,
-   "date": "2026-10-09",
-   "days": 5,
-   "families": [
-    "mean reversion"
-   ],
-   "n_signals": 1,
    "trailed": true
   },
   {
@@ -267,7 +235,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-12",
-   "days": 2,
+   "days": 3,
    "families": [
     "gap"
    ],
@@ -282,7 +250,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-13",
-   "days": 1,
+   "days": 2,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -299,12 +267,42 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-13",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
    "n_signals": 1,
    "trailed": true
+  },
+  {
+   "ticker": "LINK",
+   "side": "LONG",
+   "entry": 12.442,
+   "stop": 11.0668,
+   "shares": 8.037293039704227,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-10-15",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1
+  },
+  {
+   "ticker": "LTC",
+   "side": "LONG",
+   "entry": 59.363,
+   "stop": 53.6764,
+   "shares": 1.6845509829354985,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-10-15",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 2
   }
  ],
  "closed": [
@@ -1224,6 +1222,50 @@
    "net": -6.342349726775958,
    "pct": -6.2423497267759585,
    "reason": "trailing stop"
+  },
+  {
+   "ticker": "LTC",
+   "side": "LONG",
+   "entry": 63.336,
+   "stop": 59.3463,
+   "shares": 1.578880889225717,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-10-09",
+   "days": 6,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 2,
+   "trailed": true,
+   "exit": 58.964693939208985,
+   "exit_date": "2026-10-15",
+   "gross": -6.901771600339481,
+   "net": -7.001771600339481,
+   "pct": -6.901771600339481,
+   "reason": "gapped through the stop"
+  },
+  {
+   "ticker": "AXS",
+   "side": "LONG",
+   "entry": 1.1615,
+   "stop": 1.0812,
+   "shares": 86.09556607834696,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-10-09",
+   "days": 6,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1,
+   "trailed": true,
+   "exit": 1.0748432164192199,
+   "exit_date": "2026-10-15",
+   "gross": -7.4607648369160655,
+   "net": -7.560764836916065,
+   "pct": -7.4607648369160655,
+   "reason": "gapped through the stop"
   }
  ],
  "started": "2026-08-21"

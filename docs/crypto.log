@@ -1,44 +1,38 @@
-$UNI-USD: possibly delisted; no timezone found
+$IMX-USD: possibly delisted; no timezone found
 $APT-USD: possibly delisted; no timezone found
 $GRT-USD: possibly delisted; no timezone found
-$IMX-USD: possibly delisted; no timezone found
-$PEPE-USD: possibly delisted; no timezone found
+$UNI-USD: possibly delisted; no timezone found
 $SUI-USD: possibly delisted; no timezone found
+$PEPE-USD: possibly delisted; no timezone found
 
 6 Failed downloads:
-['UNI-USD', 'APT-USD', 'GRT-USD', 'IMX-USD', 'PEPE-USD', 'SUI-USD']: possibly delisted; no timezone found
+['IMX-USD', 'APT-USD', 'GRT-USD', 'UNI-USD', 'SUI-USD', 'PEPE-USD']: possibly delisted; no timezone found
 Downloading 40 tickers (8y daily)...
   usable: 34 tickers
-# Crypto brief — 2026-10-15
+# Crypto brief — 2026-10-16
 
 ## Regime: RISK-ON 
 
 Trend is up. History says this is when holding majors paid — and a simple 'stay long while BTC is above its 200-day' rule kept you in for it.
 
-- BTC $81,780 — above its 200-day (72,206); -6% from the 1-year high; -5% in 30d.
+- BTC $82,219 — above its 200-day (72,286); -5% from the 1-year high; -3% in 30d.
 - Breadth: 28/34 majors above their 200-day (82%).
 
 
-CRYPTO SWING (experimental, underperformed holding) — 2026-10-15 (universe: 34 coins)
-ticker side  score     close                                               signals  RS_3m_%  ATR%      stop  min_KO_dist earnings  expected_pct
-   DOT LONG   0.11    1.1455                                        FVG retest (L)     17.5  6.90    0.9873       0.2373      n/a         0.310
-   FIL LONG   0.11    1.0998                                        FVG retest (L)     33.7  8.90    0.9041       0.2936      n/a         0.310
-   ETH LONG   0.05 2419.8201                            7-day extreme pullback (L)     -1.8  3.64 2243.5483     264.4076      n/a         0.160
-   BNB LONG   0.05  730.4500                            7-day extreme pullback (L)    -10.8  2.77  690.0075      60.6637      n/a         0.160
-   ADA LONG   0.05    0.2286    IBS mean-reversion (L), 7-day extreme pullback (L)     -5.3  6.64    0.1983       0.0455      n/a         0.170
-   SOL LONG   0.05  104.5000                            7-day extreme pullback (L)      7.7  4.40   95.2960      13.8061      n/a         0.160
-   XRP LONG   0.05    1.3284                            7-day extreme pullback (L)      1.6  4.61    1.2058       0.1839      n/a         0.160
-  LINK LONG   0.05   12.4420                            7-day extreme pullback (L)     12.9  5.53   11.0668       2.0627      n/a         0.160
-  AVAX LONG   0.05    9.9470                            7-day extreme pullback (L)     26.9  6.52    8.6506       1.9446      n/a         0.160
-   XLM LONG   0.05    0.1828 RSI(2) mean-reversion (L), 7-day extreme pullback (L)    -15.9  5.93    0.1611       0.0325      n/a         0.095
+CRYPTO SWING (experimental, underperformed holding) — 2026-10-16 (universe: 34 coins)
+ticker side  score    close                                            signals  RS_3m_%  ATR%     stop  min_KO_dist earnings  expected_pct
+   INJ LONG   0.66   8.5480                          Donchian 20d breakout (L)     49.8  8.18   7.1488       2.0988      n/a          1.56
+   DOT LONG   0.11   1.1515                                     FVG retest (L)     13.5  6.68   0.9978       0.2306      n/a          0.31
+   BNB LONG   0.05 728.6000 IBS mean-reversion (L), 7-day extreme pullback (L)    -16.2  2.64 690.1024      57.7464      n/a          0.17
+  ATOM LONG   0.05   1.7427                         7-day extreme pullback (L)    -19.6  6.78   1.5063       0.3546      n/a          0.16
 Written docs/crypto.html
 Crypto paper: 21 closed, -7.53 net
 Written docs/crypto_portfolio.html
-# Crypto risk screen — 15 Oct 2026
+# Crypto risk screen — 16 Oct 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1641.1B, -2%/7d) — risk LOWER: modest liquidity (2.1%)
-- ETH (Ethereum, $295.2B, -6%/7d) — risk LOWER: modest liquidity (4.9%)
+- BTC (Bitcoin, $1651.9B, +0%/7d) — risk LOWER: modest liquidity (2.4%)
+- ETH (Ethereum, $297.6B, -1%/7d) — risk LOWER: no major red flags in market data
 
 Written docs/crypto_screen.html and docs/crypto_screen_digest.txt

@@ -9,7 +9,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-08",
-   "days": 8,
+   "days": 9,
    "families": [
     "mean reversion"
    ],
@@ -25,7 +25,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-08",
-   "days": 8,
+   "days": 9,
    "families": [
     "mean reversion"
    ],
@@ -40,7 +40,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-08",
-   "days": 8,
+   "days": 9,
    "families": [
     "mean reversion"
    ],
@@ -56,7 +56,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 7,
+   "days": 8,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -73,7 +73,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 7,
+   "days": 8,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -90,7 +90,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 7,
+   "days": 8,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -107,7 +107,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 7,
+   "days": 8,
    "families": [
     "failed breakout"
    ],
@@ -123,7 +123,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 7,
+   "days": 8,
    "families": [
     "gap"
    ],
@@ -139,7 +139,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 7,
+   "days": 8,
    "families": [
     "mean reversion"
    ],
@@ -155,7 +155,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 7,
+   "days": 8,
    "families": [
     "mean reversion"
    ],
@@ -171,7 +171,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 7,
+   "days": 8,
    "families": [
     "mean reversion"
    ],
@@ -187,7 +187,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 7,
+   "days": 8,
    "families": [
     "mean reversion"
    ],
@@ -198,12 +198,12 @@
    "ticker": "INJ",
    "side": "LONG",
    "entry": 6.918,
-   "stop": 7.1488,
+   "stop": 7.2895,
    "shares": 14.455044810638913,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 7,
+   "days": 8,
    "families": [
     "mean reversion"
    ],
@@ -219,7 +219,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 7,
+   "days": 8,
    "families": [
     "mean reversion"
    ],
@@ -235,7 +235,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-12",
-   "days": 4,
+   "days": 5,
    "families": [
     "gap"
    ],
@@ -250,7 +250,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-13",
-   "days": 3,
+   "days": 4,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -267,7 +267,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-13",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -283,7 +283,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-15",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -299,7 +299,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-15",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],

@@ -1,29 +1,29 @@
-# Crypto risk screen — 17 Oct 2026
+# Crypto risk screen — 18 Oct 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1637.8B, -1%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.7% — hard to exit)
-- ETH (Ethereum, $295.5B, -3%/7d) — risk LOWER: modest liquidity (4.2%)
-- BNB (BNB, $95.8B, -3%/7d) — risk MEDIUM: thin liquidity (vol/mcap 0.7% — hard to exit)
-- XRP (XRP, $82.3B, -6%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.7% — hard to exit)
-- SOL (Solana, $61.4B, -4%/7d) — risk LOWER: modest liquidity (4.8%)
-- DOGE (Dogecoin, $12.5B, -5%/7d) — risk LOWER: modest liquidity (4.9%)
+- BTC (Bitcoin, $1635.5B, -2%/7d) — risk MEDIUM: thin liquidity (vol/mcap 0.9% — hard to exit)
+- ETH (Ethereum, $293.0B, -4%/7d) — risk LOWER: modest liquidity (2.2%)
+- BNB (BNB, $95.5B, -4%/7d) — risk MEDIUM: thin liquidity (vol/mcap 0.5% — hard to exit)
+- XRP (XRP, $81.7B, -8%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.1% — hard to exit)
+- SOL (Solana, $60.8B, -6%/7d) — risk LOWER: modest liquidity (2.9%)
+- DOGE (Dogecoin, $12.4B, -8%/7d) — risk LOWER: modest liquidity (4.1%)
 
 ## Small-cap discovery — RESEARCH ONLY, NOT PICKS
 
 > Most of these will fail. A public feed cannot find gems before insiders. This tool cannot see rug-pulls, honeypots or fake volume. Treat every name as guilty until proven safe with real due diligence.
 
 - REUR (Royal Euro, $62M, +261%/7d) — risk MEDIUM: small-cap; only 0% of supply circulating (future dilution); near all-time high (-0% from ATH — chasing risk)
-- HBD (Hive Dollar, $117M, +223%/7d) — risk MEDIUM: small-cap; modest liquidity (3.1%); near all-time high (-12% from ATH — chasing risk)
-- ICNT (Impossible Cloud Network Token, $47M, +86%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 36% of supply circulating (future dilution)
-- ALEO (ALEO, $95M, +83%/7d) — risk LOWER: small-cap
-- DUSK (DUSK, $75M, +56%/7d) — risk LOWER: small-cap
-- AZTEC (Aztec, $60M, +34%/7d) — risk MEDIUM: small-cap; only 29% of supply circulating (future dilution)
-- WAL (Walrus, $115M, +30%/7d) — risk LOWER: small-cap
-- S (Sonic, $213M, +25%/7d) — risk LOWER: small-cap
-- RSR (Reserve Rights, $120M, +22%/7d) — risk LOWER: small-cap
-- ZK (ZKsync, $177M, +19%/7d) — risk LOWER: small-cap
-- CKB (Nervos Network, $76M, +17%/7d) — risk LOWER: small-cap
-- ZCAT (Anonymous Cat, $51M, +15%/7d) — risk MEDIUM: small-cap; modest liquidity (4.0%)
+- DUSK (DUSK, $80M, +53%/7d) — risk LOWER: small-cap
+- ALEO (ALEO, $77M, +47%/7d) — risk LOWER: small-cap
+- RSR (Reserve Rights, $129M, +30%/7d) — risk LOWER: small-cap
+- WAL (Walrus, $107M, +14%/7d) — risk LOWER: small-cap
+- MAGMA (Magma Finance, $47M, +14%/7d) — risk HIGH: micro-cap (fragile, easily manipulated); modest liquidity (4.4%); only 19% of supply circulating (future dilution)
+- S (Sonic, $205M, +11%/7d) — risk LOWER: small-cap
+- BEAM (Beam, $151M, +11%/7d) — risk MEDIUM: small-cap; modest liquidity (3.9%)
+- AMP (Amp, $63M, +11%/7d) — risk LOWER: small-cap
+- KMNO (Kamino, $229M, +10%/7d) — risk LOWER: small-cap
+- AZTEC (Aztec, $57M, +10%/7d) — risk MEDIUM: small-cap; modest liquidity (4.1%); only 29% of supply circulating (future dilution)
+- EDU (Open Campus, $66M, +9%/7d) — risk LOWER: small-cap
 
 _Objective market-data signals only — no contract audit, no holder analysis. Not financial advice; not a licensed adviser._

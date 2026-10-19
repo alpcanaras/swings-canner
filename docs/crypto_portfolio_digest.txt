@@ -1,27 +1,27 @@
-# Trade sheet — 2026-10-18
+# Trade sheet — 2026-10-19
 
 ## Sell
 
 | ticker | in | out | P&L | why |
 |---|---|---|---|---|
-| ICP | 2.99 | 2.92 | -2.4% ($-4.90) | gapped through the stop |
+| FIL | 1.15 | 1.04 | -9.6% ($-19.33) | gapped through the stop |
 
 ## Buy
 
 | ticker | setup | signal px | stop $ | stop % | trail | size |
 |---|---|---|---|---|---|---|
-| BTC | mean reversion | 81,347.92 | 77,184.54 | -5.1% | 2xATR = $4,165.01 | $200 = 0.002459 sh |
+| DOT | mean reversion | 1.11 | 0.95 | -14.3% | 2xATR = $0.16 | $200 = 180.8 sh |
 
 ## Holding — updated stops
 
 | ticker | entry | now | P&L | stop now | locked in |
 |---|---|---|---|---|---|
-| FIL | 1.15 | 1.06 | -7.6% | 1.05 | not yet |
-| NEAR | 4.66 | 4.84 | +4.0% | 4.80 | +3.1% |
-| AVAX | 10.23 | 9.75 | -4.7% | 9.65 | not yet |
-| SOL | 106.39 | 103.23 | -3.0% | 98.29 | not yet |
+| NEAR | 4.66 | 4.98 | +6.9% | 4.80 | +3.1% |
+| AVAX | 10.23 | 9.69 | -5.3% | 9.65 | not yet |
+| SOL | 106.39 | 104.01 | -2.2% | 98.29 | not yet |
+| BTC | 81,347.92 | 82,118.45 | +0.9% | 78,051.99 | not yet |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 
-_Record: 22 closed, 32% winners, $-12.43 net, balance $987.57._
-_All signals: 47 closed, 26% profitable, +1.77% avg._
+_Record: 23 closed, 30% winners, $-31.75 net, balance $968.25._
+_All signals: 48 closed, 25% profitable, +1.65% avg._

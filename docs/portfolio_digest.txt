@@ -5,23 +5,24 @@
 | ticker | in | out | P&L | why |
 |---|---|---|---|---|
 | ROG | 148.12 | 134.92 | -8.9% ($-18.03) | gapped through the stop |
+| CZR | 29.25 | 29.00 | -0.9% ($-1.91) | stop hit |
 
 ## Buy
 
 | ticker | setup | signal px | stop $ | stop % | trail | size |
 |---|---|---|---|---|---|---|
-| CZR | mean reversion | 29.25 | 29.00 | -0.9% | 2xATR = $0.26 | $200 = 6.838 sh |
+| ZBRA | mean reversion | 369.01 | 348.73 | -5.5% | 2xATR = $20.30 | $200 = 0.542 sh |
 
 ## Holding — updated stops
 
 | ticker | entry | now | P&L | stop now | locked in |
 |---|---|---|---|---|---|
-| ABNB | 149.58 | 174.28 | +16.5% | 164.36 | +9.9% |
-| CB | 334.84 | 352.79 | +5.4% | 341.63 | +2.0% |
-| ADM | 80.38 | 82.93 | +3.2% | 79.16 | not yet |
-| UFPT | 286.56 | 297.19 | +3.7% | 279.72 | not yet |
+| ABNB | 149.58 | 173.70 | +16.1% | 164.36 | +9.9% |
+| CB | 334.84 | 359.79 | +7.5% | 348.06 | +3.9% |
+| ADM | 80.38 | 82.61 | +2.8% | 79.16 | not yet |
+| UFPT | 286.56 | 291.67 | +1.8% | 279.72 | not yet |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 
-_Record: 21 closed, 29% winners, $-94.46 net, balance $905.54._
-_All signals: 2967 closed, 31% profitable, -1.60% avg._
+_Record: 22 closed, 27% winners, $-96.37 net, balance $903.63._
+_All signals: 3065 closed, 31% profitable, -1.61% avg._

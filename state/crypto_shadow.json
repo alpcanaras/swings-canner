@@ -9,27 +9,12 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-08",
-   "days": 11,
+   "days": 12,
    "families": [
     "mean reversion"
    ],
    "n_signals": 2,
    "trailed": true
-  },
-  {
-   "ticker": "XRP",
-   "side": "LONG",
-   "entry": 1.424,
-   "stop": 1.2903,
-   "shares": 70.2247191011236,
-   "notional": 100.0,
-   "cost": 0.1,
-   "date": "2026-10-08",
-   "days": 11,
-   "families": [
-    "mean reversion"
-   ],
-   "n_signals": 2
   },
   {
    "ticker": "NEAR",
@@ -40,24 +25,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 10,
-   "families": [
-    "failed breakout",
-    "mean reversion"
-   ],
-   "n_signals": 2,
-   "trailed": true
-  },
-  {
-   "ticker": "AVAX",
-   "side": "LONG",
-   "entry": 10.233,
-   "stop": 9.6522,
-   "shares": 9.77230528681716,
-   "notional": 100.0,
-   "cost": 0.1,
-   "date": "2026-10-09",
-   "days": 10,
+   "days": 11,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -74,27 +42,11 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 10,
+   "days": 11,
    "families": [
     "failed breakout"
    ],
    "n_signals": 1,
-   "trailed": true
-  },
-  {
-   "ticker": "ETH",
-   "side": "LONG",
-   "entry": 2481.0601,
-   "stop": 2378.4853,
-   "shares": 0.04030535173251144,
-   "notional": 100.0,
-   "cost": 0.1,
-   "date": "2026-10-09",
-   "days": 10,
-   "families": [
-    "mean reversion"
-   ],
-   "n_signals": 2,
    "trailed": true
   },
   {
@@ -106,7 +58,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 10,
+   "days": 11,
    "families": [
     "mean reversion"
    ],
@@ -122,7 +74,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 10,
+   "days": 11,
    "families": [
     "mean reversion"
    ],
@@ -138,7 +90,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 10,
+   "days": 11,
    "families": [
     "mean reversion"
    ],
@@ -149,12 +101,12 @@
    "ticker": "MKR",
    "side": "LONG",
    "entry": 1750.4706,
-   "stop": 1454.1394,
+   "stop": 1454.7381,
    "shares": 0.05712749474341357,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 10,
+   "days": 11,
    "families": [
     "mean reversion"
    ],
@@ -170,7 +122,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-12",
-   "days": 7,
+   "days": 8,
    "families": [
     "gap"
    ],
@@ -185,7 +137,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-13",
-   "days": 6,
+   "days": 7,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -202,7 +154,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-13",
-   "days": 6,
+   "days": 7,
    "families": [
     "mean reversion"
    ],
@@ -218,7 +170,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-15",
-   "days": 4,
+   "days": 5,
    "families": [
     "mean reversion"
    ],
@@ -234,7 +186,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-15",
-   "days": 4,
+   "days": 5,
    "families": [
     "mean reversion"
    ],
@@ -250,7 +202,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-18",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -266,7 +218,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-18",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -281,6 +233,36 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-19",
+   "days": 1,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 2
+  },
+  {
+   "ticker": "ETH",
+   "side": "LONG",
+   "entry": 2386.5601,
+   "stop": 2206.2362,
+   "shares": 0.04190131226948778,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-10-20",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1
+  },
+  {
+   "ticker": "AVAX",
+   "side": "LONG",
+   "entry": 9.49,
+   "stop": 8.2569,
+   "shares": 10.53740779768177,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-10-20",
    "days": 0,
    "families": [
     "mean reversion"
@@ -1338,6 +1320,72 @@
    "net": -4.014670862023416,
    "pct": -3.9146708620234163,
    "reason": "gapped through the stop"
+  },
+  {
+   "ticker": "XRP",
+   "side": "LONG",
+   "entry": 1.424,
+   "stop": 1.2903,
+   "shares": 70.2247191011236,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-10-08",
+   "days": 12,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 2,
+   "exit": 1.2903,
+   "exit_date": "2026-10-20",
+   "gross": -9.38904494382022,
+   "net": -9.48904494382022,
+   "pct": -9.38904494382022,
+   "reason": "stop hit"
+  },
+  {
+   "ticker": "AVAX",
+   "side": "LONG",
+   "entry": 10.233,
+   "stop": 9.6522,
+   "shares": 9.77230528681716,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-10-09",
+   "days": 11,
+   "families": [
+    "failed breakout",
+    "mean reversion"
+   ],
+   "n_signals": 2,
+   "trailed": true,
+   "exit": 9.560423503875732,
+   "exit_date": "2026-10-20",
+   "gross": -6.572622848864147,
+   "net": -6.672622848864147,
+   "pct": -6.572622848864147,
+   "reason": "gapped through the stop"
+  },
+  {
+   "ticker": "ETH",
+   "side": "LONG",
+   "entry": 2481.0601,
+   "stop": 2378.4853,
+   "shares": 0.04030535173251144,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-10-09",
+   "days": 11,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 2,
+   "trailed": true,
+   "exit": 2378.4853,
+   "exit_date": "2026-10-20",
+   "gross": -4.134313392892027,
+   "net": -4.234313392892027,
+   "pct": -4.134313392892027,
+   "reason": "trailing stop"
   }
  ],
  "started": "2026-08-21"

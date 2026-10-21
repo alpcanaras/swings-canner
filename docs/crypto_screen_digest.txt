@@ -1,29 +1,29 @@
-# Crypto risk screen — 20 Oct 2026
+# Crypto risk screen — 21 Oct 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1635.6B, -0%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.6% — hard to exit)
-- ETH (Ethereum, $291.3B, -2%/7d) — risk LOWER: modest liquidity (3.1%)
-- BNB (BNB, $95.5B, -0%/7d) — risk MEDIUM: thin liquidity (vol/mcap 0.8% — hard to exit)
-- XRP (XRP, $81.4B, -3%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.6% — hard to exit)
-- SOL (Solana, $61.3B, -1%/7d) — risk LOWER: modest liquidity (4.2%)
-- DOGE (Dogecoin, $12.3B, -4%/7d) — risk LOWER: modest liquidity (3.2%)
+- BTC (Bitcoin, $1663.7B, -0%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.7% — hard to exit)
+- ETH (Ethereum, $298.5B, -2%/7d) — risk LOWER: modest liquidity (3.9%)
+- BNB (BNB, $97.4B, +0%/7d) — risk MEDIUM: thin liquidity (vol/mcap 0.7% — hard to exit)
+- XRP (XRP, $84.2B, -2%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.8% — hard to exit)
+- SOL (Solana, $62.6B, -0%/7d) — risk LOWER: modest liquidity (4.4%)
+- DOGE (Dogecoin, $12.8B, -3%/7d) — risk LOWER: modest liquidity (3.3%)
 
 ## Small-cap discovery — RESEARCH ONLY, NOT PICKS
 
 > Most of these will fail. A public feed cannot find gems before insiders. This tool cannot see rug-pulls, honeypots or fake volume. Treat every name as guilty until proven safe with real due diligence.
 
 - REUR (Royal Euro, $62M, +261%/7d) — risk MEDIUM: small-cap; only 0% of supply circulating (future dilution); near all-time high (-0% from ATH — chasing risk)
-- ALEO (ALEO, $74M, +52%/7d) — risk LOWER: small-cap
-- BR (Bedrock, $195M, +44%/7d) — risk MEDIUM: small-cap; only 30% of supply circulating (future dilution)
-- DUSK (DUSK, $72M, +38%/7d) — risk LOWER: small-cap
-- AMP (Amp, $74M, +24%/7d) — risk LOWER: small-cap
-- MAGMA (Magma Finance, $51M, +21%/7d) — risk MEDIUM: small-cap; only 19% of supply circulating (future dilution)
-- ALT (AltLayer, $67M, +16%/7d) — risk LOWER: small-cap
-- BEAM (Beam, $154M, +13%/7d) — risk LOWER: small-cap
-- ZCAT (Anonymous Cat, $45M, +13%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); modest liquidity (4.3%)
-- KMNO (Kamino, $228M, +12%/7d) — risk MEDIUM: small-cap; modest liquidity (3.4%)
-- WAL (Walrus, $99M, +8%/7d) — risk LOWER: small-cap
-- SENT (Sentient, $159M, +7%/7d) — risk MEDIUM: small-cap; only 21% of supply circulating (future dilution)
+- JCT (Janction, $54M, +135%/7d) — risk MEDIUM: small-cap; only 23% of supply circulating (future dilution)
+- ICNT (Impossible Cloud Network Token, $51M, +90%/7d) — risk MEDIUM: small-cap; only 36% of supply circulating (future dilution)
+- ARC (AI Rig Complex, $51M, +78%/7d) — risk LOWER: small-cap
+- BR (Bedrock, $193M, +54%/7d) — risk MEDIUM: small-cap; only 30% of supply circulating (future dilution)
+- CVX (Convex Finance, $225M, +24%/7d) — risk LOWER: small-cap
+- MAGMA (Magma Finance, $53M, +21%/7d) — risk MEDIUM: small-cap; only 19% of supply circulating (future dilution)
+- ALT (AltLayer, $73M, +20%/7d) — risk LOWER: small-cap
+- DUSK (DUSK, $69M, +17%/7d) — risk LOWER: small-cap
+- KNTQ (Kinetiq, $111M, +13%/7d) — risk MEDIUM: small-cap; only 31% of supply circulating (future dilution)
+- AMP (Amp, $75M, +12%/7d) — risk LOWER: small-cap
+- TOSHI (Toshi, $50M, +11%/7d) — risk LOWER: small-cap
 
 _Objective market-data signals only — no contract audit, no holder analysis. Not financial advice; not a licensed adviser._

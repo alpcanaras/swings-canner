@@ -1,36 +1,34 @@
-$GRT-USD: possibly delisted; no timezone found
 $SUI-USD: possibly delisted; no timezone found
 $PEPE-USD: possibly delisted; no timezone found
 $IMX-USD: possibly delisted; no timezone found
-$APT-USD: possibly delisted; no timezone found
 $UNI-USD: possibly delisted; no timezone found
+$GRT-USD: possibly delisted; no timezone found
+$APT-USD: possibly delisted; no timezone found
 
 6 Failed downloads:
-['GRT-USD', 'SUI-USD', 'PEPE-USD', 'IMX-USD', 'APT-USD', 'UNI-USD']: possibly delisted; no timezone found
+['SUI-USD', 'PEPE-USD', 'IMX-USD', 'UNI-USD', 'GRT-USD', 'APT-USD']: possibly delisted; no timezone found
 Downloading 40 tickers (8y daily)...
   usable: 34 tickers
-# Crypto brief — 2026-10-21
+# Crypto brief — 2026-10-22
 
 ## Regime: RISK-ON 
 
 Trend is up. History says this is when holding majors paid — and a simple 'stay long while BTC is above its 200-day' rule kept you in for it.
 
-- BTC $82,710 — above its 200-day (72,649); -4% from the 1-year high; -1% in 30d.
-- Breadth: 26/34 majors above their 200-day (76%).
+- BTC $84,165 — above its 200-day (72,735); -3% from the 1-year high; +1% in 30d.
+- Breadth: 27/34 majors above their 200-day (79%).
 
 
-CRYPTO SWING (experimental, underperformed holding) — 2026-10-21 (universe: 34 coins)
-ticker side  score  close                   signals  RS_3m_%  ATR%   stop  min_KO_dist earnings  expected_pct
-   INJ LONG   0.67 9.0340 Donchian 20d breakout (L)     88.5  7.85 7.6157       2.1275      n/a          1.56
-   DOT LONG   0.11 1.1519            FVG retest (L)     20.3  6.79 0.9955       0.2346      n/a          0.30
+CRYPTO SWING (experimental, underperformed holding) — 2026-10-22 (universe: 34 coins)
+No candidates today.
 Written docs/crypto.html
 Crypto paper: 24 closed, -45.10 net
 Written docs/crypto_portfolio.html
-# Crypto risk screen — 21 Oct 2026
+# Crypto risk screen — 22 Oct 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1663.7B, -0%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.7% — hard to exit)
-- ETH (Ethereum, $298.5B, -2%/7d) — risk LOWER: modest liquidity (3.9%)
+- BTC (Bitcoin, $1690.8B, +3%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.9% — hard to exit)
+- ETH (Ethereum, $301.8B, +2%/7d) — risk LOWER: modest liquidity (4.6%)
 
 Written docs/crypto_screen.html and docs/crypto_screen_digest.txt

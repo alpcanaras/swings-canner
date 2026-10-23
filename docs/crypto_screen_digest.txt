@@ -1,29 +1,29 @@
-# Crypto risk screen — 22 Oct 2026
+# Crypto risk screen — 23 Oct 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1690.8B, +3%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.9% — hard to exit)
-- ETH (Ethereum, $301.8B, +2%/7d) — risk LOWER: modest liquidity (4.6%)
-- BNB (BNB, $98.3B, +3%/7d) — risk MEDIUM: thin liquidity (vol/mcap 0.8% — hard to exit)
-- XRP (XRP, $86.0B, +2%/7d) — risk LOWER: modest liquidity (2.1%)
-- SOL (Solana, $63.2B, +3%/7d) — risk LOWER: modest liquidity (4.1%)
-- DOGE (Dogecoin, $12.8B, +0%/7d) — risk LOWER: modest liquidity (3.8%)
+- BTC (Bitcoin, $1635.3B, -1%/7d) — risk LOWER: modest liquidity (2.1%)
+- ETH (Ethereum, $291.9B, -2%/7d) — risk LOWER: modest liquidity (4.4%)
+- BNB (BNB, $96.1B, +0%/7d) — risk MEDIUM: thin liquidity (vol/mcap 0.7% — hard to exit)
+- XRP (XRP, $82.7B, -2%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.9% — hard to exit)
+- SOL (Solana, $61.2B, -1%/7d) — risk LOWER: modest liquidity (4.0%)
+- DOGE (Dogecoin, $12.4B, -3%/7d) — risk LOWER: modest liquidity (4.9%)
 
 ## Small-cap discovery — RESEARCH ONLY, NOT PICKS
 
 > Most of these will fail. A public feed cannot find gems before insiders. This tool cannot see rug-pulls, honeypots or fake volume. Treat every name as guilty until proven safe with real due diligence.
 
+- YELLOW (Yellow, $51M, +297%/7d) — risk HIGH: small-cap; modest liquidity (4.2%); only 3% of supply circulating (future dilution); near all-time high (-11% from ATH — chasing risk)
 - REUR (Royal Euro, $62M, +261%/7d) — risk MEDIUM: small-cap; only 0% of supply circulating (future dilution); near all-time high (-0% from ATH — chasing risk)
-- HOODINU (Hood Sword Inu, $161M, +142%/7d) — risk MEDIUM: small-cap; near all-time high (-1% from ATH — chasing risk)
-- ICNT (Impossible Cloud Network Token, $48M, +75%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 36% of supply circulating (future dilution)
-- ARC (AI Rig Complex, $64M, +73%/7d) — risk LOWER: small-cap
-- ALT (AltLayer, $94M, +61%/7d) — risk LOWER: small-cap
-- MAGMA (Magma Finance, $63M, +45%/7d) — risk MEDIUM: small-cap; modest liquidity (4.6%); only 19% of supply circulating (future dilution)
-- CVX (Convex Finance, $238M, +37%/7d) — risk LOWER: small-cap
-- KNTQ (Kinetiq, $130M, +35%/7d) — risk HIGH: small-cap; modest liquidity (4.0%); only 31% of supply circulating (future dilution); near all-time high (-9% from ATH — chasing risk)
-- PHA (PHALA, $53M, +22%/7d) — risk LOWER: small-cap
-- AMP (Amp, $73M, +21%/7d) — risk LOWER: small-cap
-- ZAMA (Zama, $205M, +20%/7d) — risk MEDIUM: small-cap; only 23% of supply circulating (future dilution)
-- SENT (Sentient, $167M, +19%/7d) — risk MEDIUM: small-cap; modest liquidity (4.6%); only 21% of supply circulating (future dilution)
+- JCT (Janction, $52M, +126%/7d) — risk MEDIUM: small-cap; only 23% of supply circulating (future dilution)
+- MAGMA (Magma Finance, $95M, +118%/7d) — risk MEDIUM: small-cap; only 19% of supply circulating (future dilution)
+- ARC (AI Rig Complex, $56M, +47%/7d) — risk LOWER: small-cap
+- BR (Bedrock, $156M, +47%/7d) — risk MEDIUM: small-cap; only 30% of supply circulating (future dilution)
+- KNTQ (Kinetiq, $123M, +28%/7d) — risk HIGH: small-cap; modest liquidity (3.5%); only 32% of supply circulating (future dilution); near all-time high (-14% from ATH — chasing risk)
+- CVX (Convex Finance, $232M, +24%/7d) — risk MEDIUM: small-cap; modest liquidity (4.6%)
+- ICNT (Impossible Cloud Network Token, $46M, +22%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 36% of supply circulating (future dilution)
+- PHA (PHALA, $52M, +20%/7d) — risk LOWER: small-cap
+- AMP (Amp, $70M, +17%/7d) — risk LOWER: small-cap
+- BEAM (Beam, $157M, +10%/7d) — risk LOWER: small-cap
 
 _Objective market-data signals only — no contract audit, no holder analysis. Not financial advice; not a licensed adviser._

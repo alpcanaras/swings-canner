@@ -6,23 +6,24 @@
 |---|---|---|---|---|
 | ABNB | 149.58 | 173.69 | +16.1% ($+32.04) | 20-day backstop |
 | ADM | 80.38 | 79.16 | -1.5% ($-3.24) | trailing stop |
+| CB | 334.84 | 363.95 | +8.7% ($+17.19) | 20-day backstop |
 
 ## Buy
 
 | ticker | setup | signal px | stop $ | stop % | trail | size |
 |---|---|---|---|---|---|---|
-| MKTX | mean reversion | 164.26 | 163.48 | -0.5% | 2xATR = $0.79 | $200 = 1.218 sh |
-| HNI | mean reversion | 45.06 | 42.22 | -6.3% | 2xATR = $2.84 | $200 = 4.439 sh |
+| MKTX | mean reversion | 164.26 | 163.81 | -0.3% | 2xATR = $0.79 | $200 = 1.218 sh |
+| HNI | mean reversion | 45.06 | 45.09 | -0.1% | 2xATR = $2.84 | $200 = 4.439 sh |
+| GEO | mean reversion | 26.94 | 24.23 | -10.1% | 2xATR = $2.71 | $200 = 7.424 sh |
 
 ## Holding — updated stops
 
 | ticker | entry | now | P&L | stop now | locked in |
 |---|---|---|---|---|---|
-| CB | 334.84 | 354.95 | +6.0% | 348.06 | +3.9% |
-| UFPT | 286.56 | 290.11 | +1.2% | 279.72 | not yet |
-| ZBRA | 369.01 | 391.00 | +6.0% | 370.57 | +0.4% |
+| UFPT | 286.56 | 297.33 | +3.8% | 279.99 | not yet |
+| ZBRA | 369.01 | 384.16 | +4.1% | 370.57 | +0.4% |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 
-_Record: 24 closed, 29% winners, $-67.58 net, balance $932.42._
-_All signals: 3226 closed, 32% profitable, -1.47% avg._
+_Record: 25 closed, 32% winners, $-50.39 net, balance $949.61._
+_All signals: 3396 closed, 31% profitable, -1.52% avg._

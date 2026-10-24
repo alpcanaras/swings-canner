@@ -1,21 +1,6 @@
 {
  "open": [
   {
-   "ticker": "NEAR",
-   "side": "LONG",
-   "entry": 4.6551,
-   "stop": 4.8008,
-   "shares": 31.867431485022298,
-   "notional": 148.3460803059273,
-   "cost": 0.1483460803059273,
-   "date": "2026-10-09",
-   "days": 14,
-   "viable": true,
-   "atr_pct": 10.11,
-   "setup": "failed breakout, mean reversion",
-   "trailed": true
-  },
-  {
    "ticker": "SOL",
    "side": "LONG",
    "entry": 106.39,
@@ -24,7 +9,7 @@
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-10-13",
-   "days": 10,
+   "days": 11,
    "viable": true,
    "atr_pct": 4.42,
    "setup": "failed breakout, mean reversion",
@@ -39,7 +24,7 @@
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-10-18",
-   "days": 5,
+   "days": 6,
    "viable": false,
    "atr_pct": 2.56,
    "setup": "mean reversion",
@@ -54,7 +39,7 @@
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-10-19",
-   "days": 4,
+   "days": 5,
    "viable": false,
    "atr_pct": 7.17,
    "setup": "mean reversion",
@@ -69,11 +54,25 @@
    "notional": 176.3320597429662,
    "cost": 0.17633205974296623,
    "date": "2026-10-20",
-   "days": 3,
+   "days": 4,
    "viable": false,
    "atr_pct": 8.51,
    "setup": "gap, mean reversion",
    "trailed": true
+  },
+  {
+   "ticker": "LTC",
+   "side": "LONG",
+   "entry": 57.233,
+   "stop": 51.7759,
+   "shares": 3.49448744605385,
+   "notional": 200.0,
+   "cost": 0.2,
+   "date": "2026-10-24",
+   "days": 0,
+   "viable": false,
+   "atr_pct": 4.77,
+   "setup": "failed breakout, mean reversion"
   }
  ],
  "closed": [
@@ -569,6 +568,27 @@
    "gross": -13.145245697728294,
    "net": -13.345245697728293,
    "pct": -6.572622848864147,
+   "reason": "gapped through the stop"
+  },
+  {
+   "ticker": "NEAR",
+   "side": "LONG",
+   "entry": 4.6551,
+   "stop": 4.8008,
+   "shares": 31.867431485022298,
+   "notional": 148.3460803059273,
+   "cost": 0.1483460803059273,
+   "date": "2026-10-09",
+   "days": 15,
+   "viable": true,
+   "atr_pct": 10.11,
+   "setup": "failed breakout, mean reversion",
+   "trailed": true,
+   "exit": 4.665713773727417,
+   "exit_date": "2026-10-24",
+   "gross": 0.3382337070559771,
+   "net": 0.1898876267500498,
+   "pct": 0.22800313048949677,
    "reason": "gapped through the stop"
   }
  ],

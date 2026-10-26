@@ -1,31 +1,31 @@
-# Long-term ideas (FA) — week of 19 Oct 2026
+# Long-term ideas (FA) — week of 26 Oct 2026
 
 Ranked 513 large caps on value, quality, growth and momentum, max 3 per sector. Relative ranks, not absolute value. Research these — they are not buy signals, and this is a months-to-years view, separate from the swing sheet.
 
 ## Quality at a reasonable price, and in an uptrend
 
-- MU (Micron Technology, Inc., $1022B) — score 91 [V69/Q96/G100/M99]. strong value & quality & growth & momentum; in an uptrend. P/E 12, ROE 88%, net margin 64%, rev growth 379%, debt/equity 3.7
-- SNDK (Sandisk Corporation, $198B) — score 88 [V59/Q95/G100/M100]. strong quality & growth & momentum; in an uptrend. P/E 19, ROE 92%, net margin 56%, rev growth 372%, debt/equity 1.3
-- CF (CF Industries Holdings, Inc., $18B) — score 84 [V84/Q84/G80/M88]. strong value & quality & growth & momentum; in an uptrend. P/E 9, ROE 30%, net margin 27%, rev growth 18%, debt/equity 0.4
-- EOG (EOG Resources, Inc., $83B) — score 81 [V73/Q79/G92/M80]. strong value & quality & growth & momentum; in an uptrend. P/E 12, ROE 23%, net margin 26%, rev growth 59%, debt/equity 0.3
-- OXY (Occidental Petroleum Corporatio, $63B) — score 80 [V70/Q70/G97/M84]. strong value & quality & growth & momentum; in an uptrend. P/E 18, ROE 11%, net margin 30%, rev growth 53%, debt/equity 0.3
-- NTRS (Northern Trust Corporation, $30B) — score 80 [V70/Q74/G88/M86]. strong value & quality & growth & momentum; in an uptrend. P/E 14, ROE 17%, net margin 25%, rev growth 36%
-- VLO (Valero Energy Corporation, $125B) — score 80 [V74/Q51/G96/M97]. strong value & growth & momentum; in an uptrend. P/E 18, ROE 28%, net margin 5%, rev growth 52%, debt/equity 0.4
-- INCY (Incyte Corporation, $23B) — score 77 [V53/Q89/G81/M84]. strong quality & growth & momentum; in an uptrend. P/E 14, ROE 31%, net margin 28%, rev growth 38%, debt/equity 0.6
-- NVDA (NVIDIA Corporation, $5248B) — score 76 [V45/Q96/G94/M69]. strong quality & growth & momentum; in an uptrend. P/E 27, ROE 117%, net margin 64%, rev growth 106%, debt/equity 0.2
-- STT (State Street Corporation, $45B) — score 76 [V78/Q67/G66/M93]. strong value & quality & growth & momentum; in an uptrend. P/E 13, ROE 13%, net margin 24%, rev growth 13%
-- GOOGL (Alphabet Inc., $4211B) — score 75 [V39/Q89/G89/M82]. strong quality & growth & momentum; in an uptrend. P/E 17, ROE 49%, net margin 55%, rev growth 24%, debt/equity 0.2
-- ALL (Allstate Corporation (The), $62B) — score 72 [V84/Q60/G71/M71]. strong value & growth & momentum; in an uptrend. P/E 5, ROE 46%, net margin 19%, rev growth 12%, debt/equity 0.2
+- MU (Micron Technology, Inc., $1033B) — score 91 [V69/Q96/G100/M99]. strong value & quality & growth & momentum; in an uptrend. P/E 12, ROE 88%, net margin 64%, rev growth 379%, debt/equity 3.7
+- SNDK (Sandisk Corporation, $184B) — score 89 [V62/Q95/G100/M100]. strong quality & growth & momentum; in an uptrend. P/E 17, ROE 92%, net margin 56%, rev growth 372%, debt/equity 1.3
+- CF (CF Industries Holdings, Inc., $18B) — score 83 [V84/Q85/G81/M83]. strong value & quality & growth & momentum; in an uptrend. P/E 9, ROE 30%, net margin 27%, rev growth 18%, debt/equity 0.4
+- EOG (EOG Resources, Inc., $86B) — score 81 [V73/Q79/G92/M82]. strong value & quality & growth & momentum; in an uptrend. P/E 13, ROE 23%, net margin 26%, rev growth 59%, debt/equity 0.3
+- VLO (Valero Energy Corporation, $123B) — score 81 [V80/Q51/G96/M97]. strong value & growth & momentum; in an uptrend. P/E 10, net margin 9%, rev growth 52%, debt/equity 0.4
+- OXY (Occidental Petroleum Corporatio, $64B) — score 79 [V69/Q70/G97/M81]. strong value & quality & growth & momentum; in an uptrend. P/E 18, ROE 11%, net margin 30%, rev growth 53%, debt/equity 0.3
+- INCY (Incyte Corporation, $23B) — score 77 [V54/Q89/G81/M83]. strong quality & growth & momentum; in an uptrend. P/E 14, ROE 31%, net margin 28%, rev growth 38%, debt/equity 0.6
+- NVDA (NVIDIA Corporation, $5219B) — score 77 [V46/Q96/G94/M71]. strong quality & growth & momentum; in an uptrend. P/E 27, ROE 117%, net margin 64%, rev growth 106%, debt/equity 0.2
+- STT (State Street Corporation, $46B) — score 75 [V78/Q66/G66/M91]. strong value & quality & growth & momentum; in an uptrend. P/E 14, ROE 13%, net margin 24%, rev growth 13%
+- NTRS (Northern Trust Corporation, $31B) — score 75 [V71/Q73/G69/M86]. strong value & quality & growth & momentum; in an uptrend. P/E 13, ROE 18%, net margin 26%, rev growth 12%
+- STLD (Steel Dynamics, Inc., $34B) — score 71 [V50/Q57/G87/M90]. strong growth & momentum; in an uptrend. P/E 18, ROE 21%, net margin 9%, rev growth 35%, debt/equity 0.5
+- BEN (Franklin Templeton, Inc., $16B) — score 71 [V65/Q51/G78/M89]. strong growth & momentum; in an uptrend. P/E 21, ROE 8%, net margin 9%, rev growth 14%, debt/equity 0.2
 
 ## Strong businesses currently out of favour (watch, don't chase)
 
-- WDC (Western Digital Corporation, $130B) — score 85 [V58/Q88/G96/M99]. strong quality & growth & momentum; below its 200-day (out of favour). P/E 13, ROE 131%, net margin 73%, rev growth 44%, debt/equity 0.1
-- TER (Teradyne, Inc., $53B) — score 77 [V28/Q84/G98/M98]. strong quality & growth & momentum; below its 200-day (out of favour). P/E 46, ROE 36%, net margin 26%, rev growth 104%, debt/equity 2.9
-- FIX (Comfort Systems USA, Inc., $52B) — score 73 [V45/Q64/G90/M95]. strong growth & momentum; below its 200-day (out of favour). P/E 36, ROE 55%, net margin 13%, rev growth 50%, debt/equity 0.1
-- C (Citigroup, Inc., $205B) — score 73 [V84/Q62/G61/M83]. strong value & momentum; below its 200-day (out of favour). P/E 12, ROE 9%, net margin 23%, rev growth 8%
-- GS (Goldman Sachs Group, Inc. (The), $254B) — score 71 [V69/Q64/G76/M74]. strong value & growth & momentum; below its 200-day (out of favour). P/E 13, ROE 18%, net margin 31%, rev growth 23%, debt/equity 6.7 ⚠ high debt
-- ALB (Albemarle Corporation, $11B) — score 69 [V69/Q52/G87/M68]. strong value & growth & momentum; below its 200-day (out of favour). P/E 352, ROE 3%, net margin 4%, rev growth 31%, debt/equity 0.2 ⚠ very expensive
-- VRT (Vertiv Holdings, LLC, $79B) — score 66 [V40/Q61/G79/M85]. strong growth & momentum; below its 200-day (out of favour). P/E 47, ROE 44%, net margin 15%, rev growth 24%, debt/equity 0.7
-- TPL (Texas Pacific Land Corporation, $24B) — score 65 [V26/Q94/G77/M61]. strong quality & growth; below its 200-day (out of favour). P/E 45, ROE 37%, net margin 60%, rev growth 31%, debt/equity 1.1
+- WDC (Western Digital Corporation, $135B) — score 84 [V61/Q90/G86/M99]. strong quality & growth & momentum; below its 200-day (out of favour). P/E 13, ROE 130%, net margin 69%, rev growth 56%, debt/equity 0.1
+- TER (Teradyne, Inc., $49B) — score 77 [V29/Q84/G98/M98]. strong quality & growth & momentum; below its 200-day (out of favour). P/E 43, ROE 36%, net margin 26%, rev growth 104%, debt/equity 2.9
+- NEM (Newmont Corporation, $114B) — score 77 [V63/Q87/G71/M85]. strong quality & growth & momentum; below its 200-day (out of favour). P/E 13, ROE 27%, net margin 35%, rev growth 15%, debt/equity 0.2
+- FIX (Comfort Systems USA, Inc., $44B) — score 75 [V58/Q63/G88/M93]. strong growth & momentum; below its 200-day (out of favour). P/E 27, ROE 59%, net margin 13%, rev growth 54%, debt/equity 0.1
+- GOOGL (Alphabet Inc., $3883B) — score 75 [V42/Q89/G89/M80]. strong quality & growth & momentum; below its 200-day (out of favour). P/E 16, ROE 49%, net margin 55%, rev growth 24%, debt/equity 0.2
+- C (Citigroup, Inc., $201B) — score 72 [V85/Q61/G62/M82]. strong value & momentum; below its 200-day (out of favour). P/E 12, ROE 9%, net margin 23%, rev growth 8%
+- BE (Bloom Energy Corporation, $61B) — score 70 [V23/Q59/G100/M97]. strong growth & momentum; below its 200-day (out of favour). P/E 126, ROE 40%, net margin 14%, rev growth 138%, debt/equity 1.4 ⚠ very expensive
+- GS (Goldman Sachs Group, Inc. (The), $262B) — score 69 [V69/Q64/G76/M66]. strong value & growth; below its 200-day (out of favour). P/E 13, ROE 18%, net margin 31%, rev growth 23%, debt/equity 6.7 ⚠ high debt
 
 _Scores are relative to the scanned universe. Free fundamental data is imperfect. Not financial advice; not a licensed adviser._

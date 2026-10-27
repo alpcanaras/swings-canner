@@ -9,25 +9,10 @@
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-10-13",
-   "days": 13,
+   "days": 14,
    "viable": true,
    "atr_pct": 4.42,
    "setup": "failed breakout, mean reversion",
-   "trailed": true
-  },
-  {
-   "ticker": "DOT",
-   "side": "LONG",
-   "entry": 1.1063,
-   "stop": 1.0032,
-   "shares": 180.78278947844163,
-   "notional": 200.0,
-   "cost": 0.2,
-   "date": "2026-10-19",
-   "days": 7,
-   "viable": false,
-   "atr_pct": 7.17,
-   "setup": "mean reversion",
    "trailed": true
   },
   {
@@ -39,7 +24,7 @@
    "notional": 176.3320597429662,
    "cost": 0.17633205974296623,
    "date": "2026-10-20",
-   "days": 6,
+   "days": 7,
    "viable": false,
    "atr_pct": 8.51,
    "setup": "gap, mean reversion",
@@ -54,7 +39,7 @@
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-10-24",
-   "days": 2,
+   "days": 3,
    "viable": false,
    "atr_pct": 4.77,
    "setup": "failed breakout, mean reversion"
@@ -63,15 +48,30 @@
    "ticker": "BNB",
    "side": "LONG",
    "entry": 738.3,
-   "stop": 702.6961,
+   "stop": 708.5442,
    "shares": 0.27089259108763375,
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-10-26",
-   "days": 0,
+   "days": 1,
    "viable": false,
    "atr_pct": 2.41,
-   "setup": "gap"
+   "setup": "gap",
+   "trailed": true
+  },
+  {
+   "ticker": "FIL",
+   "side": "LONG",
+   "entry": 0.9072,
+   "stop": 0.7392,
+   "shares": 178.57142857142853,
+   "notional": 161.99999999999997,
+   "cost": 0.162,
+   "date": "2026-10-27",
+   "days": 0,
+   "viable": false,
+   "atr_pct": 9.26,
+   "setup": "failed breakout, mean reversion"
   }
  ],
  "closed": [
@@ -610,6 +610,27 @@
    "net": -4.203527347635917,
    "pct": -2.0017636738179583,
    "reason": "gapped through the stop"
+  },
+  {
+   "ticker": "DOT",
+   "side": "LONG",
+   "entry": 1.1063,
+   "stop": 1.0032,
+   "shares": 180.78278947844163,
+   "notional": 200.0,
+   "cost": 0.2,
+   "date": "2026-10-19",
+   "days": 8,
+   "viable": false,
+   "atr_pct": 7.17,
+   "setup": "mean reversion",
+   "trailed": true,
+   "exit": 1.0032,
+   "exit_date": "2026-10-27",
+   "gross": -18.638705595227325,
+   "net": -18.838705595227324,
+   "pct": -9.319352797613663,
+   "reason": "trailing stop"
   }
  ],
  "started": "2026-08-21"

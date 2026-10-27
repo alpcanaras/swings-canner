@@ -1,29 +1,29 @@
-# Crypto risk screen — 26 Oct 2026
+# Crypto risk screen — 27 Oct 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1606.6B, -2%/7d) — risk MEDIUM: thin liquidity (vol/mcap 0.9% — hard to exit)
-- ETH (Ethereum, $283.3B, -3%/7d) — risk LOWER: modest liquidity (2.3%)
-- BNB (BNB, $97.1B, +2%/7d) — risk MEDIUM: thin liquidity (vol/mcap 0.7% — hard to exit)
-- XRP (XRP, $81.9B, -0%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.2% — hard to exit)
-- SOL (Solana, $59.6B, -2%/7d) — risk LOWER: modest liquidity (2.5%)
-- DOGE (Dogecoin, $12.0B, -3%/7d) — risk LOWER: modest liquidity (2.8%)
+- BTC (Bitcoin, $1612.4B, -2%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.7% — hard to exit)
+- ETH (Ethereum, $284.3B, -3%/7d) — risk LOWER: modest liquidity (3.4%)
+- BNB (BNB, $97.9B, +2%/7d) — risk MEDIUM: thin liquidity (vol/mcap 0.9% — hard to exit)
+- XRP (XRP, $82.7B, +0%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.7% — hard to exit)
+- SOL (Solana, $59.4B, -4%/7d) — risk LOWER: modest liquidity (4.1%)
+- DOGE (Dogecoin, $12.2B, -2%/7d) — risk LOWER: modest liquidity (3.6%)
 
 ## Small-cap discovery — RESEARCH ONLY, NOT PICKS
 
 > Most of these will fail. A public feed cannot find gems before insiders. This tool cannot see rug-pulls, honeypots or fake volume. Treat every name as guilty until proven safe with real due diligence.
 
+- YELLOW (Yellow, $50M, +297%/7d) — risk MEDIUM: small-cap; only 3% of supply circulating (future dilution)
 - REUR (Royal Euro, $62M, +261%/7d) — risk MEDIUM: small-cap; only 0% of supply circulating (future dilution); near all-time high (-0% from ATH — chasing risk)
-- JCT (Janction, $65M, +237%/7d) — risk MEDIUM: small-cap; only 23% of supply circulating (future dilution)
-- IRYS (Irys, $75M, +211%/7d) — risk MEDIUM: small-cap; only 20% of supply circulating (future dilution)
-- CAP (Cap, $171M, +61%/7d) — risk MEDIUM: small-cap; only 16% of supply circulating (future dilution); near all-time high (-9% from ATH — chasing risk)
-- ORE (ORE, $82M, +48%/7d) — risk MEDIUM: small-cap; modest liquidity (4.5%)
-- DOS (DAPPOS, $51M, +44%/7d) — risk MEDIUM: small-cap; only 20% of supply circulating (future dilution)
-- ARC (AI Rig Complex, $59M, +43%/7d) — risk LOWER: small-cap
-- MAGMA (Magma Finance, $66M, +31%/7d) — risk MEDIUM: small-cap; only 19% of supply circulating (future dilution)
-- STONK (STONK, $100M, +31%/7d) — risk LOWER: small-cap
-- WIN (WINkLink, $59M, +21%/7d) — risk LOWER: small-cap
-- ACU (Acurast, $49M, +19%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); modest liquidity (4.9%)
-- USELESS (Useless Coin, $167M, +16%/7d) — risk LOWER: small-cap
+- JCT (Janction, $85M, +259%/7d) — risk MEDIUM: small-cap; only 23% of supply circulating (future dilution)
+- IRYS (Irys, $64M, +158%/7d) — risk MEDIUM: small-cap; only 20% of supply circulating (future dilution)
+- BULLA (BULLA, $61M, +117%/7d) — risk MEDIUM: small-cap; only 40% of supply circulating (future dilution)
+- TAG (TAGGER, $74M, +55%/7d) — risk MEDIUM: small-cap; only 27% of supply circulating (future dilution)
+- ORE (ORE, $88M, +53%/7d) — risk MEDIUM: small-cap; modest liquidity (3.7%)
+- CAP (Cap, $144M, +39%/7d) — risk MEDIUM: small-cap; only 16% of supply circulating (future dilution)
+- DOS (DAPPOS, $48M, +26%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 20% of supply circulating (future dilution)
+- WIN (WINkLink, $62M, +25%/7d) — risk LOWER: small-cap
+- CHIP (USD.AI, $103M, +21%/7d) — risk MEDIUM: small-cap; only 20% of supply circulating (future dilution)
+- ARC (AI Rig Complex, $53M, +19%/7d) — risk LOWER: small-cap
 
 _Objective market-data signals only — no contract audit, no holder analysis. Not financial advice; not a licensed adviser._

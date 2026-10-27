@@ -1,29 +1,24 @@
-# Trade sheet — 2026-10-22
+# Trade sheet — 2026-10-26
 
 ## Sell
 
-| ticker | in | out | P&L | why |
-|---|---|---|---|---|
-| ABNB | 149.58 | 173.69 | +16.1% ($+32.04) | 20-day backstop |
-| ADM | 80.38 | 79.16 | -1.5% ($-3.24) | trailing stop |
-| CB | 334.84 | 363.95 | +8.7% ($+17.19) | 20-day backstop |
+Nothing to sell.
 
 ## Buy
 
-| ticker | setup | signal px | stop $ | stop % | trail | size |
-|---|---|---|---|---|---|---|
-| MKTX | mean reversion | 164.26 | 163.81 | -0.3% | 2xATR = $0.79 | $200 = 1.218 sh |
-| HNI | mean reversion | 45.06 | 45.09 | -0.1% | 2xATR = $2.84 | $200 = 4.439 sh |
-| GEO | mean reversion | 26.94 | 24.23 | -10.1% | 2xATR = $2.71 | $200 = 7.424 sh |
+Nothing to buy — slots full or no setups.
 
 ## Holding — updated stops
 
 | ticker | entry | now | P&L | stop now | locked in |
 |---|---|---|---|---|---|
-| UFPT | 286.56 | 297.33 | +3.8% | 279.99 | not yet |
-| ZBRA | 369.01 | 384.16 | +4.1% | 370.57 | +0.4% |
+| UFPT | 286.56 | 295.78 | +3.2% | 279.99 | not yet |
+| ZBRA | 369.01 | 386.45 | +4.7% | 370.57 | +0.4% |
+| MKTX | 164.26 | 164.67 | +0.2% | 163.85 | not yet |
+| HNI | 45.06 | 47.57 | +5.6% | 45.09 | +0.1% |
+| GEO | 26.94 | 27.36 | +1.6% | 24.71 | not yet |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 
 _Record: 25 closed, 32% winners, $-50.39 net, balance $949.61._
-_All signals: 3396 closed, 31% profitable, -1.52% avg._
+_All signals: 3447 closed, 31% profitable, -1.46% avg._

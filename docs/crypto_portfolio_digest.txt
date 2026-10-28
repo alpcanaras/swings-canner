@@ -1,25 +1,22 @@
-# Trade sheet — 2026-10-27
+# Trade sheet — 2026-10-28
 
 ## Sell
 
-| ticker | in | out | P&L | why |
-|---|---|---|---|---|
-| DOT | 1.11 | 1.00 | -9.3% ($-18.84) | trailing stop |
+Nothing to sell.
 
 ## Buy
 
-| ticker | setup | signal px | stop $ | stop % | trail | size |
-|---|---|---|---|---|---|---|
-| FIL | failed breakout, mean reversion | 0.91 | 0.74 | -18.5% | 2xATR = $0.17 | $162 = 178.6 sh |
+Nothing to buy — slots full or no setups.
 
 ## Holding — updated stops
 
 | ticker | entry | now | P&L | stop now | locked in |
 |---|---|---|---|---|---|
-| SOL | 106.39 | 100.78 | -5.3% | 98.80 | not yet |
-| INJ | 8.46 | 7.92 | -6.4% | 7.62 | not yet |
-| LTC | 57.23 | 56.76 | -0.8% | 51.78 | not yet |
-| BNB | 738.30 | 743.91 | +0.8% | 708.54 | not yet |
+| SOL | 106.39 | 101.56 | -4.5% | 98.80 | not yet |
+| INJ | 8.46 | 8.02 | -5.2% | 7.62 | not yet |
+| LTC | 57.23 | 57.37 | +0.2% | 52.51 | not yet |
+| BNB | 738.30 | 744.58 | +0.9% | 710.46 | not yet |
+| FIL | 0.91 | 0.92 | +1.4% | 0.76 | not yet |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 

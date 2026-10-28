@@ -9,7 +9,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 18,
+   "days": 19,
    "families": [
     "mean reversion"
    ],
@@ -25,7 +25,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 18,
+   "days": 19,
    "families": [
     "mean reversion"
    ],
@@ -41,7 +41,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-09",
-   "days": 18,
+   "days": 19,
    "families": [
     "mean reversion"
    ],
@@ -57,7 +57,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-13",
-   "days": 14,
+   "days": 15,
    "families": [
     "failed breakout",
     "mean reversion"
@@ -74,7 +74,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-15",
-   "days": 12,
+   "days": 13,
    "families": [
     "mean reversion"
    ],
@@ -90,7 +90,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-18",
-   "days": 9,
+   "days": 10,
    "families": [
     "mean reversion"
    ],
@@ -106,7 +106,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-18",
-   "days": 9,
+   "days": 10,
    "families": [
     "mean reversion"
    ],
@@ -122,7 +122,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-19",
-   "days": 8,
+   "days": 9,
    "families": [
     "mean reversion"
    ],
@@ -138,7 +138,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-20",
-   "days": 7,
+   "days": 8,
    "families": [
     "mean reversion"
    ],
@@ -154,7 +154,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-20",
-   "days": 7,
+   "days": 8,
    "families": [
     "mean reversion"
    ],
@@ -165,12 +165,12 @@
    "ticker": "XRP",
    "side": "LONG",
    "entry": 1.2905,
-   "stop": 1.2035,
+   "stop": 1.2343,
    "shares": 77.48934521503294,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-24",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -186,7 +186,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-24",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -196,16 +196,17 @@
    "ticker": "NEAR",
    "side": "LONG",
    "entry": 4.6384,
-   "stop": 3.6694,
+   "stop": 3.8385,
    "shares": 21.55915833045878,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-24",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "AAVE",
@@ -216,7 +217,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-25",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -226,12 +227,12 @@
    "ticker": "BTC",
    "side": "LONG",
    "entry": 79898.2812,
-   "stop": 76348.5288,
+   "stop": 76982.7938,
    "shares": 0.0012515913796653738,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-26",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -242,16 +243,17 @@
    "ticker": "LINK",
    "side": "LONG",
    "entry": 11.364,
-   "stop": 10.1856,
+   "stop": 10.4836,
    "shares": 8.79971840901091,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-27",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   }
  ],
  "closed": [

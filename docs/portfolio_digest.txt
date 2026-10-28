@@ -12,13 +12,13 @@ Nothing to buy — slots full or no setups.
 
 | ticker | entry | now | P&L | stop now | locked in |
 |---|---|---|---|---|---|
-| UFPT | 286.56 | 295.78 | +3.2% | 279.99 | not yet |
-| ZBRA | 369.01 | 386.45 | +4.7% | 370.57 | +0.4% |
-| MKTX | 164.26 | 164.67 | +0.2% | 163.85 | not yet |
-| HNI | 45.06 | 47.57 | +5.6% | 45.09 | +0.1% |
-| GEO | 26.94 | 27.36 | +1.6% | 24.71 | not yet |
+| UFPT | 286.56 | 291.28 | +1.6% | 279.99 | not yet |
+| ZBRA | 369.01 | 384.15 | +4.1% | 370.57 | +0.4% |
+| MKTX | 164.26 | 165.02 | +0.5% | 164.19 | not yet |
+| HNI | 45.06 | 47.70 | +5.9% | 45.09 | +0.1% |
+| GEO | 26.94 | 27.57 | +2.3% | 24.96 | not yet |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 
 _Record: 25 closed, 32% winners, $-50.39 net, balance $949.61._
-_All signals: 3447 closed, 31% profitable, -1.46% avg._
+_All signals: 3480 closed, 31% profitable, -1.48% avg._

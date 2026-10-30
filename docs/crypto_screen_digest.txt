@@ -1,29 +1,29 @@
-# Crypto risk screen — 29 Oct 2026
+# Crypto risk screen — 30 Oct 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1606.4B, -5%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.6% — hard to exit)
-- ETH (Ethereum, $282.2B, -6%/7d) — risk LOWER: modest liquidity (3.5%)
-- BNB (BNB, $97.9B, -0%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.0% — hard to exit)
-- XRP (XRP, $82.2B, -5%/7d) — risk LOWER: modest liquidity (2.3%)
-- SOL (Solana, $58.8B, -7%/7d) — risk LOWER: modest liquidity (4.7%)
-- DOGE (Dogecoin, $12.2B, -5%/7d) — risk LOWER: modest liquidity (4.0%)
+- BTC (Bitcoin, $1547.4B, -6%/7d) — risk LOWER: modest liquidity (3.1%)
+- ETH (Ethereum, $269.2B, -8%/7d) — risk LOWER: no major red flags in market data
+- BNB (BNB, $93.1B, -4%/7d) — risk LOWER: modest liquidity (3.6%)
+- XRP (XRP, $76.9B, -8%/7d) — risk LOWER: modest liquidity (4.1%)
+- SOL (Solana, $55.7B, -10%/7d) — risk LOWER: no major red flags in market data
+- DOGE (Dogecoin, $11.6B, -7%/7d) — risk LOWER: no major red flags in market data
 
 ## Small-cap discovery — RESEARCH ONLY, NOT PICKS
 
 > Most of these will fail. A public feed cannot find gems before insiders. This tool cannot see rug-pulls, honeypots or fake volume. Treat every name as guilty until proven safe with real due diligence.
 
-- JCT (Janction, $91M, +96%/7d) — risk MEDIUM: small-cap; only 23% of supply circulating (future dilution)
-- INIT (Initia, $46M, +73%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 21% of supply circulating (future dilution)
-- YELLOW (Yellow, $61M, +62%/7d) — risk MEDIUM: small-cap; modest liquidity (4.5%); only 4% of supply circulating (future dilution)
-- TAG (TAGGER, $87M, +60%/7d) — risk MEDIUM: small-cap; only 27% of supply circulating (future dilution)
-- ACU (Acurast, $56M, +26%/7d) — risk LOWER: small-cap
-- CSPR (Casper Network, $47M, +19%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
-- DOS (DAPPOS, $48M, +15%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 20% of supply circulating (future dilution)
-- IRYS (Irys, $46M, +15%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 20% of supply circulating (future dilution)
-- STONK (STONK, $113M, +12%/7d) — risk LOWER: small-cap
-- KNTQ (Kinetiq, $143M, +10%/7d) — risk HIGH: small-cap; modest liquidity (4.6%); only 32% of supply circulating (future dilution); near all-time high (-5% from ATH — chasing risk)
-- MEGA (MegaETH, $56M, +9%/7d) — risk MEDIUM: small-cap; only 11% of supply circulating (future dilution)
-- WIN (WINkLink, $59M, +8%/7d) — risk LOWER: small-cap
+- INIT (Initia, $45M, +68%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 21% of supply circulating (future dilution)
+- TAG (TAGGER, $78M, +56%/7d) — risk MEDIUM: small-cap; only 27% of supply circulating (future dilution)
+- JCT (Janction, $68M, +31%/7d) — risk MEDIUM: small-cap; only 23% of supply circulating (future dilution)
+- ACU (Acurast, $54M, +26%/7d) — risk LOWER: small-cap
+- PURR (Purr, $71M, +24%/7d) — risk LOWER: small-cap
+- KNTQ (Kinetiq, $147M, +17%/7d) — risk MEDIUM: small-cap; only 32% of supply circulating (future dilution); near all-time high (-14% from ATH — chasing risk)
+- CAP (Cap, $122M, +15%/7d) — risk MEDIUM: small-cap; only 16% of supply circulating (future dilution)
+- ORE (ORE, $73M, +14%/7d) — risk MEDIUM: small-cap; modest liquidity (3.8%)
+- ELF (aelf, $55M, +12%/7d) — risk LOWER: small-cap
+- HUMA (Huma Finance, $50M, +11%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 17% of supply circulating (future dilution)
+- TRUTH (Swarm Network, $43M, +10%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 21% of supply circulating (future dilution)
+- STONK (STONK, $100M, +9%/7d) — risk LOWER: small-cap
 
 _Objective market-data signals only — no contract audit, no holder analysis. Not financial advice; not a licensed adviser._

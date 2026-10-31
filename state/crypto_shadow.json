@@ -9,7 +9,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-24",
-   "days": 6,
+   "days": 7,
    "families": [
     "mean reversion"
    ],
@@ -20,46 +20,49 @@
    "ticker": "BTC",
    "side": "LONG",
    "entry": 76888.4375,
-   "stop": 72584.118,
+   "stop": 73276.5494,
    "shares": 0.0013005856699845149,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "ETH",
    "side": "LONG",
    "entry": 2206.3999,
-   "stop": 2024.3185,
+   "stop": 2075.1035,
    "shares": 0.04532269966110858,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "SOL",
    "side": "LONG",
    "entry": 94.42,
-   "stop": 85.914,
+   "stop": 88.814,
    "shares": 1.0590976488032195,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "BNB",
@@ -70,7 +73,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
@@ -80,76 +83,81 @@
    "ticker": "AVAX",
    "side": "LONG",
    "entry": 8.252,
-   "stop": 7.1903,
+   "stop": 7.5943,
    "shares": 12.118274357731458,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   },
   {
    "ticker": "LINK",
    "side": "LONG",
    "entry": 10.625,
-   "stop": 9.3415,
+   "stop": 10.27,
    "shares": 9.411764705882353,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "LTC",
    "side": "LONG",
    "entry": 54.681,
-   "stop": 49.2052,
+   "stop": 50.3456,
    "shares": 1.8287887931822755,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "INJ",
    "side": "LONG",
    "entry": 7.048,
-   "stop": 5.6445,
+   "stop": 5.9061,
    "shares": 14.188422247446084,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "AAVE",
    "side": "LONG",
    "entry": 120.72,
-   "stop": 102.5011,
+   "stop": 112.7432,
    "shares": 0.828363154406892,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 2
+   "n_signals": 2,
+   "trailed": true
   }
  ],
  "closed": [

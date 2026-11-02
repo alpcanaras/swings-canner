@@ -9,7 +9,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-24",
-   "days": 8,
+   "days": 9,
    "families": [
     "mean reversion"
    ],
@@ -20,12 +20,12 @@
    "ticker": "BTC",
    "side": "LONG",
    "entry": 76888.4375,
-   "stop": 73568.5718,
+   "stop": 74365.816,
    "shares": 0.0013005856699845149,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -36,12 +36,12 @@
    "ticker": "ETH",
    "side": "LONG",
    "entry": 2206.3999,
-   "stop": 2097.614,
+   "stop": 2125.1834,
    "shares": 0.04532269966110858,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -57,7 +57,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -68,27 +68,28 @@
    "ticker": "BNB",
    "side": "LONG",
    "entry": 709.37,
-   "stop": 664.7215,
+   "stop": 670.0077,
    "shares": 0.140970156617844,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   },
   {
    "ticker": "AVAX",
    "side": "LONG",
    "entry": 8.252,
-   "stop": 7.5943,
+   "stop": 7.6919,
    "shares": 12.118274357731458,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -104,7 +105,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -115,12 +116,12 @@
    "ticker": "LTC",
    "side": "LONG",
    "entry": 54.681,
-   "stop": 50.6352,
+   "stop": 50.8024,
    "shares": 1.8287887931822755,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -136,7 +137,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],
@@ -147,12 +148,12 @@
    "ticker": "AAVE",
    "side": "LONG",
    "entry": 120.72,
-   "stop": 116.6411,
+   "stop": 117.5918,
    "shares": 0.828363154406892,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 2,
+   "days": 3,
    "families": [
     "mean reversion"
    ],

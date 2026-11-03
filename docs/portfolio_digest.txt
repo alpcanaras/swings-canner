@@ -1,28 +1,24 @@
-# Trade sheet — 2026-10-30
+# Trade sheet — 2026-11-02
 
 ## Sell
 
-| ticker | in | out | P&L | why |
-|---|---|---|---|---|
-| UFPT | 286.56 | 279.99 | -2.3% ($-4.79) | trailing stop |
-| ZBRA | 369.01 | 367.82 | -0.3% ($-0.84) | gapped through the stop |
+Nothing to sell.
 
 ## Buy
 
-| ticker | setup | signal px | stop $ | stop % | trail | size |
-|---|---|---|---|---|---|---|
-| FBP | mean reversion | 26.18 | 25.05 | -4.3% | 2xATR = $1.13 | $200 = 7.639 sh |
-| RMD | mean reversion | 229.94 | 216.13 | -6.0% | 2xATR = $13.80 | $200 = 0.8698 sh |
+Nothing to buy — slots full or no setups.
 
 ## Holding — updated stops
 
 | ticker | entry | now | P&L | stop now | locked in |
 |---|---|---|---|---|---|
-| MKTX | 164.26 | 165.30 | +0.6% | 164.49 | +0.1% |
-| HNI | 45.06 | 49.02 | +8.8% | 46.17 | +2.5% |
-| GEO | 26.94 | 28.52 | +5.9% | 26.05 | not yet |
+| MKTX | 164.26 | 165.48 | +0.7% | 164.67 | +0.3% |
+| HNI | 45.06 | 49.67 | +10.2% | 46.75 | +3.8% |
+| GEO | 26.94 | 27.89 | +3.5% | 26.05 | not yet |
+| FBP | 26.18 | 26.40 | +0.8% | 25.28 | not yet |
+| RMD | 229.94 | 232.94 | +1.3% | 219.26 | not yet |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 
 _Record: 27 closed, 30% winners, $-56.02 net, balance $943.98._
-_All signals: 3811 closed, 31% profitable, -1.49% avg._
+_All signals: 3930 closed, 31% profitable, -1.45% avg._

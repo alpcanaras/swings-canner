@@ -1,22 +1,6 @@
 {
  "open": [
   {
-   "ticker": "NEAR",
-   "side": "LONG",
-   "entry": 4.6384,
-   "stop": 3.8385,
-   "shares": 21.55915833045878,
-   "notional": 100.0,
-   "cost": 0.1,
-   "date": "2026-10-24",
-   "days": 9,
-   "families": [
-    "mean reversion"
-   ],
-   "n_signals": 1,
-   "trailed": true
-  },
-  {
    "ticker": "BTC",
    "side": "LONG",
    "entry": 76888.4375,
@@ -25,7 +9,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -41,7 +25,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -57,7 +41,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -73,7 +57,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -89,7 +73,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -105,7 +89,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -121,7 +105,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -137,7 +121,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -153,12 +137,27 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
    "n_signals": 2,
    "trailed": true
+  },
+  {
+   "ticker": "NEAR",
+   "side": "LONG",
+   "entry": 3.8152,
+   "stop": 2.9446,
+   "shares": 26.21094569092053,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-11-03",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1
   }
  ],
  "closed": [
@@ -1759,6 +1758,28 @@
    "gross": -7.74727208729322,
    "net": -7.84727208729322,
    "pct": -7.74727208729322,
+   "reason": "trailing stop"
+  },
+  {
+   "ticker": "NEAR",
+   "side": "LONG",
+   "entry": 4.6384,
+   "stop": 3.8385,
+   "shares": 21.55915833045878,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-10-24",
+   "days": 10,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1,
+   "trailed": true,
+   "exit": 3.8385,
+   "exit_date": "2026-11-03",
+   "gross": -17.24517074853398,
+   "net": -17.34517074853398,
+   "pct": -17.24517074853398,
    "reason": "trailing stop"
   }
  ],

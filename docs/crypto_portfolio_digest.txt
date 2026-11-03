@@ -1,4 +1,4 @@
-# Trade sheet — 2026-11-02
+# Trade sheet — 2026-11-03
 
 ## Sell
 
@@ -12,13 +12,13 @@ Nothing to buy — slots full or no setups.
 
 | ticker | entry | now | P&L | stop now | locked in |
 |---|---|---|---|---|---|
-| FIL | 0.91 | 0.88 | -3.3% | 0.76 | not yet |
-| BTC | 76,888.44 | 78,266.26 | +1.8% | 74,365.82 | not yet |
-| ETH | 2,206.40 | 2,287.47 | +3.7% | 2,125.18 | not yet |
-| SOL | 94.42 | 94.74 | +0.3% | 88.81 | not yet |
-| BNB | 709.37 | 712.70 | +0.5% | 670.01 | not yet |
+| FIL | 0.91 | 0.86 | -4.8% | 0.76 | not yet |
+| BTC | 76,888.44 | 76,812.94 | -0.1% | 74,365.82 | not yet |
+| ETH | 2,206.40 | 2,248.91 | +1.9% | 2,125.18 | not yet |
+| SOL | 94.42 | 92.04 | -2.5% | 88.81 | not yet |
+| BNB | 709.37 | 696.34 | -1.8% | 670.01 | not yet |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 
 _Record: 31 closed, 26% winners, $-138.73 net, balance $861.27._
-_All signals: 73 closed, 21% profitable, -1.73% avg._
+_All signals: 74 closed, 20% profitable, -1.94% avg._

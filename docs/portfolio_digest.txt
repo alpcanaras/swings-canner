@@ -1,4 +1,4 @@
-# Trade sheet — 2026-11-02
+# Trade sheet — 2026-11-03
 
 ## Sell
 
@@ -21,4 +21,4 @@ Nothing to buy — slots full or no setups.
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 
 _Record: 27 closed, 30% winners, $-56.02 net, balance $943.98._
-_All signals: 3930 closed, 31% profitable, -1.45% avg._
+_All signals: 3952 closed, 31% profitable, -1.40% avg._

@@ -1,29 +1,29 @@
-# Crypto risk screen — 04 Nov 2026
+# Crypto risk screen — 05 Nov 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1538.7B, -5%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.7% — hard to exit)
-- ETH (Ethereum, $275.2B, -3%/7d) — risk LOWER: modest liquidity (3.1%)
-- BNB (BNB, $90.7B, -7%/7d) — risk MEDIUM: thin liquidity (vol/mcap 0.8% — hard to exit)
-- XRP (XRP, $79.4B, -6%/7d) — risk LOWER: modest liquidity (2.1%)
-- SOL (Solana, $53.9B, -9%/7d) — risk LOWER: modest liquidity (4.0%)
-- DOGE (Dogecoin, $11.5B, -6%/7d) — risk LOWER: modest liquidity (2.9%)
+- BTC (Bitcoin, $1618.9B, +1%/7d) — risk LOWER: modest liquidity (2.4%)
+- ETH (Ethereum, $296.6B, +5%/7d) — risk LOWER: no major red flags in market data
+- BNB (BNB, $94.2B, -4%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.2% — hard to exit)
+- XRP (XRP, $82.7B, +1%/7d) — risk LOWER: modest liquidity (3.3%)
+- SOL (Solana, $56.8B, -3%/7d) — risk LOWER: no major red flags in market data
+- DOGE (Dogecoin, $12.1B, -1%/7d) — risk LOWER: no major red flags in market data
 
 ## Small-cap discovery — RESEARCH ONLY, NOT PICKS
 
 > Most of these will fail. A public feed cannot find gems before insiders. This tool cannot see rug-pulls, honeypots or fake volume. Treat every name as guilty until proven safe with real due diligence.
 
-- IDOL (MEET48, $46M, +148%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
-- AIN (Infinity Ground, $51M, +75%/7d) — risk MEDIUM: small-cap; only 19% of supply circulating (future dilution); near all-time high (-14% from ATH — chasing risk)
-- MAGMA (Magma Finance, $73M, +60%/7d) — risk MEDIUM: small-cap; only 19% of supply circulating (future dilution)
-- HOT (Holo, $86M, +40%/7d) — risk LOWER: small-cap
-- ALEO (ALEO, $61M, +30%/7d) — risk MEDIUM: small-cap; modest liquidity (4.6%)
-- ICNT (Impossible Cloud Network Token, $55M, +25%/7d) — risk MEDIUM: small-cap; only 36% of supply circulating (future dilution)
-- BEAM (Beam, $196M, +17%/7d) — risk LOWER: small-cap
-- KNTQ (Kinetiq, $158M, +16%/7d) — risk MEDIUM: small-cap; only 32% of supply circulating (future dilution)
-- LSK (Lisk, $42M, +10%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
-- WIN (WINkLink, $63M, +6%/7d) — risk LOWER: small-cap
-- GOMINING (GoMining Token, $159M, +6%/7d) — risk LOWER: small-cap
-- SOSO (SoSoValue, $107M, +5%/7d) — risk MEDIUM: small-cap; modest liquidity (3.8%); only 34% of supply circulating (future dilution)
+- AIN (Infinity Ground, $56M, +99%/7d) — risk MEDIUM: small-cap; only 19% of supply circulating (future dilution); near all-time high (-5% from ATH — chasing risk)
+- IDOL (MEET48, $47M, +52%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
+- MAGMA (Magma Finance, $75M, +49%/7d) — risk MEDIUM: small-cap; only 19% of supply circulating (future dilution)
+- LSK (Lisk, $49M, +37%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
+- AIOT (OKZOO, $49M, +36%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); modest liquidity (3.3%)
+- BEAM (Beam, $229M, +35%/7d) — risk LOWER: small-cap
+- CAP (Cap, $153M, +35%/7d) — risk MEDIUM: small-cap; only 16% of supply circulating (future dilution)
+- HOT (Holo, $79M, +30%/7d) — risk LOWER: small-cap
+- FLUID (Fluid, $220M, +23%/7d) — risk LOWER: small-cap
+- ICNT (Impossible Cloud Network Token, $57M, +22%/7d) — risk MEDIUM: small-cap; only 36% of supply circulating (future dilution)
+- 牛来 (牛来 (Niu Lai), $67M, +21%/7d) — risk LOWER: small-cap
+- ALEO (ALEO, $55M, +16%/7d) — risk MEDIUM: small-cap; modest liquidity (4.6%)
 
 _Objective market-data signals only — no contract audit, no holder analysis. Not financial advice; not a licensed adviser._

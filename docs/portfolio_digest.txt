@@ -12,13 +12,13 @@ Nothing to buy — slots full or no setups.
 
 | ticker | entry | now | P&L | stop now | locked in |
 |---|---|---|---|---|---|
-| MKTX | 164.26 | 165.48 | +0.7% | 164.67 | +0.3% |
-| HNI | 45.06 | 49.67 | +10.2% | 46.75 | +3.8% |
-| GEO | 26.94 | 27.89 | +3.5% | 26.05 | not yet |
-| FBP | 26.18 | 26.40 | +0.8% | 25.28 | not yet |
-| RMD | 229.94 | 232.94 | +1.3% | 219.26 | not yet |
+| MKTX | 164.26 | 165.68 | +0.9% | 164.87 | +0.4% |
+| HNI | 45.06 | 48.31 | +7.2% | 46.75 | +3.8% |
+| GEO | 26.94 | 28.07 | +4.2% | 26.05 | not yet |
+| FBP | 26.18 | 26.25 | +0.3% | 25.28 | not yet |
+| RMD | 229.94 | 227.08 | -1.2% | 219.26 | not yet |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 
 _Record: 27 closed, 30% winners, $-56.02 net, balance $943.98._
-_All signals: 3952 closed, 31% profitable, -1.40% avg._
+_All signals: 4011 closed, 31% profitable, -1.37% avg._

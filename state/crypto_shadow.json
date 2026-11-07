@@ -9,7 +9,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 7,
+   "days": 8,
    "families": [
     "mean reversion"
    ],
@@ -25,7 +25,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 7,
+   "days": 8,
    "families": [
     "mean reversion"
    ],
@@ -41,7 +41,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 7,
+   "days": 8,
    "families": [
     "mean reversion"
    ],
@@ -57,7 +57,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 7,
+   "days": 8,
    "families": [
     "mean reversion"
    ],
@@ -73,7 +73,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 7,
+   "days": 8,
    "families": [
     "mean reversion"
    ],
@@ -84,12 +84,12 @@
    "ticker": "INJ",
    "side": "LONG",
    "entry": 7.048,
-   "stop": 7.1053,
+   "stop": 7.1605,
    "shares": 14.188422247446084,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 7,
+   "days": 8,
    "families": [
     "mean reversion"
    ],
@@ -105,7 +105,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 7,
+   "days": 8,
    "families": [
     "mean reversion"
    ],
@@ -121,7 +121,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-11-03",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -137,7 +137,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-11-06",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
@@ -147,16 +147,17 @@
    "ticker": "ETH",
    "side": "LONG",
    "entry": 2240.9299,
-   "stop": 2047.7764,
+   "stop": 2059.3076,
    "shares": 0.044624332068575634,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-11-06",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   }
  ],
  "closed": [

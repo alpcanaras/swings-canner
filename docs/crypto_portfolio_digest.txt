@@ -1,4 +1,4 @@
-# Trade sheet — 2026-11-07
+# Trade sheet — 2026-11-08
 
 ## Sell
 
@@ -12,11 +12,11 @@ Nothing to buy — slots full or no setups.
 
 | ticker | entry | now | P&L | stop now | locked in |
 |---|---|---|---|---|---|
-| FIL | 0.91 | 0.81 | -10.4% | 0.76 | not yet |
-| SOL | 94.42 | 90.36 | -4.3% | 88.81 | not yet |
-| BNB | 709.37 | 695.59 | -1.9% | 673.51 | not yet |
-| NEAR | 3.71 | 3.76 | +1.2% | 2.95 | not yet |
-| LTC | 52.49 | 52.24 | -0.5% | 47.00 | not yet |
+| FIL | 0.91 | 0.78 | -13.9% | 0.76 | not yet |
+| SOL | 94.42 | 89.00 | -5.7% | 88.81 | not yet |
+| BNB | 709.37 | 694.05 | -2.2% | 673.51 | not yet |
+| NEAR | 3.71 | 3.69 | -0.7% | 2.95 | not yet |
+| LTC | 52.49 | 51.97 | -1.0% | 47.00 | not yet |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 

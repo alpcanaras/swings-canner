@@ -1,24 +1,28 @@
-# Trade sheet — 2026-11-08
+# Trade sheet — 2026-11-09
 
 ## Sell
 
-Nothing to sell.
+| ticker | in | out | P&L | why |
+|---|---|---|---|---|
+| FIL | 0.91 | 0.74 | -18.6% ($-30.29) | gapped through the stop |
+| SOL | 94.42 | 85.97 | -8.9% ($-18.10) | gapped through the stop |
 
 ## Buy
 
-Nothing to buy — slots full or no setups.
+| ticker | setup | signal px | stop $ | stop % | trail | size |
+|---|---|---|---|---|---|---|
+| BTC | failed breakout, mean reversion | 75,226.15 | 70,867.92 | -5.8% | 2xATR = $4,363.12 | $200 = 0.002659 sh |
+| AAVE | gap | 129.71 | 112.77 | -13.1% | 2xATR = $16.94 | $200 = 1.542 sh |
 
 ## Holding — updated stops
 
 | ticker | entry | now | P&L | stop now | locked in |
 |---|---|---|---|---|---|
-| FIL | 0.91 | 0.78 | -13.9% | 0.76 | not yet |
-| SOL | 94.42 | 89.00 | -5.7% | 88.81 | not yet |
-| BNB | 709.37 | 694.05 | -2.2% | 673.51 | not yet |
-| NEAR | 3.71 | 3.69 | -0.7% | 2.95 | not yet |
-| LTC | 52.49 | 51.97 | -1.0% | 47.00 | not yet |
+| BNB | 709.37 | 688.80 | -2.9% | 673.51 | not yet |
+| NEAR | 3.71 | 3.62 | -2.6% | 2.95 | not yet |
+| LTC | 52.49 | 50.71 | -3.4% | 47.00 | not yet |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 
-_Record: 33 closed, 27% winners, $-140.48 net, balance $859.52._
-_All signals: 76 closed, 21% profitable, -1.90% avg._
+_Record: 35 closed, 26% winners, $-188.87 net, balance $811.13._
+_All signals: 78 closed, 21% profitable, -2.08% avg._

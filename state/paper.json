@@ -1,21 +1,6 @@
 {
  "open": [
   {
-   "ticker": "MKTX",
-   "side": "LONG",
-   "entry": 164.26,
-   "stop": 164.9438,
-   "shares": 1.2175818823815903,
-   "notional": 200.0,
-   "cost": 0.2,
-   "date": "2026-10-22",
-   "days": 12,
-   "viable": false,
-   "atr_pct": 0.24,
-   "setup": "mean reversion",
-   "trailed": true
-  },
-  {
    "ticker": "HNI",
    "side": "LONG",
    "entry": 45.06,
@@ -24,7 +9,7 @@
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-10-22",
-   "days": 12,
+   "days": 13,
    "viable": false,
    "atr_pct": 3.15,
    "setup": "mean reversion",
@@ -39,7 +24,7 @@
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-10-30",
-   "days": 6,
+   "days": 7,
    "viable": false,
    "atr_pct": 2.15,
    "setup": "mean reversion",
@@ -54,7 +39,7 @@
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-10-30",
-   "days": 6,
+   "days": 7,
    "viable": false,
    "atr_pct": 3.0,
    "setup": "mean reversion",
@@ -69,10 +54,24 @@
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-11-05",
-   "days": 2,
+   "days": 3,
    "viable": false,
    "atr_pct": 6.41,
    "setup": "mean reversion"
+  },
+  {
+   "ticker": "MATX",
+   "side": "LONG",
+   "entry": 207.0,
+   "stop": 189.55,
+   "shares": 0.966183574879227,
+   "notional": 200.0,
+   "cost": 0.2,
+   "date": "2026-11-10",
+   "days": 0,
+   "viable": false,
+   "atr_pct": 4.22,
+   "setup": "failed breakout, mean reversion"
   }
  ],
  "closed": [
@@ -657,6 +656,27 @@
    "gross": -7.750556792873054,
    "net": -7.950556792873054,
    "pct": -3.8752783964365265,
+   "reason": "gapped through the stop"
+  },
+  {
+   "ticker": "MKTX",
+   "side": "LONG",
+   "entry": 164.26,
+   "stop": 164.9438,
+   "shares": 1.2175818823815903,
+   "notional": 200.0,
+   "cost": 0.2,
+   "date": "2026-10-22",
+   "days": 13,
+   "viable": false,
+   "atr_pct": 0.24,
+   "setup": "mean reversion",
+   "trailed": true,
+   "exit": 164.14080303955078,
+   "exit_date": "2026-11-10",
+   "gross": -0.14513205947792013,
+   "net": -0.34513205947792014,
+   "pct": -0.07256602973896006,
    "reason": "gapped through the stop"
   }
  ],

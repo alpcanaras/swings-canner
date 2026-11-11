@@ -1,29 +1,29 @@
-# Crypto risk screen — 10 Nov 2026
+# Crypto risk screen — 11 Nov 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1501.3B, -3%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.9% — hard to exit)
-- ETH (Ethereum, $259.1B, -6%/7d) — risk LOWER: modest liquidity (4.7%)
-- BNB (BNB, $90.7B, -1%/7d) — risk MEDIUM: thin liquidity (vol/mcap 0.8% — hard to exit)
-- XRP (XRP, $69.4B, -12%/7d) — risk LOWER: modest liquidity (3.3%)
-- SOL (Solana, $50.8B, -7%/7d) — risk LOWER: modest liquidity (4.4%)
-- DOGE (Dogecoin, $10.9B, -6%/7d) — risk LOWER: modest liquidity (4.0%)
+- BTC (Bitcoin, $1475.4B, -5%/7d) — risk LOWER: modest liquidity (2.1%)
+- ETH (Ethereum, $250.7B, -10%/7d) — risk LOWER: no major red flags in market data
+- BNB (BNB, $89.3B, -2%/7d) — risk MEDIUM: thin liquidity (vol/mcap 0.8% — hard to exit)
+- XRP (XRP, $66.7B, -16%/7d) — risk LOWER: modest liquidity (3.5%)
+- SOL (Solana, $49.1B, -10%/7d) — risk LOWER: no major red flags in market data
+- DOGE (Dogecoin, $10.7B, -8%/7d) — risk LOWER: modest liquidity (4.5%)
 
 ## Small-cap discovery — RESEARCH ONLY, NOT PICKS
 
 > Most of these will fail. A public feed cannot find gems before insiders. This tool cannot see rug-pulls, honeypots or fake volume. Treat every name as guilty until proven safe with real due diligence.
 
-- RITUAL (Ritual, $76M, +137%/7d) — risk MEDIUM: small-cap; only 18% of supply circulating (future dilution)
-- AIOT (OKZOO, $84M, +84%/7d) — risk LOWER: small-cap
-- IDOL (MEET48, $67M, +81%/7d) — risk LOWER: small-cap
-- JCT (Janction, $91M, +70%/7d) — risk MEDIUM: small-cap; only 23% of supply circulating (future dilution)
-- ICNT (Impossible Cloud Network Token, $74M, +56%/7d) — risk MEDIUM: small-cap; only 36% of supply circulating (future dilution)
-- CAP (Cap, $157M, +38%/7d) — risk MEDIUM: small-cap; only 16% of supply circulating (future dilution)
-- INIT (Initia, $44M, +37%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 22% of supply circulating (future dilution)
-- EDGE (edgeX, $146M, +32%/7d) — risk MEDIUM: small-cap; only 35% of supply circulating (future dilution)
-- NES (Nesa, $49M, +27%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 29% of supply circulating (future dilution)
-- RSR (Reserve Rights, $104M, +19%/7d) — risk LOWER: small-cap
-- MET (Meteora, $177M, +15%/7d) — risk LOWER: small-cap
-- FOLKS (FOLKS, $45M, +15%/7d) — risk HIGH: micro-cap (fragile, easily manipulated); modest liquidity (3.9%); only 37% of supply circulating (future dilution)
+- INIT (Initia, $56M, +92%/7d) — risk MEDIUM: small-cap; only 22% of supply circulating (future dilution)
+- AIOT (OKZOO, $85M, +79%/7d) — risk LOWER: small-cap
+- IDOL (MEET48, $73M, +62%/7d) — risk LOWER: small-cap
+- RITUAL (Ritual, $69M, +51%/7d) — risk MEDIUM: small-cap; only 18% of supply circulating (future dilution)
+- CAP (Cap, $161M, +37%/7d) — risk MEDIUM: small-cap; only 16% of supply circulating (future dilution)
+- ELF (aelf, $59M, +34%/7d) — risk LOWER: small-cap
+- ICNT (Impossible Cloud Network Token, $76M, +32%/7d) — risk MEDIUM: small-cap; only 36% of supply circulating (future dilution)
+- JCT (Janction, $63M, +29%/7d) — risk MEDIUM: small-cap; only 23% of supply circulating (future dilution)
+- NES (Nesa, $51M, +29%/7d) — risk MEDIUM: small-cap; only 29% of supply circulating (future dilution)
+- RSR (Reserve Rights, $104M, +17%/7d) — risk LOWER: small-cap
+- O (o1.exchange, $75M, +17%/7d) — risk MEDIUM: small-cap; modest liquidity (3.1%); only 16% of supply circulating (future dilution)
+- EDGE (edgeX, $135M, +15%/7d) — risk MEDIUM: small-cap; only 35% of supply circulating (future dilution)
 
 _Objective market-data signals only — no contract audit, no holder analysis. Not financial advice; not a licensed adviser._

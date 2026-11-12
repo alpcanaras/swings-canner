@@ -9,7 +9,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 12,
+   "days": 13,
    "families": [
     "mean reversion"
    ],
@@ -25,7 +25,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 12,
+   "days": 13,
    "families": [
     "mean reversion"
    ],
@@ -41,7 +41,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 12,
+   "days": 13,
    "families": [
     "mean reversion"
    ],
@@ -57,7 +57,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 12,
+   "days": 13,
    "families": [
     "mean reversion"
    ],
@@ -73,7 +73,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-11-03",
-   "days": 8,
+   "days": 9,
    "families": [
     "mean reversion"
    ],
@@ -89,7 +89,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-11-06",
-   "days": 5,
+   "days": 6,
    "families": [
     "mean reversion"
    ],
@@ -104,7 +104,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-11-11",
-   "days": 0,
+   "days": 1,
    "families": [
     "mean reversion"
    ],

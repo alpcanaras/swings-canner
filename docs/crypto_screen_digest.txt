@@ -1,29 +1,29 @@
-# Crypto risk screen — 12 Nov 2026
+# Crypto risk screen — 13 Nov 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1483.0B, -9%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.7% — hard to exit)
-- ETH (Ethereum, $250.9B, -15%/7d) — risk LOWER: modest liquidity (3.7%)
-- BNB (BNB, $89.2B, -5%/7d) — risk MEDIUM: thin liquidity (vol/mcap 0.6% — hard to exit)
-- XRP (XRP, $66.4B, -20%/7d) — risk LOWER: modest liquidity (2.4%)
-- SOL (Solana, $49.2B, -13%/7d) — risk LOWER: modest liquidity (4.3%)
-- DOGE (Dogecoin, $10.6B, -12%/7d) — risk LOWER: modest liquidity (4.3%)
+- BTC (Bitcoin, $1411.3B, -8%/7d) — risk LOWER: modest liquidity (2.2%)
+- ETH (Ethereum, $243.0B, -11%/7d) — risk LOWER: modest liquidity (4.5%)
+- BNB (BNB, $84.9B, -7%/7d) — risk MEDIUM: thin liquidity (vol/mcap 0.9% — hard to exit)
+- XRP (XRP, $64.7B, -16%/7d) — risk LOWER: modest liquidity (2.3%)
+- SOL (Solana, $47.4B, -11%/7d) — risk LOWER: no major red flags in market data
+- DOGE (Dogecoin, $10.2B, -9%/7d) — risk LOWER: no major red flags in market data
 
 ## Small-cap discovery — RESEARCH ONLY, NOT PICKS
 
 > Most of these will fail. A public feed cannot find gems before insiders. This tool cannot see rug-pulls, honeypots or fake volume. Treat every name as guilty until proven safe with real due diligence.
 
-- AIOT (OKZOO, $89M, +81%/7d) — risk MEDIUM: small-cap; modest liquidity (3.6%)
-- IDOL (MEET48, $90M, +75%/7d) — risk MEDIUM: small-cap; near all-time high (-11% from ATH — chasing risk)
-- RITUAL (Ritual, $71M, +65%/7d) — risk MEDIUM: small-cap; only 18% of supply circulating (future dilution)
-- ELF (aelf, $48M, +29%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
-- NES (Nesa, $50M, +25%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 29% of supply circulating (future dilution)
-- ICNT (Impossible Cloud Network Token, $70M, +22%/7d) — risk MEDIUM: small-cap; only 36% of supply circulating (future dilution)
-- O (o1.exchange, $79M, +13%/7d) — risk MEDIUM: small-cap; modest liquidity (3.0%); only 16% of supply circulating (future dilution)
-- SXT (Space and Time, $44M, +9%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
-- ACU (Acurast, $54M, +8%/7d) — risk LOWER: small-cap
-- INTCB (Intel (bStocks Tokenized Stock), $60M, +6%/7d) — risk LOWER: small-cap
-- SPCXB (SpaceX (bStocks Tokenized Stock), $215M, +5%/7d) — risk LOWER: small-cap
-- SPCXX (SpaceX xStock, $82M, +5%/7d) — risk MEDIUM: small-cap; only 34% of supply circulating (future dilution)
+- SANC (Sanctum, $48M, +128%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
+- RITUAL (Ritual, $77M, +118%/7d) — risk MEDIUM: small-cap; only 18% of supply circulating (future dilution)
+- AIOT (OKZOO, $80M, +58%/7d) — risk MEDIUM: small-cap; modest liquidity (3.6%)
+- ARIA (Aria.AI, $39M, +53%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 18% of supply circulating (future dilution)
+- SOXLB (Semicon Bull 3X ETF (bStocks Tokenized ETF), $43M, +49%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
+- ELF (aelf, $41M, +28%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
+- BARD (Lombard, $52M, +24%/7d) — risk MEDIUM: small-cap; only 40% of supply circulating (future dilution)
+- ICNT (Impossible Cloud Network Token, $70M, +24%/7d) — risk MEDIUM: small-cap; only 36% of supply circulating (future dilution)
+- AKE (Akedo, $61M, +17%/7d) — risk MEDIUM: small-cap; only 23% of supply circulating (future dilution)
+- MUB (Micron Technology (bStocks Tokenized Stock), $58M, +17%/7d) — risk LOWER: small-cap
+- INTCB (Intel (bStocks Tokenized Stock), $61M, +15%/7d) — risk LOWER: small-cap
+- TSLAX (Tesla xStock, $71M, +15%/7d) — risk MEDIUM: small-cap; only 31% of supply circulating (future dilution)
 
 _Objective market-data signals only — no contract audit, no holder analysis. Not financial advice; not a licensed adviser._

@@ -1,40 +1,42 @@
-$UNI-USD: possibly delisted; no timezone found
 $APT-USD: possibly delisted; no timezone found
-$GRT-USD: possibly delisted; no timezone found
-$IMX-USD: possibly delisted; no timezone found
-$PEPE-USD: possibly delisted; no timezone found
+$UNI-USD: possibly delisted; no timezone found
 $SUI-USD: possibly delisted; no timezone found
+$GRT-USD: possibly delisted; no timezone found
+$PEPE-USD: possibly delisted; no timezone found
+$IMX-USD: possibly delisted; no timezone found
 
 7 Failed downloads:
-['BCH-USD']: OperationalError('database is locked')
-['UNI-USD', 'APT-USD', 'GRT-USD', 'IMX-USD', 'PEPE-USD', 'SUI-USD']: possibly delisted; no timezone found
+['MANA-USD']: OperationalError('database is locked')
+['APT-USD', 'UNI-USD', 'SUI-USD', 'GRT-USD', 'PEPE-USD', 'IMX-USD']: possibly delisted; no timezone found
 Downloading 40 tickers (8y daily)...
   usable: 33 tickers
-# Crypto brief — 2026-11-12
+# Crypto brief — 2026-11-13
 
-## Regime: MIXED / CAUTION 
+## ⚠️ REGIME CHANGE: MIXED / CAUTION -> RISK-OFF
 
-Signals disagree — BTC and breadth aren't aligned. Historically a chop zone; smaller size, no conviction.
+This is the signal that mattered historically — the level is noise, the flip is information.
 
-- BTC $73,747 — above its 200-day (73,116); -15% from the 1-year high; -11% in 30d.
-- Breadth: 8/33 majors above their 200-day (24%).
+## Regime: RISK-OFF 
+
+BTC is below its 200-day. Every major crypto bear market lived here. A trend filter would have you de-risked / in stablecoins now — you give up some bounces to avoid the deep drawdowns.
+
+- BTC $70,232 — below its 200-day (73,075); -19% from the 1-year high; -16% in 30d.
+- Breadth: 5/33 majors above their 200-day (15%).
 
 
-CRYPTO SWING (experimental, underperformed holding) — 2026-11-12 (universe: 33 coins)
-ticker side  score    close                                                               signals  RS_3m_%  ATR%     stop  min_KO_dist earnings  expected_pct
-   INJ LONG   0.18   7.5150 RSI(2) mean-reversion (L), 7-day extreme pullback (L), FVG retest (L)     37.0  7.89   6.3289       1.7792      n/a         0.170
-   BNB LONG   0.04 678.0200                                            7-day extreme pullback (L)      8.1  2.89 638.8362      58.7757      n/a         0.130
-  LINK LONG   0.04  10.1220                                            7-day extreme pullback (L)      0.0  5.74   8.9595       1.7437      n/a         0.130
-  NEAR LONG   0.04   3.5516                    IBS mean-reversion (L), 7-day extreme pullback (L)     57.1  9.54   2.8738       1.0167      n/a         0.155
-  AAVE LONG   0.04 119.2500                                            7-day extreme pullback (L)      9.1  7.14 102.2184      25.5474      n/a         0.130
+CRYPTO SWING (experimental, underperformed holding) — 2026-11-13 (universe: 33 coins)
+ticker side  score   close                                                                       signals  RS_3m_%  ATR%    stop  min_KO_dist earnings  expected_pct
+   INJ LONG   0.15   7.422         RSI(2) mean-reversion (L), 7-day extreme pullback (L), FVG retest (L)     38.2  7.88  6.2522       1.7548      n/a         0.137
+  NEAR LONG   0.04   3.399                         RSI(2) mean-reversion (L), 7-day extreme pullback (L)     52.8 10.07  2.7146       1.0266      n/a         0.090
+  AAVE LONG   0.04 112.710 RSI(2) mean-reversion (L), IBS mean-reversion (L), 7-day extreme pullback (L)      6.4  7.57 95.6356      25.6116      n/a         0.123
 Written docs/crypto.html
-Crypto paper: 35 closed, -188.87 net
+Crypto paper: 38 closed, -242.94 net
 Written docs/crypto_portfolio.html
-# Crypto risk screen — 12 Nov 2026
+# Crypto risk screen — 13 Nov 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1483.0B, -9%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.7% — hard to exit)
-- ETH (Ethereum, $250.9B, -15%/7d) — risk LOWER: modest liquidity (3.7%)
+- BTC (Bitcoin, $1411.3B, -8%/7d) — risk LOWER: modest liquidity (2.2%)
+- ETH (Ethereum, $243.0B, -11%/7d) — risk LOWER: modest liquidity (4.5%)
 
 Written docs/crypto_screen.html and docs/crypto_screen_digest.txt

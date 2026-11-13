@@ -1,22 +1,6 @@
 {
  "open": [
   {
-   "ticker": "BNB",
-   "side": "LONG",
-   "entry": 709.37,
-   "stop": 673.5073,
-   "shares": 0.140970156617844,
-   "notional": 100.0,
-   "cost": 0.1,
-   "date": "2026-10-30",
-   "days": 13,
-   "families": [
-    "mean reversion"
-   ],
-   "n_signals": 1,
-   "trailed": true
-  },
-  {
    "ticker": "AVAX",
    "side": "LONG",
    "entry": 8.252,
@@ -25,7 +9,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 13,
+   "days": 14,
    "families": [
     "mean reversion"
    ],
@@ -41,27 +25,11 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-10-30",
-   "days": 13,
+   "days": 14,
    "families": [
     "mean reversion"
    ],
    "n_signals": 1,
-   "trailed": true
-  },
-  {
-   "ticker": "AAVE",
-   "side": "LONG",
-   "entry": 120.72,
-   "stop": 117.5918,
-   "shares": 0.828363154406892,
-   "notional": 100.0,
-   "cost": 0.1,
-   "date": "2026-10-30",
-   "days": 13,
-   "families": [
-    "mean reversion"
-   ],
-   "n_signals": 2,
    "trailed": true
   },
   {
@@ -73,27 +41,12 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-11-03",
-   "days": 9,
+   "days": 10,
    "families": [
     "mean reversion"
    ],
    "n_signals": 1,
    "trailed": true
-  },
-  {
-   "ticker": "BTC",
-   "side": "LONG",
-   "entry": 76132.6875,
-   "stop": 71416.6756,
-   "shares": 0.0013134962561252024,
-   "notional": 100.0,
-   "cost": 0.1,
-   "date": "2026-11-06",
-   "days": 6,
-   "families": [
-    "mean reversion"
-   ],
-   "n_signals": 1
   },
   {
    "ticker": "LINK",
@@ -104,11 +57,26 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-11-11",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
    "n_signals": 1
+  },
+  {
+   "ticker": "AAVE",
+   "side": "LONG",
+   "entry": 112.71,
+   "stop": 95.6356,
+   "shares": 0.8872327211427558,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-11-13",
+   "days": 0,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 3
   }
  ],
  "closed": [
@@ -1863,6 +1831,71 @@
    "gross": -8.85724013848559,
    "net": -8.95724013848559,
    "pct": -8.85724013848559,
+   "reason": "gapped through the stop"
+  },
+  {
+   "ticker": "BNB",
+   "side": "LONG",
+   "entry": 709.37,
+   "stop": 673.5073,
+   "shares": 0.140970156617844,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-10-30",
+   "days": 14,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1,
+   "trailed": true,
+   "exit": 653.4505905761719,
+   "exit_date": "2026-11-13",
+   "gross": -7.882967904454396,
+   "net": -7.982967904454395,
+   "pct": -7.882967904454396,
+   "reason": "gapped through the stop"
+  },
+  {
+   "ticker": "AAVE",
+   "side": "LONG",
+   "entry": 120.72,
+   "stop": 117.5918,
+   "shares": 0.828363154406892,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-10-30",
+   "days": 14,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 2,
+   "trailed": true,
+   "exit": 113.48928048706054,
+   "exit_date": "2026-11-13",
+   "gross": -5.989661624369996,
+   "net": -6.089661624369995,
+   "pct": -5.989661624369996,
+   "reason": "gapped through the stop"
+  },
+  {
+   "ticker": "BTC",
+   "side": "LONG",
+   "entry": 76132.6875,
+   "stop": 71416.6756,
+   "shares": 0.0013134962561252024,
+   "notional": 100.0,
+   "cost": 0.1,
+   "date": "2026-11-06",
+   "days": 7,
+   "families": [
+    "mean reversion"
+   ],
+   "n_signals": 1,
+   "exit": 71086.2785625,
+   "exit_date": "2026-11-13",
+   "gross": -6.6284392462830155,
+   "net": -6.728439246283015,
+   "pct": -6.6284392462830155,
    "reason": "gapped through the stop"
   }
  ],

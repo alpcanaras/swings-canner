@@ -9,7 +9,7 @@
    "notional": 132.31646471846045,
    "cost": 0.13231646471846045,
    "date": "2026-11-06",
-   "days": 7,
+   "days": 8,
    "viable": false,
    "atr_pct": 11.34,
    "setup": "failed breakout, mean reversion",
@@ -24,7 +24,7 @@
    "notional": 200.0,
    "cost": 0.2,
    "date": "2026-11-06",
-   "days": 7,
+   "days": 8,
    "viable": false,
    "atr_pct": 5.23,
    "setup": "failed breakout, mean reversion"
@@ -33,15 +33,16 @@
    "ticker": "INJ",
    "side": "LONG",
    "entry": 7.422,
-   "stop": 6.2522,
+   "stop": 6.7811,
    "shares": 25.64540947170457,
    "notional": 190.34022909899133,
    "cost": 0.19034022909899131,
    "date": "2026-11-13",
-   "days": 0,
+   "days": 1,
    "viable": false,
    "atr_pct": 7.88,
-   "setup": "gap, mean reversion"
+   "setup": "gap, mean reversion",
+   "trailed": true
   },
   {
    "ticker": "AAVE",
@@ -52,7 +53,7 @@
    "notional": 198.0333130300333,
    "cost": 0.19803331303003333,
    "date": "2026-11-13",
-   "days": 0,
+   "days": 1,
    "viable": false,
    "atr_pct": 7.57,
    "setup": "mean reversion"

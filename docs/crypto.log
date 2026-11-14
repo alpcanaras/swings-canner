@@ -1,42 +1,35 @@
 $APT-USD: possibly delisted; no timezone found
-$UNI-USD: possibly delisted; no timezone found
-$SUI-USD: possibly delisted; no timezone found
-$GRT-USD: possibly delisted; no timezone found
 $PEPE-USD: possibly delisted; no timezone found
+$UNI-USD: possibly delisted; no timezone found
+$GRT-USD: possibly delisted; no timezone found
 $IMX-USD: possibly delisted; no timezone found
+$SUI-USD: possibly delisted; no timezone found
 
-7 Failed downloads:
-['MANA-USD']: OperationalError('database is locked')
-['APT-USD', 'UNI-USD', 'SUI-USD', 'GRT-USD', 'PEPE-USD', 'IMX-USD']: possibly delisted; no timezone found
+6 Failed downloads:
+['APT-USD', 'PEPE-USD', 'UNI-USD', 'GRT-USD', 'IMX-USD', 'SUI-USD']: possibly delisted; no timezone found
 Downloading 40 tickers (8y daily)...
-  usable: 33 tickers
-# Crypto brief — 2026-11-13
-
-## ⚠️ REGIME CHANGE: MIXED / CAUTION -> RISK-OFF
-
-This is the signal that mattered historically — the level is noise, the flip is information.
+  usable: 34 tickers
+# Crypto brief — 2026-11-14
 
 ## Regime: RISK-OFF 
 
 BTC is below its 200-day. Every major crypto bear market lived here. A trend filter would have you de-risked / in stablecoins now — you give up some bounces to avoid the deep drawdowns.
 
-- BTC $70,232 — below its 200-day (73,075); -19% from the 1-year high; -16% in 30d.
-- Breadth: 5/33 majors above their 200-day (15%).
+- BTC $67,673 — below its 200-day (73,033); -22% from the 1-year high; -17% in 30d.
+- Breadth: 4/34 majors above their 200-day (12%).
 
 
-CRYPTO SWING (experimental, underperformed holding) — 2026-11-13 (universe: 33 coins)
-ticker side  score   close                                                                       signals  RS_3m_%  ATR%    stop  min_KO_dist earnings  expected_pct
-   INJ LONG   0.15   7.422         RSI(2) mean-reversion (L), 7-day extreme pullback (L), FVG retest (L)     38.2  7.88  6.2522       1.7548      n/a         0.137
-  NEAR LONG   0.04   3.399                         RSI(2) mean-reversion (L), 7-day extreme pullback (L)     52.8 10.07  2.7146       1.0266      n/a         0.090
-  AAVE LONG   0.04 112.710 RSI(2) mean-reversion (L), IBS mean-reversion (L), 7-day extreme pullback (L)      6.4  7.57 95.6356      25.6116      n/a         0.123
+CRYPTO SWING (experimental, underperformed holding) — 2026-11-14 (universe: 34 coins)
+ticker side  score  close                                               signals  RS_3m_%  ATR%    stop  min_KO_dist earnings  expected_pct
+  AAVE LONG   0.03 110.03 RSI(2) mean-reversion (L), 7-day extreme pullback (L)      4.1  7.61 93.2747      25.1329      n/a         0.095
 Written docs/crypto.html
 Crypto paper: 38 closed, -242.94 net
 Written docs/crypto_portfolio.html
-# Crypto risk screen — 13 Nov 2026
+# Crypto risk screen — 14 Nov 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1411.3B, -8%/7d) — risk LOWER: modest liquidity (2.2%)
-- ETH (Ethereum, $243.0B, -11%/7d) — risk LOWER: modest liquidity (4.5%)
+- BTC (Bitcoin, $1361.0B, -10%/7d) — risk LOWER: modest liquidity (3.2%)
+- ETH (Ethereum, $233.5B, -14%/7d) — risk LOWER: no major red flags in market data
 
 Written docs/crypto_screen.html and docs/crypto_screen_digest.txt

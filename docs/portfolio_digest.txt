@@ -1,4 +1,4 @@
-# Trade sheet — 2026-11-12
+# Trade sheet — 2026-11-13
 
 ## Sell
 
@@ -12,13 +12,13 @@ Nothing to buy — slots full or no setups.
 
 | ticker | entry | now | P&L | stop now | locked in |
 |---|---|---|---|---|---|
-| HNI | 45.06 | 48.20 | +7.0% | 46.75 | +3.8% |
-| FBP | 26.18 | 26.09 | -0.3% | 25.28 | not yet |
-| RMD | 229.94 | 238.89 | +3.9% | 223.62 | not yet |
+| HNI | 45.06 | 48.31 | +7.2% | 46.75 | +3.8% |
+| FBP | 26.18 | 26.16 | -0.1% | 25.28 | not yet |
+| RMD | 229.94 | 239.53 | +4.2% | 224.93 | not yet |
 | ZS | 203.88 | 193.22 | -5.2% | 177.73 | not yet |
-| MATX | 207.00 | 212.64 | +2.7% | 196.15 | not yet |
+| MATX | 207.00 | 208.66 | +0.8% | 196.15 | not yet |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 
 _Record: 29 closed, 28% winners, $-64.31 net, balance $935.69._
-_All signals: 4439 closed, 31% profitable, -1.49% avg._
+_All signals: 4462 closed, 32% profitable, -1.45% avg._

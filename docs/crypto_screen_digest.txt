@@ -1,29 +1,29 @@
-# Crypto risk screen — 15 Nov 2026
+# Crypto risk screen — 16 Nov 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1290.0B, -17%/7d) — risk LOWER: modest liquidity (3.9%)
-- ETH (Ethereum, $218.1B, -23%/7d) — risk LOWER: no major red flags in market data
-- BNB (BNB, $76.9B, -18%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.7% — hard to exit)
-- XRP (XRP, $59.8B, -22%/7d) — risk LOWER: no major red flags in market data
-- SOL (Solana, $41.6B, -24%/7d) — risk LOWER: no major red flags in market data
-- DOGE (Dogecoin, $9.1B, -21%/7d) — risk LOWER: no major red flags in market data
+- BTC (Bitcoin, $1312.2B, -14%/7d) — risk LOWER: modest liquidity (2.7%)
+- ETH (Ethereum, $223.9B, -16%/7d) — risk LOWER: no major red flags in market data
+- BNB (BNB, $78.5B, -14%/7d) — risk MEDIUM: thin liquidity (vol/mcap 0.9% — hard to exit)
+- XRP (XRP, $61.6B, -14%/7d) — risk LOWER: modest liquidity (3.2%)
+- SOL (Solana, $43.0B, -18%/7d) — risk LOWER: no major red flags in market data
+- DOGE (Dogecoin, $9.3B, -16%/7d) — risk LOWER: no major red flags in market data
 
 ## Small-cap discovery — RESEARCH ONLY, NOT PICKS
 
 > Most of these will fail. A public feed cannot find gems before insiders. This tool cannot see rug-pulls, honeypots or fake volume. Treat every name as guilty until proven safe with real due diligence.
 
-- ARIA (Aria.AI, $38M, +28%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 18% of supply circulating (future dilution)
-- RITUAL (Ritual, $56M, +22%/7d) — risk MEDIUM: small-cap; modest liquidity (4.4%); only 18% of supply circulating (future dilution)
-- MAGMA (Magma Finance, $61M, +21%/7d) — risk MEDIUM: small-cap; only 19% of supply circulating (future dilution)
-- MUB (Micron Technology (bStocks Tokenized Stock), $49M, +8%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
-- CAP (Cap, $172M, +7%/7d) — risk MEDIUM: small-cap; only 16% of supply circulating (future dilution)
-- TSLAX (Tesla xStock, $68M, +7%/7d) — risk MEDIUM: small-cap; only 30% of supply circulating (future dilution)
-- ONE (ONEchain, $62M, +5%/7d) — risk MEDIUM: small-cap; modest liquidity (3.8%)
-- XPR (XPR Network, $52M, +4%/7d) — risk LOWER: small-cap
-- MERL (Merlin Chain, $46M, +4%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
-- JELLYJELLY (Jelly-My-Jelly, $41M, +3%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
-- SPYX (SP500 xStock, $75M, +2%/7d) — risk HIGH: small-cap; modest liquidity (4.3%); only 35% of supply circulating (future dilution); near all-time high (-4% from ATH — chasing risk)
-- GOOGLB (Alphabet (bStocks Tokenized Stock), $92M, +2%/7d) — risk LOWER: small-cap
+- AKE (Akedo, $223M, +123%/7d) — risk MEDIUM: small-cap; only 23% of supply circulating (future dilution)
+- UP (Unitas, $37M, +58%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 22% of supply circulating (future dilution)
+- ARIA (Aria.AI, $43M, +46%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 18% of supply circulating (future dilution)
+- MAGMA (Magma Finance, $50M, +15%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 19% of supply circulating (future dilution)
+- ONE (ONEchain, $65M, +14%/7d) — risk LOWER: small-cap
+- MUB (Micron Technology (bStocks Tokenized Stock), $50M, +9%/7d) — risk LOWER: small-cap
+- NES (Nesa, $52M, +9%/7d) — risk MEDIUM: small-cap; only 29% of supply circulating (future dilution)
+- TSLAX (Tesla xStock, $69M, +8%/7d) — risk MEDIUM: small-cap; only 30% of supply circulating (future dilution)
+- SKYAI (SkyAI, $38M, +7%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
+- XPR (XPR Network, $50M, +6%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); modest liquidity (4.4%)
+- JELLYJELLY (Jelly-My-Jelly, $42M, +6%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
+- ACU (Acurast, $54M, +5%/7d) — risk MEDIUM: small-cap; modest liquidity (3.2%)
 
 _Objective market-data signals only — no contract audit, no holder analysis. Not financial advice; not a licensed adviser._

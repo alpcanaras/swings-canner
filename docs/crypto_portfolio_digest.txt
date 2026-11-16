@@ -1,25 +1,20 @@
-# Trade sheet — 2026-11-15
+# Trade sheet — 2026-11-16
 
 ## Sell
 
-| ticker | in | out | P&L | why |
-|---|---|---|---|---|
-| NEAR | 3.71 | 2.95 | -20.6% ($-27.42) | trailing stop |
-| LTC | 52.49 | 44.21 | -15.8% ($-31.73) | gapped through the stop |
-| INJ | 7.42 | 6.78 | -8.6% ($-16.63) | trailing stop |
+Nothing to sell.
 
 ## Buy
 
-| ticker | setup | signal px | stop $ | stop % | trail | size |
-|---|---|---|---|---|---|---|
-| NEAR | mean reversion | 3.11 | 2.40 | -23.0% | 2xATR = $0.72 | $130 = 41.89 sh |
-| INJ | mean reversion | 6.98 | 5.58 | -20.0% | 2xATR = $1.40 | $150 = 21.47 sh |
+Nothing to buy — slots full or no setups.
 
 ## Holding — updated stops
 
 | ticker | entry | now | P&L | stop now | locked in |
 |---|---|---|---|---|---|
-| AAVE | 112.71 | 101.80 | -9.7% | 95.64 | not yet |
+| AAVE | 112.71 | 109.68 | -2.7% | 95.64 | not yet |
+| NEAR | 3.11 | 3.19 | +2.4% | 2.49 | not yet |
+| INJ | 6.98 | 6.91 | -0.9% | 5.58 | not yet |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 

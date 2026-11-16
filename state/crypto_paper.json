@@ -9,7 +9,7 @@
    "notional": 198.0333130300333,
    "cost": 0.19803331303003333,
    "date": "2026-11-13",
-   "days": 2,
+   "days": 3,
    "viable": false,
    "atr_pct": 7.57,
    "setup": "mean reversion"
@@ -18,15 +18,16 @@
    "ticker": "NEAR",
    "side": "LONG",
    "entry": 3.114,
-   "stop": 2.3978,
+   "stop": 2.4858,
    "shares": 41.887740854509936,
    "notional": 130.43842502094392,
    "cost": 0.13043842502094394,
    "date": "2026-11-15",
-   "days": 0,
+   "days": 1,
    "viable": false,
    "atr_pct": 11.5,
-   "setup": "mean reversion"
+   "setup": "mean reversion",
+   "trailed": true
   },
   {
    "ticker": "INJ",
@@ -37,7 +38,7 @@
    "notional": 149.84967788117402,
    "cost": 0.149849677881174,
    "date": "2026-11-15",
-   "days": 0,
+   "days": 1,
    "viable": false,
    "atr_pct": 10.01,
    "setup": "mean reversion"

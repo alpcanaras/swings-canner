@@ -1,31 +1,31 @@
-# Long-term ideas (FA) — week of 09 Nov 2026
+# Long-term ideas (FA) — week of 16 Nov 2026
 
 Ranked 513 large caps on value, quality, growth and momentum, max 3 per sector. Relative ranks, not absolute value. Research these — they are not buy signals, and this is a months-to-years view, separate from the swing sheet.
 
 ## Quality at a reasonable price, and in an uptrend
 
-- VLO (Valero Energy Corporation, $99B) — score 86 [V89/Q64/G95/M98]. strong value & growth & momentum; in an uptrend. P/E 8, ROE 47%, net margin 9%, rev growth 46%, debt/equity 0.4
-- APA (APA Corporation, $15B) — score 85 [V87/Q68/G91/M95]. strong value & quality & growth & momentum; in an uptrend. P/E 7, ROE 33%, net margin 23%, rev growth 32%, debt/equity 0.4
-- MPC (Marathon Petroleum Corporation, $106B) — score 84 [V93/Q51/G97/M98]. strong value & growth & momentum; in an uptrend. P/E 8, ROE 60%, net margin 8%, rev growth 61%, debt/equity 1.2
-- CF (CF Industries Holdings, Inc., $17B) — score 78 [V86/Q80/G62/M85]. strong value & quality & momentum; in an uptrend. P/E 8, ROE 31%, net margin 27%, rev growth 12%, debt/equity 0.4
-- HPE (Hewlett Packard Enterprise Comp, $63B) — score 76 [V79/Q33/G92/M99]. strong value & growth & momentum; in an uptrend. P/E 25, ROE 11%, net margin 7%, rev growth 34%, debt/equity 0.8
-- PFG (Principal Financial Group Inc, $25B) — score 76 [V80/Q55/G88/M80]. strong value & growth & momentum; in an uptrend. P/E 13, ROE 16%, net margin 12%, rev growth 25%, debt/equity 0.4
-- NEM (Newmont Corporation, $130B) — score 75 [V58/Q87/G70/M85]. strong quality & growth & momentum; in an uptrend. P/E 15, ROE 27%, net margin 35%, rev growth 15%, debt/equity 0.2
-- STT (State Street Corporation, $46B) — score 74 [V77/Q66/G65/M89]. strong value & quality & momentum; in an uptrend. P/E 14, ROE 13%, net margin 24%, rev growth 13%
-- NUE (Nucor Corporation, $57B) — score 74 [V56/Q58/G88/M93]. strong growth & momentum; in an uptrend. P/E 16, ROE 18%, net margin 9%, rev growth 32%, debt/equity 0.3
-- TWLO (Twilio Inc., $32B) — score 73 [V45/Q65/G86/M97]. strong growth & momentum; in an uptrend. P/E 26, ROE 15%, net margin 22%, rev growth 20%, debt/equity 0.1
-- DELL (Dell Technologies Inc., $220B) — score 73 [V71/Q26/G95/M99]. strong value & growth & momentum; in an uptrend. P/E 20, net margin 8%, rev growth 58%
-- NTRS (Northern Trust Corporation, $32B) — score 72 [V70/Q73/G68/M78]. strong value & quality & growth & momentum; in an uptrend. P/E 14, ROE 18%, net margin 26%, rev growth 12%
+- APA (APA Corporation, $16B) — score 85 [V86/Q68/G90/M97]. strong value & quality & growth & momentum; in an uptrend. P/E 8, ROE 33%, net margin 23%, rev growth 32%, debt/equity 0.4
+- VLO (Valero Energy Corporation, $103B) — score 85 [V88/Q58/G95/M98]. strong value & growth & momentum; in an uptrend. P/E 8, ROE 47%, net margin 9%, rev growth 46%, debt/equity 0.4
+- EOG (EOG Resources, Inc., $81B) — score 84 [V78/Q80/G89/M88]. strong value & quality & growth & momentum; in an uptrend. P/E 10, ROE 26%, net margin 28%, rev growth 43%, debt/equity 0.2
+- CF (CF Industries Holdings, Inc., $18B) — score 78 [V86/Q82/G61/M84]. strong value & quality & momentum; in an uptrend. P/E 8, ROE 31%, net margin 27%, rev growth 12%, debt/equity 0.4
+- HPE (Hewlett Packard Enterprise Comp, $62B) — score 75 [V79/Q31/G92/M98]. strong value & growth & momentum; in an uptrend. P/E 24, ROE 11%, net margin 7%, rev growth 34%, debt/equity 0.8
+- PFG (Principal Financial Group Inc, $24B) — score 75 [V81/Q53/G88/M77]. strong value & growth & momentum; in an uptrend. P/E 13, ROE 16%, net margin 12%, rev growth 25%, debt/equity 0.4
+- STT (State Street Corporation, $46B) — score 73 [V77/Q66/G64/M87]. strong value & momentum; in an uptrend. P/E 14, ROE 13%, net margin 24%, rev growth 13%
+- NUE (Nucor Corporation, $57B) — score 73 [V56/Q56/G88/M94]. strong growth & momentum; in an uptrend. P/E 16, ROE 18%, net margin 9%, rev growth 32%, debt/equity 0.3
+- TWLO (Twilio Inc., $31B) — score 73 [V47/Q64/G86/M96]. strong growth & momentum; in an uptrend. P/E 25, ROE 15%, net margin 22%, rev growth 20%, debt/equity 0.1
+- TXN (Texas Instruments Incorporated, $269B) — score 72 [V29/Q83/G84/M94]. strong quality & growth & momentum; in an uptrend. P/E 38, ROE 40%, net margin 34%, rev growth 28%, debt/equity 0.7
+- NTRS (Northern Trust Corporation, $32B) — score 72 [V69/Q73/G68/M78]. strong value & quality & growth & momentum; in an uptrend. P/E 14, ROE 18%, net margin 26%, rev growth 12%
+- EXPD (Expeditors International of Was, $25B) — score 67 [V42/Q57/G85/M86]. strong growth & momentum; in an uptrend. P/E 25, ROE 45%, net margin 8%, rev growth 42%, debt/equity 0.2
 
 ## Strong businesses currently out of favour (watch, don't chase)
 
-- SNDK (Sandisk Corporation, $126B) — score 94 [V81/Q97/G100/M100]. strong value & quality & growth & momentum; below its 200-day (out of favour). P/E 7, ROE 141%, net margin 67%, rev growth 378%, debt/equity 1.1
-- MU (Micron Technology, Inc., $830B) — score 92 [V73/Q97/G99/M100]. strong value & quality & growth & momentum; below its 200-day (out of favour). P/E 10, ROE 88%, net margin 64%, rev growth 379%, debt/equity 3.7
-- OXY (Occidental Petroleum Corporatio, $56B) — score 83 [V77/Q69/G96/M89]. strong value & quality & growth & momentum; below its 200-day (out of favour). P/E 16, ROE 11%, net margin 30%, rev growth 53%, debt/equity 0.3
-- FIX (Comfort Systems USA, Inc., $39B) — score 77 [V66/Q62/G87/M91]. strong growth & momentum; below its 200-day (out of favour). P/E 24, ROE 59%, net margin 13%, rev growth 54%, debt/equity 0.1
-- GEV (GE Vernova Inc., $220B) — score 72 [V48/Q60/G88/M92]. strong growth & momentum; below its 200-day (out of favour). P/E 22, ROE 93%, net margin 24%, rev growth 27%, debt/equity 0.3
-- FANG (Diamondback Energy, Inc., $50B) — score 72 [V73/Q47/G83/M83]. strong value & growth & momentum; below its 200-day (out of favour). P/E 24, ROE 5%, net margin 12%, rev growth 32%, debt/equity 0.3
-- C (Citigroup, Inc., $202B) — score 71 [V83/Q60/G60/M78]. strong value & momentum; below its 200-day (out of favour). P/E 12, ROE 9%, net margin 23%, rev growth 8%
-- FCX (Freeport-McMoRan, Inc., $89B) — score 66 [V39/Q67/G64/M94]. strong quality & momentum; below its 200-day (out of favour). P/E 26, ROE 16%, net margin 13%, rev growth 8%, debt/equity 0.3
+- SNDK (Sandisk Corporation, $115B) — score 95 [V82/Q96/G100/M100]. strong value & quality & growth & momentum; below its 200-day (out of favour). P/E 6, ROE 141%, net margin 67%, rev growth 378%, debt/equity 1.1
+- MU (Micron Technology, Inc., $814B) — score 92 [V74/Q96/G99/M100]. strong value & quality & growth & momentum; below its 200-day (out of favour). P/E 10, ROE 88%, net margin 64%, rev growth 379%, debt/equity 3.7
+- FIX (Comfort Systems USA, Inc., $37B) — score 77 [V67/Q63/G87/M91]. strong value & growth & momentum; below its 200-day (out of favour). P/E 23, ROE 59%, net margin 13%, rev growth 54%, debt/equity 0.1
+- NEM (Newmont Corporation, $115B) — score 75 [V62/Q88/G70/M80]. strong quality & growth & momentum; below its 200-day (out of favour). P/E 13, ROE 27%, net margin 35%, rev growth 15%, debt/equity 0.2
+- GEV (GE Vernova Inc., $202B) — score 72 [V51/Q58/G87/M91]. strong growth & momentum; below its 200-day (out of favour). P/E 20, ROE 93%, net margin 24%, rev growth 27%, debt/equity 0.3
+- STLD (Steel Dynamics, Inc., $32B) — score 71 [V52/Q55/G87/M91]. strong growth & momentum; below its 200-day (out of favour). P/E 17, ROE 21%, net margin 9%, rev growth 35%, debt/equity 0.5
+- DVA (DaVita Inc., $11B) — score 68 [V88/Q43/G53/M90]. strong value & momentum; below its 200-day (out of favour). P/E 13, ROE 97%, net margin 6%, rev growth 5%, debt/equity 11.9 ⚠ high debt
+- META (Meta Platforms, Inc., $1601B) — score 68 [V45/Q80/G89/M59]. strong quality & growth; below its 200-day (out of favour). P/E 21, ROE 32%, net margin 31%, rev growth 26%, debt/equity 0.4
 
 _Scores are relative to the scanned universe. Free fundamental data is imperfect. Not financial advice; not a licensed adviser._

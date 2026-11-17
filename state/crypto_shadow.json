@@ -9,7 +9,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-11-13",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -19,12 +19,12 @@
    "ticker": "NEAR",
    "side": "LONG",
    "entry": 3.114,
-   "stop": 2.4858,
+   "stop": 2.5752,
    "shares": 32.113037893384714,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-11-15",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
@@ -35,16 +35,17 @@
    "ticker": "INJ",
    "side": "LONG",
    "entry": 6.978,
-   "stop": 5.581,
+   "stop": 5.9252,
    "shares": 14.330753797649757,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-11-15",
-   "days": 1,
+   "days": 2,
    "families": [
     "mean reversion"
    ],
-   "n_signals": 1
+   "n_signals": 1,
+   "trailed": true
   }
  ],
  "closed": [

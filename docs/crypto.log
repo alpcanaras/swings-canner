@@ -1,35 +1,35 @@
+$GRT-USD: possibly delisted; no timezone found
+$UNI-USD: possibly delisted; no timezone found
 $SUI-USD: possibly delisted; no timezone found
 $PEPE-USD: possibly delisted; no timezone found
 $IMX-USD: possibly delisted; no timezone found
 $APT-USD: possibly delisted; no timezone found
-$GRT-USD: possibly delisted; no timezone found
-$UNI-USD: possibly delisted; no timezone found
 
 7 Failed downloads:
-['VET-USD']: OperationalError('database is locked')
-['SUI-USD', 'PEPE-USD', 'IMX-USD', 'APT-USD', 'GRT-USD', 'UNI-USD']: possibly delisted; no timezone found
+['SAND-USD']: OperationalError('database is locked')
+['GRT-USD', 'UNI-USD', 'SUI-USD', 'PEPE-USD', 'IMX-USD', 'APT-USD']: possibly delisted; no timezone found
 Downloading 40 tickers (8y daily)...
   usable: 33 tickers
-# Crypto brief — 2026-11-16
+# Crypto brief — 2026-11-17
 
 ## Regime: RISK-OFF 
 
 BTC is below its 200-day. Every major crypto bear market lived here. A trend filter would have you de-risked / in stablecoins now — you give up some bounces to avoid the deep drawdowns.
 
-- BTC $65,170 — below its 200-day (72,921); -25% from the 1-year high; -19% in 30d.
-- Breadth: 2/33 majors above their 200-day (6%).
+- BTC $64,973 — below its 200-day (72,865); -25% from the 1-year high; -19% in 30d.
+- Breadth: 3/33 majors above their 200-day (9%).
 
 
-CRYPTO SWING (experimental, underperformed holding) — 2026-11-16 (universe: 33 coins)
+CRYPTO SWING (experimental, underperformed holding) — 2026-11-17 (universe: 33 coins)
 No candidates today.
 Written docs/crypto.html
 Crypto paper: 41 closed, -318.72 net
 Written docs/crypto_portfolio.html
-# Crypto risk screen — 16 Nov 2026
+# Crypto risk screen — 17 Nov 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1312.2B, -14%/7d) — risk LOWER: modest liquidity (2.7%)
-- ETH (Ethereum, $223.9B, -16%/7d) — risk LOWER: no major red flags in market data
+- BTC (Bitcoin, $1307.0B, -13%/7d) — risk LOWER: modest liquidity (2.6%)
+- ETH (Ethereum, $224.0B, -14%/7d) — risk LOWER: no major red flags in market data
 
 Written docs/crypto_screen.html and docs/crypto_screen_digest.txt

@@ -1,4 +1,4 @@
-# Trade sheet — 2026-11-17
+# Trade sheet — 2026-11-18
 
 ## Sell
 
@@ -12,9 +12,9 @@ Nothing to buy — slots full or no setups.
 
 | ticker | entry | now | P&L | stop now | locked in |
 |---|---|---|---|---|---|
-| AAVE | 112.71 | 112.66 | -0.0% | 95.64 | not yet |
-| NEAR | 3.11 | 3.26 | +4.8% | 2.58 | not yet |
-| INJ | 6.98 | 7.29 | +4.4% | 5.93 | not yet |
+| AAVE | 112.71 | 111.12 | -1.4% | 95.64 | not yet |
+| NEAR | 3.11 | 3.39 | +8.8% | 2.72 | not yet |
+| INJ | 6.98 | 7.33 | +5.0% | 5.99 | not yet |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 

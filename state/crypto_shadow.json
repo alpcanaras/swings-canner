@@ -9,7 +9,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-11-13",
-   "days": 5,
+   "days": 6,
    "families": [
     "mean reversion"
    ],
@@ -19,12 +19,12 @@
    "ticker": "NEAR",
    "side": "LONG",
    "entry": 3.114,
-   "stop": 2.7175,
+   "stop": 2.7447,
    "shares": 32.113037893384714,
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-11-15",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],
@@ -40,7 +40,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-11-15",
-   "days": 3,
+   "days": 4,
    "families": [
     "mean reversion"
    ],

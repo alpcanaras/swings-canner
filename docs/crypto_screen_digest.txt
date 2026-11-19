@@ -1,29 +1,29 @@
-# Crypto risk screen — 18 Nov 2026
+# Crypto risk screen — 19 Nov 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1296.0B, -13%/7d) — risk LOWER: modest liquidity (2.6%)
-- ETH (Ethereum, $220.6B, -12%/7d) — risk LOWER: no major red flags in market data
-- BNB (BNB, $77.8B, -13%/7d) — risk MEDIUM: thin liquidity (vol/mcap 0.9% — hard to exit)
-- XRP (XRP, $62.1B, -7%/7d) — risk LOWER: modest liquidity (2.6%)
-- SOL (Solana, $44.3B, -10%/7d) — risk LOWER: no major red flags in market data
-- DOGE (Dogecoin, $9.3B, -13%/7d) — risk LOWER: no major red flags in market data
+- BTC (Bitcoin, $1268.6B, -15%/7d) — risk LOWER: modest liquidity (2.5%)
+- ETH (Ethereum, $218.3B, -14%/7d) — risk LOWER: modest liquidity (4.8%)
+- BNB (BNB, $76.6B, -15%/7d) — risk MEDIUM: thin liquidity (vol/mcap 0.8% — hard to exit)
+- XRP (XRP, $61.4B, -8%/7d) — risk LOWER: modest liquidity (2.7%)
+- SOL (Solana, $43.8B, -12%/7d) — risk LOWER: no major red flags in market data
+- DOGE (Dogecoin, $9.2B, -13%/7d) — risk LOWER: modest liquidity (4.0%)
 
 ## Small-cap discovery — RESEARCH ONLY, NOT PICKS
 
 > Most of these will fail. A public feed cannot find gems before insiders. This tool cannot see rug-pulls, honeypots or fake volume. Treat every name as guilty until proven safe with real due diligence.
 
-- AKE (Akedo, $225M, +246%/7d) — risk MEDIUM: small-cap; only 23% of supply circulating (future dilution)
-- UMXM (Manadia, $49M, +77%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); modest liquidity (3.7%)
-- UP (Unitas, $40M, +58%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 22% of supply circulating (future dilution)
-- ONE (ONEchain, $89M, +56%/7d) — risk LOWER: small-cap
-- NES (Nesa, $64M, +26%/7d) — risk MEDIUM: small-cap; only 29% of supply circulating (future dilution)
-- SN53 (EfficientFrontier, $43M, +24%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
-- MOOLAH (Moolah, $66M, +15%/7d) — risk LOWER: small-cap
-- SENT (Sentient, $138M, +15%/7d) — risk MEDIUM: small-cap; only 21% of supply circulating (future dilution)
-- PROM (Prom, $101M, +14%/7d) — risk LOWER: small-cap
-- BP (Backpack, $250M, +13%/7d) — risk MEDIUM: small-cap; modest liquidity (3.0%); only 25% of supply circulating (future dilution)
-- SKYAI (SkyAI, $38M, +10%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
-- ARIA (Aria.AI, $43M, +7%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 18% of supply circulating (future dilution)
+- AKE (Akedo, $240M, +286%/7d) — risk MEDIUM: small-cap; only 23% of supply circulating (future dilution)
+- MMT (Momentum, $44M, +102%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 20% of supply circulating (future dilution)
+- ONE (ONEchain, $103M, +68%/7d) — risk LOWER: small-cap
+- IRYS (Irys, $49M, +49%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 20% of supply circulating (future dilution)
+- UP (Unitas, $46M, +44%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 22% of supply circulating (future dilution)
+- NES (Nesa, $71M, +43%/7d) — risk MEDIUM: small-cap; only 29% of supply circulating (future dilution)
+- UMXM (Manadia, $49M, +41%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
+- SENT (Sentient, $163M, +39%/7d) — risk MEDIUM: small-cap; only 21% of supply circulating (future dilution)
+- MEGA (MegaETH, $64M, +30%/7d) — risk MEDIUM: small-cap; only 11% of supply circulating (future dilution)
+- PROS (Pharos, $78M, +24%/7d) — risk MEDIUM: small-cap; only 14% of supply circulating (future dilution)
+- SN53 (EfficientFrontier, $42M, +21%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
+- LUNC (Terra Luna Classic, $249M, +20%/7d) — risk LOWER: small-cap
 
 _Objective market-data signals only — no contract audit, no holder analysis. Not financial advice; not a licensed adviser._

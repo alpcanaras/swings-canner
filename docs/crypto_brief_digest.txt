@@ -1,10 +1,10 @@
-# Crypto brief — 2026-11-18
+# Crypto brief — 2026-11-19
 
 ## Regime: RISK-OFF 
 
 BTC is below its 200-day. Every major crypto bear market lived here. A trend filter would have you de-risked / in stablecoins now — you give up some bounces to avoid the deep drawdowns.
 
-- BTC $64,383 — below its 200-day (72,796); -26% from the 1-year high; -20% in 30d.
-- Breadth: 3/34 majors above their 200-day (9%).
+- BTC $63,084 — below its 200-day (72,720); -27% from the 1-year high; -22% in 30d.
+- Breadth: 2/34 majors above their 200-day (6%).
 
 _Why a regime read, not picks: in a 6-year backtest, swing-trading crypto returned far less than simply holding — but a trend filter roughly halved the drawdown. The value here is knowing when the tide is going out, not timing individual coins. Not financial advice._

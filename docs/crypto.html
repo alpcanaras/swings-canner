@@ -1,4 +1,35 @@
-<style>body{font-family:system-ui;margin:24px;max-width:900px;line-height:1.5;color:#111}table{border-collapse:collapse;width:100%;margin:8px 0 20px}td,th{border:1px solid #ddd;padding:6px 10px;font-size:12px;text-align:right}th{background:#f5f5f5}td:first-child,th:first-child{text-align:left}.card{border:1px solid #e2e2e2;border-radius:10px;padding:12px 18px;margin:12px 0}.long{border-left:5px solid #0a7a2f}.short{border-left:5px solid #b3261e}.meta{color:#666;font-size:13px}h2{margin:26px 0 6px}details{margin-top:14px}summary{cursor:pointer;color:#555;font-size:14px}.note{background:#f7f7f9;border-radius:8px;padding:12px 16px;font-size:14px;color:#444}</style><h1>Stock candidates</h1><div style='background:#fff4f4;border:1px solid #f0c0c0;border-radius:8px;padding:12px 16px;margin:12px 0;font-size:14px'><b>Backtested and rejected.</b> Replayed over 10 years and 3,291 trades, this strategy returned +22% against +849% for simply holding the same stocks, with a 42% drawdown. A 64% win rate did not save it. These cards are market observations, not trade ideas.</div><p class=meta>Updated 2026-11-19 03:56 · data through 2026-11-19 · scanned 34 stocks · not financial advice.</p><p><b>Nothing today.</b> No stock met the criteria — that's a normal outcome, not a bug.</p><details><summary>Which signals are actually working</summary><table border="1" class="dataframe">
+<style>body{font-family:system-ui;margin:24px;max-width:900px;line-height:1.5;color:#111}table{border-collapse:collapse;width:100%;margin:8px 0 20px}td,th{border:1px solid #ddd;padding:6px 10px;font-size:12px;text-align:right}th{background:#f5f5f5}td:first-child,th:first-child{text-align:left}.card{border:1px solid #e2e2e2;border-radius:10px;padding:12px 18px;margin:12px 0}.long{border-left:5px solid #0a7a2f}.short{border-left:5px solid #b3261e}.meta{color:#666;font-size:13px}h2{margin:26px 0 6px}details{margin-top:14px}summary{cursor:pointer;color:#555;font-size:14px}.note{background:#f7f7f9;border-radius:8px;padding:12px 16px;font-size:14px;color:#444}</style><h1>Stock candidates</h1><div style='background:#fff4f4;border:1px solid #f0c0c0;border-radius:8px;padding:12px 16px;margin:12px 0;font-size:14px'><b>Backtested and rejected.</b> Replayed over 10 years and 3,291 trades, this strategy returned +22% against +849% for simply holding the same stocks, with a 42% drawdown. A 64% win rate did not save it. These cards are market observations, not trade ideas.</div><p class=meta>Updated 2026-11-20 03:49 · data through 2026-11-20 · scanned 34 stocks · not financial advice.</p><h2>Possible buys</h2><div class='card long'><b>INJ — Buy the dip.</b> It closed near the very bottom of its daily range and fell to a multi-day low. One idea (2 signals, but they all measure mean reversion — correlated, so treat it as one). It has been outperforming its peers by 41% over 3 months. Close the trade if it reaches <b>5.39</b>. Daily swing is about 9.9%. Size: <b>$152</b> = 15% of capital (22.58 shares). If the stop hits you lose $30.00 (3.0% of the account), the stop being 19.8% away. (Trimmed below the normal allocation — this one is volatile enough that a full-size position would breach the risk guardrail.) Thin edge: expected profit $0.23 against $0.15 in spread (1.5×, below the 3× bar). Sizing up wouldn't change that — costs scale with the position.</div><details><summary>The same thing as a table</summary><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ticker</th>
+      <th>side</th>
+      <th>score</th>
+      <th>close</th>
+      <th>signals</th>
+      <th>RS_3m_%</th>
+      <th>ATR%</th>
+      <th>stop</th>
+      <th>min_KO_dist</th>
+      <th>earnings</th>
+      <th>expected_pct</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>INJ</td>
+      <td>LONG</td>
+      <td>0.02</td>
+      <td>6.715</td>
+      <td>IBS mean-reversion (L), 7-day extreme pullback (L)</td>
+      <td>40.7</td>
+      <td>9.89</td>
+      <td>5.3863</td>
+      <td>1.9931</td>
+      <td>n/a</td>
+      <td>0.15</td>
+    </tr>
+  </tbody>
+</table></details><details><summary>Which signals are actually working</summary><table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>signal</th>
@@ -47,7 +78,7 @@
     <tr>
       <td>7-day extreme pullback</td>
       <td>14284</td>
-      <td>49.7</td>
+      <td>49.6</td>
       <td>-0.04</td>
       <td>-0.66</td>
       <td>50.9</td>
@@ -55,7 +86,7 @@
       <td>-0.87</td>
       <td>49.2</td>
       <td>-0.40</td>
-      <td>-2.39</td>
+      <td>-2.38</td>
       <td>0.04</td>
     </tr>
     <tr>
@@ -69,26 +100,26 @@
       <td>0.28</td>
       <td>48.3</td>
       <td>1.80</td>
-      <td>-0.19</td>
+      <td>-0.18</td>
       <td>1.19</td>
     </tr>
     <tr>
       <td>Sweep &amp; reclaim (10d)</td>
-      <td>4726</td>
+      <td>4723</td>
       <td>51.7</td>
       <td>0.12</td>
       <td>-0.50</td>
       <td>53.4</td>
       <td>0.33</td>
-      <td>-0.62</td>
-      <td>50.4</td>
-      <td>-0.45</td>
-      <td>-2.43</td>
+      <td>-0.63</td>
+      <td>50.3</td>
+      <td>-0.47</td>
+      <td>-2.45</td>
       <td>0.28</td>
     </tr>
     <tr>
       <td>FVG retest</td>
-      <td>18664</td>
+      <td>18666</td>
       <td>50.0</td>
       <td>0.24</td>
       <td>-0.38</td>

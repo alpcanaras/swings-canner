@@ -1,34 +1,35 @@
 $UNI-USD: possibly delisted; no timezone found
-$IMX-USD: possibly delisted; no timezone found
 $APT-USD: possibly delisted; no timezone found
 $PEPE-USD: possibly delisted; no timezone found
 $GRT-USD: possibly delisted; no timezone found
+$IMX-USD: possibly delisted; no timezone found
 $SUI-USD: possibly delisted; no timezone found
 
 6 Failed downloads:
-['UNI-USD', 'IMX-USD', 'APT-USD', 'PEPE-USD', 'GRT-USD', 'SUI-USD']: possibly delisted; no timezone found
+['UNI-USD', 'APT-USD', 'PEPE-USD', 'GRT-USD', 'IMX-USD', 'SUI-USD']: possibly delisted; no timezone found
 Downloading 40 tickers (8y daily)...
   usable: 34 tickers
-# Crypto brief — 2026-11-19
+# Crypto brief — 2026-11-20
 
 ## Regime: RISK-OFF 
 
 BTC is below its 200-day. Every major crypto bear market lived here. A trend filter would have you de-risked / in stablecoins now — you give up some bounces to avoid the deep drawdowns.
 
-- BTC $63,084 — below its 200-day (72,720); -27% from the 1-year high; -22% in 30d.
+- BTC $62,185 — below its 200-day (72,638); -28% from the 1-year high; -23% in 30d.
 - Breadth: 2/34 majors above their 200-day (6%).
 
 
-CRYPTO SWING (experimental, underperformed holding) — 2026-11-19 (universe: 34 coins)
-No candidates today.
+CRYPTO SWING (experimental, underperformed holding) — 2026-11-20 (universe: 34 coins)
+ticker side  score  close                                            signals  RS_3m_%  ATR%   stop  min_KO_dist earnings  expected_pct
+   INJ LONG   0.02  6.715 IBS mean-reversion (L), 7-day extreme pullback (L)     40.7  9.89 5.3863       1.9931      n/a          0.15
 Written docs/crypto.html
 Crypto paper: 41 closed, -318.72 net
 Written docs/crypto_portfolio.html
-# Crypto risk screen — 19 Nov 2026
+# Crypto risk screen — 20 Nov 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1268.6B, -15%/7d) — risk LOWER: modest liquidity (2.5%)
-- ETH (Ethereum, $218.3B, -14%/7d) — risk LOWER: modest liquidity (4.8%)
+- BTC (Bitcoin, $1248.4B, -13%/7d) — risk LOWER: modest liquidity (2.8%)
+- ETH (Ethereum, $213.4B, -13%/7d) — risk LOWER: no major red flags in market data
 
 Written docs/crypto_screen.html and docs/crypto_screen_digest.txt

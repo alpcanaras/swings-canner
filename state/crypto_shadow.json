@@ -9,7 +9,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-11-13",
-   "days": 6,
+   "days": 7,
    "families": [
     "mean reversion"
    ],
@@ -24,7 +24,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-11-15",
-   "days": 4,
+   "days": 5,
    "families": [
     "mean reversion"
    ],
@@ -40,7 +40,7 @@
    "notional": 100.0,
    "cost": 0.1,
    "date": "2026-11-15",
-   "days": 4,
+   "days": 5,
    "families": [
     "mean reversion"
    ],

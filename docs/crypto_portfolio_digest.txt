@@ -1,8 +1,11 @@
-# Trade sheet — 2026-11-20
+# Trade sheet — 2026-11-21
 
 ## Sell
 
-Nothing to sell.
+| ticker | in | out | P&L | why |
+|---|---|---|---|---|
+| AAVE | 112.71 | 95.64 | -15.1% ($-30.20) | stop hit |
+| NEAR | 3.11 | 2.74 | -11.9% ($-15.60) | trailing stop |
 
 ## Buy
 
@@ -12,11 +15,9 @@ Nothing to buy — slots full or no setups.
 
 | ticker | entry | now | P&L | stop now | locked in |
 |---|---|---|---|---|---|
-| AAVE | 112.71 | 103.49 | -8.2% | 95.64 | not yet |
-| NEAR | 3.11 | 3.06 | -1.8% | 2.74 | not yet |
-| INJ | 6.98 | 6.72 | -3.8% | 5.99 | not yet |
+| INJ | 6.98 | 6.08 | -12.9% | 5.99 | not yet |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 
-_Record: 41 closed, 22% winners, $-318.72 net, balance $681.28._
-_All signals: 87 closed, 18% profitable, -2.86% avg._
+_Record: 43 closed, 21% winners, $-364.51 net, balance $635.49._
+_All signals: 89 closed, 18% profitable, -3.10% avg._

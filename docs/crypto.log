@@ -1,35 +1,35 @@
-$UNI-USD: possibly delisted; no timezone found
+$GRT-USD: possibly delisted; no timezone found
+$SUI-USD: possibly delisted; no timezone found
+$IMX-USD: possibly delisted; no timezone found
 $APT-USD: possibly delisted; no timezone found
 $PEPE-USD: possibly delisted; no timezone found
-$GRT-USD: possibly delisted; no timezone found
-$IMX-USD: possibly delisted; no timezone found
-$SUI-USD: possibly delisted; no timezone found
+$UNI-USD: possibly delisted; no timezone found
 
 6 Failed downloads:
-['UNI-USD', 'APT-USD', 'PEPE-USD', 'GRT-USD', 'IMX-USD', 'SUI-USD']: possibly delisted; no timezone found
+['GRT-USD', 'SUI-USD', 'IMX-USD', 'APT-USD', 'PEPE-USD', 'UNI-USD']: possibly delisted; no timezone found
 Downloading 40 tickers (8y daily)...
   usable: 34 tickers
-# Crypto brief — 2026-11-20
+# Crypto brief — 2026-11-21
 
 ## Regime: RISK-OFF 
 
 BTC is below its 200-day. Every major crypto bear market lived here. A trend filter would have you de-risked / in stablecoins now — you give up some bounces to avoid the deep drawdowns.
 
-- BTC $62,185 — below its 200-day (72,638); -28% from the 1-year high; -23% in 30d.
-- Breadth: 2/34 majors above their 200-day (6%).
+- BTC $57,099 — below its 200-day (72,523); -34% from the 1-year high; -27% in 30d.
+- Breadth: 1/34 majors above their 200-day (3%).
 
 
-CRYPTO SWING (experimental, underperformed holding) — 2026-11-20 (universe: 34 coins)
-ticker side  score  close                                            signals  RS_3m_%  ATR%   stop  min_KO_dist earnings  expected_pct
-   INJ LONG   0.02  6.715 IBS mean-reversion (L), 7-day extreme pullback (L)     40.7  9.89 5.3863       1.9931      n/a          0.15
+CRYPTO SWING (experimental, underperformed holding) — 2026-11-21 (universe: 34 coins)
+ticker side  score  close                                                                       signals  RS_3m_%  ATR%   stop  min_KO_dist earnings  expected_pct
+   INJ LONG   0.02  6.078 RSI(2) mean-reversion (L), IBS mean-reversion (L), 7-day extreme pullback (L)     25.2 11.46 4.6844       2.0905      n/a         0.123
 Written docs/crypto.html
-Crypto paper: 41 closed, -318.72 net
+Crypto paper: 43 closed, -364.51 net
 Written docs/crypto_portfolio.html
-# Crypto risk screen — 20 Nov 2026
+# Crypto risk screen — 21 Nov 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1248.4B, -13%/7d) — risk LOWER: modest liquidity (2.8%)
-- ETH (Ethereum, $213.4B, -13%/7d) — risk LOWER: no major red flags in market data
+- BTC (Bitcoin, $1146.7B, -14%/7d) — risk LOWER: modest liquidity (4.9%)
+- ETH (Ethereum, $191.8B, -16%/7d) — risk LOWER: no major red flags in market data
 
 Written docs/crypto_screen.html and docs/crypto_screen_digest.txt

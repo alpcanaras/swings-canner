@@ -1,29 +1,29 @@
-# Crypto risk screen — 20 Nov 2026
+# Crypto risk screen — 21 Nov 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1248.4B, -13%/7d) — risk LOWER: modest liquidity (2.8%)
-- ETH (Ethereum, $213.4B, -13%/7d) — risk LOWER: no major red flags in market data
-- BNB (BNB, $75.5B, -12%/7d) — risk MEDIUM: thin liquidity (vol/mcap 0.8% — hard to exit)
-- XRP (XRP, $61.1B, -7%/7d) — risk LOWER: modest liquidity (2.7%)
-- SOL (Solana, $43.1B, -11%/7d) — risk LOWER: no major red flags in market data
-- DOGE (Dogecoin, $9.0B, -13%/7d) — risk LOWER: modest liquidity (4.7%)
+- BTC (Bitcoin, $1146.7B, -14%/7d) — risk LOWER: modest liquidity (4.9%)
+- ETH (Ethereum, $191.8B, -16%/7d) — risk LOWER: no major red flags in market data
+- BNB (BNB, $68.1B, -15%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.5% — hard to exit)
+- XRP (XRP, $55.8B, -10%/7d) — risk LOWER: modest liquidity (4.3%)
+- SOL (Solana, $39.2B, -11%/7d) — risk LOWER: no major red flags in market data
+- DOGE (Dogecoin, $8.2B, -16%/7d) — risk LOWER: no major red flags in market data
 
 ## Small-cap discovery — RESEARCH ONLY, NOT PICKS
 
 > Most of these will fail. A public feed cannot find gems before insiders. This tool cannot see rug-pulls, honeypots or fake volume. Treat every name as guilty until proven safe with real due diligence.
 
-- EVAA (EVAA Protocol, $37M, +399%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 13% of supply circulating (future dilution)
-- AKE (Akedo, $241M, +290%/7d) — risk MEDIUM: small-cap; only 23% of supply circulating (future dilution)
-- MMT (Momentum, $52M, +122%/7d) — risk MEDIUM: small-cap; only 20% of supply circulating (future dilution)
-- NES (Nesa, $86M, +92%/7d) — risk MEDIUM: small-cap; only 29% of supply circulating (future dilution); near all-time high (-10% from ATH — chasing risk)
-- ICNT (Impossible Cloud Network Token, $108M, +54%/7d) — risk MEDIUM: small-cap; only 36% of supply circulating (future dilution)
-- ONE (ONEchain, $94M, +52%/7d) — risk LOWER: small-cap
-- IRYS (Irys, $47M, +47%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 20% of supply circulating (future dilution)
-- UP (Unitas, $46M, +46%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 22% of supply circulating (future dilution)
-- UMXM (Manadia, $49M, +36%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
-- SENT (Sentient, $146M, +27%/7d) — risk MEDIUM: small-cap; only 21% of supply circulating (future dilution)
-- MEGA (MegaETH, $62M, +24%/7d) — risk MEDIUM: small-cap; only 11% of supply circulating (future dilution)
-- LUNC (Terra Luna Classic, $248M, +23%/7d) — risk LOWER: small-cap
+- EVAA (EVAA Protocol, $41M, +473%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 13% of supply circulating (future dilution)
+- MMT (Momentum, $53M, +127%/7d) — risk MEDIUM: small-cap; only 20% of supply circulating (future dilution)
+- NES (Nesa, $89M, +115%/7d) — risk MEDIUM: small-cap; only 29% of supply circulating (future dilution); near all-time high (-7% from ATH — chasing risk)
+- ICNT (Impossible Cloud Network Token, $95M, +46%/7d) — risk MEDIUM: small-cap; only 36% of supply circulating (future dilution)
+- IRYS (Irys, $42M, +36%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 20% of supply circulating (future dilution)
+- ONE (ONEchain, $81M, +30%/7d) — risk LOWER: small-cap
+- UP (Unitas, $51M, +29%/7d) — risk MEDIUM: small-cap; only 22% of supply circulating (future dilution)
+- BANANAS31 (Banana For Scale, $45M, +22%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
+- SENT (Sentient, $141M, +18%/7d) — risk MEDIUM: small-cap; only 21% of supply circulating (future dilution)
+- IDOL (MEET48, $54M, +17%/7d) — risk LOWER: small-cap
+- ARIA (Aria.AI, $42M, +17%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 18% of supply circulating (future dilution)
+- MOOLAH (Moolah, $63M, +16%/7d) — risk LOWER: small-cap
 
 _Objective market-data signals only — no contract audit, no holder analysis. Not financial advice; not a licensed adviser._

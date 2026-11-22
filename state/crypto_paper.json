@@ -1,21 +1,5 @@
 {
- "open": [
-  {
-   "ticker": "INJ",
-   "side": "LONG",
-   "entry": 6.978,
-   "stop": 5.9919,
-   "shares": 21.474588403722272,
-   "notional": 149.84967788117402,
-   "cost": 0.149849677881174,
-   "date": "2026-11-15",
-   "days": 6,
-   "viable": false,
-   "atr_pct": 10.01,
-   "setup": "mean reversion",
-   "trailed": true
-  }
- ],
+ "open": [],
  "closed": [
   {
    "ticker": "NEAR",
@@ -905,6 +889,27 @@
    "net": -15.599581122591463,
    "pct": -11.859344894026977,
    "reason": "trailing stop"
+  },
+  {
+   "ticker": "INJ",
+   "side": "LONG",
+   "entry": 6.978,
+   "stop": 5.9919,
+   "shares": 21.474588403722272,
+   "notional": 149.84967788117402,
+   "cost": 0.149849677881174,
+   "date": "2026-11-15",
+   "days": 7,
+   "viable": false,
+   "atr_pct": 10.01,
+   "setup": "mean reversion",
+   "trailed": true,
+   "exit": 5.959515661239624,
+   "exit_date": "2026-11-22",
+   "gross": -21.87153197051632,
+   "net": -22.021381648397494,
+   "pct": -14.595648305537061,
+   "reason": "gapped through the stop"
   }
  ],
  "started": "2026-08-21"

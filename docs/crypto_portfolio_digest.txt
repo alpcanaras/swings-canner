@@ -1,10 +1,8 @@
-# Trade sheet — 2026-11-22
+# Trade sheet — 2026-11-23
 
 ## Sell
 
-| ticker | in | out | P&L | why |
-|---|---|---|---|---|
-| INJ | 6.98 | 5.96 | -14.6% ($-22.02) | gapped through the stop |
+Nothing to sell.
 
 ## Buy
 

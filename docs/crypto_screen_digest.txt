@@ -1,29 +1,29 @@
-# Crypto risk screen — 22 Nov 2026
+# Crypto risk screen — 23 Nov 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1197.2B, -5%/7d) — risk LOWER: modest liquidity (4.6%)
-- ETH (Ethereum, $203.9B, -3%/7d) — risk LOWER: no major red flags in market data
-- BNB (BNB, $71.4B, -5%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.3% — hard to exit)
-- XRP (XRP, $58.6B, +1%/7d) — risk LOWER: modest liquidity (3.4%)
-- SOL (Solana, $41.1B, +1%/7d) — risk LOWER: no major red flags in market data
-- DOGE (Dogecoin, $8.6B, -3%/7d) — risk LOWER: no major red flags in market data
+- BTC (Bitcoin, $1240.1B, -6%/7d) — risk LOWER: modest liquidity (2.2%)
+- ETH (Ethereum, $212.4B, -6%/7d) — risk LOWER: modest liquidity (3.8%)
+- BNB (BNB, $73.8B, -6%/7d) — risk MEDIUM: thin liquidity (vol/mcap 0.7% — hard to exit)
+- XRP (XRP, $59.3B, -5%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.8% — hard to exit)
+- SOL (Solana, $42.3B, -2%/7d) — risk LOWER: modest liquidity (4.5%)
+- DOGE (Dogecoin, $8.7B, -7%/7d) — risk LOWER: modest liquidity (4.0%)
 
 ## Small-cap discovery — RESEARCH ONLY, NOT PICKS
 
 > Most of these will fail. A public feed cannot find gems before insiders. This tool cannot see rug-pulls, honeypots or fake volume. Treat every name as guilty until proven safe with real due diligence.
 
-- EVAA (EVAA Protocol, $38M, +334%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 13% of supply circulating (future dilution)
-- NES (Nesa, $89M, +143%/7d) — risk MEDIUM: small-cap; only 29% of supply circulating (future dilution); near all-time high (-7% from ATH — chasing risk)
-- MMT (Momentum, $42M, +118%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 20% of supply circulating (future dilution)
-- IRYS (Irys, $42M, +48%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 20% of supply circulating (future dilution)
-- ICNT (Impossible Cloud Network Token, $85M, +44%/7d) — risk MEDIUM: small-cap; only 36% of supply circulating (future dilution)
-- ONE (ONEchain, $86M, +42%/7d) — risk LOWER: small-cap
-- UP (Unitas, $45M, +42%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 22% of supply circulating (future dilution)
-- SN53 (EfficientFrontier, $41M, +36%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
-- SENT (Sentient, $144M, +25%/7d) — risk MEDIUM: small-cap; only 21% of supply circulating (future dilution)
-- PROS (Pharos, $75M, +23%/7d) — risk MEDIUM: small-cap; modest liquidity (3.0%); only 14% of supply circulating (future dilution)
-- DODO (DODO, $39M, +22%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
-- O (o1.exchange, $96M, +21%/7d) — risk MEDIUM: small-cap; modest liquidity (3.9%); only 16% of supply circulating (future dilution)
+- MMT (Momentum, $44M, +111%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 20% of supply circulating (future dilution)
+- ICNT (Impossible Cloud Network Token, $92M, +63%/7d) — risk MEDIUM: small-cap; only 36% of supply circulating (future dilution)
+- DGAI (DGrid AI, $149M, +54%/7d) — risk MEDIUM: small-cap; only 15% of supply circulating (future dilution); near all-time high (-13% from ATH — chasing risk)
+- UP (Unitas, $55M, +47%/7d) — risk MEDIUM: small-cap; modest liquidity (5.0%); only 22% of supply circulating (future dilution)
+- ONE (ONEchain, $85M, +34%/7d) — risk MEDIUM: small-cap; modest liquidity (4.1%)
+- IRYS (Irys, $38M, +29%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 20% of supply circulating (future dilution)
+- SN53 (EfficientFrontier, $44M, +27%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
+- DODO (DODO, $40M, +26%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
+- PROS (Pharos, $77M, +24%/7d) — risk MEDIUM: small-cap; only 14% of supply circulating (future dilution)
+- SOON (SOON, $90M, +21%/7d) — risk MEDIUM: small-cap; only 3% of supply circulating (future dilution)
+- SENT (Sentient, $144M, +17%/7d) — risk MEDIUM: small-cap; modest liquidity (4.4%); only 21% of supply circulating (future dilution)
+- GPS (GoPlus Security, $57M, +16%/7d) — risk LOWER: small-cap
 
 _Objective market-data signals only — no contract audit, no holder analysis. Not financial advice; not a licensed adviser._

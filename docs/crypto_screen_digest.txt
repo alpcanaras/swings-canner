@@ -1,29 +1,29 @@
-# Crypto risk screen — 23 Nov 2026
+# Crypto risk screen — 24 Nov 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1240.1B, -6%/7d) — risk LOWER: modest liquidity (2.2%)
-- ETH (Ethereum, $212.4B, -6%/7d) — risk LOWER: modest liquidity (3.8%)
-- BNB (BNB, $73.8B, -6%/7d) — risk MEDIUM: thin liquidity (vol/mcap 0.7% — hard to exit)
-- XRP (XRP, $59.3B, -5%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.8% — hard to exit)
-- SOL (Solana, $42.3B, -2%/7d) — risk LOWER: modest liquidity (4.5%)
-- DOGE (Dogecoin, $8.7B, -7%/7d) — risk LOWER: modest liquidity (4.0%)
+- BTC (Bitcoin, $1213.5B, -7%/7d) — risk LOWER: modest liquidity (3.2%)
+- ETH (Ethereum, $207.5B, -7%/7d) — risk LOWER: no major red flags in market data
+- BNB (BNB, $72.6B, -7%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.1% — hard to exit)
+- XRP (XRP, $60.2B, -1%/7d) — risk LOWER: modest liquidity (4.0%)
+- SOL (Solana, $42.4B, -2%/7d) — risk LOWER: no major red flags in market data
+- DOGE (Dogecoin, $8.9B, -4%/7d) — risk LOWER: no major red flags in market data
 
 ## Small-cap discovery — RESEARCH ONLY, NOT PICKS
 
 > Most of these will fail. A public feed cannot find gems before insiders. This tool cannot see rug-pulls, honeypots or fake volume. Treat every name as guilty until proven safe with real due diligence.
 
-- MMT (Momentum, $44M, +111%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 20% of supply circulating (future dilution)
-- ICNT (Impossible Cloud Network Token, $92M, +63%/7d) — risk MEDIUM: small-cap; only 36% of supply circulating (future dilution)
-- DGAI (DGrid AI, $149M, +54%/7d) — risk MEDIUM: small-cap; only 15% of supply circulating (future dilution); near all-time high (-13% from ATH — chasing risk)
-- UP (Unitas, $55M, +47%/7d) — risk MEDIUM: small-cap; modest liquidity (5.0%); only 22% of supply circulating (future dilution)
-- ONE (ONEchain, $85M, +34%/7d) — risk MEDIUM: small-cap; modest liquidity (4.1%)
-- IRYS (Irys, $38M, +29%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 20% of supply circulating (future dilution)
-- SN53 (EfficientFrontier, $44M, +27%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
-- DODO (DODO, $40M, +26%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
-- PROS (Pharos, $77M, +24%/7d) — risk MEDIUM: small-cap; only 14% of supply circulating (future dilution)
-- SOON (SOON, $90M, +21%/7d) — risk MEDIUM: small-cap; only 3% of supply circulating (future dilution)
-- SENT (Sentient, $144M, +17%/7d) — risk MEDIUM: small-cap; modest liquidity (4.4%); only 21% of supply circulating (future dilution)
-- GPS (GoPlus Security, $57M, +16%/7d) — risk LOWER: small-cap
+- MMT (Momentum, $53M, +114%/7d) — risk MEDIUM: small-cap; only 20% of supply circulating (future dilution)
+- LISTA (Lista DAO, $45M, +60%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
+- VELVET (Velvet, $38M, +51%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
+- DGAI (DGrid AI, $161M, +49%/7d) — risk MEDIUM: small-cap; only 15% of supply circulating (future dilution); near all-time high (-6% from ATH — chasing risk)
+- ARIA (Aria.AI, $59M, +43%/7d) — risk MEDIUM: small-cap; only 18% of supply circulating (future dilution)
+- ICNT (Impossible Cloud Network Token, $85M, +41%/7d) — risk MEDIUM: small-cap; only 36% of supply circulating (future dilution)
+- PROS (Pharos, $80M, +33%/7d) — risk MEDIUM: small-cap; modest liquidity (3.1%); only 14% of supply circulating (future dilution)
+- DODO (DODO, $41M, +21%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
+- LUNC (Terra Luna Classic, $239M, +14%/7d) — risk LOWER: small-cap
+- SOON (SOON, $88M, +14%/7d) — risk MEDIUM: small-cap; only 3% of supply circulating (future dilution)
+- DBR (deBridge, $95M, +14%/7d) — risk MEDIUM: small-cap; modest liquidity (3.3%)
+- SENT (Sentient, $145M, +14%/7d) — risk MEDIUM: small-cap; only 21% of supply circulating (future dilution)
 
 _Objective market-data signals only — no contract audit, no holder analysis. Not financial advice; not a licensed adviser._

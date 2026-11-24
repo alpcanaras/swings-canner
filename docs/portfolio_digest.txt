@@ -1,27 +1,24 @@
-# Trade sheet — 2026-11-20
+# Trade sheet — 2026-11-23
 
 ## Sell
 
-| ticker | in | out | P&L | why |
-|---|---|---|---|---|
-| VEEV | 288.41 | 258.21 | -10.5% ($-21.14) | gapped through the stop |
+Nothing to sell.
 
 ## Buy
 
-| ticker | setup | signal px | stop $ | stop % | trail | size |
-|---|---|---|---|---|---|---|
-| YOU | mean reversion | 52.43 | 46.95 | -10.5% | 2xATR = $5.47 | $200 = 3.815 sh |
+Nothing to buy — slots full or no setups.
 
 ## Holding — updated stops
 
 | ticker | entry | now | P&L | stop now | locked in |
 |---|---|---|---|---|---|
-| RMD | 229.94 | 235.63 | +2.5% | 227.85 | not yet |
-| ZS | 203.88 | 194.82 | -4.4% | 177.73 | not yet |
-| MATX | 207.00 | 200.05 | -3.4% | 196.87 | not yet |
-| AMT | 183.18 | 184.21 | +0.6% | 174.60 | not yet |
+| RMD | 229.94 | 239.38 | +4.1% | 227.85 | not yet |
+| ZS | 203.88 | 229.24 | +12.4% | 197.82 | not yet |
+| MATX | 207.00 | 204.14 | -1.4% | 196.87 | not yet |
+| AMT | 183.18 | 179.31 | -2.1% | 174.60 | not yet |
+| YOU | 52.43 | 53.50 | +2.0% | 47.86 | not yet |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 
 _Record: 32 closed, 28% winners, $-85.18 net, balance $914.82._
-_All signals: 4839 closed, 31% profitable, -1.47% avg._
+_All signals: 4881 closed, 32% profitable, -1.43% avg._

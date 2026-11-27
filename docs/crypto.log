@@ -1,35 +1,35 @@
-$UNI-USD: possibly delisted; no timezone found
 $IMX-USD: possibly delisted; no timezone found
+$UNI-USD: possibly delisted; no timezone found
 $APT-USD: possibly delisted; no timezone found
-$GRT-USD: possibly delisted; no timezone found
-$PEPE-USD: possibly delisted; no timezone found
 $SUI-USD: possibly delisted; no timezone found
+$PEPE-USD: possibly delisted; no timezone found
+$GRT-USD: possibly delisted; no timezone found
 
 7 Failed downloads:
-['DOGE-USD']: OperationalError('database is locked')
-['UNI-USD', 'IMX-USD', 'APT-USD', 'GRT-USD', 'PEPE-USD', 'SUI-USD']: possibly delisted; no timezone found
+['HBAR-USD']: OperationalError('database is locked')
+['IMX-USD', 'UNI-USD', 'APT-USD', 'SUI-USD', 'PEPE-USD', 'GRT-USD']: possibly delisted; no timezone found
 Downloading 40 tickers (8y daily)...
   usable: 33 tickers
-# Crypto brief — 2026-11-26
+# Crypto brief — 2026-11-27
 
 ## Regime: RISK-OFF 
 
 BTC is below its 200-day. Every major crypto bear market lived here. A trend filter would have you de-risked / in stablecoins now — you give up some bounces to avoid the deep drawdowns.
 
-- BTC $60,928 — below its 200-day (72,031); -30% from the 1-year high; -21% in 30d.
+- BTC $61,461 — below its 200-day (71,925); -29% from the 1-year high; -24% in 30d.
 - Breadth: 2/33 majors above their 200-day (6%).
 
 
-CRYPTO SWING (experimental, underperformed holding) — 2026-11-26 (universe: 33 coins)
+CRYPTO SWING (experimental, underperformed holding) — 2026-11-27 (universe: 33 coins)
 No candidates today.
 Written docs/crypto.html
 Crypto paper: 44 closed, -386.54 net
 Written docs/crypto_portfolio.html
-# Crypto risk screen — 26 Nov 2026
+# Crypto risk screen — 27 Nov 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1226.0B, -3%/7d) — risk LOWER: modest liquidity (3.2%)
-- ETH (Ethereum, $208.1B, -4%/7d) — risk LOWER: no major red flags in market data
+- BTC (Bitcoin, $1238.2B, -1%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.8% — hard to exit)
+- ETH (Ethereum, $212.4B, -1%/7d) — risk LOWER: modest liquidity (3.8%)
 
 Written docs/crypto_screen.html and docs/crypto_screen_digest.txt

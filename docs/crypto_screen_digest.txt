@@ -1,29 +1,29 @@
-# Crypto risk screen — 26 Nov 2026
+# Crypto risk screen — 27 Nov 2026
 
 ## Watchlist risk read
 
-- BTC (Bitcoin, $1226.0B, -3%/7d) — risk LOWER: modest liquidity (3.2%)
-- ETH (Ethereum, $208.1B, -4%/7d) — risk LOWER: no major red flags in market data
-- BNB (BNB, $73.6B, -4%/7d) — risk MEDIUM: thin liquidity (vol/mcap 0.9% — hard to exit)
-- XRP (XRP, $60.8B, -0%/7d) — risk LOWER: modest liquidity (3.3%)
-- SOL (Solana, $42.1B, -3%/7d) — risk LOWER: no major red flags in market data
-- DOGE (Dogecoin, $8.9B, -3%/7d) — risk LOWER: no major red flags in market data
+- BTC (Bitcoin, $1238.2B, -1%/7d) — risk MEDIUM: thin liquidity (vol/mcap 1.8% — hard to exit)
+- ETH (Ethereum, $212.4B, -1%/7d) — risk LOWER: modest liquidity (3.8%)
+- BNB (BNB, $74.2B, -2%/7d) — risk MEDIUM: thin liquidity (vol/mcap 0.7% — hard to exit)
+- XRP (XRP, $61.1B, +0%/7d) — risk MEDIUM: thin liquidity (vol/mcap 2.0% — hard to exit)
+- SOL (Solana, $43.2B, -0%/7d) — risk LOWER: modest liquidity (4.5%)
+- DOGE (Dogecoin, $9.1B, +0%/7d) — risk LOWER: modest liquidity (3.5%)
 
 ## Small-cap discovery — RESEARCH ONLY, NOT PICKS
 
 > Most of these will fail. A public feed cannot find gems before insiders. This tool cannot see rug-pulls, honeypots or fake volume. Treat every name as guilty until proven safe with real due diligence.
 
-- LISTA (Lista DAO, $45M, +49%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
-- ARIA (Aria.AI, $63M, +42%/7d) — risk MEDIUM: small-cap; only 18% of supply circulating (future dilution)
-- DGAI (DGrid AI, $148M, +37%/7d) — risk MEDIUM: small-cap; only 15% of supply circulating (future dilution); near all-time high (-13% from ATH — chasing risk)
-- SSV (SSV Network, $35M, +32%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
-- MMT (Momentum, $57M, +27%/7d) — risk MEDIUM: small-cap; only 20% of supply circulating (future dilution)
-- DODO (DODO, $44M, +25%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
-- AIOT (OKZOO, $53M, +20%/7d) — risk LOWER: small-cap
-- OPG (OpenGradient, $39M, +15%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 25% of supply circulating (future dilution)
-- VELVET (Velvet, $39M, +13%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
-- GPS (GoPlus Security, $58M, +13%/7d) — risk MEDIUM: small-cap; modest liquidity (5.0%)
-- SOSO (SoSoValue, $114M, +13%/7d) — risk MEDIUM: small-cap; modest liquidity (4.9%); only 36% of supply circulating (future dilution)
-- 牛来 (牛来 (Niu Lai), $51M, +12%/7d) — risk LOWER: small-cap
+- SSV (SSV Network, $40M, +59%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
+- AIOT (OKZOO, $63M, +41%/7d) — risk LOWER: small-cap
+- DODO (DODO, $41M, +36%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
+- VELVET (Velvet, $44M, +34%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
+- DGAI (DGrid AI, $138M, +34%/7d) — risk MEDIUM: small-cap; only 15% of supply circulating (future dilution)
+- ARIA (Aria.AI, $60M, +31%/7d) — risk MEDIUM: small-cap; only 18% of supply circulating (future dilution)
+- 牛来 (牛来 (Niu Lai), $46M, +30%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
+- OPG (OpenGradient, $42M, +23%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated); only 25% of supply circulating (future dilution)
+- GMX (GMX, $87M, +19%/7d) — risk MEDIUM: small-cap; modest liquidity (4.3%)
+- PROS (Pharos, $90M, +16%/7d) — risk MEDIUM: small-cap; modest liquidity (3.9%); only 14% of supply circulating (future dilution)
+- BAN (Comedian, $44M, +14%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
+- BABY (Babylon, $50M, +13%/7d) — risk MEDIUM: micro-cap (fragile, easily manipulated)
 
 _Objective market-data signals only — no contract audit, no holder analysis. Not financial advice; not a licensed adviser._

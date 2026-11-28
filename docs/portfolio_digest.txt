@@ -1,24 +1,27 @@
-# Trade sheet — 2026-11-25
+# Trade sheet — 2026-11-27
 
 ## Sell
 
-Nothing to sell.
+| ticker | in | out | P&L | why |
+|---|---|---|---|---|
+| RMD | 229.94 | 242.92 | +5.6% ($+11.09) | 20-day backstop |
 
 ## Buy
 
-Nothing to buy — slots full or no setups.
+| ticker | setup | signal px | stop $ | stop % | trail | size |
+|---|---|---|---|---|---|---|
+| SJM | mean reversion | 126.86 | 118.86 | -6.3% | 2xATR = $7.99 | $200 = 1.577 sh |
 
 ## Holding — updated stops
 
 | ticker | entry | now | P&L | stop now | locked in |
 |---|---|---|---|---|---|
-| RMD | 229.94 | 245.70 | +6.9% | 230.78 | +0.4% |
-| ZS | 203.88 | 230.86 | +13.2% | 201.24 | not yet |
-| AMT | 183.18 | 184.59 | +0.8% | 174.60 | not yet |
-| YOU | 52.43 | 54.38 | +3.7% | 48.35 | not yet |
-| PSX | 236.95 | 236.08 | -0.4% | 218.10 | not yet |
+| ZS | 203.88 | 239.49 | +17.5% | 209.13 | +2.6% |
+| AMT | 183.18 | 184.93 | +1.0% | 175.10 | not yet |
+| YOU | 52.43 | 55.71 | +6.3% | 49.86 | not yet |
+| PSX | 236.95 | 242.12 | +2.2% | 223.82 | not yet |
 
 Rule: each evening raise the stop to (close − 2xATR) if that is higher than the current stop. Never lower it. Sell next day if the stop price trades.
 
-_Record: 33 closed, 27% winners, $-95.17 net, balance $904.83._
-_All signals: 5010 closed, 32% profitable, -1.32% avg._
+_Record: 34 closed, 29% winners, $-84.08 net, balance $915.92._
+_All signals: 5054 closed, 33% profitable, -1.27% avg._
